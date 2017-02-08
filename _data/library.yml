@@ -162,8 +162,8 @@
   versions:
     - name: "latest"
       path: "content/culturefeed/latest/"
-- title: "gebruikershandleidingen voor UiTPAS"
-  description: "hoe gebruik je de UiTPas systemen."
+- title: "Gebruikershandleidingen voor UiTPAS"
+  description: "Hoe gebruik je de UiTPAS-systemen?"
   path: "content/uitpas-handleidingen/"
   category: "Technisch"
   weight: 20
@@ -195,3 +195,26 @@
               href: "uitpas-balie/lange_handleiding"
             - title: "instalatie"
               href: "uitpas-balie/instalatie"
+- title: "Authenticatie en autorisatie"
+  description: "Hoe kan je verbinden met onze omgevingen?"
+  path: "content/uitdatabank/"
+  category: "Technisch"
+  weight: 10
+  versions:
+      - name: "latest"
+        path: "content/authenticatie-autorisatie/latest/"
+        summary:
+          - title: "Authenticatie via User Access Token"
+            href: "authenticatie-via-useraccesstoken"
+          - title: "Authenticatie via Consumer Request"
+            href: "authenticatie-via-consumerrequest"
+          - title: "Postman"
+            href: "postman"
+- title: "Overzicht omgevingen"
+  description: "Via deze omgevingen kan je gebruik maken van onze services."
+  path: "content/omgevingen/"
+  category: "Technisch"
+  weight: 10
+  versions:
+      - name: "latest"
+        path: "content/omgevingen/latest/"
