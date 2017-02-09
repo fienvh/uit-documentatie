@@ -3,7 +3,7 @@
 
 # Authenticatie via Postman
 
-Er is een gekend issue met onze gebruikte authentificatie binnen Postman: het is niet mogelijk om automatisch de oauth_callback en oauth_verifier toe te voegen aan de header [doc](https://github.com/postmanlabs/postman-app-support/issues/283).
+Er is een gekend issue met onze gebruikte authentificatie binnen Postman: het is niet mogelijk om automatisch de oauth_callback en oauth_verifier toe te voegen aan de header ([doc](https://github.com/postmanlabs/postman-app-support/issues/283)).
 
 Het is daarom beter om deze [repository](https://github.com/cultuurnet/php-oauth-example) te gebruiken als methode om na te gaan waar het eventueel fout gaat in de authenticatie. Deze repository is niet gemaakt als solide basis om verder op te ontwikkelen, maar is wel geschikt om te testen.
 
