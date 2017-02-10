@@ -576,7 +576,7 @@ Datum waarop het item werd aangemaakt. Geldig voor: events, actors.
 Een extra veld om eenvoudig te filteren op veelgebruikte tijd ranges, en als facetFilter. Volgende mogelijkheden bestaan: today, tomorrow, thisweekend, nextweekend, next7days, next14days, next30days, next3months, next6months, next12months, permanent. Geldig voor: events.
 
 ```
-{BaseUrl}search?q=*.*&fq=datetype:permanent
+{BaseUrl}search?q=*.*&datetype=permanent
 ```
 
 [Terug naar index](#index)
