@@ -29,8 +29,8 @@ De root node ziet er als volgt uit:
 
 Het XML-document dat je aanlevert moet voldoen aan volgende vormvereisten:
 
-*   De tekencodering dient te gebeuren volgens de <span class="emphasize">UTF-8 standaard</span>.
-*   Het XML-document moet <span class="emphasize">valid</span> zijn. Hiervoor doe je een check tegen het CdbXML 3.2 XML-schema. Het XML-schema is beschikbaar op [http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd](http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd).
+*   De tekencodering dient te gebeuren volgens de <span class="emphasize">UTF-8 standaard.
+*   Het XML-document moet <span class="emphasize">valid zijn. Hiervoor doe je een check tegen het CdbXML 3.2 XML-schema. Het XML-schema is beschikbaar op [http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd](http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd).
 
 
 ## Stap 2: verplichte velden ("cdbxml/event")
@@ -87,7 +87,7 @@ Tijdsinformatie. Het is verplicht aan te geven wanneer het event plaatsvindt. In
 </calendar>
 ```
 
-Let op, als een event op meer dan één tijdstip</span> plaatsvindt, stuur je geen event object door per tijdstip maar voeg je binnen het betreffende event meerdere tijdstippen toe, of een periode, of geef je aan dat het een permanent aanbod is. Zie hiervoor in de sectie [Uitwisselingsformaat in XML](../cdbxml).
+Let op, als een event op meer dan één tijdstip plaatsvindt, stuur je geen event object door per tijdstip maar voeg je binnen het betreffende event meerdere tijdstippen toe, of een periode, of geef je aan dat het een permanent aanbod is. Zie hiervoor in de sectie [Uitwisselingsformaat in XML](../cdbxml).
 
 ### //event/categories/category/@catid="eventtype"
 

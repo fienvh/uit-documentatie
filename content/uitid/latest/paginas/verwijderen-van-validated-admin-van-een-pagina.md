@@ -1,10 +1,10 @@
 ---
 ---
  <a id="removevalidatedadmin" name="removevalidatedadmin"></a>23. Verwijderen van validated admin van een pagina
-================================================================================================================
+=
 
  
-    <pre class="rteleft"> {server}/page/{uid}/validatedadmin/remove 
+    {server}/page/{uid}/validatedadmin/remove 
 
  * Methode:   
  POST  * Authenticatie:   
@@ -32,4 +32,8 @@ Request
 
 Response
 
-<div><div> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><div> <response xmlns:rdf="<http://www.w3.org/1999/02/22-rdf-syntax-ns"> xmlns:foaf="<http://xmlns.com/foaf/0.1/"> xmlns:cdb="<http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.1/FINAL"> xmlns:geo="[http://www.w3.org/2003/01/geo/wgs84\_pos#">](http://www.w3.org/2003/01/geo/wgs84_pos#">)<div> <code>ACTION\_SUCCEEDED</code><div> <message>Lidmaatschap werd aangepast.</message><div> </response>  
+ <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:cdb="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.1/FINAL" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84\_pos#">
+<code>ACTION\_SUCCEEDED</code>
+<message>Lidmaatschap werd aangepast.</message>
+</response>  

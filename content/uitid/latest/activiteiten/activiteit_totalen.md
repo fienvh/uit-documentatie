@@ -5,7 +5,9 @@
 
 Hiermee kunnen de totalen van activiteiten van één bepaalde user worden opgevraagd.
 
-	{server}/activity/totals
+```
+{server}/activity/totals
+```
 
 * Methode: GET
 * Authenticatie:
@@ -36,12 +38,16 @@ HTTP 403 Forbidden: Er werd geen of geen geldig ConsumerRequest meegestuurd
 
 Request
 
-	GET {server}/activity/totals?userId=b726781c-84d5-472f-93dc-74ed982658f8&type_contentType=14_event&type_contentType=14_page
+```
+GET {server}/activity/totals?userId=b726781c-84d5-472f-93dc-74ed982658f8&type_contentType=14_event&type_contentType=14_page
+```
 
 Response
 
-	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<response>
-	<total type="14_page">1</total>
-	<total type="14_event">2</total>
-	</response>
+{% highlight xml%}
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<total type="14_page">1</total>
+<total type="14_event">2</total>
+</response>
+{% endhighlight %}

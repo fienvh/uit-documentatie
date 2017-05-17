@@ -16,13 +16,13 @@ waarbij {uid} de ID is van de gebruiker
 
 HTTP 200 OK met een response body in XML formaat  
 
-<table border="1" cellpadding="1" cellspacing="1"><tbody><tr><td> code</td> <td> Status code string</td> </tr><tr><td> mailings</td> <td> Lijst van Mailing entiteiten waarin enkel de id en de name ingevuld zullen zijn.</td></tr></tbody></table>
+ codeStatus code stringmailingsLijst van Mailing entiteiten waarin enkel de id en de name ingevuld zullen zijn.
 
 ### Bij fouten_  
 
 HTTP status code, eventueel aangevuld met een XML body met extra informatie.
 
-<table border="1" cellpadding="1" cellspacing="1"><tbody><tr><td> HTTP 403 Forbidden</td> <td> Er werd geen of geen geldig UserAccessToken meegestuurd.</td> </tr><tr><td> HTTP 401 Unauthorized</td> <td> De gebruiker heeft geen rechten om de huidige actie uit te voeren. (bv. is geen admin van de Service Consumer)</td></tr></tbody></table>
+ HTTP 403 ForbiddenEr werd geen of geen geldig UserAccessToken meegestuurd.HTTP 401 UnauthorizedDe gebruiker heeft geen rechten om de huidige actie uit te voeren. (bv. is geen admin van de Service Consumer)
 
 ## Voorbeeld
 

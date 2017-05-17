@@ -3,7 +3,9 @@
 
 # Aantal notificaties ophalen
 
-	{server}/user/{ID}/notifications/totals
+```
+{server}/user/{ID}/notifications/totals
+```
 
 waarbij {ID} de culturefeed ID van de User is
 
@@ -13,7 +15,6 @@ waarbij {ID} de culturefeed ID van de User is
 ## Parameters
 
 dateFrom	| W3C date | Startdatum voor notificaties
-
 
 ## Responses
 
@@ -25,13 +26,17 @@ dateFrom	| W3C date | Startdatum voor notificaties
 
 Request
 
+```
 	GET {server}/user/8602ce8c-9aef-4c49-9f09-3dc587871915/notifications/count
 	dateFrom=2013-04-05
+```
 
 Response
 
+{% highlight xml %}
 	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 	<response>
 	<total type="NEW">3</total>
 	<total type="READ">7</total>
 	</response>
+{% endhighlight %}

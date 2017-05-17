@@ -6,7 +6,9 @@
 Top van bepaalde acties zoeken binnen de laatste 7 dagen
 bvb. lijst van meest gedeelde events, lijst van meest getweete events
 
-	{server}/activity/topevents/{TYPE}
+```
+{server}/activity/topevents/{TYPE}
+```
 
 waarbij {TYPE} het type is van de gedeelde activiteit:
 * `like` voor type LIKE activiteiten
@@ -42,33 +44,39 @@ Het event entiteit bestaat uit:
 
 ### Fouten
 
-HTTP status code, eventueel aangevuld met een XML body met extra informatie
-* HTTP 403 Forbidden	Er werd geen of geen geldig ConsumerRequest meegestuurd
+HTTP status code, eventueel aangevuld met een XML body met extra informatie.
+
+* HTTP 403 Forbidden: er werd geen of geen geldig ConsumerRequest meegestuurd
 
 ## Voorbeeld
 
 Request
 
-	GET {server}/activity/topevents/like
+```
+GET {server}/activity/topevents/like
+```
 
 Response
-	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<response>
-	<events>
-	<event>
-	<cdbid>0486f0b1-ba53-48c4-87ab-a36025f5df69</cdbid>
-	</event>
-	<event>
-	<cdbid>2c078a00-413d-4b4f-8949-3d0a1aea9db0</cdbid>
-	</event>
-	<event>
-	<cdbid>c194d6f4-751f-4e0b-b663-81de67fcdf72</cdbid>
-	</event>
-	<event>
-	<cdbid>1cb61a97-0db5-4e3d-940e-907f93845425</cdbid>
-	</event>
-	<event>
-	<cdbid>971231ef-e9fa-4e4b-9137-dc15c42fbf1b</cdbid>
-	</event>
-	</events>
-	</response>
+
+{% highlight xml %}
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<events>
+<event>
+<cdbid>0486f0b1-ba53-48c4-87ab-a36025f5df69</cdbid>
+</event>
+<event>
+<cdbid>2c078a00-413d-4b4f-8949-3d0a1aea9db0</cdbid>
+</event>
+<event>
+<cdbid>c194d6f4-751f-4e0b-b663-81de67fcdf72</cdbid>
+</event>
+<event>
+<cdbid>1cb61a97-0db5-4e3d-940e-907f93845425</cdbid>
+</event>
+<event>
+<cdbid>971231ef-e9fa-4e4b-9137-dc15c42fbf1b</cdbid>
+</event>
+</events>
+</response>
+{% endhighlight %}

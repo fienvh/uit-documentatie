@@ -57,14 +57,18 @@ HTTP status code, eventueel aangevuld met een XML body met extra informatie.
 
 Request
 
-	POST {server}/user/cb0366bb-e552-4afc-82f2-b4e40707cdac
-	gender=male
+```
+POST {server}/user/cb0366bb-e552-4afc-82f2-b4e40707cdac
+gender=male
+```
 
 response
 
-	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<response xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
-	<code>UserModified</code>
-	<message>User modified: 1502</message>
-	<uid>cb0366bb-e552-4afc-82f2-b4e40707cdac</uid>
-	</response>
+{% highlight xml %}
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<code>UserModified</code>
+<message>User modified: 1502</message>
+<uid>cb0366bb-e552-4afc-82f2-b4e40707cdac</uid>
+</response>
+{% endhighlight %}

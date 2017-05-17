@@ -20,4 +20,5 @@ accountType | type van het online account	| Verplicht
 ### Succes
 
 HTTP 200 OK met een response body in XML formaat
+
 * code: status code string

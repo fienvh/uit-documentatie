@@ -5,7 +5,9 @@
 
 Doorsturen van een user activiteit
 
-	{server}/activity
+```
+{server}/activity
+```
 
 * Methode: POST
 * Authenticatie: met user acces token, op vraag van de user
@@ -44,17 +46,21 @@ HTTP status code, eventueel aangevuld met een XML body met extra informatie
 
 Request
 
+```
 	POST {server}/culturefeed/rest/activity
 	nodeId=EXAMPLE-CDBID
 	&userId=b726781c-84d5-472f-93dc-74ed982658f8
 	&value=test
 	&type=3
 	&private=false
+```
 
 Response
 
-	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<response xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
-	   <code>ActivityCreated</code>
-	   <activityId>3b57f54a-2d3e-4577-b2b2-9ef7715547dd</activityId>
-	</response>
+{% highlight xml %}
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+   <code>ActivityCreated</code>
+   <activityId>3b57f54a-2d3e-4577-b2b2-9ef7715547dd</activityId>
+</response>
+{% endhighlight %}

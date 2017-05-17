@@ -3,11 +3,14 @@
 
 # Mailing verwijderen
 
+```
+{server}/mailing/v2/{ID}/delete
+``
 
-{server}/mailing/v2/{ID}/delete waarbij {ID} de ID van de mailing is
+waarbij {ID} de ID van de mailing is
 
-Methode: POST
-Authenticatie: UserAccessToken van de gebruiker die admin permissie op de Service Consumer heeft
+* Methode: POST
+* Authenticatie: UserAccessToken van de gebruiker die admin permissie op de Service Consumer heeft
 
 ## Response
 
@@ -15,22 +18,25 @@ Authenticatie: UserAccessToken van de gebruiker die admin permissie op de Servic
 
 HTTP 200 OK met een response body in XML formaat  
 
-
-
- <table border="1" cellpadding="1" cellspacing="1"><tbody><tr><td> code</td> <td> Status code string</td></tr></tbody></table>
+* code: Status code string
 
 ### Fout
 
 HTTP status code, eventueel aangevuld met een XML body met extra informatie.
 
-<table border="1" cellpadding="1" cellspacing="1"><tbody><tr><td> HTTP 403 Forbidden</td> <td> Er werd geen of geen geldig UserAccessToken meegestuurd.</td> </tr><tr><td> HTTP 401 Unauthorized</td> <td> De gebruiker heeft geen rechten om de huidige actie uit te voeren. (bv. is geen admin van de Service Consumer)</td></tr></tbody></table>
+* HTTP 403 Forbidden: er werd geen of geen geldig UserAccessToken meegestuurd.
+* HTTP 401 Unauthorized: de gebruiker heeft geen rechten om de huidige actie uit te voeren. (bv. is geen admin van de Service Consumer)
 
 ## Voorbeeld
 
 Request
 
-  POST {server}/mailing/3/delete
+```
+POST {server}/mailing/3/delete
+```
 
 Response
 
-  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+{% highlight xml %}
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+{% endhighlight %}

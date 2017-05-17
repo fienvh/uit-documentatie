@@ -1,39 +1,26 @@
 ---
 ---
- <a id="11" name="11"></a>11. Pagina image uploaden
-===================================================
 
- 
-    <pre class="rteleft"> {server}/page/{uid}/uploadImage 
+# Pagina image uploaden
 
- * Methode:   
- POST  * Authenticatie:   
- UserAccessToken van een gebruiker die beheerder is van de pagina. ## Parameters <
+``` {server}/page/{uid}/uploadImage ```
 
+* Methode: POST
+* Authenticatie:   
+ UserAccessToken van een gebruiker die beheerder is van de pagina.
 
-<th scope="col"> Parameter</th> <th scope="col"> Type</th> <th scope="col"> Beschrijving</th> <th scope="col"> Verplicht</th> </thead><tbody>
-image
+## Parameters
 
-  |   bytes |  De bytes van het eigenlijke afbeeldingsbestand. Ondersteunde formaten zijn: JPG, PNG en GIF
+Parameter | Type |  Beschrijving | 
+image | bytes |  De bytes van het eigenlijke afbeeldingsbestand. Ondersteunde formaten zijn: JPG, PNG en GIF. De maximum bestandsgrootte is 5 MB. Verplicht.
 
-De maximum bestandsgrootte is 5 MB.
+Deze request verwacht ruwe multipart data, wat wil zeggen dat de request header Content-Type op multipart/form-data gezet moet worden. Het is aangeraden om eveneens de filename van de Content-Disposition in te stellen. Die naam zal gebruikt worden als bestandsnaam in de image URL.  
 
-  |   X |  </tbody></
-
-
-  
-<span style="color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 13px; line-height: 19.1875px;">Deze request verwacht ruwe multipart data, wat wil zeggen dat de request header Content-Type op multipart/form-data gezet moet worden. Het is aangeraden om eveneens de filename van de Content-Disposition in te stellen. Die naam zal gebruikt worden als bestandsnaam in de image URL.</span>  
 ## Response
- ### Succes
- HTTP 200 OK met een response body in XML formaat. Velden: <
 
+### Succes
 
- code |   Status code string: IMAGE\_UPLOADED of ACTION\_FAILED |  
- uid |   De uid van de pagina |  </tbody></
+HTTP 200 OK met een response body in XML formaat. Velden:
 
-
-## Voorbeeld 
-
-Request
-Response
-
+* code: status code string: IMAGE\_UPLOADED of ACTION\_FAILED
+* uid: de uid van de pagina

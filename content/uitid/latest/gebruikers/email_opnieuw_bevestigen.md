@@ -5,7 +5,9 @@
 
 Met deze call kan de Service Consumer vragen de registratieconfirmatiemail opnieuw te verzenden naar de user.
 
-	{server}/user/{ID}/resend_mbox_confirmation
+```
+{server}/user/{ID}/resend_mbox_confirmation
+```
 
 waarbij {ID} de UiTiD ID van de User is
 

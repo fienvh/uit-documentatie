@@ -24,7 +24,7 @@ HTTP 200 OK met een response body in XML formaat
 
 De ServiceConsumer Entiteit bevat de volgende gegevens:
 
-* ID ``integer```: de ID van de Service Consumer
-* consumerKey ```String``: de publieke consumer key van de Service Consumer
+* ID ```integer```: de ID van de Service Consumer
+* consumerKey ```String```: de publieke consumer key van de Service Consumer
 * name ```String```: de naam van de Service Consumer
 * description ```String```: de omschrijving van de Service Consumer

@@ -5,7 +5,9 @@
 
 Gebruikers kunnen acties verwijderen zodat deze ook niet meer meetellen in het berekenen van hun aanbevelingen.
 
+```
 {server}/activity/{ID}/delete
+```
 
 waarbij {ID} de ID van de Activity is
 

@@ -15,7 +15,9 @@ Voorbeeld:
 &oauth_callback=http%3A%2F%2Fwww.uitinvlaanderen.be%2Fculturefeed%2Foauth%2F
 authorize%3Fdestination%3Dfront%26closepopup%3Dtrue&type=register
 
-	{server}/user
+```
+{server}/user
+```
 
 * Methode: ```POST```
 * Authenticatie: ConsumerRequest van een ServiceConsumer met de rechten om gebruikers aan te maken
@@ -64,14 +66,18 @@ HTTP status code, eventueel aangevuld met een XML body met extra informatie.
 
 **Request**
 
-	POST {server}/user
-	nick=test
-	&status=PUBLIC
-	&mbox=test%40culturefeed.be
+```
+POST {server}/user
+nick=test
+&status=PUBLIC
+&mbox=test%40culturefeed.be
+```
 
 **Response**
 
+{% highlight xml %}
 	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 	<response xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
    <code>UserCreated</code><message>User created:0df9ebfe-1899-49f2-bc1e-774213831ff5</message><uid>0df9ebfe-1899-49f2-bc1e-774213831ff5</uid>
 	</response>
+{% endhighlight %}
