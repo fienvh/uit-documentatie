@@ -76,8 +76,10 @@ nick=test
 **Response**
 
 {% highlight xml %}
-	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<response xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
-   <code>UserCreated</code><message>User created:0df9ebfe-1899-49f2-bc1e-774213831ff5</message><uid>0df9ebfe-1899-49f2-bc1e-774213831ff5</uid>
-	</response>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<code>UserCreated</code>
+<message>User created:0df9ebfe-1899-49f2-bc1e-774213831ff5</message>
+<uid>0df9ebfe-1899-49f2-bc1e-774213831ff5</uid>
+</response>
 {% endhighlight %}

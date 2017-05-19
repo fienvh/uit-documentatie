@@ -4,6 +4,7 @@ description: Bouw mee aan de verschillende UiT-producten, ga er zelf mee aan de 
 title_full: UiT-documentatie voor ontwikkelaars
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+github: https://github.com/cultuurnet/uit-documentatie
 defaults:
   -
     scope:
