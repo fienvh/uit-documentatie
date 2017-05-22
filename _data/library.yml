@@ -165,7 +165,7 @@
 - title: "Aan de slag met UiTiD"
   category: "Technisch"
   description: "Met UiTiD laat je gebruikers aanmelden op meerdere websites en applicaties via één account. "
-  path: "content/uitid"
+  path: "content/uitid/"
   weight: 40
   versions:
     - name: "latest"
@@ -413,7 +413,7 @@
             href: "balie/index"
 - title: "Authenticatie en autorisatie"
   description: "Hoe kan je verbinden met onze omgevingen?"
-  path: "content/uitdatabank/"
+  path: "content/authenticatie-autorisatie/"
   category: "Technisch"
   weight: 10
   versions:
