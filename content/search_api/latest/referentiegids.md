@@ -1474,7 +1474,7 @@ Workflow status van het item. Deze waarden zijn mogelijk: draft, readyforvalidat
 Hiermee worden events getoond waarbij NU recenter is dan de info in de kalender. De default staat op false. Standaard worden evenementen uit het verleden uit de zoekresultaten gefilterd.
 
 ```
-{BaseUrl}search?q=*:*&fq=validator:"Kortemark Validatoren" AND wfstatus:approved&past=true&group=true
+{BaseUrl}search?q=cdbid:{cdbid}&past=true&group=event
 ```
 
 [Terug naar index](#index)
@@ -1486,7 +1486,7 @@ Hiermee worden events getoond waarbij NU recenter is dan de info in de kalender.
 Hiermee worden events getoond waarbij NU niet ligt tussen availableFrom en availableTo. De UiTdatabank zet per default de availableToop de laatste datum van de calendar info.
 
 ```
-{BaseUrl}search?q=*:*&fq=validator:"Kortemark Validatoren" AND wfstatus:approved&past=true&group=true
+{BaseUrl}search?q=cdbid:{cdbid}&past=true&unavailable=true&group=event
 ```
 
 [Terug naar index](#index)
