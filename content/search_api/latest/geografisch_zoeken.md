@@ -55,8 +55,8 @@ Het is ook mogelijk om te zoeken op postcode en straal rond postcode. Als fysiek
 
 **Voorbeeld**
 
-Alle evenement in en nabij Gent:
+Alle evenementen in en nabij Gent:
 
 ```
-{{site.search_api_server}}/searchv2/search?q=zipcode=9000!5km
+{{site.search_api_server}}/searchv2/search?q=*:*&zipcode:9000!5km
 ```
