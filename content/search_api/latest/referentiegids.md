@@ -140,6 +140,8 @@ Een overzicht van alle geïndexeerde velden, gefilterd op relevantie, met voorbe
 * [title_sort](#titlesort)
 * [validator](#validator)
 * [wfstatus](#wfstatus)
+* [past](#past)
+* [unavailable](#unavailable)
 
 
 **Sociaal**
@@ -1464,6 +1466,31 @@ Workflow status van het item. Deze waarden zijn mogelijk: draft, readyforvalidat
 ```
 
 [Terug naar index](#index)
+
+
+## past
+```enum```
+
+Hiermee worden events getoond waarbij NU recenter is dan de info in de kalender. De default staat op false. Standaard worden evenementen uit het verleden uit de zoekresultaten gefilterd.
+
+```
+{BaseUrl}search?q=*:*&fq=validator:"Kortemark Validatoren" AND wfstatus:approved&past=true&group=true
+```
+
+[Terug naar index](#index)
+
+
+## unavailable
+```enum```
+
+Hiermee worden events getoond waarbij NU niet ligt tussen availableFrom en availableTo. De UiTdatabank zet per default de availableToop de laatste datum van de calendar info.
+
+```
+{BaseUrl}search?q=*:*&fq=validator:"Kortemark Validatoren" AND wfstatus:approved&past=true&group=true
+```
+
+[Terug naar index](#index)
+
 
 
 ## zipcode
