@@ -19,7 +19,7 @@ Aandachtspunten:
 
 Voorbeeldresponse http://taxonomy.uitdatabank.be/api/domain
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 
 <cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
@@ -44,7 +44,7 @@ label="Regio in Vlaanderen en Brussel" />
 
 Voorbeeldresponse http://taxonomy.uitdatabank.be/api/domain/actortype/classification
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 
 <cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
