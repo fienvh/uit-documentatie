@@ -47,4 +47,4 @@ Voor authenticatie via php met de Cultuurnet-services kan je ook [dit voorbeeld]
 
 * Token Secret: Een geheime waarde die de Consumer gebruikt om het ownership van een bepaald token te bevestigen bij de service provider.
 
-* User: Een individu dat een account heft bij de Service Provider (hier dus een UiTiD account).
+* User: Een individu dat een account heeft bij de Service Provider (hier dus een UiTiD account).
