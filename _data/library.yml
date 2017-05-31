@@ -436,7 +436,7 @@
         path: "content/entry_api/latest/"
         versions:
         summary:
-          - title: "Demo: UiTdatabank contentbeheer via REST API"
+          - title: "Demo contentbeheer"
             href: "demo-via-rest-api"
           - title: "Items aanmaken, aanpassen en verwijderen"
             href: "items-aanmaken-aanpassen-verwijderen"
