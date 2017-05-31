@@ -1,5 +1,6 @@
 ---
 ---
+
 Om content te beheren in de UiTdatabank stelt CultuurNet een REST API ter beschikking. Die bestaat uit volgende services:
 
 * **Entry API**: via de Entry API kan je informatie (events, organisaties, personen, producties) in de UiTdatabank aanmaken, aanpassen en verwijderen.
