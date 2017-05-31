@@ -426,8 +426,8 @@
             href: "authenticatie-via-consumerrequest"
           - title: "Postman"
             href: "postman"
-- title: "Contentbeheer met Entry API"
-  description: "Via de Entry API kan je informatie in de UiTdatabank aanmaken, aanpassen en verwijderen."
+- title: "Entry API"
+  description: "Via Entry API kan je informatie in UiTdatabank aanmaken, aanpassen en verwijderen."
   path: "content/entry_api/"
   category: "Technisch"
   weight: 10
