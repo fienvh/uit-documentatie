@@ -427,13 +427,19 @@
           - title: "Postman"
             href: "postman"
 - title: "Entry API"
-  description: "Via Entry API kan je informatie in UiTdatabank aanmaken, aanpassen en verwijderen."
+  description: "Via Entry API kan je items in UiTdatabank aanmaken, aanpassen en verwijderen."
   path: "content/entry_api/"
   category: "Technisch"
   weight: 10
   versions:
       - name: "latest"
         path: "content/entry_api/latest/"
+        versions:
+        summary:
+          - title: "Demo: UiTdatabank contentbeheer via REST API"
+            href: "demo-via-rest-api"
+          - title: "Items aanmaken, aanpassen en verwijderen"
+            href: "items-aanmaken-aanpassen-verwijderen"
 - title: "Overzicht omgevingen"
   description: "Via deze omgevingen kan je gebruik maken van onze services."
   path: "content/omgevingen/"
