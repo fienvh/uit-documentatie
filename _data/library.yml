@@ -426,6 +426,14 @@
             href: "authenticatie-via-consumerrequest"
           - title: "Postman"
             href: "postman"
+- title: "Contentbeheer met Entry API"
+  description: "Via de Entry API kan je evenementen en locaties in de UiTdatabank aanmaken, aanpassen en verwijderen."
+  path: "content/omgevingen/"
+  category: "Technisch"
+  weight: 10
+  versions:
+      - name: "latest"
+        path: "content/entry_api/latest/"
 - title: "Overzicht omgevingen"
   description: "Via deze omgevingen kan je gebruik maken van onze services."
   path: "content/omgevingen/"
