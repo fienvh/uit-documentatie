@@ -73,6 +73,7 @@ http://www.uitdatabank.be/api/event?q=Kunstencentrum Vooruit
 
 Method: GET
 URL: 
+
 ```
 http://www.uitdatabank.be/api/v2/event/{id} 
 ```
