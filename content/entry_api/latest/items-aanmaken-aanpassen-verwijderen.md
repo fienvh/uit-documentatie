@@ -15,6 +15,7 @@ Waarbij server =
 
 
 # Item aanmaken
+
 ## Request eigenschappen
 
 Method: POST
@@ -28,6 +29,7 @@ Argumenten:
 | Item | CdbXML 3.2 representatie van het item. Zie in drie stappen een CdbXML document maken | X |
 
 ## Voorbeeld
+
 ### Request URL
 
 ```
@@ -93,6 +95,7 @@ Content-Length: 2142
 ```
 
 # Item aanpassen
+
 ## Request eigenschappen
 
 Method: PUT
@@ -106,6 +109,7 @@ Argumenten:
 | Item | CdbXML 3.2 representatie van het item. Zie in drie stappen een CdbXML document maken | X |
 
 ## Voorbeeld
+
 ### Request URL
 
 ```
@@ -137,6 +141,7 @@ Content-Length: 2142
 ```
 
 # Item verwijderen
+
 ## Request eigenschappen
 
 Method: DELETE
@@ -151,6 +156,7 @@ Argumenten:
 Een DELETE request om een actor te verwijderen waaraan events gekoppeld zijn is niet toegestaan.
 
 ## Voorbeeld
+
 ### Request URL
 
 ```
