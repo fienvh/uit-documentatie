@@ -36,7 +36,8 @@ Argumenten:
 
 ### POST data
 
-```<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
+```
+<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
     <event>
       <calendar>
         <timestamps>
@@ -84,7 +85,6 @@ Content-Encoding: deflate
 Expires: -1
 Date: Fri, 18 May 2012 07:59:11 GMT
 Content-Length: 2142
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>ItemCreated</code>
@@ -129,7 +129,6 @@ Content-Encoding: deflate
 Expires: -1
 Date: Fri, 18 May 2012 07:59:11 GMT
 Content-Length: 2142
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>ItemModified</code>
@@ -169,7 +168,6 @@ Content-Encoding: deflate
 Expires: -1
 Date: Fri, 18 May 2012 07:59:11 GMT
 Content-Length: 2142
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>ItemWithdrawn</code>
