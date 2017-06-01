@@ -11,4 +11,5 @@ end
 
 group :jekyllplugins do
   gem "jekyll-asciidoc", :git => "https://github.com/asciidoctor/jekyll-asciidoc.git"
+gem 'jekyll-last-modified-at', '~> 0.3.4'
 end

@@ -13,7 +13,9 @@ defaults:
       layout: "default"
 permalink: pretty
 # Build settings
-gems: [jekyll-asciidoc]
+gems:
+  - jekyll-asciidoc
+  - jekyll-last-modified-at
 exclude: [README.md, Gemfile, Gemfile.lock, Rakefile, tasks, vendor ]
 markdown: kramdown
 asciidoc: asciidoctor
