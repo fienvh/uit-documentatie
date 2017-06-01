@@ -144,6 +144,7 @@ Method: DELETE
 URL: ```{server}/api/v2/{event|production|actor}/{id}```
 
 Argumenten:
+
 | Deel | Beschrijving | Verplicht |
 | -- | -- | -- |
 | Authenticatie | oAuth informatie, zie authenticatie via UiTID | X |
