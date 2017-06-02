@@ -78,7 +78,7 @@ Argumenten:
 
 ### Response
 
-```
+~~~ xml
 HTTP/1.1 200 OK
 Cache-Control: no-cache
 Pragma: no-cache
@@ -92,7 +92,7 @@ Content-Length: 2142
 <code>ItemCreated</code>
 <link>uitdatabank.be/api/v2/event/{id}</link>
 </rsp>
-```
+~~~
 
 # Item aanpassen
 
