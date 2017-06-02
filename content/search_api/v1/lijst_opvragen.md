@@ -62,133 +62,15 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 
 #### ZOEKEN OP WIE / WAT
 
-<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="659"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="162">
-<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
-</td>
-<td style="width: 127.1pt; padding: 0cm 5.4pt;" width="255">
-<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
-</td>
-<td style="width: 71.35pt; padding: 0cm 5.4pt;" width="152">
-<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
-</td>
-<td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="200">
-<p class="MsoNormal" style="text-align: center;">Voobeeld</p>
-</td>
-</tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal">q</p>
-</td>
-<td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal" style="">Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen:</p>
-<ul type="disc"><li class="MsoNormal" style="">
-						titel</li>
-<li class="MsoNormal" style="">
-						korte beschrijving</li>
-<li class="MsoNormal" style="">
-						lange omschrijving</li>
-<li class="MsoNormal" style="">
-						locatienaam</li>
-<li class="MsoNormal" style="">
-						stad</li>
-<li class="MsoNormal" style="">
-						uitvoerders</li>
-<li class="MsoNormal" style="">
-						categorisatiefacetten</li>
-<li class="MsoNormal" style="">
-						ID</li>
-<li class="MsoNormal" style="">
-						organisator</li>
-<li class="MsoNormal" style="">
-						tags en markers.</li>
-</ul><p class="MsoNormal" style="">Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar:</p>
-<ul type="disc"><li class="MsoNormal" style="">
-						OR</li>
-<li class="MsoNormal" style="">
-						Dubbele aanhalingstekens voor exacte zoekopdrachten</li>
-</ul><p class="MsoNormal">&nbsp;</p>
-</td>
-<td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal">Text</p>
-</td>
-<td align="left" style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="200">
-<p align="left" class="MsoNormal style1" style="text-align: left;">q=Puppet Shadows</p>
-<p align="left" class="MsoNormal style1" style="text-align: left;">q="Last shadow puppets"</p>
-<p align="left" class="MsoNormal style1" style="text-align: left;">q=Last OR shadow OR puppets</p>
-</td>
-</tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal">agebetween</p>
-</td>
-<td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal">Minimum leeftijd tussen deze twee waarden (range splitsen met "..")</p>
-</td>
-<td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal">Number..Number</p>
-</td>
-<td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;">agebetween=3..6</p>
-</td>
-</tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal">age</p>
-</td>
-<td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal">Minimum leeftijd</p>
-</td>
-<td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal">Number</p>
-</td>
-<td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;">age=18</p>
-</td>
-</tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal">isfree</p>
-</td>
-<td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal">Gratis events</p>
-</td>
-<td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal">Boolean</p>
-</td>
-<td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;">isfree=true</p>
-</td>
-</tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal">permanent</p>
-</td>
-<td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal">Permanente events (vb. vaste collecties, monumenten, etc.)</p>
-</td>
-<td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal">Boolean</p>
-</td>
-<td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;">permanent=true</p>
-</td>
-</tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal">temporary</p>
-</td>
-<td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal">Tijdelijke events (met start- en einddatum)</p>
-</td>
-<td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal">Boolean</p>
-</td>
-<td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;">temporary=true</p>
-</td>
-</tr><tr><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p><span style="font-size:11px;">lng</p>
-</td>
-<td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p><span style="font-size:11px;">Vertalingen van events opzoeken</p>
-</td>
-<td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p><span style="font-size:11px;">Text</p>
-</td>
-<td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p><span style="font-size:11px;">lng=fr</p>
-<p>					lng=en</p>
-<p><span style="font-size:11px;">lng=de</p>
-</td>
-</tr></tbody></table>
+| Naam parameter| Beschrijving | Datatype voor input | Voorbeeld
+| q | Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen: titel, korte beschrijving, lange beschrijving, locatienaam, stad, uitvoerders, categorisatiefacetten, id, organisator, tags en markers.
+Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar: OR of dubbele aanhalingstekens voor exacte zoekopdrachten | Text | q=Puppet Shadows, q="Last shadow puppets", q=Last OR shadow OR puppets |
+| agebetween | Minimum leeftijd tussen deze twee waarden (range splitsen met "..") | Number..Number | agebetween=3..6
+| age | Minimum leeftijd | Number| age=18
+| isfree | Gratis events |Boolean| isfree=true|
+| permanent | Permanente events (vb. vaste collecties, monumenten, etc.)| Boolean | permanent=true|
+| temporary | Tijdelijke events (met start- en einddatum) |Boolean | temporary=true | 
+| lng | Vertalingen van events opzoeken |Text | lng=fr, lng=en, lng=de |
 
 #### ZOEKEN OP KRUISVERWIJZINGEN EN KEYWORDS
 
