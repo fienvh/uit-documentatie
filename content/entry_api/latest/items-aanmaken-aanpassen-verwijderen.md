@@ -38,7 +38,6 @@ Argumenten:
 
 ### POST data
 
-```XML
 <cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
     <event>
       <calendar>
@@ -52,7 +51,7 @@ Argumenten:
         <category type="eventtype" catid="0.50.4.0.0">Concert</category>
       </categories>
       <contactinfo>
-        <url main="true">http://www.cluricauns.com/kalender.php</url>
+        <url main="true">hyperlink</url>
       </contactinfo>
       <eventdetails>
         <eventdetail lang="nl">
@@ -74,11 +73,11 @@ Argumenten:
       </location>
     </event>
 </cdbxml>
-```
+
 
 ### Response
 
-```XML
+```
 HTTP/1.1 200 OK
 Cache-Control: no-cache
 Pragma: no-cache
@@ -123,7 +122,7 @@ Argumenten:
 
 ### Response
 
-```XML
+```
 HTTP/1.1 200 OK
 Cache-Control: no-cache
 Pragma: no-cache
@@ -164,7 +163,7 @@ Een DELETE request om een actor te verwijderen waaraan events gekoppeld zijn is 
 
 ### Response
 
-```XML
+```
 HTTP/1.1 200 OK
 Cache-Control: no-cache
 Pragma: no-cache
