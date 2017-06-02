@@ -1,14 +1,10 @@
-<div class="region region-content">
-    <div id="block-system-main" class="block block-system">
+---
+---
 
-    
-  <div class="content">
-    <div id="node-15" class="node node-documentation-page node-full cn-clearfix">
+# Response (inleiding tot het uitwisselingsformaat)
 
-      
+De UiTdatabank beantwoordt requests als XML of JSON responses, conform het CdbXML 3.1 formaat. Afhankelijk van de aangeroepen method wordt een lijstrepresentatie, detailrepresentatie of report view verzonden.
   
-  <div class="content cn-clearfix">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p class="rteleft">De UiTdatabank beantwoordt requests als XML of JSON responses, conform het CdbXML 3.1 formaat. Afhankelijk van de aangeroepen method wordt een lijstrepresentatie, detailrepresentatie of report view verzonden.</p>
 <table cellspaging="0"><tbody><tr><th class="col1 rteleft">
 				Method</th>
 <th class="col2 rteleft">
