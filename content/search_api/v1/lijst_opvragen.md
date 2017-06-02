@@ -63,51 +63,51 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 #### ZOEKEN OP WIE / WAT
 
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="659"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="162">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="255">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="152">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="200">
-<p class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voobeeld</span></span></p>
+<p class="MsoNormal" style="text-align: center;">Voobeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">q</span></p>
+<p class="MsoNormal">q</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal" style=""><span style="font-size: 8pt;">Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen:</span></p>
+<p class="MsoNormal" style="">Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen:</p>
 <ul type="disc"><li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">titel</span></li>
+						titel</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">korte beschrijving</span></li>
+						korte beschrijving</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">lange omschrijving</span></li>
+						lange omschrijving</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">locatienaam</span></li>
+						locatienaam</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">stad</span></li>
+						stad</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">uitvoerders</span></li>
+						uitvoerders</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">categorisatiefacetten</span></li>
+						categorisatiefacetten</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">ID</span></li>
+						ID</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">organisator</span></li>
+						organisator</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">tags en markers.</span></li>
-</ul><p class="MsoNormal" style=""><span style="font-size: 8pt;">Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar:</span></p>
+						tags en markers.</li>
+</ul><p class="MsoNormal" style="">Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar:</p>
 <ul type="disc"><li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">OR</span></li>
+						OR</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">Dubbele aanhalingstekens voor exacte zoekopdrachten</span></li>
+						Dubbele aanhalingstekens voor exacte zoekopdrachten</li>
 </ul><p class="MsoNormal">&nbsp;</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span></p>
+<p class="MsoNormal">Text</p>
 </td>
 <td align="left" style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="200">
 <p align="left" class="MsoNormal style1" style="text-align: left;">q=Puppet Shadows</p>
@@ -115,277 +115,277 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 <p align="left" class="MsoNormal style1" style="text-align: left;">q=Last OR shadow OR puppets</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">agebetween</span></p>
+<p class="MsoNormal">agebetween</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal"><span style="font-size: 8pt;">Minimum leeftijd tussen deze twee waarden (range splitsen met "..")</span></p>
+<p class="MsoNormal">Minimum leeftijd tussen deze twee waarden (range splitsen met "..")</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number..Number</span></p>
+<p class="MsoNormal">Number..Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">agebetween=3..6</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">agebetween=3..6</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">age</span></p>
+<p class="MsoNormal">age</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Minimum leeftijd</span></p>
+<p class="MsoNormal">Minimum leeftijd</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number</span></p>
+<p class="MsoNormal">Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">age=18</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">age=18</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">isfree</span></p>
+<p class="MsoNormal">isfree</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Gratis events</span></p>
+<p class="MsoNormal">Gratis events</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span></p>
+<p class="MsoNormal">Boolean</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">isfree=true</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">isfree=true</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">permanent</span></p>
+<p class="MsoNormal">permanent</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal"><span style="font-size: 8pt;">Permanente events (vb. vaste collecties, monumenten, etc.)</span></p>
+<p class="MsoNormal">Permanente events (vb. vaste collecties, monumenten, etc.)</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span></p>
+<p class="MsoNormal">Boolean</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">permanent=true</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">permanent=true</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">temporary</span></p>
+<p class="MsoNormal">temporary</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal"><span style="font-size: 8pt;">Tijdelijke events (met start- en einddatum)</span></p>
+<p class="MsoNormal">Tijdelijke events (met start- en einddatum)</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span></p>
+<p class="MsoNormal">Boolean</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">temporary=true</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">temporary=true</p>
 </td>
 </tr><tr><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p><span style="font-size:11px;">lng</span></p>
+<p><span style="font-size:11px;">lng</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p><span style="font-size:11px;">Vertalingen van events opzoeken</span></p>
+<p><span style="font-size:11px;">Vertalingen van events opzoeken</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p><span style="font-size:11px;">Text</span></p>
+<p><span style="font-size:11px;">Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p><span style="font-size:11px;">lng=fr</span></p>
+<p><span style="font-size:11px;">lng=fr</p>
 <p>					lng=en</p>
-<p><span style="font-size:11px;">lng=de</span></p>
+<p><span style="font-size:11px;">lng=de</p>
 </td>
 </tr></tbody></table>
 
 #### ZOEKEN OP KRUISVERWIJZINGEN EN KEYWORDS
 
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="656"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="146">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="230">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="137">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="143">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">k</span></p>
+<p class="MsoNormal">k</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Keywords en tags<br>
-					Om een keyword uit te sluiten, voeg je een "!" toe. </span></p>
+<p class="MsoNormal">Keywords en tags<br>
+					Om een keyword uit te sluiten, voeg je een "!" toe. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span></p>
+<p class="MsoNormal">Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="143">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">k=a-kaart<br>
-					k=!a-kaart</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">k=a-kaart<br>
+					k=!a-kaart</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">locationkeyword</span></p>
+<p class="MsoNormal">locationkeyword</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;">Keywords toegevoegd aan de actorfiche van de locatie</span></p>
+<p class="MsoNormal">Keywords toegevoegd aan de actorfiche van de locatie</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span></p>
+<p class="MsoNormal">Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="143">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">locationkeyword=UiTinVlaanderen filmlocatie </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">locationkeyword=UiTinVlaanderen filmlocatie </p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">organiserkeyword</span></p>
+<p class="MsoNormal">organiserkeyword</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;">Keywords toegevoegd aan de actorfiche van de organisator</span></p>
+<p class="MsoNormal">Keywords toegevoegd aan de actorfiche van de organisator</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span></p>
+<p class="MsoNormal">Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="143">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">organiserkeyword=cavaria</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">organiserkeyword=cavaria</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">location</span></p>
+<p class="MsoNormal">location</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Alle evenementen die op een bepaalde locatie plaatsvinden. De ID van de locatie vind je terug in de response voor een list query.<br>
-					Je kan de resultaten voor locaties uitsluiten door een "!" voor de locatie te plaatsen. </span></span></p>
+<p class="MsoNormal">Alle evenementen die op een bepaalde locatie plaatsvinden. De ID van de locatie vind je terug in de response voor een list query.<br>
+					Je kan de resultaten voor locaties uitsluiten door een "!" voor de locatie te plaatsen. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">GUID or Text</span></p>
+<p class="MsoNormal">GUID or Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="143">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">location=Kunstencentrum Vooruit<br>
-					location=!CC De Spil </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">location=Kunstencentrum Vooruit<br>
+					location=!CC De Spil </p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">organiser</span></p>
+<p class="MsoNormal">organiser</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;">Alle evenementen die georganiseerd worden door een bepaalde organisator. De ID van de organisator vind je terug in de response voor een list query.<br>
-					Om een organisatie uit te sluiten, voeg je een "!" toe </span></p>
+<p class="MsoNormal">Alle evenementen die georganiseerd worden door een bepaalde organisator. De ID van de organisator vind je terug in de response voor een list query.<br>
+					Om een organisatie uit te sluiten, voeg je een "!" toe </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">GUID or Text</span></p>
+<p class="MsoNormal">GUID or Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="143">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">organiser=15298A88-D02D-FF59-172893158E752D90<br>
-					organiser=!Bou8 </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">organiser=15298A88-D02D-FF59-172893158E752D90<br>
+					organiser=!Bou8 </p>
 </td>
 </tr></tbody></table>
 
 #### ZOEKEN OP CATEGORIEËN
 
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="654"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="146">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="230">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="137">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="141">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">eventtype</span></p>
+<p class="MsoNormal">eventtype</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">bijv. concert, film, tentoonstelling<br>
+<p class="MsoNormal">bijv. concert, film, tentoonstelling<br>
 					Om een bepaald type uit te sluiten, voeg je een "!" toe.<br>
 					Je kan zowel de ID van een categorie gebruiken als het label.<br>
-					In je agenda kan je de types gebruiken voor de verfijningen. Voor de hoofdnavigatie volstaan de headings (zie verder).<br></span></span></p>
+					In je agenda kan je de types gebruiken voor de verfijningen. Voor de hoofdnavigatie volstaan de headings (zie verder).<br></p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">(x.x.x.x.x)</span></p>
+<p class="MsoNormal">(x.x.x.x.x)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">type=0.10.0.0.0;0.11.0.0.0<br>
-					type=!0.10.0.0.0 </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">type=0.10.0.0.0;0.11.0.0.0<br>
+					type=!0.10.0.0.0 </p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">thema </span></p>
+<p class="MsoNormal">thema </p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Waarover gaat het aanbod? bijv. geschiedenis, beeldende kunst, popmuziek.<br>
+<p class="MsoNormal">Waarover gaat het aanbod? bijv. geschiedenis, beeldende kunst, popmuziek.<br>
 					Om een bepaald thema uit te sluiten, voeg je een "!" toe.<br>
-					Je kan zowel de ID van een categorie gebruiken als het label.</span></span><br><span style="font-size: 8pt;"><span class="style1">In je agenda kan je de thema's gebruiken voor de verfijningen. Voor de hoofdnavigatie volstaan de headings (zie verder).</span></span></p>
+					Je kan zowel de ID van een categorie gebruiken als het label.<br>In je agenda kan je de thema's gebruiken voor de verfijningen. Voor de hoofdnavigatie volstaan de headings (zie verder).</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">(x.x.x.x.x)</span></p>
+<p class="MsoNormal">(x.x.x.x.x)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">thema=1.0.1.0.0;1.2.2.0.0<br>
-					thema=muziek </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">thema=1.0.1.0.0;1.2.2.0.0<br>
+					thema=muziek </p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">targetaudience</span></p>
+<p class="MsoNormal">targetaudience</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Tot welke doelgroep richt men zich met het aanbod?<br>
+<p class="MsoNormal">Tot welke doelgroep richt men zich met het aanbod?<br>
 					Om bepaalde doelgroepen uit te sluiten, voeg je een "!" toe.<br>
-					Je kan zowel de ID van een categorie gebruiken als het label. </span></span></p>
+					Je kan zowel de ID van een categorie gebruiken als het label. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (x.x.x.x.x)</span></p>
+<p class="MsoNormal">Text (x.x.x.x.x)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">targetaudience=2.1.5.0.0</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">targetaudience=2.1.5.0.0</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">facility</span></p>
+<p class="MsoNormal">facility</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">bijv. autoparking, voorzieningen voor mensen met een auditieve handicap, enz.<br>
+<p class="MsoNormal">bijv. autoparking, voorzieningen voor mensen met een auditieve handicap, enz.<br>
 					Om bepaalde voorzieningen uit te sluiten, voeg je een "!" toe.<br>
-					Je kan zowel de ID van een categorie gebruiken als het label. </span></span></p>
+					Je kan zowel de ID van een categorie gebruiken als het label. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (x.x.x.x.x)</span></p>
+<p class="MsoNormal">Text (x.x.x.x.x)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">facility=3.5.0.0.0</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">facility=3.5.0.0.0</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">publicscope</span></p>
+<p class="MsoNormal">publicscope</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Tot welk publiek / pers richt men zich met het evenement: lokaal, regionaal, nationaal,...<br>
+<p class="MsoNormal">Tot welk publiek / pers richt men zich met het evenement: lokaal, regionaal, nationaal,...<br>
 					Om bepaalde scopes uit te sluiten, voeg je een "!" toe.<br>
-					Je kan zowel de ID van een categorie gebruiken als het label. </span></span></p>
+					Je kan zowel de ID van een categorie gebruiken als het label. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (x.x.x.x.x)</span></p>
+<p class="MsoNormal">Text (x.x.x.x.x)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">publicscope=6.1.0.0.0</span><br><span lang="EN-US" style="font-size: 8pt; font-weight: bold;" xml:lang="EN-US"> </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">publicscope=6.1.0.0.0<br><span lang="EN-US" style="font-size: 8pt; font-weight: bold;" xml:lang="EN-US"> </p>
 <p>&nbsp;</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">locationtype</span></p>
+<p class="MsoNormal">locationtype</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">bijv. kunstencentrum, bibliotheek,...<br>
+<p class="MsoNormal">bijv. kunstencentrum, bibliotheek,...<br>
 					Om een bepaald locatietype uit te sluiten, voeg je een "!" toe.<br>
-					Je kan zowel de ID van een categorie gebruiken als het label. </span></span></p>
+					Je kan zowel de ID van een categorie gebruiken als het label. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (x.x.x.x.x)</span></p>
+<p class="MsoNormal">Text (x.x.x.x.x)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">locationtype=8.6.0.0.0</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">locationtype=8.6.0.0.0</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">heading</span></p>
+<p class="MsoNormal">heading</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">De UiTdatabankcategorisatie is fijnmazig en zodoende niet altijd geschikt als sitenavigatie of rubrieken in brochures. Hiervoor stelt de UiTdatabank "headings" ter beschikking. Headings zijn "mappings" van de categorisatie. </span></span></p>
+<p class="MsoNormal">De UiTdatabankcategorisatie is fijnmazig en zodoende niet altijd geschikt als sitenavigatie of rubrieken in brochures. Hiervoor stelt de UiTdatabank "headings" ter beschikking. Headings zijn "mappings" van de categorisatie. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text ( Number)</span></p>
+<p class="MsoNormal">Text ( Number)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">heading=14;15;16;17;18;19;20<br>
-					heading=muziek;film</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">heading=14;15;16;17;18;19;20<br>
+					heading=muziek;film</p>
 </td>
 </tr></tbody></table>
 
@@ -393,123 +393,123 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 #### ZOEKEN OP KALENDERINFORMATIE
 
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="652"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="146">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="230">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="137">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="139">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">daterange</span></p>
+<p class="MsoNormal">daterange</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;">Alle evenementen die tussen een bepaalde start- en een bepaalde einddatum plaatsvinden. </span></p>
+<p class="MsoNormal">Alle evenementen die tussen een bepaalde start- en een bepaalde einddatum plaatsvinden. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Date..Date (yyyy-m-d..yyyy-m-dTH.m)</span></p>
+<p class="MsoNormal">Date..Date (yyyy-m-d..yyyy-m-dTH.m)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="139">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">daterange=2010-04-21..2010-04-28</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">daterange=2010-04-21..2010-04-28</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">date</span></p>
+<p class="MsoNormal">date</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span class="style1">Alle evenementen die plaatsvinden op één of meerdere tijdstippen </span></p>
+<p class="MsoNormal">Alle evenementen die plaatsvinden op één of meerdere tijdstippen </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Date (yyyy-m-d; yyyy-m-dTH.m)</span></p>
+<p class="MsoNormal">Date (yyyy-m-d; yyyy-m-dTH.m)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="139">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">date=2008-09-19;2008-09-20;2008-09-21</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">date=2008-09-19;2008-09-20;2008-09-21</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">datetype</span></p>
+<p class="MsoNormal">datetype</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">(d.i. de snelste methode) alle evenementen die tijdens een vastgestelde periode plaatsvinden.</span></span></p>
+<p class="MsoNormal">(d.i. de snelste methode) alle evenementen die tijdens een vastgestelde periode plaatsvinden.</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (today, tomorrow, thisweek, nextweekend, thismonth, next30days, next3months, next6months, next12months)</span></p>
+<p class="MsoNormal">Text (today, tomorrow, thisweek, nextweekend, thismonth, next30days, next3months, next6months, next12months)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="139">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">datetype=today</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">datetype=today</p>
 </td>
 </tr></tbody></table><p class="emphasize rteleft">ZOEKEN OP GEOGRAFISCHE INFORMATIE</p>
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="603"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="102">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="169">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="66">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">zip</span></p>
+<p class="MsoNormal">zip</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Postcode van de locatie</span></p>
+<p class="MsoNormal">Postcode van de locatie</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number</span></p>
+<p class="MsoNormal">Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">zip=2020</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">zip=2020</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">city</span></p>
+<p class="MsoNormal">city</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Stad van de locatie</span></p>
+<p class="MsoNormal">Stad van de locatie</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span></p>
+<p class="MsoNormal">Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">city=Antwerpen</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">city=Antwerpen</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">cityid</span></p>
+<p class="MsoNormal">cityid</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;">CityID van de stad van locatie</span></p>
+<p class="MsoNormal">CityID van de stad van locatie</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (0000_CITY)</span></p>
+<p class="MsoNormal">Text (0000_CITY)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">cityid=2520_RANST</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">cityid=2520_RANST</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">regio</span></p>
+<p class="MsoNormal">regio</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;">ID of naam van een regio</span></p>
+<p class="MsoNormal">ID of naam van een regio</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text or Number</span></p>
+<p class="MsoNormal">Text or Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">regio=32<br>
-					regio=Provincie Limburg </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">regio=32<br>
+					regio=Provincie Limburg </p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">latlng</span></p>
+<p class="MsoNormal">latlng</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;">GIS-coördinaten van een item. Je kan alle evenementen opvragen die plaatsvinden in een radius rond de vastgestelde coördinaten door een "!" te plaatsen voor de radius.</span></p>
+<p class="MsoNormal">GIS-coördinaten van een item. Je kan alle evenementen opvragen die plaatsvinden in een radius rond de vastgestelde coördinaten door een "!" te plaatsen voor de radius.</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Decimal;Decimal!Number</span></p>
+<p class="MsoNormal">Decimal;Decimal!Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
 <p align="center" class="MsoNormal style1" style="text-align: left;">latlng=51.022350;4.547600!5km</p>
@@ -519,50 +519,50 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 #### ZOEKEN OP METADATA
 
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="603"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="102">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="169">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="66">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">createdby</span></p>
+<p class="MsoNormal">createdby</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;">UiTdatabank usernaam die het item heeft aangemaakt</span></p>
+<p class="MsoNormal">UiTdatabank usernaam die het item heeft aangemaakt</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span></p>
+<p class="MsoNormal">Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">createdby=syximport</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">createdby=syximport</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">changedsince</span></p>
+<p class="MsoNormal">changedsince</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Alle evenementen versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.<br>
-					Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation).</span></span></p>
+<p class="MsoNormal">Alle evenementen versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.<br>
+					Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation).</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Date (yyyy-m-d; yyyy-m-dTH.m)</span></p>
+<p class="MsoNormal">Date (yyyy-m-d; yyyy-m-dTH.m)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
 <p align="center" class="style1" style="text-align: left;">changedsince=2010-01-19T20.00</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">hasimage</span></p>
+<p class="MsoNormal">hasimage</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Alle evenementen met één of meerdere afbeeldingen.</span></span></p>
+<p class="MsoNormal">Alle evenementen met één of meerdere afbeeldingen.</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span></p>
+<p class="MsoNormal">Boolean</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
 <p align="center" class="style1" style="text-align: left;">hasimage=true</p>
@@ -574,39 +574,39 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 #### ZOEKEN OP WIE / WAT
 
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="659"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="162">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="255">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="152">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="200">
-<p class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voobeeld</span></span></p>
+<p class="MsoNormal" style="text-align: center;">Voobeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">q</span></p>
+<p class="MsoNormal">q</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal" style=""><span style="font-size: 8pt;">Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen:</span></p>
+<p class="MsoNormal" style="">Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen:</p>
 <ul type="disc"><li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">titel</span></li>
+						titel</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">korte beschrijving</span></li>
+						korte beschrijving</li>
 <li class="style1">
 						organisatietype</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">ID</span></li>
-</ul><p class="MsoNormal" style=""><span style="font-size: 8pt;">Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar:</span></p>
+						ID</li>
+</ul><p class="MsoNormal" style="">Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar:</p>
 <ul type="disc"><li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">OR</span></li>
+						OR</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">Dubbele aanhalingstekens voor exacte zoekopdrachten</span></li>
+						Dubbele aanhalingstekens voor exacte zoekopdrachten</li>
 </ul><p class="MsoNormal">&nbsp;</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span></p>
+<p class="MsoNormal">Text</p>
 </td>
 <td align="left" style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="200">
 <p align="left" class="MsoNormal style1" style="text-align: left;">q=Kunstencentrum Vooruit</p>
@@ -618,167 +618,170 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 #### ZOEKEN OP KRUISVERWIJZINGEN EN KEYWORDS
 
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="656"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="146">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="230">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="137">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="143">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">k</span></p>
+<p class="MsoNormal">k</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US"><span class="style1">Keywords toegevoegd aan de actorfiche van de locatie. </span></span></p>
+<p class="MsoNormal">Keywords toegevoegd aan de actorfiche van de locatie. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span></p>
+<p class="MsoNormal">Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="143">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">k=UiTinVlaanderen filmlocatie </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">k=UiTinVlaanderen filmlocatie </p>
 </td>
 </tr></tbody></table>
 
 #### ZOEKEN OP CATEGORIEËN
 
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="654"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="146">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="230">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="137">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="141">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">type</span></p>
+<p class="MsoNormal">type</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">bijv. kunstencentrum, bibliotheek,...<br>
+<p class="MsoNormal">bijv. kunstencentrum, bibliotheek,...<br>
 					Om een bepaald locatietype uit te sluiten, voeg je een "!" toe.<br>
-					Je kan zowel de ID van een categorie gebruiken als het label. </span></span></p>
+					Je kan zowel de ID van een categorie gebruiken als het label. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (x.x.x.x.x)</span></p>
+<p class="MsoNormal">Text (x.x.x.x.x)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">locationtype=8.6.0.0.0</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">locationtype=8.6.0.0.0</p>
 </td>
 </tr></tbody></table><p class="emphasize rteleft">ZOEKEN OP GEOGRAFISCHE INFORMATIE</p>
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="603"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="102">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="169">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="66">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">zip</span></p>
+<p class="MsoNormal">zip</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Postcode van de locatie</span></p>
+<p class="MsoNormal">Postcode van de locatie</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number</span></p>
+<p class="MsoNormal">Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">zip=2020</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">zip=2020</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">city</span></p>
+<p class="MsoNormal">city</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Stad van de locatie</span></p>
+<p class="MsoNormal">Stad van de locatie</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span></p>
+<p class="MsoNormal">Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">city=Antwerpen</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">city=Antwerpen</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">cityid</span></p>
+<p class="MsoNormal">cityid</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;">CityID van de stad van locatie</span></p>
+<p class="MsoNormal">CityID van de stad van locatie</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (0000_CITY)</span></p>
+<p class="MsoNormal">Text (0000_CITY)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">cityid=2520_RANST</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">cityid=2520_RANST</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">regio</span></p>
+<p class="MsoNormal">regio</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;">ID of naam van een regio</span></p>
+<p class="MsoNormal">ID of naam van een regio</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text or Number</span></p>
+<p class="MsoNormal">Text or Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">regio=32<br>
-					regio=Provincie Limburg </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">regio=32<br>
+					regio=Provincie Limburg </p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">latlng</span></p>
+<p class="MsoNormal">latlng</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;">GIS-coördinaten van een item. Je kan alle locaties opvragen die zich in een radius situeren rond de vastgestelde coördinaten door een "!" te plaatsen voor de radius.</span></p>
+<p class="MsoNormal">GIS-coördinaten van een item. Je kan alle locaties opvragen die zich in een radius situeren rond de vastgestelde coördinaten door een "!" te plaatsen voor de radius.</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Decimal;Decimal!Number</span></p>
+<p class="MsoNormal">Decimal;Decimal!Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
 <p align="center" class="MsoNormal style1" style="text-align: left;">latlng=51.022350;4.547600!5km</p>
 </td>
-</tr></tbody></table><p class="emphasize rteleft">ZOEKEN OP METADATA</p>
+</tr></tbody></table>
+
+#### ZOEKEN OP METADATA
+
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="603"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="102">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="169">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="66">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">changedsince</span></p>
+<p class="MsoNormal">changedsince</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Alle evenementen versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.<br>
-					Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation).</span></span></p>
+<p class="MsoNormal">Alle evenementen versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.<br>
+					Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation).</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Date (yyyy-m-d; yyyy-m-dTH.m)</span></p>
+<p class="MsoNormal">Date (yyyy-m-d; yyyy-m-dTH.m)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="66">
 <p align="center" class="style1" style="text-align: left;">changedsince=2010-01-19T20.00</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">hasimage</span></p>
+<p class="MsoNormal">hasimage</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Alle evenementen met één of meerdere afbeeldingen.</span></span></p>
+<p class="MsoNormal">Alle evenementen met één of meerdere afbeeldingen.</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span></p>
+<p class="MsoNormal">Boolean</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
 <p align="center" class="style1" style="text-align: left;">hasimage=true</p>
@@ -790,41 +793,41 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 #### ZOEKEN OP WIE / WAT
 
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="659"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="162">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="255">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="152">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="200">
-<p class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voobeeld</span></span></p>
+<p class="MsoNormal" style="text-align: center;">Voobeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">q</span></p>
+<p class="MsoNormal">q</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal" style=""><span style="font-size: 8pt;">Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen:</span></p>
+<p class="MsoNormal" style="">Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen:</p>
 <ul type="disc"><li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">titel</span></li>
+						titel</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">korte beschrijving</span></li>
+						korte beschrijving</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">uitvoerders</span></li>
+						uitvoerders</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">categorisatiefacetten</span></li>
+						categorisatiefacetten</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">ID</span></li>
-</ul><p class="MsoNormal" style=""><span style="font-size: 8pt;">Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar:</span></p>
+						ID</li>
+</ul><p class="MsoNormal" style="">Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar:</p>
 <ul type="disc"><li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">OR</span></li>
+						OR</li>
 <li class="MsoNormal" style="">
-						<span style="font-size: 8pt;">Dubbele aanhalingstekens voor exacte zoekopdrachten</span></li>
+						Dubbele aanhalingstekens voor exacte zoekopdrachten</li>
 </ul><p class="MsoNormal">&nbsp;</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span></p>
+<p class="MsoNormal">Text</p>
 </td>
 <td align="left" style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="200">
 <p align="left" class="MsoNormal style1" style="text-align: left;">q=Puppet Shadows</p>
@@ -832,245 +835,248 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 <p align="left" class="MsoNormal style1" style="text-align: left;">q=Last OR shadow OR puppets</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">agebetween</span></p>
+<p class="MsoNormal">agebetween</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal"><span style="font-size: 8pt;">Minimum leeftijd tussen deze twee waarden (range splitsen met "..")</span></p>
+<p class="MsoNormal">Minimum leeftijd tussen deze twee waarden (range splitsen met "..")</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number..Number</span></p>
+<p class="MsoNormal">Number..Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">agebetween=3..6</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">agebetween=3..6</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">age</span></p>
+<p class="MsoNormal">age</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Minimum leeftijd</span></p>
+<p class="MsoNormal">Minimum leeftijd</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number</span></p>
+<p class="MsoNormal">Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">age=18</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">age=18</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">isfree</span></p>
+<p class="MsoNormal">isfree</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Gratis 
-</span></p>
+<p class="MsoNormal">Gratis 
+</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span></p>
+<p class="MsoNormal">Boolean</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">isfree=true</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">isfree=true</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">permanent</span></p>
+<p class="MsoNormal">permanent</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal"><span style="font-size: 8pt;">Permanente events (vb. vaste collecties, monumenten, etc.)</span></p>
+<p class="MsoNormal">Permanente events (vb. vaste collecties, monumenten, etc.)</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span></p>
+<p class="MsoNormal">Boolean</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">permanent=false</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">permanent=false</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">temporary</span></p>
+<p class="MsoNormal">temporary</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal"><span style="font-size: 8pt;">Tijdelijke events (met start- en einddatum)</span></p>
+<p class="MsoNormal">Tijdelijke events (met start- en einddatum)</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span></p>
+<p class="MsoNormal">Boolean</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="200">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">temporary=false</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">temporary=false</p>
 </td>
 </tr></tbody></table>
 
 #### ZOEKEN OP KRUISVERWIJZINGEN EN KEYWORDS
 
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="656"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="146">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="230">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="137">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="143">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">k</span></p>
+<p class="MsoNormal">k</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Keywords en tags<br>
-					Om een keyword uit te sluiten, voeg je een "!" toe. </span></p>
+<p class="MsoNormal">Keywords en tags<br>
+					Om een keyword uit te sluiten, voeg je een "!" toe. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span></p>
+<p class="MsoNormal">Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="143">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">k=a-kaart<br>
-					k=!a-kaart</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">k=a-kaart<br>
+					k=!a-kaart</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">location</span></p>
+<p class="MsoNormal">location</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Alle producties die op een bepaalde locatie plaatsvinden. De ID van de locatie vind je terug in de response voor een list query.<br>
-					Je kan de resultaten voor locaties uitsluiten door een "!" voor de locatie te plaatsen. </span></span></p>
+<p class="MsoNormal">Alle producties die op een bepaalde locatie plaatsvinden. De ID van de locatie vind je terug in de response voor een list query.<br>
+					Je kan de resultaten voor locaties uitsluiten door een "!" voor de locatie te plaatsen. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">GUID or Text</span></p>
+<p class="MsoNormal">GUID or Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="143">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">location=Kunstencentrum Vooruit<br>
-					location=!CC De Spil </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">location=Kunstencentrum Vooruit<br>
+					location=!CC De Spil </p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">organiser</span></p>
+<p class="MsoNormal">organiser</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;">Alle producties die georganiseerd worden door een bepaalde organisator. De ID van de organisator vind je terug in de response voor een list query.<br>
-					Om een organisatie uit te sluiten, voeg je een "!" toe </span></p>
+<p class="MsoNormal">Alle producties die georganiseerd worden door een bepaalde organisator. De ID van de organisator vind je terug in de response voor een list query.<br>
+					Om een organisatie uit te sluiten, voeg je een "!" toe </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">GUID or Text</span></p>
+<p class="MsoNormal">GUID or Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="143">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">organiser=15298A88-D02D-FF59-172893158E752D90<br>
-					organiser=!Bou8 </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">organiser=15298A88-D02D-FF59-172893158E752D90<br>
+					organiser=!Bou8 </p>
 </td>
 </tr></tbody></table>
 
 #### ZOEKEN OP CATEGORIEËN
 
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="654"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="146">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="230">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="137">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="141">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">eventtype</span></p>
+<p class="MsoNormal">eventtype</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">bijv. concert, film, tentoonstelling<br>
+<p class="MsoNormal">bijv. concert, film, tentoonstelling<br>
 					Om een bepaald type uit te sluiten, voeg je een "!" toe.<br>
-					Je kan zowel de ID van een categorie gebruiken als het label.<br></span></span></p>
+					Je kan zowel de ID van een categorie gebruiken als het label.<br></p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">(x.x.x.x.x)</span></p>
+<p class="MsoNormal">(x.x.x.x.x)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">type=0.10.0.0.0;0.11.0.0.0<br>
-					type=!0.10.0.0.0 </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">type=0.10.0.0.0;0.11.0.0.0<br>
+					type=!0.10.0.0.0 </p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">thema </span></p>
+<p class="MsoNormal">thema </p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Waarover gaat het aanbod? bijv. geschiedenis, beeldende kunst, popmuziek.<br>
+<p class="MsoNormal">Waarover gaat het aanbod? bijv. geschiedenis, beeldende kunst, popmuziek.<br>
 					Om een bepaald thema uit te sluiten, voeg je een "!" toe.<br>
-					Je kan zowel de ID van een categorie gebruiken als het label. </span></span></p>
+					Je kan zowel de ID van een categorie gebruiken als het label. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">(x.x.x.x.x)</span></p>
+<p class="MsoNormal">(x.x.x.x.x)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">thema=1.0.1.0.0;1.2.2.0.0<br>
-					thema=muziek </span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">thema=1.0.1.0.0;1.2.2.0.0<br>
+					thema=muziek </p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">targetaudience</span></p>
+<p class="MsoNormal">targetaudience</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Tot welke doelgroep richt men zich met het aanbod?<br>
+<p class="MsoNormal">Tot welke doelgroep richt men zich met het aanbod?<br>
 					Om bepaalde doelgroepen uit te sluiten, voeg je een "!" toe.<br>
-					Je kan zowel de ID van een categorie gebruiken als het label. </span></span></p>
+					Je kan zowel de ID van een categorie gebruiken als het label. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (x.x.x.x.x)</span></p>
+<p class="MsoNormal">Text (x.x.x.x.x)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">targetaudience=2.1.5.0.0</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">targetaudience=2.1.5.0.0</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">facility</span></p>
+<p class="MsoNormal">facility</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">bijv. autoparking, voorzieningen voor mensen met een auditieve handicap, enz.<br>
+<p class="MsoNormal">bijv. autoparking, voorzieningen voor mensen met een auditieve handicap, enz.<br>
 					Om bepaalde voorzieningen uit te sluiten, voeg je een "!" toe.<br>
-					Je kan zowel de ID van een categorie gebruiken als het label. </span></span></p>
+					Je kan zowel de ID van een categorie gebruiken als het label. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (x.x.x.x.x)</span></p>
+<p class="MsoNormal">Text (x.x.x.x.x)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">facility=3.5.0.0.0</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">facility=3.5.0.0.0</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="146">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">heading</span></p>
+<p class="MsoNormal">heading</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="230">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">De UiTdatabankcategorisatie is fijnmazig en zodoende niet altijd geschikt als sitenavigatie of rubrieken in brochures. Hiervoor stelt de UiTdatabank "headings" ter beschikking. Headings zijn "mappings" van de categorisatie. </span></span></p>
+<p class="MsoNormal">De UiTdatabankcategorisatie is fijnmazig en zodoende niet altijd geschikt als sitenavigatie of rubrieken in brochures. Hiervoor stelt de UiTdatabank "headings" ter beschikking. Headings zijn "mappings" van de categorisatie. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="137">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number</span></p>
+<p class="MsoNormal">Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="141">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">heading=14;15;16;17;18;19;20<br>
-					heading=muziek;film</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">heading=14;15;16;17;18;19;20<br>
+					heading=muziek;film</p>
 </td>
-</tr></tbody></table><p class="emphasize rteleft">ZOEKEN OP METADATA</p>
+</tr></tbody></table>
+
+#### ZOEKEN OP METADATA
+
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="603"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="102">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="169">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="66">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">changedsince</span></p>
+<p class="MsoNormal">changedsince</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Alle producties versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.<br>
-					Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation).</span></span></p>
+<p class="MsoNormal">Alle producties versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.<br>
+					Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation).</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Date (yyyy-m-d; yyyy-m-dTH.m)</span></p>
+<p class="MsoNormal">Date (yyyy-m-d; yyyy-m-dTH.m)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="66">
 <p align="center" class="style1" style="text-align: left;">changedsince=2010-01-19T20.00</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">hasimage</span></p>
+<p class="MsoNormal">hasimage</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;"><span class="style1">Alle evenementen met één of meerdere afbeeldingen.</span></span></p>
+<p class="MsoNormal">Alle evenementen met één of meerdere afbeeldingen.</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span></p>
+<p class="MsoNormal">Boolean</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
 <p align="center" class="style1" style="text-align: left;">hasimage=true</p>
@@ -1078,74 +1084,74 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 </tr></tbody></table><h1 class="rteleft">
 	<a name="7" id="7"></a>Parameters die de output wijzigen</h1>
 <table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="603"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="102">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Naam parameter</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" width="169">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Beschrijving</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="66">
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;">Voorbeeld</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">format</span></p>
+<p class="MsoNormal">format</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;">Het formaat van de return. Het default response formaat is XML. Om een response in het JSON formaat te ontvangen, gebruik je format=json</span></p>
+<p class="MsoNormal">Het formaat van de return. Het default response formaat is XML. Om een response in het JSON formaat te ontvangen, gebruik je format=json</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (json)</span></p>
+<p class="MsoNormal">Text (json)</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
-<p align="center" class="MsoNormal" style="text-align: left;"><span class="style1">format=json</span></p>
+<p align="center" class="MsoNormal" style="text-align: left;">format=json</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">sort</span></p>
+<p class="MsoNormal">sort</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US"><span class="style1">Resultaten kunnen gesorteerd worden. Standaard worden de resultaten gesorteerd volgens een specifiek algoritme dat nabijheid in tijd, het publieksbereik van het event, de volledigheid/kwaliteit van de informatie en de duurtijd van het evenement in rekening neemt.</span></span></p>
+<p class="MsoNormal">Resultaten kunnen gesorteerd worden. Standaard worden de resultaten gesorteerd volgens een specifiek algoritme dat nabijheid in tijd, het publieksbereik van het event, de volledigheid/kwaliteit van de informatie en de duurtijd van het evenement in rekening neemt.</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (age, title, location, city, date, created, weight, weightweek, proximity)</span> <b>Opgepast, 'proximity' werkt enkel in combinatie met 'latlng'</b>.</p>
+<p class="MsoNormal">Text (age, title, location, city, date, created, weight, weightweek, proximity) <b>Opgepast, 'proximity' werkt enkel in combinatie met 'latlng'</b>.</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
 <p align="center" class="style1" style="text-align: left;">sort=city desc</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">page</span></p>
+<p class="MsoNormal">page</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;">Resultatenpagina die moet worden getoond. Maw de huidige pagina in het totaal aan pagina's. De default waarde is 1. </span></p>
+<p class="MsoNormal">Resultatenpagina die moet worden getoond. Maw de huidige pagina in het totaal aan pagina's. De default waarde is 1. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number</span></p>
+<p class="MsoNormal">Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
 <p align="center" class="style1" style="text-align: left;">page=2</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">pagelength</span></p>
+<p class="MsoNormal">pagelength</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;">Het aantal items op een resultatenpagina (default 50)</span></p>
+<p class="MsoNormal">Het aantal items op een resultatenpagina (default 50)</p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number</span></p>
+<p class="MsoNormal">Number</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
 <p align="center" class="style1" style="text-align: left;">pagelength=10</p>
 </td>
 </tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="102">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">callback</span></p>
+<p class="MsoNormal">callback</p>
 </td>
 <td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="169">
-<p class="MsoNormal"><span style="font-size: 8pt;">Gebruikt om json return op te vragen. In de callback parameter kan je de javascript wrapper functie opnemen die je wil hanteren.<br>
-					Enkel mogelijk bij events, niet bij actors en productions. </span></p>
+<p class="MsoNormal">Gebruikt om json return op te vragen. In de callback parameter kan je de javascript wrapper functie opnemen die je wil hanteren.<br>
+					Enkel mogelijk bij events, niet bij actors en productions. </p>
 </td>
 <td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="95">
-<p class="MsoNormal"><span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span></p>
+<p class="MsoNormal">Text</p>
 </td>
 <td style="width: 42.55pt; padding: 0cm 5.4pt;" width="57">
 <p align="center" class="style1" style="text-align: left;">callback=resultset</p>
@@ -1154,38 +1160,38 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 
  | 
 
-<span class="style1">cityid=2520_RANST</span>
+cityid=2520_RANST
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">regio</span>
+regio
 
  | 
 
-<span style="font-size: 8pt;">ID of naam van een regio</span>
+ID of naam van een regio
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text or Number</span>
+Text or Number
 
  | 
 
-<span class="style1">regio=32
-regio=Provincie Limburg</span>
+regio=32
+regio=Provincie Limburg
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">latlng</span>
+latlng
 
  | 
 
-<span style="font-size: 8pt;">GIS-coördinaten van een item. Je kan alle evenementen opvragen die plaatsvinden in een radius rond de vastgestelde coördinaten door een "!" te plaatsen voor de radius.</span>
+GIS-coördinaten van een item. Je kan alle evenementen opvragen die plaatsvinden in een radius rond de vastgestelde coördinaten door een "!" te plaatsen voor de radius.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Decimal;Decimal!Number</span>
+Decimal;Decimal!Number
 
  | 
 
@@ -1193,54 +1199,54 @@ latlng=51.022350;4.547600!5km
 
  |
 
-ZOEKEN OP METADATA
+#### ZOEKEN OP METADATA
 
 | 
 
-<span style="font-size: 8pt; font-weight: bold;">Naam parameter</span>
+Naam parameter
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Beschrijving</span>
+Beschrijving
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span>
+Datatype voor input
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span>
+Voorbeeld
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">createdby</span>
+createdby
 
  | 
 
-<span style="font-size: 8pt;">UiTdatabank usernaam die het item heeft aangemaakt</span>
+UiTdatabank usernaam die het item heeft aangemaakt
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span>
+Text
 
  | 
 
-<span class="style1">createdby=syximport</span>
+createdby=syximport
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">changedsince</span>
+changedsince
 
  | 
 
-<span style="font-size: 8pt;"><span class="style1">Alle evenementen versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.
-Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation).</span></span>
+Alle evenementen versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.
+Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation).
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Date (yyyy-m-d; yyyy-m-dTH.m)</span>
+Date (yyyy-m-d; yyyy-m-dTH.m)
 
  | 
 
@@ -1249,15 +1255,15 @@ changedsince=2010-01-19T20.00
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">hasimage</span>
+hasimage
 
  | 
 
-<span style="font-size: 8pt;"><span class="style1">Alle evenementen met één of meerdere afbeeldingen.</span></span>
+Alle evenementen met één of meerdere afbeeldingen.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span>
+Boolean
 
  | 
 
@@ -1271,42 +1277,42 @@ ZOEKEN OP WIE / WAT
 
 | 
 
-<span style="font-size: 8pt; font-weight: bold;">Naam parameter</span>
+Naam parameter
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Beschrijving</span>
+Beschrijving
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span>
+Datatype voor input
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voobeeld</span></span>
+Voobeeld
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">q</span>
+q
 
  | 
 
-<span style="font-size: 8pt;">Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen:</span>
+Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen:
 
-*   <span style="font-size: 8pt;">titel</span>
-*   <span style="font-size: 8pt;">korte beschrijving</span>
+*   titel
+*   korte beschrijving
 *   organisatietype
-*   <span style="font-size: 8pt;">ID</span>
+*   ID
 
-<span style="font-size: 8pt;">Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar:</span>
+Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar:
 
-*   <span style="font-size: 8pt;">OR</span>
-*   <span style="font-size: 8pt;">Dubbele aanhalingstekens voor exacte zoekopdrachten</span>
+*   OR
+*   Dubbele aanhalingstekens voor exacte zoekopdrachten
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span>
+Text
 
  | 
 
@@ -1322,36 +1328,36 @@ ZOEKEN OP KRUISVERWIJZINGEN EN KEYWORDS
 
 | 
 
-<span style="font-size: 8pt; font-weight: bold;">Naam parameter</span>
+Naam parameter
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Beschrijving</span>
+Beschrijving
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span>
+Datatype voor input
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span>
+Voorbeeld
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">k</span>
+k
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US"><span class="style1">Keywords toegevoegd aan de actorfiche van de locatie.</span></span>
+Keywords toegevoegd aan de actorfiche van de locatie.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span>
+Text
 
  | 
 
-<span class="style1">k=UiTinVlaanderen filmlocatie</span>
+k=UiTinVlaanderen filmlocatie
 
  |
 
@@ -1359,38 +1365,38 @@ ZOEKEN OP CATEGORIEËN
 
 | 
 
-<span style="font-size: 8pt; font-weight: bold;">Naam parameter</span>
+Naam parameter
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Beschrijving</span>
+Beschrijving
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span>
+Datatype voor input
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span>
+Voorbeeld
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">type</span>
+type
 
  | 
 
-<span style="font-size: 8pt;"><span class="style1">bijv. kunstencentrum, bibliotheek,...
+bijv. kunstencentrum, bibliotheek,...
 Om een bepaald locatietype uit te sluiten, voeg je een "!" toe.
-Je kan zowel de ID van een categorie gebruiken als het label.</span></span>
+Je kan zowel de ID van een categorie gebruiken als het label.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (x.x.x.x.x)</span>
+Text (x.x.x.x.x)
 
  | 
 
-<span class="style1">locationtype=8.6.0.0.0</span>
+locationtype=8.6.0.0.0
 
  |
 
@@ -1398,101 +1404,101 @@ ZOEKEN OP GEOGRAFISCHE INFORMATIE
 
 | 
 
-<span style="font-size: 8pt; font-weight: bold;">Naam parameter</span>
+Naam parameter
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Beschrijving</span>
+Beschrijving
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span>
+Datatype voor input
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span>
+Voorbeeld
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">zip</span>
+zip
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Postcode van de locatie</span>
+Postcode van de locatie
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number</span>
+Number
 
  | 
 
-<span class="style1">zip=2020</span>
+zip=2020
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">city</span>
+city
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Stad van de locatie</span>
+Stad van de locatie
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span>
+Text
 
  | 
 
-<span class="style1">city=Antwerpen</span>
+city=Antwerpen
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">cityid</span>
+cityid
 
  | 
 
-<span style="font-size: 8pt;">CityID van de stad van locatie</span>
+CityID van de stad van locatie
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (0000_CITY)</span>
+Text (0000_CITY)
 
  | 
 
-<span class="style1">cityid=2520_RANST</span>
+cityid=2520_RANST
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">regio</span>
+regio
 
  | 
 
-<span style="font-size: 8pt;">ID of naam van een regio</span>
+ID of naam van een regio
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text or Number</span>
+Text or Number
 
  | 
 
-<span class="style1">regio=32
-regio=Provincie Limburg</span>
+regio=32
+regio=Provincie Limburg
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">latlng</span>
+latlng
 
  | 
 
-<span style="font-size: 8pt;">GIS-coördinaten van een item. Je kan alle locaties opvragen die zich in een radius situeren rond de vastgestelde coördinaten door een "!" te plaatsen voor de radius.</span>
+GIS-coördinaten van een item. Je kan alle locaties opvragen die zich in een radius situeren rond de vastgestelde coördinaten door een "!" te plaatsen voor de radius.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Decimal;Decimal!Number</span>
+Decimal;Decimal!Number
 
  | 
 
@@ -1500,37 +1506,37 @@ latlng=51.022350;4.547600!5km
 
  |
 
-ZOEKEN OP METADATA
+#### ZOEKEN OP METADATA
 
 | 
 
-<span style="font-size: 8pt; font-weight: bold;">Naam parameter</span>
+Naam parameter
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Beschrijving</span>
+Beschrijving
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span>
+Datatype voor input
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span>
+Voorbeeld
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">changedsince</span>
+changedsince
 
  | 
 
-<span style="font-size: 8pt;"><span class="style1">Alle evenementen versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.
-Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation).</span></span>
+Alle evenementen versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.
+Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation).
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Date (yyyy-m-d; yyyy-m-dTH.m)</span>
+Date (yyyy-m-d; yyyy-m-dTH.m)
 
  | 
 
@@ -1539,15 +1545,15 @@ changedsince=2010-01-19T20.00
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">hasimage</span>
+hasimage
 
  | 
 
-<span style="font-size: 8pt;"><span class="style1">Alle evenementen met één of meerdere afbeeldingen.</span></span>
+Alle evenementen met één of meerdere afbeeldingen.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span>
+Boolean
 
  | 
 
@@ -1555,219 +1561,92 @@ hasimage=true
 
  |
 
-# <a name="6" id="6"></a>Production
+### Production
 
-ZOEKEN OP WIE / WAT
+#### ZOEKEN OP WIE / WAT
+
+| Naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
+| q | Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen: titel, korte beschrijving, uitvoerders,categorisatiefacetten, ID. Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar: OR en dubbele aanhalingstekens voor exacte zoekopdrachten | Text | q=Puppet Shadows of q="Last shadow puppets" of q=Last OR shadow OR puppets |
+| agebetween | Minimum leeftijd tussen deze twee waarden (range splitsen met "..") | Number..Number | agebetween=3..6 |
+| age | Minimum leeftijd | Number | age=18 |
+| isfree | Gratis events | Boolean | isfree=true
+| permanent | Permanente events (vb. vaste collecties, monumenten, etc.) | Boolean | permanent=false
+| temporary | Tijdelijke events (met start- en einddatum) | Boolean | temporary=false
+
+#### ZOEKEN OP KRUISVERWIJZINGEN EN KEYWORDS
 
 | 
 
-<span style="font-size: 8pt; font-weight: bold;">Naam parameter</span>
+Naam parameter
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Beschrijving</span>
+Beschrijving
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span>
+Datatype voor input
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voobeeld</span></span>
+Voorbeeld
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">q</span>
+k
 
  | 
 
-<span style="font-size: 8pt;">Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen:</span>
-
-*   <span style="font-size: 8pt;">titel</span>
-*   <span style="font-size: 8pt;">korte beschrijving</span>
-*   <span style="font-size: 8pt;">uitvoerders</span>
-*   <span style="font-size: 8pt;">categorisatiefacetten</span>
-*   <span style="font-size: 8pt;">ID</span>
-
-<span style="font-size: 8pt;">Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar:</span>
-
-*   <span style="font-size: 8pt;">OR</span>
-*   <span style="font-size: 8pt;">Dubbele aanhalingstekens voor exacte zoekopdrachten</span>
+Keywords en tags
+Om een keyword uit te sluiten, voeg je een "!" toe.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span>
+Text
 
  | 
 
-q=Puppet Shadows
-
-q="Last shadow puppets"
-
-q=Last OR shadow OR puppets
+k=a-kaart
+k=!a-kaart
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">agebetween</span>
+location
 
  | 
 
-<span style="font-size: 8pt;">Minimum leeftijd tussen deze twee waarden (range splitsen met "..")</span>
+Alle producties die op een bepaalde locatie plaatsvinden. De ID van de locatie vind je terug in de response voor een list query.
+Je kan de resultaten voor locaties uitsluiten door een "!" voor de locatie te plaatsen.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number..Number</span>
+GUID or Text
 
  | 
 
-<span class="style1">agebetween=3..6</span>
+location=Kunstencentrum Vooruit
+location=!CC De Spil
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">age</span>
+organiser
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Minimum leeftijd</span>
+Alle producties die georganiseerd worden door een bepaalde organisator. De ID van de organisator vind je terug in de response voor een list query.
+Om een organisatie uit te sluiten, voeg je een "!" toe
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number</span>
+GUID or Text
 
  | 
 
-<span class="style1">age=18</span>
-
- |
-| 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">isfree</span>
-
- | 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Gratis events</span>
-
- | 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span>
-
- | 
-
-<span class="style1">isfree=true</span>
-
- |
-| 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">permanent</span>
-
- | 
-
-<span style="font-size: 8pt;">Permanente events (vb. vaste collecties, monumenten, etc.)</span>
-
- | 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span>
-
- | 
-
-<span class="style1">permanent=false</span>
-
- |
-| 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">temporary</span>
-
- | 
-
-<span style="font-size: 8pt;">Tijdelijke events (met start- en einddatum)</span>
-
- | 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span>
-
- | 
-
-<span class="style1">temporary=false</span>
-
- |
-
-ZOEKEN OP KRUISVERWIJZINGEN EN KEYWORDS
-
-| 
-
-<span style="font-size: 8pt; font-weight: bold;">Naam parameter</span>
-
- | 
-
-<span style="font-size: 8pt; font-weight: bold;">Beschrijving</span>
-
- | 
-
-<span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span>
-
- | 
-
-<span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span>
-
- |
-| 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">k</span>
-
- | 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Keywords en tags
-Om een keyword uit te sluiten, voeg je een "!" toe.</span>
-
- | 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span>
-
- | 
-
-<span class="style1">k=a-kaart
-k=!a-kaart</span>
-
- |
-| 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">location</span>
-
- | 
-
-<span style="font-size: 8pt;"><span class="style1">Alle producties die op een bepaalde locatie plaatsvinden. De ID van de locatie vind je terug in de response voor een list query.
-Je kan de resultaten voor locaties uitsluiten door een "!" voor de locatie te plaatsen.</span></span>
-
- | 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">GUID or Text</span>
-
- | 
-
-<span class="style1">location=Kunstencentrum Vooruit
-location=!CC De Spil</span>
-
- |
-| 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">organiser</span>
-
- | 
-
-<span style="font-size: 8pt;">Alle producties die georganiseerd worden door een bepaalde organisator. De ID van de organisator vind je terug in de response voor een list query.
-Om een organisatie uit te sluiten, voeg je een "!" toe</span>
-
- | 
-
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">GUID or Text</span>
-
- | 
-
-<span class="style1">organiser=15298A88-D02D-FF59-172893158E752D90
-organiser=!Bou8</span>
+organiser=15298A88-D02D-FF59-172893158E752D90
+organiser=!Bou8
 
  |
 
@@ -1775,116 +1654,116 @@ ZOEKEN OP CATEGORIEËN
 
 | 
 
-<span style="font-size: 8pt; font-weight: bold;">Naam parameter</span>
+Naam parameter
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Beschrijving</span>
+Beschrijving
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span>
+Datatype voor input
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span>
+Voorbeeld
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">eventtype</span>
+eventtype
 
  | 
 
-<span style="font-size: 8pt;"><span class="style1">bijv. concert, film, tentoonstelling
+bijv. concert, film, tentoonstelling
 Om een bepaald type uit te sluiten, voeg je een "!" toe.
 Je kan zowel de ID van een categorie gebruiken als het label.
-</span></span>
+
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">(x.x.x.x.x)</span>
+(x.x.x.x.x)
 
  | 
 
-<span class="style1">type=0.10.0.0.0;0.11.0.0.0
-type=!0.10.0.0.0</span>
+type=0.10.0.0.0;0.11.0.0.0
+type=!0.10.0.0.0
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">thema</span>
+thema
 
  | 
 
-<span style="font-size: 8pt;"><span class="style1">Waarover gaat het aanbod? bijv. geschiedenis, beeldende kunst, popmuziek.
+Waarover gaat het aanbod? bijv. geschiedenis, beeldende kunst, popmuziek.
 Om een bepaald thema uit te sluiten, voeg je een "!" toe.
-Je kan zowel de ID van een categorie gebruiken als het label.</span></span>
+Je kan zowel de ID van een categorie gebruiken als het label.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">(x.x.x.x.x)</span>
+(x.x.x.x.x)
 
  | 
 
-<span class="style1">thema=1.0.1.0.0;1.2.2.0.0
-thema=muziek</span>
+thema=1.0.1.0.0;1.2.2.0.0
+thema=muziek
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">targetaudience</span>
+targetaudience
 
  | 
 
-<span style="font-size: 8pt;"><span class="style1">Tot welke doelgroep richt men zich met het aanbod?
+Tot welke doelgroep richt men zich met het aanbod?
 Om bepaalde doelgroepen uit te sluiten, voeg je een "!" toe.
-Je kan zowel de ID van een categorie gebruiken als het label.</span></span>
+Je kan zowel de ID van een categorie gebruiken als het label.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (x.x.x.x.x)</span>
+Text (x.x.x.x.x)
 
  | 
 
-<span class="style1">targetaudience=2.1.5.0.0</span>
+targetaudience=2.1.5.0.0
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">facility</span>
+facility
 
  | 
 
-<span style="font-size: 8pt;"><span class="style1">bijv. autoparking, voorzieningen voor mensen met een auditieve handicap, enz.
+bijv. autoparking, voorzieningen voor mensen met een auditieve handicap, enz.
 Om bepaalde voorzieningen uit te sluiten, voeg je een "!" toe.
-Je kan zowel de ID van een categorie gebruiken als het label.</span></span>
+Je kan zowel de ID van een categorie gebruiken als het label.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (x.x.x.x.x)</span>
+Text (x.x.x.x.x)
 
  | 
 
-<span class="style1">facility=3.5.0.0.0</span>
+facility=3.5.0.0.0
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">heading</span>
+heading
 
  | 
 
-<span style="font-size: 8pt;"><span class="style1">De UiTdatabankcategorisatie is fijnmazig en zodoende niet altijd geschikt als sitenavigatie of rubrieken in brochures. Hiervoor stelt de UiTdatabank "headings" ter beschikking. Headings zijn "mappings" van de categorisatie.</span></span>
+De UiTdatabankcategorisatie is fijnmazig en zodoende niet altijd geschikt als sitenavigatie of rubrieken in brochures. Hiervoor stelt de UiTdatabank "headings" ter beschikking. Headings zijn "mappings" van de categorisatie.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number</span>
+Number
 
  | 
 
-<span class="style1">heading=14;15;16;17;18;19;20
-heading=muziek;film</span>
+heading=14;15;16;17;18;19;20
+heading=muziek;film
 
  |
 
@@ -1892,33 +1771,33 @@ ZOEKEN OP METADATA
 
 | 
 
-<span style="font-size: 8pt; font-weight: bold;">Naam parameter</span>
+Naam parameter
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Beschrijving</span>
+Beschrijving
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span>
+Datatype voor input
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span>
+Voorbeeld
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">changedsince</span>
+changedsince
 
  | 
 
-<span style="font-size: 8pt;"><span class="style1">Alle producties versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.
-Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation).</span></span>
+Alle producties versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.
+Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation).
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Date (yyyy-m-d; yyyy-m-dTH.m)</span>
+Date (yyyy-m-d; yyyy-m-dTH.m)
 
  | 
 
@@ -1927,15 +1806,15 @@ changedsince=2010-01-19T20.00
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">hasimage</span>
+hasimage
 
  | 
 
-<span style="font-size: 8pt;"><span class="style1">Alle evenementen met één of meerdere afbeeldingen.</span></span>
+Alle evenementen met één of meerdere afbeeldingen.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Boolean</span>
+Boolean
 
  | 
 
@@ -1947,49 +1826,49 @@ hasimage=true
 
 | 
 
-<span style="font-size: 8pt; font-weight: bold;">Naam parameter</span>
+Naam parameter
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Beschrijving</span>
+Beschrijving
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;">Datatype voor input</span>
+Datatype voor input
 
  | 
 
-<span style="font-size: 8pt; font-weight: bold;"><span class="style1">Voorbeeld</span></span>
+Voorbeeld
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">format</span>
+format
 
  | 
 
-<span style="font-size: 8pt;">Het formaat van de return. Het default response formaat is XML. Om een response in het JSON formaat te ontvangen, gebruik je format=json</span>
+Het formaat van de return. Het default response formaat is XML. Om een response in het JSON formaat te ontvangen, gebruik je format=json
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (json)</span>
+Text (json)
 
  | 
 
-<span class="style1">format=json</span>
+format=json
 
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">sort</span>
+sort
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US"><span class="style1">Resultaten kunnen gesorteerd worden. Standaard worden de resultaten gesorteerd volgens een specifiek algoritme dat nabijheid in tijd, het publieksbereik van het event, de volledigheid/kwaliteit van de informatie en de duurtijd van het evenement in rekening neemt.</span></span>
+Resultaten kunnen gesorteerd worden. Standaard worden de resultaten gesorteerd volgens een specifiek algoritme dat nabijheid in tijd, het publieksbereik van het event, de volledigheid/kwaliteit van de informatie en de duurtijd van het evenement in rekening neemt.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text (age, title, location, city, date, created, weight, weightweek, proximity)</span> **Opgepast, 'proximity' werkt enkel in combinatie met 'latlng'**.
+Text (age, title, location, city, date, created, weight, weightweek, proximity) **Opgepast, 'proximity' werkt enkel in combinatie met 'latlng'**.
 
  | 
 
@@ -1998,15 +1877,15 @@ sort=city desc
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">page</span>
+page
 
  | 
 
-<span style="font-size: 8pt;">Resultatenpagina die moet worden getoond. Maw de huidige pagina in het totaal aan pagina's. De default waarde is 1\.</span>
+Resultatenpagina die moet worden getoond. Maw de huidige pagina in het totaal aan pagina's. De default waarde is 1\.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number</span>
+Number
 
  | 
 
@@ -2015,15 +1894,15 @@ page=2
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">pagelength</span>
+pagelength
 
  | 
 
-<span style="font-size: 8pt;">Het aantal items op een resultatenpagina (default 50)</span>
+Het aantal items op een resultatenpagina (default 50)
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Number</span>
+Number
 
  | 
 
@@ -2032,16 +1911,16 @@ pagelength=10
  |
 | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">callback</span>
+callback
 
  | 
 
-<span style="font-size: 8pt;">Gebruikt om json return op te vragen. In de callback parameter kan je de javascript wrapper functie opnemen die je wil hanteren.
-Enkel mogelijk bij events, niet bij actors en productions.</span>
+Gebruikt om json return op te vragen. In de callback parameter kan je de javascript wrapper functie opnemen die je wil hanteren.
+Enkel mogelijk bij events, niet bij actors en productions.
 
  | 
 
-<span lang="EN-US" style="font-size: 8pt;" xml:lang="EN-US">Text</span>
+Text
 
  | 
 
