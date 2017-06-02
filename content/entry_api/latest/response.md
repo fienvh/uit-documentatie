@@ -7,18 +7,72 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 
 ## Item aangemaakt
 
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”INFO” version=”0.1”>
+  <code>ItemCreated</code>
+  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+</rsp>
+```
+
 ## Item aangepast
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”INFO” version=”0.1”>
+  <code>ItemModified</code>
+  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+</rsp>
+```
 
 ## Item verwijderd
 
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”INFO” version=”0.1”>
+  <code>ItemWithdrawn</code>
+</rsp>
+```
+
 ## Vertaling toegevoegd
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”INFO” version=”0.1”>
+  <code>TranslationCreated</code>
+  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+</rsp>
+```
 
 ## Vertaling verwijderd
 
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”INFO” version=”0.1”>
+  <code>TranslationWithdrawn</code>
+  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+</rsp>
+```
+
 ## Tag toegevoegd
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”INFO” version=”0.1”>
+  <code>KeywordsCreated</code>
+  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+</rsp>
+```
 
 ## Tag verwijderd
 
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”INFO” version=”0.1”>
+  <code>KeywordWithdrawn</code>
+  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+</rsp>
+```
 
 # Foutmelding
 
