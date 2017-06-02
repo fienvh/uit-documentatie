@@ -7,7 +7,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 
 ## Item aangemaakt
 
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>ItemCreated</code>
@@ -17,7 +17,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 
 ## Item aangepast
 
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>ItemModified</code>
@@ -27,7 +27,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 
 ## Item verwijderd
 
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>ItemWithdrawn</code>
@@ -36,7 +36,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 
 ## Vertaling toegevoegd
 
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>TranslationCreated</code>
@@ -46,7 +46,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 
 ## Vertaling verwijderd
 
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>TranslationWithdrawn</code>
@@ -56,7 +56,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 
 ## Tag toegevoegd
 
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>KeywordsCreated</code>
@@ -66,7 +66,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 
 ## Tag verwijderd
 
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>KeywordWithdrawn</code>
@@ -78,7 +78,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 
 ## Meer dan één item in de reqeust
 
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
   <code>TooManyItems</code>
@@ -89,7 +89,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 
 ## Actor verwijderen waaraan events gekoppeld zijn
 
-``` 
+```XML
 ERROR 409 CONFLICT
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
@@ -100,7 +100,7 @@ ERROR 409 CONFLICT
 
 ## Marker toegevoegd zonder de juiste rechten
 
-```
+```XML
 ERROR 401 Unauthorized
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
@@ -111,7 +111,7 @@ ERROR 401 Unauthorized
 
 ## SQL statements of Javascript-fragmenten gevonden in de request
 
-```
+```XML
 ERROR 400 Bad Request
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
@@ -122,7 +122,7 @@ ERROR 400 Bad Request
 
 ## Duplicaat gevonden
 
-```
+```XML
 <rsp level=”ERROR” version=”0.1”>
   <code>DuplicateContent</code>
   <link>http://www.uitdatabank.be/api/v2/event/123123123</link>
@@ -132,7 +132,7 @@ ERROR 400 Bad Request
 
 ## Het document is te groot (max. 100K)
 
-```
+```XML
 	<rsp level=”ERROR” version=”0.1”>
 
 	  <code>FilesizeTooLarge</code>
@@ -145,7 +145,7 @@ ERROR 400 Bad Request
 
 ## Maximum aantal requests overschreden
 
-```
+```XML
 <rsp level=”ERROR” version=”0.1”>
   <code>TooManyRequests</code>
   <message>Maximum number of requests exceeded. Account deactivated.</message>
@@ -154,7 +154,7 @@ ERROR 400 Bad Request
 
 ## Ander karakter dan UTF-8 encodering gevonden
 
-```
+```XML
 	<rsp level=”ERROR” version=”0.1”>
 
 	  <code>UnknownCharacter</code>
@@ -167,7 +167,7 @@ ERROR 400 Bad Request
 
 ## CdbXML is niet well-formed of valid
 
-```
+```XML
 <rsp level=”ERROR” version=”0.1”>
   <code>XmlSyntaxError</code>
   <message>XML is not well-formed.</message>
@@ -176,7 +176,7 @@ ERROR 400 Bad Request
 
 ## Authenticatie niet geslaagd
 
-```
+```XML
 ERROR 430 Authentication Failed
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
@@ -189,7 +189,7 @@ ERROR 430 Authentication Failed
 
 ## Username en paswoord niet secure verstuurd
 
-```
+```XML
 ERROR 400 Bad Request
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
@@ -200,7 +200,7 @@ ERROR 400 Bad Request
 
 ## Eén of meer verplichte velden niet voorzien
 
-```
+```XML
 ERROR 423 Validation Error
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
@@ -211,32 +211,56 @@ ERROR 423 Validation Error
 
 ## Formattering niet correct
 
-```
-
+```XML
+ERROR 423 Validation Error
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”ERROR” version=”0.1”>
+  <code>ValidationError</code>
+  <message><formatconstraintviolated>...</formatconstraintviolated></message>
+</rsp>
 ```
 
 ## Gerefereerd item niet gevonden
 
-```
-
+```XML
+ERROR 423 Validation Error
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”ERROR” version=”0.1”>
+  <code>ValidationError</code>
+  <message><noreferencefound>...</noreferencefound></message>
+</rsp>
 ```
 
 ## Niet bestaande resource bevraagd
 
-```
-
+```XML
+ERROR 404 Not Found
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”INFO” version=”0.1”>
+  <code>NotFound</code>
+  <message>Resource not found.</message>
+</rsp>
 ```
 
 ## Verplichte parameter ontbreekt
 
-```
-
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”ERROR” version=”0.1”>
+  <code>MissingParameters</code>
+  <message>Required parameter missing.</message>
+</rsp>
 ```
 
 ## Eenzelfde parameter wordt meermaals voorzien
 
-```
-
+```XML
+ERROR 400 Bad Request
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”ERROR” version=”0.1”>
+  <code>DuplicateParameter</code>
+  <message>Duplicate parameter found.</message>
+</rsp>
 ```
 
 
