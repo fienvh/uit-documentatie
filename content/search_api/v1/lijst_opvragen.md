@@ -62,7 +62,7 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 
 #### ZOEKEN OP WIE / WAT
 
-| Naam parameter| Beschrijving | Datatype voor input | Voorbeeld
+| Naam parameter| Beschrijving | Datatype voor input | Voorbeeld | 
 | q | Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen: titel, korte beschrijving, lange beschrijving, locatienaam, stad, uitvoerders, categorisatiefacetten, id, organisator, tags en markers.
 Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar: OR of dubbele aanhalingstekens voor exacte zoekopdrachten | Text | q=Puppet Shadows, q="Last shadow puppets", q=Last OR shadow OR puppets |
 | agebetween | Minimum leeftijd tussen deze twee waarden (range splitsen met "..") | Number..Number | agebetween=3..6
