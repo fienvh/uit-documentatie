@@ -573,47 +573,9 @@ Onderstaande tabel biedt een overzicht van alle inputparameters die kunnen worde
 
 #### ZOEKEN OP WIE / WAT
 
-<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse;" width="659"><tbody><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" width="162">
-<p align="center" class="MsoNormal" style="text-align: center;">Naam parameter</p>
-</td>
-<td style="width: 127.1pt; padding: 0cm 5.4pt;" width="255">
-<p align="center" class="MsoNormal" style="text-align: center;">Beschrijving</p>
-</td>
-<td style="width: 71.35pt; padding: 0cm 5.4pt;" width="152">
-<p align="center" class="MsoNormal" style="text-align: center;">Datatype voor input</p>
-</td>
-<td style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="200">
-<p class="MsoNormal" style="text-align: center;">Voobeeld</p>
-</td>
-</tr><tr style=""><td style="width: 76.3pt; padding: 0cm 5.4pt;" valign="top" width="162">
-<p class="MsoNormal">q</p>
-</td>
-<td style="width: 127.1pt; padding: 0cm 5.4pt;" valign="top" width="255">
-<p class="MsoNormal" style="">Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen:</p>
-<ul type="disc"><li class="MsoNormal" style="">
-						titel</li>
-<li class="MsoNormal" style="">
-						korte beschrijving</li>
-<li class="style1">
-						organisatietype</li>
-<li class="MsoNormal" style="">
-						ID</li>
-</ul><p class="MsoNormal" style="">Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar:</p>
-<ul type="disc"><li class="MsoNormal" style="">
-						OR</li>
-<li class="MsoNormal" style="">
-						Dubbele aanhalingstekens voor exacte zoekopdrachten</li>
-</ul><p class="MsoNormal">&nbsp;</p>
-</td>
-<td style="width: 71.35pt; padding: 0cm 5.4pt;" valign="top" width="152">
-<p class="MsoNormal">Text</p>
-</td>
-<td align="left" style="width: 42.55pt; padding: 0cm 5.4pt;" valign="top" width="200">
-<p align="left" class="MsoNormal style1" style="text-align: left;">q=Kunstencentrum Vooruit</p>
-<p align="left" class="MsoNormal style1" style="text-align: left;">q="Kunstencentrum Vooruit"</p>
-<p align="left" class="MsoNormal style1" style="text-align: left;">q=Kunstencentrum OR Vooruit</p>
-</td>
-</tr></tbody></table>
+Naam parameter | Beschrijving | Datatype voor input | Voorbeeld
+q | Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen: titel, korte beschrijving, organisatietype, ID. Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar: OR en dubbele aanhalingstekens voor exacte zoekopdrachten | Text | q=Kunstencentrum Vooruit en 
+q="Kunstencentrum Vooruit" en q=Kunstencentrum OR Vooruit
 
 #### ZOEKEN OP KRUISVERWIJZINGEN EN KEYWORDS
 
