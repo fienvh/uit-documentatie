@@ -38,7 +38,8 @@ Argumenten:
 
 ### POST data
 
-```<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
+~~~ xml
+<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
     <event>
       <calendar>
         <timestamps>
@@ -73,7 +74,7 @@ Argumenten:
       </location>
     </event>
 </cdbxml>
-```
+~~~
 
 ### Response
 

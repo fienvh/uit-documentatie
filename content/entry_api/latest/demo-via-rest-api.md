@@ -14,7 +14,7 @@ Dit deed je als je bovenstaande stappen correct uitvoerde:
 - Over de code op ```https://docs.google.com/open?id=0B_fF2uswSjqbUEVYTDJIUXJaRmc```: De zip bevat een Maven project met daarin een voorbeeld om de UiTdatabank REST API aan te spreken met een Java/Jersey-client. Deel 1 is een UserAccessToken ophalen (beetje omslachtig, omdat je manueel naar de authorize url moet gaan, maar er komt uitleg bij als het het runt) Deel 2 is met dat token requests uitvoeren: een basic search en een event post. De URL en consumer key/secret moeten ingevuld worden in de class Settings. Alle requests hebben ook een logging filter zodat de hele request en response uitgeprint wordt. (handig om te debuggen)
 XML fragment (zie ook in 3 stappen een CdbXML document opstellen)
 
-```XML
+~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
     <event externalid="YourID">
@@ -66,4 +66,4 @@ XML fragment (zie ook in 3 stappen een CdbXML document opstellen)
       </location>
     </event>
 </cdbxml>
-```
+~~~
