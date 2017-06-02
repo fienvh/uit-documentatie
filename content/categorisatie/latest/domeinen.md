@@ -32,7 +32,7 @@ label="Type organisatie of persoon" />
 label="Regio in Vlaanderen en Brussel" />
 </categorisation>
 </cdbxml>
-~~~ xml
+~~~
 
 Voorbeeldresponse http://taxonomy.uitdatabank.be/api/domain/actortype/classification
 
