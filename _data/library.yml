@@ -452,3 +452,11 @@
   versions:
       - name: "latest"
         path: "content/omgevingen/latest/"
+- title: "UiT integreren op je eigen website"
+  description: "Er zijn 3 mogelijkheden om agenda-informatie te integreren."
+  path: "content/integratie-op-je-eigen-website/"
+  category: "Functioneel"
+  weight: 10
+  versions:
+      - name: "latest"
+        path: "content/integratie-op-je-eigen-website/latest/"
