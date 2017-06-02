@@ -89,8 +89,8 @@ Date: Fri, 18 May 2012 07:59:11 GMT
 Content-Length: 2142
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
-  <code>ItemCreated</code>
-  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+<code>ItemCreated</code>
+<link>http://www.uitdatabank.be/api/v2/event/{id}</link>
 </rsp>
 ```
 
@@ -118,8 +118,7 @@ Argumenten:
 
 ### Post data (Zie voorbeeld bij 'item aanmaken')
 
-```
-...
+```...
 ```
 
 ### Response
@@ -135,8 +134,8 @@ Date: Fri, 18 May 2012 07:59:11 GMT
 Content-Length: 2142
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
-  <code>ItemModified</code>
-  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+<code>ItemModified</code>
+<link>http://www.uitdatabank.be/api/v2/event/{id}</link>
 </rsp>
 ```
 
@@ -176,6 +175,6 @@ Date: Fri, 18 May 2012 07:59:11 GMT
 Content-Length: 2142
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
-  <code>ItemWithdrawn</code>
+<code>ItemWithdrawn</code>
 </rsp>
 ```
