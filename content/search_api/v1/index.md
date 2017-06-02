@@ -3,6 +3,8 @@
 
 # Search API 1.0
 
+Onderstaande documentatie dient enkel ter referentie voor bestaande projecten. Search API v1 is end-of-life en zal binnen afzienbare tijd niet meer beschikbaar zijn. Voor nieuwe projecten verwijzen we naar de documentatie van UiTdatabank Search API v2.
+
 De UiTdatabank Search API kan je op twee verschillende manieren gebruiken. Afhankelijk van het type systeem dat je wil gaan bouwen kan je ervoor kiezen te werken met live data of databasesynchronisatie
 
 ## Live data
