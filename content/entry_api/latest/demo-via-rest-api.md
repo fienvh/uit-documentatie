@@ -1,3 +1,69 @@
 ---
 ---
 
+Content beheer via jouw applicatie met de UiTdatabank als backend is eenvoudig. Doorloop volgende stappen en het wordt duidelijk:
+1. **Demo app:** Op ```http://acc.uitid.be/testconsumer/show.jsp``` vind je een demo app.
+2. **Authenticatie:** Via de demo app kan je authenticeren met de user ```tools@cultuurnet.be``` met paswoord devel0per. Dat doe je door te klikken op "connect to culturefeed"
+3. **Event toevoegen:** Na authenticatie kies je als token "User Access Token", als method "POST", als path ```/entry/test.rest.uitdatabank.be/api/v2/event```, als post type "post body" en als post body het onderstaande XML fragment
+
+Dit deed je als je bovenstaande stappen correct uitvoerde:
+- Je gebruikte de demo app waarvan de code op ```https://docs.google.com/file/d/0Bx6M5nQTlPnXN2EtNl9GSVRuTWc``` een deel is (De Jersey client, niet de JSP pagina's),
+- Je voegde een event toe (of paste het aan als een andere developer je voor was) via UiTID in de testomgeving van de UiTdatabank  
+- Hoe met UiTID integreren vind je hier terug: ```tools.uitdatabank.be/docs/uitid```
+- De referentiegids over de Entry API vind je hier terug: ```tools.uitdatabank.be/docs/entry-api```
+- Over de code op ```https://docs.google.com/open?id=0B_fF2uswSjqbUEVYTDJIUXJaRmc```: De zip bevat een Maven project met daarin een voorbeeld om de UiTdatabank REST API aan te spreken met een Java/Jersey-client. Deel 1 is een UserAccessToken ophalen (beetje omslachtig, omdat je manueel naar de authorize url moet gaan, maar er komt uitleg bij als het het runt) Deel 2 is met dat token requests uitvoeren: een basic search en een event post. De URL en consumer key/secret moeten ingevuld worden in de class Settings. Alle requests hebben ook een logging filter zodat de hele request en response uitgeprint wordt. (handig om te debuggen)
+XML fragment (zie ook in 3 stappen een CdbXML document opstellen)
+
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
+    <event externalid="YourID">
+      <agefrom>12</agefrom>
+      <calendar>
+        <timestamps>
+          <timestamp>
+            <date>2010-12-12</date>
+            <timestart>18:00:00</timestart>
+            <timeend>20:00:00</timeend>
+          </timestamp>
+        </timestamps>
+      </calendar>
+      <categories>
+        <category type="eventtype" catid="0.50.4.0.0">Concert</category>
+        <category type="theme" catid="1.8.3.1.0">Pop en rock</category>
+      </categories>
+      <contactinfo>
+        <url>http://www.moreinfo.info</url>
+      </contactinfo>
+      <eventdetails>
+        <eventdetail lang="nl">
+          <performers>
+            <performer><label>Jan De Groot</label></performer>
+            <performer>
+              <role>Regisseur</role>
+              <label>Karel Nieuwenhuyze</label>              
+            </performer>
+          </performers>
+          <media>
+            <file main="true">
+              <hlink>http://www.flickr.com/images/x.jpg</hlink>
+            </file>
+          </media>
+          <shortdescription>Een beschrijving van maximaal 400 karakters.
+          </shortdescription>
+          <title>Event titel</title>
+        </eventdetail>
+      </eventdetails>
+      <location>
+        <address>
+          <physical>
+            <city>Brussel</city>
+            <country>BE</country>
+            <zipcode>1000</zipcode>
+          </physical>
+        </address>
+        <label>Naam locatie</label>
+      </location>
+    </event>
+</cdbxml>
+```
