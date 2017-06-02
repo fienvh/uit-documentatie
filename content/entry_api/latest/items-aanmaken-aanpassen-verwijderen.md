@@ -38,7 +38,7 @@ Argumenten:
 
 ### POST data
 
-```
+```XML
 <cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
     <event>
       <calendar>
@@ -78,7 +78,7 @@ Argumenten:
 
 ### Response
 
-```
+```XML
 HTTP/1.1 200 OK
 Cache-Control: no-cache
 Pragma: no-cache
@@ -123,7 +123,7 @@ Argumenten:
 
 ### Response
 
-```
+```XML
 HTTP/1.1 200 OK
 Cache-Control: no-cache
 Pragma: no-cache
@@ -164,7 +164,7 @@ Een DELETE request om een actor te verwijderen waaraan events gekoppeld zijn is 
 
 ### Response
 
-```
+```XML
 HTTP/1.1 200 OK
 Cache-Control: no-cache
 Pragma: no-cache
