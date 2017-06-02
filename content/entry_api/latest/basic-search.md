@@ -49,7 +49,8 @@ http://www.uitdatabank.be/api/event?q=Kunstencentrum Vooruit
 
 ### Response
 
-```<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.1/FINAL">
+```XML
+<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.1/FINAL">
 <nofrecords>2</nofrecords>
   <list>
     <item cdbid="851d0490-a34a-4b41-980d-5fb0b6493c34" 
@@ -91,7 +92,8 @@ Argumenten:
 
 ## Voorbeeld
 
-```<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.1/FINAL">
+```XML
+<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.1/FINAL">
   <events>
     <event 
       availablefrom="2012-02-10T00:00:00" 
