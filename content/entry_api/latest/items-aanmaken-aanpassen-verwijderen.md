@@ -117,7 +117,8 @@ Argumenten:
 
 ### Post data (Zie voorbeeld bij 'item aanmaken')
 
-```...
+```
+...
 ```
 
 ### Response
