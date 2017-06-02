@@ -19,7 +19,7 @@ Aandachtspunten:
 
 Voorbeeldresponse http://taxonomy.uitdatabank.be/api/domain
 
-```xml
+~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
 <nofresults>10</nofresults>
@@ -32,11 +32,11 @@ label="Type organisatie of persoon" />
 label="Regio in Vlaanderen en Brussel" />
 </categorisation>
 </cdbxml>
-```
+~~~ xml
 
 Voorbeeldresponse http://taxonomy.uitdatabank.be/api/domain/actortype/classification
 
-```xml
+~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
 <categorisation url="http://rest.uitdatabank.be/api/domain/actortype/classification">
@@ -74,4 +74,4 @@ label="Organisator(en)"
 id="8.11.0.0.0" show="false" sort="3" />
 </categorisation>
 </cdbxml>
-```
+~~~
