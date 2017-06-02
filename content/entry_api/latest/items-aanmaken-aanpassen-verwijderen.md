@@ -38,7 +38,7 @@ Argumenten:
 
 ### POST data
 
-<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
+```<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
     <event>
       <calendar>
         <timestamps>
@@ -73,7 +73,7 @@ Argumenten:
       </location>
     </event>
 </cdbxml>
-
+```
 
 ### Response
 
@@ -89,7 +89,7 @@ Content-Length: 2142
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
 <code>ItemCreated</code>
-<link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+<link>uitdatabank.be/api/v2/event/{id}</link>
 </rsp>
 ```
 
@@ -119,6 +119,7 @@ Argumenten:
 
 ```
 ...
+
 ```
 
 ### Response
