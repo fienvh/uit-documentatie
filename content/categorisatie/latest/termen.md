@@ -6,9 +6,8 @@
 Via ```http://taxonomy.uitdatabank.be/api/term``` kunnen alle termen doorzocht worden. Er wordt een platte lijst teruggezonden, al dan niet gefilterd door een ingestelde input parameter.
 
 | Parameter | Type | Beschrijving |
-| -- | -- | -- |
-q | Query String parameter | Mits deze parameter filtert men de resultaten op basis van term benaming of ID. De engine doorzoekt het overzicht van termen,  voegt daarbij wildcards voor en na de ingegeven zoekterm en zoekt in de categorie naam, de vertalingen en het opgegeven ID. Voorbeeld: ```http://taxonomy.uitdatabank.be/api/term?q=pop```
-{ID} | path parameter | Mits deze parameter wordt normaal slechts één zoekresultaat teruggegeven en dat is de term die hoort bij de betreffende ID. Voorbeeld: ```http://taxonomy.uitdatabank.be/api/term/12.1.0.0.0```
+| q | Query String parameter | Mits deze parameter filtert men de resultaten op basis van term benaming of ID. De engine doorzoekt het overzicht van termen,  voegt daarbij wildcards voor en na de ingegeven zoekterm en zoekt in de categorie naam, de vertalingen en het opgegeven ID. Voorbeeld: ```http://taxonomy.uitdatabank.be/api/term?q=pop```
+| {ID} | path parameter | Mits deze parameter wordt normaal slechts één zoekresultaat teruggegeven en dat is de term die hoort bij de betreffende ID. Voorbeeld: ```http://taxonomy.uitdatabank.be/api/term/12.1.0.0.0```
 
 **Voorbeeld response**
 
