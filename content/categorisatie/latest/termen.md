@@ -11,7 +11,7 @@ Via ```http://taxonomy.uitdatabank.be/api/term``` kunnen alle termen doorzocht w
 
 **Voorbeeld response**
 
-~~~xml
+~~~ xml
 <?xml version="1.0" encoding="utf-8"?>
 <cdbxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
  <nofrecords>3</nofrecords>
