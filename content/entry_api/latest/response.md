@@ -17,7 +17,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 </rsp>
 ~~~
 
-## Item aangepast
+### Item aangepast
 
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -27,7 +27,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 </rsp>
 ~~~
 
-## Item verwijderd
+### Item verwijderd
 
 ~~~xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,7 +36,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 </rsp>
 ~~~
 
-## Vertaling toegevoegd
+### Vertaling toegevoegd
 
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -46,7 +46,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 </rsp>
 ~~~
 
-## Vertaling verwijderd
+### Vertaling verwijderd
 
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -56,7 +56,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 </rsp>
 ~~~
 
-## Tag toegevoegd
+### Tag toegevoegd
 
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -66,7 +66,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 </rsp>
 ~~~
 
-## Tag verwijderd
+### Tag verwijderd
 
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -76,9 +76,9 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 </rsp>
 ~~~
 
-# Foutmelding
+## Foutmeldingen
 
-## Meer dan één item in de reqeust
+### Meer dan één item in de reqeust
 
 ~~~xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -89,7 +89,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 </rsp>
 ~~~
 
-## Actor verwijderen waaraan events gekoppeld zijn
+### Actor verwijderen waaraan events gekoppeld zijn
 
 ERROR 409 CONFLICT
 ~~~ xml
@@ -100,9 +100,9 @@ ERROR 409 CONFLICT
 </rsp>
 ~~~
 
-## Marker toegevoegd zonder de juiste rechten
-ERROR 401 Unauthorized
+### Marker toegevoegd zonder de juiste rechten
 
+ERROR 401 Unauthorized
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
@@ -111,9 +111,9 @@ ERROR 401 Unauthorized
 </rsp>
 ~~~
 
-## SQL statements of Javascript-fragmenten gevonden in de request
-ERROR 400 Bad Request
+### SQL statements of Javascript-fragmenten gevonden in de request
 
+ERROR 400 Bad Request
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
@@ -123,7 +123,7 @@ ERROR 400 Bad Request
 ~~~
 
 
-## Duplicaat gevonden
+### Duplicaat gevonden
 
 ~~~ xml
 <rsp level=”ERROR” version=”0.1”>
@@ -133,7 +133,7 @@ ERROR 400 Bad Request
 </rsp>
 ~~~
 
-## Het document is te groot (max. 100K)
+### Het document is te groot (max. 100K)
 
 ~~~ xml
 <rsp level=”ERROR” version=”0.1”>
@@ -142,7 +142,7 @@ ERROR 400 Bad Request
 </rsp>
 ~~~
 
-## Maximum aantal requests overschreden
+### Maximum aantal requests overschreden
 
 ~~~ xml
 <rsp level=”ERROR” version=”0.1”>
@@ -151,7 +151,7 @@ ERROR 400 Bad Request
 </rsp>
 ~~~
 
-## Ander karakter dan UTF-8 encodering gevonden
+### Ander karakter dan UTF-8 encodering gevonden
 
 ~~~ xml
 <rsp level=”ERROR” version=”0.1”>
@@ -160,7 +160,7 @@ ERROR 400 Bad Request
 </rsp>
 ~~~
 
-## CdbXML is niet well-formed of valid
+### CdbXML is niet well-formed of valid
 
 ~~~ xml
 <rsp level=”ERROR” version=”0.1”>
@@ -169,9 +169,9 @@ ERROR 400 Bad Request
 </rsp>
 ~~~
 
-## Authenticatie niet geslaagd
-ERROR 430 Authentication Failed
+### Authenticatie niet geslaagd
 
+ERROR 430 Authentication Failed
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
@@ -182,9 +182,9 @@ ERROR 430 Authentication Failed
 </rsp>
 ~~~
 
-## Username en paswoord niet secure verstuurd
-ERROR 400 Bad Request
+### Username en paswoord niet secure verstuurd
 
+ERROR 400 Bad Request
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
@@ -193,7 +193,7 @@ ERROR 400 Bad Request
 </rsp>
 ~~~
 
-## Eén of meer verplichte velden niet voorzien
+### Eén of meer verplichte velden niet voorzien
 
 ERROR 423 Validation Error
 ~~~ xml
@@ -204,10 +204,9 @@ ERROR 423 Validation Error
 </rsp>
 ~~~
 
-## Formattering niet correct
+### Formattering niet correct
 
 ERROR 423 Validation Error
-
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
@@ -216,9 +215,9 @@ ERROR 423 Validation Error
 </rsp>
 ~~~
 
-## Gerefereerd item niet gevonden
-ERROR 423 Validation Error
+### Gerefereerd item niet gevonden
 
+ERROR 423 Validation Error
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
@@ -227,9 +226,9 @@ ERROR 423 Validation Error
 </rsp>
 ~~~
 
-## Niet bestaande resource bevraagd
-ERROR 404 Not Found
+### Niet bestaande resource bevraagd
 
+ERROR 404 Not Found
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
@@ -238,7 +237,7 @@ ERROR 404 Not Found
 </rsp>
 ~~~
 
-## Verplichte parameter ontbreekt
+### Verplichte parameter ontbreekt
 
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -248,10 +247,9 @@ ERROR 404 Not Found
 </rsp>
 ~~~
 
-## Eenzelfde parameter wordt meermaals voorzien
+### Eenzelfde parameter wordt meermaals voorzien
 
 ERROR 400 Bad Request
-
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
