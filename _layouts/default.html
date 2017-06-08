@@ -12,6 +12,7 @@
 				{% if folder contains version.path %}
 					{% assign selected_book = book %}
 					{% assign selected_version = version %}
+          {% assign selected_status = version.status %}
 				{% endif %}
 			{% endfor %}
 		{% endfor %}
@@ -44,6 +45,18 @@
 				</a>
 
 				<article>
+
+          {% if selected_status=="deprecated" %}
+            <div class="feedback">
+              Deze versie is verouderd en enkel bedoeld als archief. <a href="/{{ selected_book.path }}index.html">Bekijk alle versies.</a>
+            </div>
+          {% endif %}
+
+          {% if page.status=="deprecated" %}
+            <div class="feedback">
+              Deze pagina is verouderd en enkel bedoeld als archief.
+            </div>
+          {% endif %}
 
 					<section class="markdown-body">
 					{{ content }}
