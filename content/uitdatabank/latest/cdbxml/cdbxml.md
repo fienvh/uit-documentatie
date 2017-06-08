@@ -18,7 +18,7 @@ Velden worden in onderliggende secties als hun XPath positie genoteerd. XPath wo
     <year>2005</year>
     <price>29.99</price>
   </book>
-</bookstore></pre>
+</bookstore>
 ```
 
 
