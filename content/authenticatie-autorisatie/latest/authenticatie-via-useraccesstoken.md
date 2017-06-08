@@ -33,14 +33,16 @@ OAuth oauth_callback=”{callback}”, oauth_signature="{signature}", oauth_vers
 
 *Variabelen in header*
 
-| | formaat |	voorbeeld |
-| Callback |	URL | oauth_callback=http%3A%2F%2Fexample.com%2Frequest_token_ready |
-| Signature	| Consumer key en secret worden gecombineerd tot een Signature. | 	oauth_signature="fLkvbX8ynU3rsKd5AqrWwUr2O%2BQ%3D" |
-| Nonce	| Een unieke waarde voor iedere request met dezelfde timestamp. | 	 oauth_nonce="4572616e48616d6d65724c61686176" |
-| Consumerkey	 | 	|  oauth_consumer_key="0685bd9184jfhq22" |
-| Signature method	| UiTiD gebruikt standaard HMAC-SHA1.	oauth_signature_method="HMAC-SHA1"
-| Timestamp	| De Timestamp wordt uitgedrukt in “number of seconds since January 1, 1970 00:00:00 GMT“	|  oauth_timestamp="137131200" |
-| Version	| UiTiD gebruikt OAuth versie 1.0a.	|  oauth_version="1.0" |
+| parameter | formaat |	voorbeeld |
+| --- | --- | --- |
+| Callback | URL | ```oauth_callback=http%3A%2F%2Fexample.com%2Frequest_token_ready``` |
+| Signature	| Consumer key en secret worden gecombineerd tot een Signature. | 	```oauth_signature="fLkvbX8ynU3rsKd5AqrWwUr2O%2BQ%3D"``` |
+| Nonce	| Een unieke waarde voor iedere request met dezelfde timestamp. | 	 ```oauth_nonce="4572616e48616d6d65724c61686176"``` |
+| Consumerkey	 | 	|  ```oauth_consumer_key="0685bd9184jfhq22"``` |
+| Signature method	| UiTiD gebruikt standaard HMAC-SHA1. | 	```oauth_signature_method="HMAC-SHA1"```| 
+| Timestamp	| De Timestamp wordt uitgedrukt in number of seconds since January 1, 1970 00:00:00 GMT“	|  ```oauth_timestamp="137131200"``` |
+| Version	| UiTiD gebruikt OAuth versie 1.0a.	|  ```oauth_version="1.0"``` |
+
 
 
 *Andere headers*
@@ -66,6 +68,7 @@ Het {server} gedeelte van de URL is afhankelijk van de omgeving. De beschikbare 
 *Parameters*
 
 | oauth_token	| (Verplicht) De request token uit de vorige stap |
+| --- | --- |
 | type	| Het type van het UiTiD scherm. Mogelijkheden: regular = toont het login scherm indien de gebruiker niet ingelogd is (default), register = toont altijd het registreer scherm, forcelogin = toont altijd het login scherm, ook al was de gebruiker nog ingelogd |
 | via	|  Stuurt authenticatie automatisch door naar extern sociaal netwerk indien de gebruiker nog niet ingelogd is. Mogelijke waarden: Facebook, Twitter, Google.  Indien de gebruiker al ingelogd is op UiTiD, dan verandert er niets en krijgt de gebruiker dus onmiddellijk ‘Bent u dit?’ te zien. |
 |  skipAuthorization	|  Bepaalt of de autorisatie stap overgeslaan mag worden en de gebruiker ‘automatisch’ toegang verleent tot zijn profiel data aan de Service Consumer dmv in te loggen. Mogelijke waarden: true, false. NOTA: de Service Consumer in kwestie moet beschikken over de permissie ‘autorisatie overslaan’ om gebruik te kunnen maken van deze parameter. Indien de permissie niet toegekend werd, wordt de parameter genegeerd. |
@@ -78,6 +81,7 @@ Daarna wordt de callback URL opgeroepen die ingesteld staat voor deze Service Co
 Na de autorisatie stap wordt de callback URL opgeroepen met volgende parameters:
 
 | oauth_token	| het request token uit stap 1 |
+| --- | --- |
 | oauth_verifier |	een verificatie code om een access token mee op te halen
 Vervolgens kan een access token opgehaald worden via ```{server}/accessToken```
 Het {server} gedeelte van de URL is afhankelijk van de omgeving. De beschikbare omgevingen vind je terug hier. |
