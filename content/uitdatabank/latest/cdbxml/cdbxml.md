@@ -19,7 +19,7 @@ Velden worden in onderliggende secties als hun XPath positie genoteerd. XPath wo
     <price>29.99</price>
   </book>
 </bookstore>
-```
+
 
 
 |   Element  | Voorbeeld|
