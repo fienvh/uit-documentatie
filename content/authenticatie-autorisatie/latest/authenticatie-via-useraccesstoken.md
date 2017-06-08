@@ -15,7 +15,9 @@ Daarna wordt het access token + secret gebruikt om requests te tekenen.
 
 ## 1. Request token ophalen
 
-```{server}/requestToken```
+```
+{server}/requestToken
+```
 
 Het {server} gedeelte van de URL is afhankelijk van de omgeving.
 
@@ -55,7 +57,9 @@ oauth_token={TOKEN}&oauth_token_secret={TOKEN_SECRET}
 
 In deze stap moet de browser van de gebruiker geredirect worden naar:
 
-```{server}/auth/authorize```
+```
+{server}/auth/authorize
+```
 
 Het {server} gedeelte van de URL is afhankelijk van de omgeving. De beschikbare omgevingen vind je terug hier.
 
