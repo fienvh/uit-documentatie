@@ -14,9 +14,9 @@ Waarbij server =
 - live omgeving: ```https://www.uitid.be/uitid/rest/entry/rest.uitdatabank.be```
 
 
-# Item aanmaken
+## Item aanmaken
 
-## Request eigenschappen
+### Request eigenschappen
 
 Method: POST
 URL: ```{server}/api/v2/{event|production|actor}```
@@ -28,15 +28,15 @@ Argumenten:
 | Authenticatie | oAuth informatie, zie authenticatie via UiTID | X |
 | Item | CdbXML 3.2 representatie van het item. Zie in drie stappen een CdbXML document maken | X |
 
-## Voorbeeld
+### Voorbeeld
 
-### Request URL
+#### Request URL
 
 ```
 {server}/api/v2/event
 ```
 
-### POST data
+#### POST data
 
 ~~~ xml
 <cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
@@ -76,7 +76,7 @@ Argumenten:
 </cdbxml>
 ~~~
 
-### Response
+#### Response
 
 ~~~ xml
 HTTP/1.1 200 OK
@@ -94,9 +94,9 @@ Content-Length: 2142
 </rsp>
 ~~~
 
-# Item aanpassen
+## Item aanpassen
 
-## Request eigenschappen
+### Request eigenschappen
 
 Method: PUT
 URL: ```{server}/api/v2/{event|production|actor}/{id}```
@@ -108,22 +108,22 @@ Argumenten:
 | Authenticatie | oAuth informatie, zie authenticatie via UiTID | X |
 | Item | CdbXML 3.2 representatie van het item. Zie in drie stappen een CdbXML document maken | X |
 
-## Voorbeeld
+### Voorbeeld
 
-### Request URL
+#### Request URL
 
 ```
 {server}/api/v2/event/93b34aaf-3f94-4f6e-b514-98a92ca75502
 ```
 
-### Post data (Zie voorbeeld bij 'item aanmaken')
+#### Post data (Zie voorbeeld bij 'item aanmaken')
 
 ```
 ...
 
 ```
 
-### Response
+#### Response
 
 ```
 HTTP/1.1 200 OK
@@ -141,9 +141,9 @@ Content-Length: 2142
 </rsp>
 ```
 
-# Item verwijderen
+## Item verwijderen
 
-## Request eigenschappen
+### Request eigenschappen
 
 Method: DELETE
 URL: ```{server}/api/v2/{event|production|actor}/{id}```
@@ -156,15 +156,15 @@ Argumenten:
 
 Een DELETE request om een actor te verwijderen waaraan events gekoppeld zijn is niet toegestaan.
 
-## Voorbeeld
+### Voorbeeld
 
-### Request URL
+#### Request URL
 
 ```
 {server}/api/v2/event/93b34aaf-3f94-4f6e-b514-98a92ca75502
 ```
 
-### Response
+#### Response
 
 ```
 HTTP/1.1 200 OK
