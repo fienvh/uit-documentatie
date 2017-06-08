@@ -15,7 +15,7 @@ Afhankelijk van het soort request moet al dan niet een UserAccessToken gebruikt 
 
 Voor bijna alle programmeertalen zijn er [verschillende libraries](http://oauth.net/code) beschikbaar.
 
-Voor authenticatie via php met de Cultuurnet-services kan je ook [dit voorbeeld](https://github.com/cultuurnet/php-oauth-example) bekijken.
+Voor authenticatie via php met de Cultuurnet-services kan je ook [dit voorbeeld](authenticatie-via-useraccesstoken) bekijken.
 
 ## Verklarende woordenlijst
 
