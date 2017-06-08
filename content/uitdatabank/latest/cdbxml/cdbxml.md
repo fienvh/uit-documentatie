@@ -9,8 +9,8 @@ CdbXML is een compacte, eenvoudige gegevensstandaard om informatie over het cult
 
 Velden worden in onderliggende secties als hun XPath positie genoteerd. XPath wordt gebruikt om door elementen en attributen in een XML document te navigeren. In XPath wordt een XML document behandeld als een boomstructuur met nodes. Er worden path expressions gebruikt om door de nodes te navigeren. Het bovenste element in de boomstructuur is de root node.
 
-```
-<pre><?xml version="1.0" encoding="ISO-8859-1"?>
+~~~xml
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <bookstore>
   <book>
     <title lang="en">Harry Potter</title>
