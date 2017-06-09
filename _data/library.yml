@@ -82,7 +82,7 @@
         - title: "Lijst opvragen"
           href: "lijst_opvragen"
         - title: "Afbeeldingen opvragen"
-          href: "afbeeldingen_ovragen"
+          href: "afbeeldingen_opvragen"
         - title: "Voorbeeld request"
           href: "voorbeeldrequests"
         - title: "Response"
