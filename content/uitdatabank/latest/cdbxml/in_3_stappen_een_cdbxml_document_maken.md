@@ -17,7 +17,7 @@ Het CdbXML formaat ondersteunt daarnaast nog tal van andere velden en mogelijkhe
 
 De root node ziet er als volgt uit:
 
-```xml
+~~~xml
 <?xml version="1.0" encoding="UTF-8"?>
 <cdbxml
   xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL"
@@ -25,7 +25,7 @@ De root node ziet er als volgt uit:
   xsi:schemaLocation="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL
   http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd">
 </cdbxml>
-```
+~~~
 
 Het XML-document dat je aanlevert moet voldoen aan volgende vormvereisten:
 
@@ -35,7 +35,7 @@ Het XML-document dat je aanlevert moet voldoen aan volgende vormvereisten:
 
 ## Stap 2: verplichte velden ("cdbxml/event")
 
-```xml
+~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
     <event>
@@ -69,13 +69,13 @@ Het XML-document dat je aanlevert moet voldoen aan volgende vormvereisten:
       </location>
     </event>
 </cdbxml>
-```
+~~~
 
 ### //event/calendar
 
 Tijdsinformatie. Het is verplicht aan te geven wanneer het event plaatsvindt. In de meeste gevallen vindt een event plaats op één tijdstip, zoals in het voorbeeld. Dikwijls wordt daarbij ook het aanvangsuur voorzien, en eventueel het einduur:
 
-```xml
+~~~ xml
 <calendar>
   <timestamps>
     <timestamp>
@@ -85,7 +85,7 @@ Tijdsinformatie. Het is verplicht aan te geven wanneer het event plaatsvindt. In
     </timestamp>
   </timestamps>
 </calendar>
-```
+~~~
 
 Let op, als een event op meer dan één tijdstip plaatsvindt, stuur je geen event object door per tijdstip maar voeg je binnen het betreffende event meerdere tijdstippen toe, of een periode, of geef je aan dat het een permanent aanbod is. Zie hiervoor in de sectie [Uitwisselingsformaat in XML](../cdbxml).
 
@@ -113,7 +113,7 @@ De locatie waar het event plaatsvindt. Verplicht is minstens de zipcode, het lan
 
 Geef bij voorkeur ook een straat en een huisnummer zodat de UiTdatabank de correcte GIS coördinaten kan berekenen.
 
-```xml
+~~~ xml
 <location>
   <address>
     <physical>
@@ -126,12 +126,12 @@ Geef bij voorkeur ook een straat en een huisnummer zodat de UiTdatabank de corre
   </address>
   <label>Recyclart</label>
 </location>
-```
+~~~
 
 
 ## Stap 3: wenselijke velden ("cdbxml/event")
 
-```xml
+~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
     <event externalid="YourID">
@@ -189,8 +189,7 @@ Geef bij voorkeur ook een straat en een huisnummer zodat de UiTdatabank de corre
       </organiser>
     </event>
 </cdbxml>
-
-```
+~~~
 
 ### externalid
 
@@ -201,12 +200,12 @@ Zorg ervoor dat het externalid dat je meestuurt uniek is: begin het id met een u
 
 Hierboven bij de verplichte velden stond beschreven dat het verplicht is het type aanbod te voorzien. Voor bepaalde types is het daarnaast zeer wenselijk dat je ook het "thema" meegeeft. Het thema beschrijft "waarover" het betreffende aanbod gaat. Bijv. bij film: horror, comedy, ... bij concert: pop en rock, klassieke muziek, jazz, ...
 
-```xml
+~~~ xml
 <categories>
   <category type="eventtype" catid="0.50.4.0.0</category>
   <category type="theme" catid="1.8.3.1.0</category>
 </categories>
-```
+~~~
 
 De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie: [http://tools.uitdatabank.be/docs/uitdatabank-categorisatie-service](http://tools.uitdatabank.be/docs/uitdatabank-categorisatie-service)
 
@@ -220,7 +219,7 @@ Een korte beschrijving van het event, maximum 400 karakters.
 
 Wie brengt het event; de muzikanten, de regisseur, de lezer, enz. De organisator hoort hier niet thuis, die verstuur je via het veld //event/organiser. Bij de betreffende performer kan je desgewenst zijn "rol" opnemen. D.i. een vrij veld:
 
-```xml
+~~~ xml
 <performers>
   <performer><label>Jan De Groot</label></performer>
   <performer>
@@ -228,7 +227,7 @@ Wie brengt het event; de muzikanten, de regisseur, de lezer, enz. De organisator
     <label>Karel Nieuwenhuyze</label>
   </performer>
 </performers>
-```
+~~~
 
 ### //event/agefrom
 
