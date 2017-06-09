@@ -1,6 +1,8 @@
 ---
 ---
 
+# Basic Search
+
 Als ondersteunende service is een eenvoudige zoekfunctie voorzien om dubbele invoer te vermijden en items te zoeken om aan te passen of uit te breiden.
 
 # Service endpoints
