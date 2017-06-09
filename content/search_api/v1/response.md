@@ -104,7 +104,7 @@ Provinciaal Gallo-Romeins Museum
 | //event/@isparent | x | Is het event een "koepelaanbod", vb. Gentse Feesten. Als een event een koepelaanbod is kan op de detailfiche gezocht worden naar alle evenementen die in het kader van het betreffende event plaatsvinden door de titel van het event door te geven naar de API in de "keyword" input parameter. |
 | //event/agefrom | Voor welke leeftijd is het event geschikt? |
 | //event/calendar | x | Tijdsinformatie op een gestructureerde manier weergegeven. Voor output is er een ongestructureerde weergave beschikbaar in //eventdetail/calendarsummary. |
-| //event/categories | x | De categorieën van het betreffende event: type, thema, doelgroep, publieksbereik ea. Voor meer informatie over de categorisatie zie de [pagina met het datamodel en uitwisselingsformaat](/docs/cdbxml). |
+| //event/categories | x | De categorieën van het betreffende event: type, thema, doelgroep, publieksbereik ea.. |
 | //event/contactinfo | x | Telefoonnrs, e-mailadressen en deeplinks waar men terecht kan voor meer informatie. |
 | //eventdetail/@lang | x | In het eventdetail element wordt de "ongestructureerde" tekstuele informatie opgenomen. Standaard is de informatie beschikbaar in het Nederlands. Bijkomend zijn vertalingen mogelijk naar Frans, Engels en Duits. |
 | //eventdetail/calendarsummary | x | X - wordt automatisch gegenereerd | Ongestructureerde weergave van de tijdsinformatie. |
