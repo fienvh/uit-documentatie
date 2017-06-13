@@ -137,8 +137,6 @@
               href: "domeinmodel/welkomstvoordeel"
             - title: "Vereniging"
               href: "domeinmodel/vereniging"
-            - title: "Event"
-              href: "domeinmodel/event"
             - title: "Coupon"
               href: "domeinmodel/coupon"
             - title: "Groepspas"

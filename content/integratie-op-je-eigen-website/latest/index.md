@@ -32,4 +32,4 @@ Modules waarmee je een UiTagenda integreert in een Drupal-site.
 
 ## Aan de slag
 
-Je vraagt je project aan op [tools.uitdatabank.be](http://tools.uitdatabank.be/).
+Je vraagt je project aan op [tools.uitdatabank.be](https://tools.uitdatabank.be/).
