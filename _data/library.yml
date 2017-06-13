@@ -418,7 +418,7 @@
           href: "balie"
           summary:
           - title: "Aan de slag"
-            href: "balie/index"
+            href: "balie"
 - title: "Authenticatie en autorisatie"
   description: "Hoe kan je verbinden met onze omgevingen?"
   path: "content/authenticatie-autorisatie/"

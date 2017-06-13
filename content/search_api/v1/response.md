@@ -109,7 +109,7 @@ Provinciaal Gallo-Romeins Museum
 | //eventdetail/@lang | x | In het eventdetail element wordt de "ongestructureerde" tekstuele informatie opgenomen. Standaard is de informatie beschikbaar in het Nederlands. Bijkomend zijn vertalingen mogelijk naar Frans, Engels en Duits. |
 | //eventdetail/calendarsummary | x | X - wordt automatisch gegenereerd | Ongestructureerde weergave van de tijdsinformatie. |
 | //eventdetail/performers | Door wie wordt het event opgevoerd, bijv. de regisseur, de muzikanten, enz. In het //performer element zit minstens de naam van de uitvoerder en evt de rol die ze spelen in het event, bijv trompettist, lezer, ... |
-| //eventdetail/media | De thumbnail voor het event maar daarnaast bijkomende verwijzingen naar tal van andere externe objecten zoals videofragmenten, deeplinks naar reservatie informatie enz. Meer informatie vind je via de [pagina met het datamodel en het uitwisselingsformaat](/docs/cdbxml). |
+| //eventdetail/media | De thumbnail voor het event maar daarnaast bijkomende verwijzingen naar tal van andere externe objecten zoals videofragmenten, deeplinks naar reservatie informatie enz. |
 | //eventdetail/price | De richtprijs voor het event en eventueel extra prijsinformatie. Als //price/pricevalue=0 dan is het een gratis event. |
 | //eventdetail/shortdescription | X - wordt aangeleverd door de invoerder | Bijkomende korte beschrijving over het event |
 | //eventdetail/title | x | X - wordt aangeleverd door de invoerder | Titel van het event |
