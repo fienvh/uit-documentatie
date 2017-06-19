@@ -43,6 +43,8 @@
         summary:
           - title: "In 3 stappen een cdbxml document maken"
             href: "cdbxml/in_3_stappen_een_cdbxml_document_maken"
+          - title: "Tips en tricks"
+            href: "cdbxml/tipsentricks"          
 - title: "UiTdatabank doorzoeken met Search API"
   description: "Leer de querysyntax van de UiTdatabank."
   path: "content/search_api/"
