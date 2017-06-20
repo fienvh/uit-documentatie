@@ -6,7 +6,7 @@
 Een reservatielink kan meegestuurd worden onder ``` //event/media/file ```
 Voeg in de node ``` <mediatype>reservations</mediatype> ``` toe om een rechtstreekse ticketinglink toe te voegen aan het aanbod.
 
-## Voorbeeld
+### Voorbeeld
 
 ~~~ xml
 <media>
