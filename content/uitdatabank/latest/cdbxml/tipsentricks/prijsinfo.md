@@ -1,9 +1,6 @@
 ---
 ---
 
----
----
-
 # Prijsinfo
 
 ## Importeren van één prijs
