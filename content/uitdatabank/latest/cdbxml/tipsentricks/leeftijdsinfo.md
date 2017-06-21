@@ -3,7 +3,7 @@
 
 # Leeftijdsinfo
 
-Leeftijdsinformatie kan meegestuurd worden onder ```//event/agefrom ```. Tal van kanalen gebruiken het agefrom veld om zich specifiek tot een leeftijdsgroep te richten, zoals bijvoorbeeld UiTmetVlieg.be., maar ook vele agenda's die data ophalen uit UiTdatabank. 
+Leeftijdsinformatie kan meegestuurd worden onder ```//event/agefrom ```. Tal van kanalen gebruiken het agefrom veld om zich specifiek tot een leeftijdsgroep te richten, zoals UiTmetVlieg.be, maar ook andere agenda's die data ophalen uit UiTdatabank. 
 
 ## Activiteiten 'specifiek' voor kinderen 
 
@@ -52,11 +52,11 @@ Activiteiten die toegankelijk zijn voor kinderen, maar niet gericht zijn naar ee
 <keywords>ook voor kinderen<keywords>
 ~~~
 
-Het meesturen van deze tag zorgt ervoor dat de activiteit het vlieglogo krijgt en verschijnt op UiTmetVlieg.be 
+Het meesturen van dit label zorgt ervoor dat de activiteit het Vlieg-logo krijgt en verschijnt op UiTmetVlieg.be 
 
 ## Activiteiten voor iedereen toegankelijk
 
-De activiteiten die voor iedereen toegankelijk zijn, maar niet specifiek voor kinderen moeten doorgestuurd worden zonder leeftijdsaanduiding.
+De activiteiten die voor iedereen toegankelijk zijn, maar niet specifiek voor kinderen stuur je door zonder leeftijdsaanduiding.
 
 
 
