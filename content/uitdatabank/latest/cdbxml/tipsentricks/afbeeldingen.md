@@ -3,7 +3,7 @@
 
 # Afbeeldingen
 
-Verhoog de zichtbaarheid van het event door een thumbnail toe te voegen, zoals in onderstaand voorbeeld.
+Verhoog de zichtbaarheid van je activiteit door een thumbnail toe te voegen, zoals in onderstaand voorbeeld.
 
 ~~~ xml
 <media> 
@@ -16,7 +16,7 @@ Verhoog de zichtbaarheid van het event door een thumbnail toe te voegen, zoals i
 </media>
 ~~~
 
-Om aan te geven dat het media object dat je verzendt kan dienen als thumbnail voorzie je het attribuut main - //media/file/@main=”true”. Voeg de verplichte elementen filename en filetype toe. Het element filename moet uniek zijn. 
+Om aan te geven dat het media-object dient als coverafbeelding of thumbnail voorzie je het attribuut main - //media/file/@main=”true”. Voeg de verplichte elementen filename en filetype toe. Het element filename moet uniek zijn. 
 
 
 ## Ondersteunde extensies en formaat
@@ -27,6 +27,6 @@ Formaten als ```.tif ``` en ```.bmp``` worden niet geïndexeerd.
 
 ## Copyright
 
-Vergeet ook niet het copyright te vermelden. Dit is weliswaar niet verplicht voor een valid XML, maar het is ten zeerste aangeraden mee te geven wie de rechten op de afbeelding bezit.
+Vergeet niet het copyright te vermelden. Dit is weliswaar niet verplicht voor een geldig XML-document, maar is ten zeerste aangeraden. Zo geef je mee wie de rechten op de afbeelding bezit.
 
 [Meer weten over copyright?](https://www.uitdatabank.be/copyright) 
