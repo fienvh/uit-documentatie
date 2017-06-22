@@ -17,9 +17,9 @@
           href: "content_types/activiteiten/activiteiten"
           summary:
             - title: "Verplichte velden van activiteiten"
-              href: "content_types/evenementen/verplichte_velden_van_activiteiten"
+              href: "content_types/activiteiten/verplichte_velden_van_activiteiten"
             - title: "Niet verplichte velden activiteiten"
-              href: "content_types/evenementen/niet_verplichte_velden_activiteiten"
+              href: "content_types/activiteiten/niet_verplichte_velden_activiteiten"
         - title: "Locaties"
           href: "content_types/locaties/"
         - title: "Organisaties"
