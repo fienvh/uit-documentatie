@@ -41,7 +41,7 @@
 | 7 | Geschiedenis |   |   | 1.11.0.0.0 |
 | 8 | Gezondheid en wellness |   |   | 1.62.0.0.0 |
 | 9 | Landbouw en platteland |   |   | 1.63.0.0.0 |
-| 10 | Literatuur |   |   | 1.10.0.0.0  |
+| 10 | Literatuur |   |   |   |
 |   |   | 1 | Poëzie | 1.10.5.0.0 |
 |   |   | 2 | Fictie | 1.10.11.0.0 |
 |   |   | 3 | Non-fictie | 1.10.12.0.0 |
@@ -55,7 +55,7 @@
 |   |   | 5 | Dance | 1.8.3.3.0 |
 |   |   | 6 | Folk en wereldmuziek | 1.8.4.0.0 |
 |   |   | 7 | Amusementsmuziek | 1.8.3.5.0 |
-| 13 | Samenleving |   |   | 1.52.0.0.0 |
+| 13 | Politiek en maatschappij |   |   | 1.52.0.0.0 |
 | 14 | Specifieke vormingsthema’s |   |   |   |
 |   |   | 1 | Creativiteit | 1.42.0.0.0 |
 |   |   | 2 | Computer en techniek | 1.21.0.0.0 |
@@ -69,14 +69,14 @@
 |   |   | 1 | Bal en racketsport | 1.51.13.0.0 |
 |   |   | 2 | Atletiek wandelen en fietsen | 1.51.14.0.0 |
 |   |   | 3 | Zwemmen en watersport | 1.51.3.0.0 |
-|   |   | 4 | Fitness, gymnastiek, dans en vechtsport | 1.51.6.0.0 |
+|   |   | 4 | Fitness, gym(nastiek) dans en vechtsport | 1.51.6.0.0 |
 |   |   | 5 | Outdoor en adventure | 1.51.11.0.0 |
 |   |   | 6 | Lucht en motorsport | 1.58.8.0.0 |
 |   |   | 7 | Volkssporten | 1.51.10.0.0 |
 |   |   | 8 | Omnisport en andere | 1.51.12.0.0 |
 | 16 | Theater |   |   |   |
 |   |   | 1 | Tekst en muziektheater | 1.3.1.0.0 |
-|   |   | 2 | Humor en comedy | 1.3.10.0.0 |
+|   |   | 2 | Humor comedy | 1.3.10.0.0 |
 |   |   | 3 | Musical | 1.4.0.0.0 |
 |   |   | 4 | Figuren en poppentheater | 1.3.5.0.0 |
 |   |   | 5 | Opera en operette | 1.5.0.0.0 |

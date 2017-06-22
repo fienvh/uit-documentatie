@@ -14,6 +14,8 @@ In tegenstelling tot een categorisatieboom, die wordt gekenmerkt door een diepe 
 Wanneer een organisatie of een instantie gegevens invoert, en daar vervolgens categorieën moet aan toekennen, is het voor die invoerder mogelijk om volgens eigen inzicht categorieën uit korf X vast te hangen aan categorieën uit korf Y. Zo kan een invoerder een vorm van aanbod zoals ‘tentoonstelling’ koppelen aan een bepaald thema, bijv. ‘beeldhouwkunst’.
 
 - Categorisatie voor evenementen en activiteiten: type aanbod, thema's, publieksbereik, voorzieningen, misc
+- Categorisatie voor producties: type aanbod, thema's, publieksbereik, misc
 - Categorisatie voor locaties: type locatie,  publieksbereik, voorzieningen, misc
+- Categorisatie voor producties: type aanbod, thema's, publieksbereik, misc
 
 Voor organisaties zijn er geen categorieën.
