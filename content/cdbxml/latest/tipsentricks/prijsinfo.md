@@ -7,7 +7,7 @@
 
 Het meegeven van één prijs moet gebeuren als numeriek getal, met punt voor de decimalen. 
 
-### Voorbeeld: 
+### Voorbeeld
 
 ~~~ xml
 <price> 
@@ -19,7 +19,7 @@ Het meegeven van één prijs moet gebeuren als numeriek getal, met punt voor de 
 
 Je kan meerdere prijzen importeren aan de hand van key-value pairs. Hierbij is het belangrijk dit volgens onderstaand formaat te doen, zodat deze juist doorkomen in het invoerformulier en op de outputkanalen. Enkel op volgende wijze, kunnen - indien van toepassing - ook de UiTPAS-kansentarieven correct berekend worden voor meerdere prijsklassen. 
 
-### Voorbeeld: 
+### Voorbeeld
 
 ~~~ xml
 <price> 
