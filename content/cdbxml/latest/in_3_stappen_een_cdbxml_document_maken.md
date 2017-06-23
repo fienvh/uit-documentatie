@@ -1,7 +1,7 @@
 ---
 ---
 
-# In 3 stappen een cdbxml document maken
+# In 3 stappen een CdbXML document maken
 
 Om jouw evenementen te vertalen naar het XML-formaat van de UiTdatabank CdbXML 3.2 neem je drie stappen:
 

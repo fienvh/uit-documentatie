@@ -1,7 +1,7 @@
 ---
 ---
 
-# CDBXML
+# CdbXML
 
 CdbXML is een compacte, eenvoudige gegevensstandaard om informatie over het cultuur en vrijetijd uit te wisselen. CdbXML beschrijft het datamodel van de UiTdatabank en de UiTdatabank categorisatie a.d.h.v. XML Schema (XSD). Je vindt het XML Schema op [http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd](http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd)
 

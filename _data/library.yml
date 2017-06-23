@@ -34,38 +34,6 @@
             href: "categorisatie/voorzieningen"
           - title: "Type locatie"
             href: "categorisatie/type_locatie"
-      - title: "CDBXML"
-        href: "cdbxml/cdbxml"
-        summary:
-          - title: "In 3 stappen een cdbxml document maken"
-            href: "cdbxml/in_3_stappen_een_cdbxml_document_maken"
-          - title: "Tips en tricks"
-            href: "cdbxml/tips_en_tricks"
-            summary:
-              - title: "Prijsinfo"
-                href: "cdbxml/tipsentricks/prijsinfo"
-              - title: "Reservatieinfo"
-                href: "cdbxml/tipsentricks/reservatieinfo"
-              - title: "Leeftijdsinfo"
-                href: "cdbxml/tipsentricks/leeftijdsinfo"
-              - title: "Tijdsinfo"
-                href: "cdbxml/tipsentricks/tijdsinformatie"
-              - title: "Scholenaanbod"
-                href: "cdbxml/tipsentricks/scholenaanbod"
-              - title: "Ledenaanbod"
-                href: "cdbxml/tipsentricks/ledenaanbod"
-              - title: "Organiser ID"
-                href: "cdbxml/tipsentricks/organiserid"
-              - title: "External ID"
-                href: "cdbxml/tipsentricks/externalid"
-              - title: "Labels"
-                href: "cdbxml/tipsentricks/labels"
-              - title: "Afbeeldingen"
-                href: "cdbxml/tipsentricks/afbeeldingen"
-              - title: "Embargodatum"
-                href: "cdbxml/tipsentricks/embargodatum"
-              - title: "UiTPAS"
-                href: "cdbxml/tipsentricks/UiTPAS"
     - name: "v2"
       path: "content/uitdatabank/v2/"
       summary:
@@ -100,43 +68,49 @@
             href: "categorisatie/type_locatie"
           - title: "Misc"
             href: "categorisatie/misc"
-      - title: "CDBXML"
-        href: "cdbxml/cdbxml"
+- title: "Het CdbXML-formaat"
+  description: "Dit document beschrijft de XML gegevensstandaard."
+  path: "content/cdbxml/"
+  category: "Technisch"
+  weight: 20
+  versions:
+    - name: "latest"
+      path: "content/cdbxml/latest/"
+      summary:
+      - title: "In 3 stappen een CdbXML document maken"
+        href: "in_3_stappen_een_cdbxml_document_maken"
+      - title: "Tips en tricks"
+        href: "tipsentricks"
         summary:
-          - title: "In 3 stappen een cdbxml document maken"
-            href: "cdbxml/in_3_stappen_een_cdbxml_document_maken"
-          - title: "Tips en tricks"
-            href: "cdbxml/tips_en_tricks"
-            summary:
-              - title: "Prijsinfo"
-                href: "cdbxml/tipsentricks/prijsinfo"
-              - title: "Reservatieinfo"
-                href: "cdbxml/tipsentricks/reservatieinfo"
-              - title: "Leeftijdsinfo"
-                href: "cdbxml/tipsentricks/leeftijdsinfo"
-              - title: "Tijdsinfo"
-                href: "cdbxml/tipsentricks/tijdsinformatie"
-              - title: "Scholenaanbod"
-                href: "cdbxml/tipsentricks/scholenaanbod"
-              - title: "Ledenaanbod"
-                href: "cdbxml/tipsentricks/ledenaanbod"
-              - title: "Organiser ID"
-                href: "cdbxml/tipsentricks/organiserid"
-              - title: "External ID"
-                href: "cdbxml/tipsentricks/externalid"
-              - title: "Labels"
-                href: "cdbxml/tipsentricks/labels"
-              - title: "Afbeeldingen"
-                href: "cdbxml/tipsentricks/afbeeldingen"
-              - title: "Embargodatum"
-                href: "cdbxml/tipsentricks/embargodatum"
-              - title: "UiTPAS"
-                href: "cdbxml/tipsentricks/UiTPAS"
+          - title: "Prijsinfo"
+            href: "tipsentricks/prijsinfo"
+          - title: "Reservatieinfo"
+            href: "tipsentricks/reservatieinfo"
+          - title: "Leeftijdsinfo"
+            href: "tipsentricks/leeftijdsinfo"
+          - title: "Tijdsinfo"
+            href: "tipsentricks/tijdsinformatie"
+          - title: "Scholenaanbod"
+            href: "tipsentricks/scholenaanbod"
+          - title: "Ledenaanbod"
+            href: "tipsentricks/ledenaanbod"
+          - title: "Organiser ID"
+            href: "tipsentricks/organiserid"
+          - title: "External ID"
+            href: "tipsentricks/externalid"
+          - title: "Labels"
+            href: "tipsentricks/labels"
+          - title: "Afbeeldingen"
+            href: "tipsentricks/afbeeldingen"
+          - title: "Embargodatum"
+            href: "tipsentricks/embargodatum"
+          - title: "UiTPAS"
+            href: "tipsentricks/UiTPAS"
 - title: "UiTdatabank doorzoeken met Search API"
   description: "Leer de querysyntax van de UiTdatabank."
   path: "content/search_api/"
   category: "Technisch"
-  weight: 10
+  weight: 20
   versions:
     - name: "latest"
       path: "content/search_api/latest/"
@@ -180,7 +154,7 @@
   description: "De categorisatie van UiTdatabank is beschikbaar via een API."
   path: "content/categorisatie/"
   category: "Technisch"
-  weight: 20
+  weight: 30
   versions:
     - name: "latest"
       path: "content/categorisatie/latest/"
@@ -253,7 +227,7 @@
   category: "Technisch"
   description: "Maak gebruik van onze PHP-bibliotheken en Drupal-modules."
   path: "content/culturefeed/"
-  weight: 30
+  weight: 50
   versions:
     - name: "latest"
       path: "content/culturefeed/latest/"
@@ -450,7 +424,7 @@
   description: "Hoe gebruik je de UiTPAS-systemen?"
   path: "content/uitpas-handleidingen/"
   category: "Technisch"
-  weight: 20
+  weight: 40
   versions:
     - name: "latest"
       path: "content/uitpas-handleidingen/latest/"
@@ -475,7 +449,7 @@
   description: "Hoe kan je verbinden met onze omgevingen?"
   path: "content/authenticatie-autorisatie/"
   category: "Technisch"
-  weight: 10
+  weight: 20
   versions:
       - name: "latest"
         path: "content/authenticatie-autorisatie/latest/"
@@ -490,7 +464,7 @@
   description: "Via Entry API kan je items in UiTdatabank aanmaken, aanpassen en verwijderen."
   path: "content/entry_api/"
   category: "Technisch"
-  weight: 10
+  weight: 30
   versions:
       - name: "latest"
         path: "content/entry_api/latest/"
