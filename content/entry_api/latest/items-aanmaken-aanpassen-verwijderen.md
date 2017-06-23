@@ -2,7 +2,7 @@
 ---
 # Items aanmaken, aanpassen en verwijderen
 
-# Service endpoints
+## Service endpoints
 
 | URL | POST | PUT | GET | DELETE |
 | -- | -- | -- | -- | -- |
