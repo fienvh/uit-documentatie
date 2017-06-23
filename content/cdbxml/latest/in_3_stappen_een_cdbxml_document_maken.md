@@ -11,7 +11,7 @@ Om jouw evenementen te vertalen naar het XML-formaat van de UiTdatabank CdbXML 3
 
 Nadat je deze drie stappen doorlopen hebt is de informatie klaar om te verzenden naar de UiTdatabank.
 
-Het CdbXML formaat ondersteunt daarnaast nog tal van andere velden en mogelijkheden. Die zijn uitgebreid beschreven in de sectie [Datamodel en uitwisselingsformaat](../cdbxml). Je kan ook het XML-schema raadplegen: [http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd](http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd).
+Het CdbXML formaat ondersteunt daarnaast nog tal van andere velden en mogelijkheden. Je kan het het XML-schema raadplegen via [http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd](http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd).
 
 ## Stap 1: root node ("/")
 
