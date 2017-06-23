@@ -28,6 +28,19 @@ De verschillende 'educationlevels' en hun taxonomie vind je hier terug: ```http:
 Ongeacht het type event, moet steeds het leerdoel vermeld worden, bijvoorbeeld 'kunst en cultuur' of 'taal'.
 De verschillende 'educationfields' vind je hier terug:  ```http://taxonomy.uitdatabank.be/api/term```
 
+### Cultuurkuur-pagina.
+
+Elke organisator heeft een eigen pagina op Cultuurkuur. Wanneer een organisator nog geen eigen pagina heeft, dient een nieuwe pagina aangemaakt te worden, onder de <media/>-node
+
+~~~ xml
+<file>
+<hlink>https://www.uitid.be/uitid/rest/page/6a5a08d8-21fb-4123-bc2c-2dd39f16fb6d</hlink>
+<mediatype>culturefeed-page</mediatype>
+<reltype>organiser</reltype>
+</file>
+~~~
+
+
 ## Specifieke velden
 
 Er bestaan 3 soorten educatief aanbod:
