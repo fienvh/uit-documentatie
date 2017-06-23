@@ -30,7 +30,7 @@ De verschillende 'educationfields' vind je hier terug:  ```http://taxonomy.uitd
 
 ### Cultuurkuur-pagina.
 
-Elke organisator heeft een eigen pagina op Cultuurkuur. Wanneer een organisator nog geen eigen pagina heeft, dient een nieuwe pagina aangemaakt te worden, onder de <media/>-node
+Elke organisator heeft een eigen pagina op Cultuurkuur. Wanneer een organisator nog geen eigen pagina heeft, dient een nieuwe pagina aangemaakt te worden, onder de ```<media/> ```-node
 
 ~~~ xml
 <file>
