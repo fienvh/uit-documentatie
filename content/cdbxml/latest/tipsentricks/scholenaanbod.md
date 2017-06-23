@@ -9,6 +9,15 @@ Scholenaanbod wordt gepubliceerd op cultuurkuur.be, het cultuureducatief platfor
 
 Om educatief aanbod aan te maken of door te sturen naar UiTdatabank, dien je te letten op onderstaande zaken. 
 
+### Targetaudience
+
+Om op Cultuurkuur te verschijnen, moet een event de targetaudience 'scholen' meekrijgen. 
+Meer info over de targetaudiences vind je hier terug: ```http://taxonomy.uitdatabank.be/api/domain/targetaudience/classification```
+
+~~~ xml
+<term createdby="CultuurNet" creationdate="2013-03-26T20:53:07" domain="targetaudience" enabled="true" id="2.1.3.0.0" label="Scholen" labelnl="Scholen" labelfr="Écoles" labelen="Schools" labelde="Schule" show="true" sort="15"/>
+~~~
+
 ### Niveau
 
 Ongeacht het type event, moet steeds aangeduid worden voor welk niveau de voorstelling/rondleiding/productie geschikt is, bijvoorbeeld 'gewoon lager onderwijs' of 'BSO'. Er kunnen meerdere niveaus van toepassing zijn. 
