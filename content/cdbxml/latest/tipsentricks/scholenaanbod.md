@@ -7,7 +7,7 @@ Scholenaanbod wordt gepubliceerd op cultuurkuur.be, het cultuureducatief platfor
 
 ## Generieke velden
 
-Om educatief aanbod aan te maken of door te sturen naar UiTdatabank, dien je te laten op onderstaande zaken. 
+Om educatief aanbod aan te maken of door te sturen naar UiTdatabank, dien je te letten op onderstaande zaken. 
 
 ### Niveau
 
@@ -29,6 +29,6 @@ Er bestaan 3 soorten educatief aanbod:
 | Rondleidingen |  | x | 
 | Producties  | x |  | 
 
-**Schoolvoorstellingen** hebben zowel een tijdstip als een locatie. Het gaat bijvoorbeeld om een theatervoorstelling, gericht aan een vierde graad.
-**Rondleidingen** hebben geen specifiek tijdstip, maar wel een locatie, bijvoorbeeld een rondleiding in een museum dat vastgelegd wordt in samenspraak met gids en school.
-**Producties** hebben geen locatie en geen tijdstip. Dit is een typisch evenement waarbij het evenement naar de school komt. 
+- **Schoolvoorstellingen** hebben zowel een tijdstip als een locatie. Het gaat bijvoorbeeld om een theatervoorstelling, gericht aan een vierde graad.
+- **Rondleidingen** hebben geen specifiek tijdstip, maar wel een locatie, bijvoorbeeld een rondleiding in een museum dat vastgelegd wordt in samenspraak met gids en school.
+- **Producties** hebben geen locatie en geen tijdstip. Dit is een typisch evenement waarbij het evenement naar de school komt. 
