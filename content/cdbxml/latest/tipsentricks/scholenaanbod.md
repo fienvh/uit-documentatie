@@ -24,7 +24,7 @@ De verschillende 'educationlevels' en hun taxonomie vind je hier terug: ```http:
 Ongeacht het type event, moet steeds het leerdoel vermeld worden, bijvoorbeeld 'kunst en cultuur' of 'taal'.
 De verschillende 'educationfields' vind je hier terug:  ```http://taxonomy.uitdatabank.be/api/term```
 
-### Cultuurkuur-pagina.
+### Cultuurkuur-pagina
 
 Elke organisator heeft een eigen pagina op Cultuurkuur. Wanneer een organisator nog geen eigen pagina heeft, dient een nieuwe pagina aangemaakt te worden, onder de ```<media/> ```-node
 
