@@ -106,6 +106,8 @@
             href: "tipsentricks/embargodatum"
           - title: "UiTPAS"
             href: "tipsentricks/UiTPAS"
+          - title: "XML valideren"
+            href: "tipsentricks/xmlvalidatie"           
 - title: "UiTdatabank doorzoeken met Search API"
   description: "Leer de querysyntax van de UiTdatabank."
   path: "content/search_api/"
