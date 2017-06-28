@@ -4,7 +4,7 @@
   category: "Functioneel"
   weight: 70
   versions:
-      - name: "latest"
+    - name: "latest"
       path: "content/Gebruiksvoorwaarden/Latest"
 - title: "Zo werkt UiTdatabank"
   description: "Dit document behandelt het datamodel van de UiTdatabank."
