@@ -1,7 +1,7 @@
 ---
 ---
 
-# Locaties en organisaties
+# Organisaties
 
 De UiTdatabank bevat publieksrelevante organisaties die in relatie gebracht worden tot cultuur en andere vormen van vrije tijd.
 

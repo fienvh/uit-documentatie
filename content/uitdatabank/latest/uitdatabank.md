@@ -14,7 +14,6 @@ Wat, in dat geval, valt dan buiten de scope van de UiTdatabank:
 
 * Objectmatige content (standbeelden, schilderijen, boeken, cd’s, ...)
 * Logies (hotels, campings),
-* Geen producten (boeken, DVD’s, ...)
 * Niet-publieksrelevant of niet-publiekstoegankelijke monumenten, hedendaagse architectuur, privé collecties,
 * Opleidingen in de formele leersfeer (onderwijs)
 * Wat te ontlenen is (educatieve pakketten, speelpakketten, boeken K)
