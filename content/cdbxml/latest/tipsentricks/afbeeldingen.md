@@ -21,7 +21,7 @@ Om aan te geven dat het media-object dient als coverafbeelding of thumbnail voor
 
 ## Formaat en extensie
 
-De maximale grootte van je afbeelding is 5MB en heeft als type ```.jpeg,``` , ```.gif ``` of ```.png ```.
+De maximale grootte van je afbeelding is 5MB en heeft als type ```.jpeg``` , ```.gif ``` of ```.png ```.
 
 Formaten als ```.tif ``` en ```.bmp``` worden niet geïndexeerd.
 
