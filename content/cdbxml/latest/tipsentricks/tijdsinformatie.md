@@ -24,7 +24,8 @@ In de meeste gevallen vindt een event plaats op één tijdstip, zoals in het voo
 ## Het event vindt plaats op meerdere tijdstippen
 
 Wanneer een event op meer dan één tijdstip plaatsvindt, bijvoorbeeld een festival op verschillende opeenvolgende dagen, dan stuur je geen event object door per tijdstip maar voeg je binnen het betreffende event meerdere tijdstippen toe.
-⋅⋅⋅Het aantal tijdstippen (timestamps) dat aangemaakt kan worden, is onbeperkt. 
+
+Het aantal tijdstippen (timestamps) dat aangemaakt kan worden, is onbeperkt. 
 
 ~~~ xml
 <calendar>
@@ -51,7 +52,8 @@ Wanneer een event op meer dan één tijdstip plaatsvindt, bijvoorbeeld een festi
 ## Het event vindt permanent plaats
 
 Wanneer een event permanent plaatsvindt geef je aan dat het een permanent aanbod is, eventueel aangevuld met een weekschema.
-⋅⋅⋅Let wel: er kan maar één period element aangemaakt worden.
+
+Let wel: er kan maar één period element aangemaakt worden.
 
 ### Zonder weekschema
 
