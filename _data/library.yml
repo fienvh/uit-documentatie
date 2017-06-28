@@ -28,7 +28,7 @@
             - title: "Niet verplichte velden activiteiten"
               href: "content_types/activiteiten/niet_verplichte_velden_activiteiten"
         - title: "Locaties"
-          href: "content_types/locaties"
+          href: "content_types/locaties/locaties"
         - title: "Organisaties"
           href: "content_types/organisaties/organisaties"
       - title: "Categorisatie"
