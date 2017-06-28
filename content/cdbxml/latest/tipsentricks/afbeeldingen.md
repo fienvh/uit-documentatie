@@ -19,7 +19,7 @@ Verhoog de zichtbaarheid van je activiteit door een thumbnail toe te voegen, zoa
 Om aan te geven dat het media-object dient als coverafbeelding of thumbnail voorzie je het attribuut main - //media/file/@main=”true”. Voeg de verplichte elementen filename en filetype toe. Het element filename moet uniek zijn. 
 
 
-## Ondersteunde extensies en formaat
+## Formaat en extensie
 
 De maximale grootte van je afbeelding is 5MB en heeft als type ```.jpeg,``` , ```.gif ``` of ```.png ```.
 
