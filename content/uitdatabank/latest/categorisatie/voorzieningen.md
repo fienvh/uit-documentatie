@@ -28,4 +28,4 @@
  Ondertiteling || 3.17.3.0.0 |
 | Educatieve dienstverlening | Dienst die streeft naar het toegankelijk en begrijpelijk maken van het aanbod, en hiervoor verscheidene programma’s uitwerkt die aangepast zijn aan de noden van verschillende doelgroepen binnen het publiek. | 3.14.0.0.0 |
 | Audiogids | Voorziening of toestel waarmee het publiek van een tentoonstelling of een andere culturele activiteit uitleg krijgt bij hetgeen zij tijdens de tentoonstelling of de activiteit te zien krijgt. | 3.15.0.0.0  |
-| Gids | Personen die onder meer rondleidingen geven in musea, steden, etc. |
+| Gids | Personen die onder meer rondleidingen geven in musea, steden, etc. | 3.16.0.0.0 |
