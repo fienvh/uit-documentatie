@@ -33,3 +33,7 @@ Modules waarmee je een UiTagenda integreert in een Drupal-site.
 ## Aan de slag
 
 Je vraagt je project aan op [tools.uitdatabank.be](https://tools.uitdatabank.be/).
+
+## Gebruiksvoorwaarden 
+
+Aan het gebruik van onze publicatietools zijn een aantal [gebruiksvoorwaarden](https://docs.google.com/document/d/1GJvFHgXDYfpNApOWwAItkFRwJiYvcZ8i-iFexoXaepc/edit) verbonden 
