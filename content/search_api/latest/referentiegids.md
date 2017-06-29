@@ -143,6 +143,7 @@ Een overzicht van alle geïndexeerde velden, gefilterd op relevantie, met voorbe
 * [wfstatus](#wfstatus)
 * [past](#past)
 * [unavailable](#unavailable)
+* [allowwfstatusfilter] (#allowwfstatusfilter)
 
 
 **Sociaal**
@@ -1716,6 +1717,18 @@ Hiermee worden events getoond waarbij NU niet ligt tussen availableFrom en avail
 
 [Terug naar index](#index)
 
+<a id="allowwfstatusfilter"></a>
+<h2>allowwfstatusfilter</h2>
+
+``` enum ```
+
+Laat toe om wfstatus filter te gebruiken in (filter)queries. Standaard is deze parameter false, en worden wfstatus private,rejected en draft uit de resultaten gefilterd. Indien allowwfstatusfilter=true, dan wordt er geen default filtering gedaan en kan de client dat zelf bepalen in een (filter) query.
+
+~~~
+{BaseUrl}search?q=cdbid:{cdbid}&allowwfstatusfilter=true&group=event
+~~~
+
+[Terug naar index](#index)
 
 
 <a id="zipcode"></a>
