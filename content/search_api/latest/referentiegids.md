@@ -143,7 +143,7 @@ Een overzicht van alle geïndexeerde velden, gefilterd op relevantie, met voorbe
 * [wfstatus](#wfstatus)
 * [past](#past)
 * [unavailable](#unavailable)
-* [allowwfstatusfilter] (#allowwfstatusfilter)
+* [allowwfstatusfilter](#allowwfstatusfilter)
 
 
 **Sociaal**
