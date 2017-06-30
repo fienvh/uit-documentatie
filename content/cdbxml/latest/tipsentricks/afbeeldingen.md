@@ -16,7 +16,7 @@ Verhoog de zichtbaarheid van je activiteit door een thumbnail toe te voegen, zoa
 </media>
 ~~~
 
-Om aan te geven dat het media-object dient als coverafbeelding of thumbnail voorzie je het attribuut main - //media/file/@main=”true”. Voeg de verplichte elementen filename en filetype toe. Het element filename moet uniek zijn. 
+Om aan te geven dat het media-object dient als coverafbeelding of thumbnail voorzie je het attribuut main - ```//media/file/@main=”true”```. Voeg de verplichte elementen filename en filetype toe. Het element filename moet uniek zijn. 
 
 
 ## Formaat en extensie
