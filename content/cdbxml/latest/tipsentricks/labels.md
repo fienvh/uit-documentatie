@@ -24,10 +24,6 @@ Activiteiten die toegankelijk zijn voor kinderen, maar niet gericht zijn naar ee
 <keywords>ook voor kinderen<keywords>
 ~~~
 
-### UiTPAS-labels
-
-Zie hiervoor de sectie over [UiTPAS](http://documentatie.uitdatabank.be/content/cdbxml/latest/tipsentricks/UiTPAS/).
-
 ### Doelgroep-labels
 
 Wanneer je activiteit gericht is aan mensen met een beperking, kan je de specifieke doelgroep aanduiden door die doelgroep mee te sturen als label. Volgende doelgroepen worden onderscheiden:
@@ -40,4 +36,6 @@ Wanneer je activiteit gericht is aan mensen met een beperking, kan je de specifi
 
 Wanneer je deze labels wilt gebruiken, neem je best vooraf contact op met [CultuurNet](mailto:julie@cultuurnet.be).
 
+### UiTPAS-labels
 
+Zie hiervoor de sectie over [UiTPAS](http://documentatie.uitdatabank.be/content/cdbxml/latest/tipsentricks/UiTPAS/).
