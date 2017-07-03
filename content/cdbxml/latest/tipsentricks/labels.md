@@ -26,7 +26,7 @@ Activiteiten die toegankelijk zijn voor kinderen, maar niet gericht zijn naar ee
 
 ### UiTPAS-labels
 
-Zie hiervoor de sectie over [UiTPAS](http://documentatie.uitdatabank.be/content/cdbxml/latest/tipsentricks/UiTPAS/)
+Zie hiervoor de sectie over [UiTPAS](http://documentatie.uitdatabank.be/content/cdbxml/latest/tipsentricks/UiTPAS/).
 
 ### Doelgroep-labels
 
