@@ -49,6 +49,7 @@ Wanneer een organisator nog geen eigen pagina heeft, dient een nieuwe pagina aan
 <file>
 <hlink>https://www.uitid.be/uitid/rest/page/6a5a08d8-21fb-4123-bc2c-2dd39f16fb6d</hlink>
 <mediatype>culturefeed-page</mediatype>
+<title>organiser</title>
 <reltype>organiser</reltype>
 </file>
 ~~~
