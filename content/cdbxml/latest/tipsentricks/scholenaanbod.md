@@ -38,7 +38,7 @@ De verschillende 'educationlevels' en hun taxonomie vind je hier terug: ```http:
 ### Leerdoel
 
 Ongeacht het type event, wordt aangeraden het leerdoel te vermelden, bijvoorbeeld 'kunst en cultuur' of 'actief burgerschap'.
-De verschillende 'educationfields' vind je hier terug:  ```http://taxonomy.uitdatabank.be/api/domain/educationfields/classification```
+De verschillende 'educationfields' vind je hier terug: ```http://taxonomy.uitdatabank.be/api/domain/educationfields/classification```
 
 ### Cultuurkuur-pagina
 
