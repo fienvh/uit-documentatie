@@ -34,7 +34,7 @@ Wanneer je activiteit gericht is aan mensen met een beperking, kan je de specifi
 - 'Psychische beperking'
 - 'Verstandelijke beperking'
 
-Wanneer je deze labels wilt gebruiken, neem je best vooraf contact op met [CultuurNet](mailto:julie@cultuurnet.be).
+Wanneer je deze labels wilt gebruiken, neem je best vooraf contact op met [CultuurNet](mailto:vragen@uitdatabank.be).
 
 ### UiTPAS-labels
 
