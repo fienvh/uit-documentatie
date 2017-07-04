@@ -7,7 +7,8 @@ Evenementen die enkel toegankelijk<sup>1</sup> zijn voor leden worden niet getoo
 
 Om aanbod aan te maken dat enkel toegankelijk is voor leden stuur je ```private="true"``` mee in de event-node, zoals in onderstaand voorbeeld: 
 
-```<?xml version="1.0" encoding="UTF-8"?>
+```
+<?xml version="1.0" encoding="UTF-8"?>
 <cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL/CdbXSD.xsd">
     <event availablefrom="2016-01-25T00:00:00" private="true">
 </cdbxml>
