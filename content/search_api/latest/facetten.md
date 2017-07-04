@@ -79,7 +79,7 @@ Deze query toont wel alle events die in een subcategorie van “Doen” zitten t
 {{site.search_api_server}}/searchv2/search?q=category_name:Doen
 ```
 
-Een overzicht van alle categorieën en een uitleg over hoe de UiTdatabank categorisatieservice te consulteren vind je hier http://tools.uitdatabank.be/docs/uitdatabank-categorisatie-service.
+Een overzicht van alle categorieën en een uitleg over hoe de UiTdatabank categorisatieservice te consulteren vind je [hier] (http://tools.uitdatabank.be/docs/uitdatabank-categorisatie-service).
 
 ## Facet “categorie dimensie”
 
