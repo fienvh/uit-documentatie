@@ -13,6 +13,6 @@ UiTPAS-aanbod is steeds gelinkt aan een organisator. Om een event door te laten 
 </organiser>
 <keywords>UiTPAS HeistopdenBerg</keywords>
 ```
-Het sturen van het juiste cdbid in de node zorgt er ook voor dat de oragnisator aanklikbaar is op UiTinVlaanderen en andere kanalen van UiT. 
+Het sturen van het juiste cdbid in de node zorgt er ook voor dat de organisator aanklikbaar is op UiTinVlaanderen en andere kanalen van UiT. 
 
 Meer informatie over UiTPAS vind je [hier](http://documentatie.uitdatabank.be/content/cdbxml/latest/tipsentricks/UiTPAS/).
