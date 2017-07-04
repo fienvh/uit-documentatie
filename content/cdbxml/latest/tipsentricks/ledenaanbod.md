@@ -1,7 +1,7 @@
 ---
 ---
 
-# Aanbod voor leden
+# Ledenaanbod
 
 Evenementen die enkel toegankelijk<sup>1</sup> zijn voor leden worden niet getoond op UiTinVlaanderen en UiTmetVlieg.  Evenmin worden deze evenementen getoond op de andere outputkanalen van UiT, tenzij hierop specifiek gefilterd wordt in Search API. 
 
