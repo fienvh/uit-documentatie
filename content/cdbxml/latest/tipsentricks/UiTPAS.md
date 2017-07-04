@@ -21,7 +21,7 @@ Het sturen van het juiste cdbid in de node zorgt er ook voor dat de organisator 
 
 ### Label
 
-Voor elke UiTPAs-activiteit moet het label ('keyword') van de overeenkomstige UiTPAS-regio toegevoegd worden.
+Voor elke UiTPAS-activiteit moet het label ('keyword') van de overeenkomstige UiTPAS-regio toegevoegd worden.
 
 ```<keywords>UiTPAS Heist-op-den-Berg</keywords>```
 
