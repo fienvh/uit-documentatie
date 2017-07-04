@@ -1,8 +1,6 @@
 ---
 ---
 
-De informatie op deze pagina wordt binnenkort aangevuld.
-
 # UiTPAS
 ## Verplichte UiTPAS-velden
 
