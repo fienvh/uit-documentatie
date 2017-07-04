@@ -6,7 +6,7 @@
 Je kan evenementen verrijken met een of meerdere door jouw gekozen label(s). 
 Deze labels kunnen vervolgens als basis dienen om queries te bouwen op de [UiTdatabank Search API](http://documentatie.uitdatabank.be/content/search_api/latest/index.html) en zo je eigen agenda of app te vullen met evenementen uit UiTdatabank. 
 
-Labels ('keywords') kan je sturen onder ```event/keywords```. Wanneer je meerdere keywords stuurt, dien je deze te scheiden door middel van een puntkomma. 
+Labels ('keywords') kan je sturen onder ```//event/keywords```. Wanneer je meerdere keywords stuurt, dien je deze te scheiden door middel van een puntkomma. 
 
 ```<keywords>label 1;label 2;label 3;label n</keywords>```
 
