@@ -3,7 +3,7 @@
 
 # Organisator
 
-UiTPAS-aanbod is steeds gelinkt aan een organisator. Om een event door te laten stromen naar het UiTPAS-systeem, moet het gelinkt zijn aan de juiste organisator. Om ervoor te zorgen dat een UiTPAS-evenement aan de juiste organisator in UiTdatabank hangt, stuur je het cdbid van de organiser mee in de node, zoals in onderstaand voorbeeld:
+UiTPAS-aanbod is steeds gelinkt aan een organisator. Om een event door te laten stromen naar het UiTPAS-systeem, moet het gelinkt zijn aan de juiste organisator. Om ervoor te zorgen dat een UiTPAS-evenement aan de juiste organisator in UiTdatabank hangt, stuur je het cdbid van de organiser mee in de ```<label/>```-node, zoals in onderstaand voorbeeld:
 
 ```
 <organiser>
