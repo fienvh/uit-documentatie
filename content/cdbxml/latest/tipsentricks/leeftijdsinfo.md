@@ -1,7 +1,7 @@
 ---
 ---
 
-# Leeftijdsinfo
+# Leeftijdsinformatie
 
 Leeftijdsinformatie kan meegestuurd worden onder ```//event/agefrom ```. Tal van kanalen gebruiken het agefrom veld om zich specifiek tot een leeftijdsgroep te richten, zoals UiTmetVlieg.be, maar ook andere agenda's die data ophalen uit UiTdatabank. 
 
