@@ -3,9 +3,9 @@
 
 # Scholenaanbod
 
-Onder scholenaanbod verstaan we activiteiten die door cultuurorganisaties worden georganiseerd.
-1. Activiteiten bedoeld voor leerlingen (meerderheid van de evenementen)
-2. Activiteiten bedoeld voor leerkrachten (vb. naschoolse vormingen)
+Onder scholenaanbod verstaan we activiteiten die door cultuurorganisaties worden georganiseerd en bedoeld zijn
+- voor leerlingen (meerderheid van de evenementen)
+- voor leerkrachten (vb. naschoolse vormingen)
 
 Scholenaanbod wordt gepubliceerd op cultuurkuur.be, het cultuureducatief platform van CANON Cultuurcel en CultuurNet Vlaanderen. 
 
