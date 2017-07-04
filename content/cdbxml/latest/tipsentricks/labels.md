@@ -3,16 +3,16 @@
 
 # Labels
 
-Door middel van labels kan je evenementen verrijken. Daarnaast kunnen labels dienen als basis dienen om later queries te bouwen op de [UiTdatabank Search API](http://documentatie.uitdatabank.be/content/search_api/latest/index.html) en zo je eigen agenda of app te vullen met evenementen uit UiTdatabank. 
+Je kan evenementen verrijken met een of meerdere door jouw gekozen label(s). 
+Deze labels kunnen vervolgens als basis dienen om queries te bouwen op de [UiTdatabank Search API](http://documentatie.uitdatabank.be/content/search_api/latest/index.html) en zo je eigen agenda of app te vullen met evenementen uit UiTdatabank. 
 
-Deze labels ('keywords') kan je sturen onder ```event/keywords```. Wanneer je meerdere keywords stuurt, dien je deze te scheiden door middel van een puntkomma. 
+Labels ('keywords') kan je sturen onder ```event/keywords```. Wanneer je meerdere keywords stuurt, dien je deze te scheiden door middel van een puntkomma. 
 
 ```<keywords>label 1;label 2;label 3;label n</keywords>```
 
-Wanneer een label niet zichtbaar mag zijn op de outputkanalen van UiT (zoals UiTinVlaanderen en UiTmetVlieg), stuur je visible="false" mee in de node:
+Wanneer een label niet zichtbaar mag zijn op de outputkanalen van UiT (zoals UiTinVlaanderen en UiTmetVlieg), stuur je ```visible="false"``` mee in de node:
 
 ```<keywords visible="false">label 1;label 2;label 3;label n</keywords>```
-
 
 ## Specifieke labels
 
