@@ -6,7 +6,7 @@
 
 ### Organiser ID
 
-UiTPAS-aanbod is steeds gelinkt aan een organisator. Daarom is een sturen van het juiste organiser ID verplicht bij elke UiTPAS-activiteit. Dit ID (cdbid) stuur je mee in de ```<label>```-node, zoals in onderstaand voorbeeld:
+UiTPAS-aanbod is steeds gelinkt aan een organisator. Daarom is het sturen van het juiste organiser ID verplicht bij elke UiTPAS-activiteit. Dit ID (cdbid) stuur je mee in de ```<label>```-node, zoals in onderstaand voorbeeld:
 
 ```
 <organiser>
