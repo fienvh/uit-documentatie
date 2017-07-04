@@ -57,7 +57,7 @@ Het is verplicht een prijs mee te geven bij elke UiTPAS-activiteit:
 
 Het is ook mogelijk meerdere prijzen aan te maken in cdbxml. Zie hiervoor de sectie over [prijsinfo](http://documentatie.uitdatabank.be/content/cdbxml/latest/tipsentricks/prijsinfo/)
 
-## Wenselijke velden
+## Wenselijke UiTPAS-velden
 ### Tijdsinfo: aanvangsuur
 
 Het is aangeraden het aanvangsuur mee te sturen. De UiTPAS-zuilen hier rekening mee houden.
