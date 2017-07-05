@@ -36,20 +36,17 @@ Het kan handig zijn om de leeftijdscategorieën van UiTmetVlieg over te nemen:
 - 9 - 11 jaar
 
 
-De leeftijdsaanduiding kan ook zonder ```<ageto> ```gestuurd worden. In dat geval wordt er automatisch een ageto toegevoegd:
+De leeftijdsaanduiding kan ook zonder ```<ageto> ```gestuurd worden.
 
-| Agefrom | Ageto | 
-| -- | -- |
-| < 12 | 12 | 
-| 12 < > 18 | 18 | 
-| 18 <  | 99 | 
 
 ## Activiteiten 'ook' voor kinderen
 
-Activiteiten die toegankelijk zijn voor kinderen, maar niet gericht zijn naar een specifieke leeftijdscategorie kunnen doorgestuurd worden met het label ```'ook voor kinderen' ```
+Activiteiten die toegankelijk zijn voor kinderen, maar niet gericht zijn naar een specifieke leeftijdscategorie kunnen doorgestuurd worden met het label ```ook voor kinderen```
 
 ~~~ xml
-<keywords>ook voor kinderen<keywords>
+<keywords>
+<keyword>ook voor kinderen</keyword>
+</keywords>
 ~~~
 
 Het meesturen van dit label zorgt ervoor dat de activiteit het Vlieg-logo krijgt en verschijnt op UiTmetVlieg.be 

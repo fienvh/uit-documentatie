@@ -3,7 +3,7 @@
 
 # In 3 stappen een CdbXML document maken
 
-Om jouw evenementen te vertalen naar het XML-formaat van de UiTdatabank CdbXML 3.2 neem je drie stappen:
+Om jouw evenementen te vertalen naar het XML-formaat van de UiTdatabank CdbXML 3.3 neem je drie stappen:
 
 *   Stap 1: root node formatteren (/)
 *   Stap 2: verplichte velden (cdbxml/event) opnemen
@@ -11,7 +11,7 @@ Om jouw evenementen te vertalen naar het XML-formaat van de UiTdatabank CdbXML 3
 
 Nadat je deze drie stappen doorlopen hebt is de informatie klaar om te verzenden naar de UiTdatabank.
 
-Het CdbXML formaat ondersteunt daarnaast nog tal van andere velden en mogelijkheden. Je kan het het XML-schema raadplegen via [http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd](http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd).
+Het CdbXML formaat ondersteunt daarnaast nog tal van andere velden en mogelijkheden. Je kan het het XML-schema raadplegen via [http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL/CdbXSD.xsd](http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL/CdbXSD.xsd).
 
 ## Stap 1: root node ("/")
 
@@ -20,24 +20,24 @@ De root node ziet er als volgt uit:
 ~~~xml
 <?xml version="1.0" encoding="UTF-8"?>
 <cdbxml
-  xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL"
+  xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL
-  http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd">
+  xsi:schemaLocation="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL
+  http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL/CdbXSD.xsd">
 </cdbxml>
 ~~~
 
 Het XML-document dat je aanlevert moet voldoen aan volgende vormvereisten:
 
 *   De tekencodering dient te gebeuren volgens de <span class="emphasize">UTF-8 standaard.
-*   Het XML-document moet <span class="emphasize">valid zijn. Hiervoor doe je een check tegen het CdbXML 3.2 XML-schema. Het XML-schema is beschikbaar op [http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd](http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd).
+*   Het XML-document moet <span class="emphasize">valid zijn. Hiervoor doe je een check tegen het CdbXML 3.3 XML-schema. Het XML-schema is beschikbaar op [http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL/CdbXSD.xsd](http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL/CdbXSD.xsd).
 
 
 ## Stap 2: verplichte velden ("cdbxml/event")
 
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
-<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
+<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL">
     <event>
       <calendar>
         <timestamps>
@@ -73,7 +73,7 @@ Het XML-document dat je aanlevert moet voldoen aan volgende vormvereisten:
 
 ### //event/calendar
 
-Tijdsinformatie. Het is verplicht aan te geven wanneer het event plaatsvindt. In de meeste gevallen vindt een event plaats op één tijdstip, zoals in het voorbeeld. Dikwijls wordt daarbij ook het aanvangsuur voorzien, en eventueel het einduur:
+Tijdsinformatie. Het is verplicht aan te geven wanneer het event plaatsvindt. In de meeste gevallen vindt een event plaats op één tijdstip, zoals in het voorbeeld. Je voegt hier best ook het aanvangsuur en het einduur aan toe:
 
 ~~~ xml
 <calendar>
@@ -93,7 +93,7 @@ Let op, als een event op meer dan één tijdstip plaatsvindt, stuur je geen even
 
 Informatie in de UiTdatabank wordt op de output kanalen verspreid via navigatierubrieken. Om opgenomen te worden in die rubrieken is het verplicht het type van het aanbod door te geven (vb. concert, film, theatervoorstelling, ...).
 
-De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie: [http://tools.uitdatabank.be/docs/uitdatabank-categorisatie-service](http://tools.uitdatabank.be/docs/uitdatabank-categorisatie-service)
+De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie: [http://documentatie.uitdatabank.be/content/categorisatie/latest/index.html](http://documentatie.uitdatabank.be/content/categorisatie/latest/index.html)
 
 Het type van het aanbod is terug te vinden in het facet "eventtype" categorisation/item/@catid=eventtype.
 
@@ -133,7 +133,7 @@ Geef bij voorkeur ook een straat en een huisnummer zodat de UiTdatabank de corre
 
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
-<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
+<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL">
     <event externalid="YourID">
       <agefrom>12</agefrom>
       <calendar>
@@ -154,23 +154,15 @@ Geef bij voorkeur ook een straat en een huisnummer zodat de UiTdatabank de corre
       </contactinfo>
       <eventdetails>
         <eventdetail lang="nl">
-          <performers>
-            <performer><label>Jan De Groot</label></performer>
-            <performer>
-              <role>Regisseur</role>
-              <label>Karel Nieuwenhuyze</label>
-            </performer>
-          </performers>
           <media>
             <file main="true">
+              <copyright>Auteur van de afbeelding</copyright>
               <filename>x.jpg</filename>
               <filetype>jpeg</filetype>
-              <copyright>Auteur van de afbeelding</copyright>
               <hlink>http://www.flickr.com/images/x.jpg</hlink>
             </file>
           </media>
-          <shortdescription>Een beschrijving van maximaal 400 karakters.
-          </shortdescription>
+          <shortdescription>Een beschrijving van maximaal 400 karakters.</shortdescription>
           <title>Event titel</title>
         </eventdetail>
       </eventdetails>
@@ -207,27 +199,13 @@ Hierboven bij de verplichte velden stond beschreven dat het verplicht is het typ
 </categories>
 ~~~
 
-De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie: [http://tools.uitdatabank.be/docs/uitdatabank-categorisatie-service](http://tools.uitdatabank.be/docs/uitdatabank-categorisatie-service)
+De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie: [http://documentatie.uitdatabank.be/content/categorisatie/latest/index.html](http://documentatie.uitdatabank.be/content/categorisatie/latest/index.html)
 
 Het thema is wenselijk bij volgende types: "concert", "film", "theatervoorstelling", "dansvoorstelling" en "cursus of workshop".
 
 ### //event/eventdetails/shortdescription
 
 Een korte beschrijving van het event, maximum 400 karakters.
-
-### //event/eventdetails/performers |
-
-Wie brengt het event; de muzikanten, de regisseur, de lezer, enz. De organisator hoort hier niet thuis, die verstuur je via het veld //event/organiser. Bij de betreffende performer kan je desgewenst zijn "rol" opnemen. D.i. een vrij veld:
-
-~~~ xml
-<performers>
-  <performer><label>Jan De Groot</label></performer>
-  <performer>
-    <role>Regisseur</role>
-    <label>Karel Nieuwenhuyze</label>
-  </performer>
-</performers>
-~~~
 
 ### //event/agefrom
 

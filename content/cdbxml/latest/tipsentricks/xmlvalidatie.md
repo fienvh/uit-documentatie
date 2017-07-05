@@ -9,4 +9,4 @@ Om zeker te zijn dat de syntax van je XML volledig correct is, kan je met versch
 - [Utilities Online](http://www.utilities-online.info/xsdvalidation/#.WVpShNPyjBI)
 - ...
 
-Je kan met bovenstaande tools je XML ook valideren t.o.v. ons [XSD-schema](http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL/CdbXSD.xsd).
+Je kan met bovenstaande tools je XML ook valideren t.o.v. ons [XSD-schema](http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL/CdbXSD.xsd).

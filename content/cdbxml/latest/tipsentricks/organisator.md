@@ -9,7 +9,6 @@ UiTPAS-aanbod is steeds gelinkt aan een organisator. Om een event door te laten 
 <organiser>
 <label cdbid="55CA2F39-A8CE-F67A-24C2FF99F9AFB1F6">CC Zwaneberg</label>
 </organiser>
-<keywords>UiTPAS Heist-op-den-Berg</keywords>
 ```
 Het sturen van het juiste cdbid in de node zorgt er ook voor dat de organisator aanklikbaar is op UiTinVlaanderen en andere kanalen van UiT. 
 

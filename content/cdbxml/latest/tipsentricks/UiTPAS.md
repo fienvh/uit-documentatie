@@ -12,7 +12,6 @@ UiTPAS-aanbod is steeds gelinkt aan een organisator. Daarom is het sturen van he
 <organiser>
 <label cdbid="55CA2F39-A8CE-F67A-24C2FF99F9AFB1F6">CC Zwaneberg</label>
 </organiser>
-<keywords>UiTPAS Heist-op-den-Berg</keywords>
 ```
 
 Het sturen van het juiste cdbid in de node zorgt er ook voor dat de organisator aanklikbaar is op UiTinVlaanderen en andere kanalen van UiT. 
@@ -21,7 +20,11 @@ Het sturen van het juiste cdbid in de node zorgt er ook voor dat de organisator 
 
 Voor elke UiTPAS-activiteit moet het label ('keyword') van de overeenkomstige UiTPAS-regio toegevoegd worden.
 
-```<keywords>UiTPAS Heist-op-den-Berg</keywords>```
+```
+<keywords>
+<keyword>UiTPAS Heist-op-den-Berg</keyword>
+</keywords>
+```
 
 Elke UiTPAS-regio heeft zijn eigen label:
 
@@ -58,9 +61,8 @@ Het is ook mogelijk meerdere prijzen aan te maken in cdbxml. Zie hiervoor de sec
 ## Wenselijke UiTPAS-velden
 ### Tijdsinfo: aanvangsuur
 
-Het is aangeraden het aanvangsuur mee te sturen. De UiTPAS-zuilen hier rekening mee houden.
-Het aanvangsuur ('timestart') kan je als volgt meegeven.
-Indien gewenst kan ook een einduur ('timeend') aangeduid worden.
+Het is aangeraden zowel het aanvangsuur als het einduur als volgt mee te sturen: 
+
 
 ```
 <calendar>
@@ -73,3 +75,9 @@ Indien gewenst kan ook een einduur ('timeend') aangeduid worden.
   </timestamps>
 </calendar>
 ```
+
+UiTdatabank zal ontbrekende begin- en einduren als volgt invullen:
+- ontbrekend beginuur: 00:00:00
+- ontbrekend einduur: 23:59:59 
+
+De UiTPAS-zuilen zullen met deze informatie rekening houden.

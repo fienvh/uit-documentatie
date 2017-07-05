@@ -6,22 +6,38 @@
 Je kan evenementen verrijken met een of meerdere door jouw gekozen label(s). 
 Deze labels kunnen vervolgens als basis dienen om queries te bouwen op de [UiTdatabank Search API](http://documentatie.uitdatabank.be/content/search_api/latest/index.html) en zo je eigen agenda of app te vullen met evenementen uit UiTdatabank. 
 
-Labels ('keywords') kan je sturen onder ```//event/keywords```. Wanneer je meerdere keywords stuurt, dien je deze te scheiden door middel van een puntkomma. 
+Labels ('keywords') kan je sturen onder ```//event/keywords/keyword```.
 
-```<keywords>label 1;label 2;label 3;label n</keywords>```
+```
+<keywords>
+<keyword>label 1</keyword>
+<keyword>label 2</keyword>
+<keyword>label 3</keyword>
+<keyword>label n</keyword>
+</keywords>
+```
 
 Wanneer een label niet zichtbaar mag zijn op de outputkanalen van UiT (zoals UiTinVlaanderen en UiTmetVlieg), stuur je ```visible="false"``` mee in de node:
 
-```<keywords visible="false">label 1;label 2;label 3;label n</keywords>```
+```
+<keywords>
+<keyword visible="false">label 1</keyword>
+<keyword>label 2</keyword>
+<keyword visible="false">label 3</keyword>
+<keyword>label n</keyword>
+</keywords>
+```
 
 ## Specifieke labels
 
 ### 'ook voor kinderen'
 
-Activiteiten die toegankelijk zijn voor kinderen, maar niet gericht zijn naar een specifieke leeftijdscategorie kunnen doorgestuurd worden met het label ```'ook voor kinderen'```. Het meesturen van dit label zorgt ervoor dat de activiteit het Vlieg-logo krijgt en verschijnt op UiTmetVlieg.be 
+Activiteiten die toegankelijk zijn voor kinderen, maar niet gericht zijn naar een specifieke leeftijdscategorie kunnen doorgestuurd worden met het label ```ook voor kinderen```. Het meesturen van dit label zorgt ervoor dat de activiteit het Vlieg-logo krijgt en verschijnt op UiTmetVlieg.be 
 
 ~~~ xml
-<keywords>ook voor kinderen<keywords>
+<keywords>
+<keyword>ook voor kinderen</keyword>
+</keywords>
 ~~~
 
 ### Doelgroep-labels
