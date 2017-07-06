@@ -48,13 +48,25 @@
 
           {% if selected_status=="deprecated" %}
             <div class="feedback">
-              Deze versie is verouderd en enkel bedoeld als archief. <a href="/{{ selected_book.path }}index.html">Bekijk alle versies.</a>
+              <strong>Deze versie is verouderd en enkel bedoeld als archief. <a href="/{{ selected_book.path }}index.html">Bekijk alle versies.</a></strong>
+            </div>
+          {% endif %}
+
+          {% if selected_status=="experimental" %}
+            <div class="feedback">
+              <strong>Let op bij het gebruiken van deze documentatie. Deze informatie kan nog veranderen.</strong>
             </div>
           {% endif %}
 
           {% if page.status=="deprecated" %}
             <div class="feedback">
-              Deze pagina is verouderd en enkel bedoeld als archief.
+              <strong>Deze pagina is verouderd en enkel bedoeld als archief.</strong>
+            </div>
+          {% endif %}
+
+          {% if page.status=="experimental" %}
+            <div class="feedback">
+              <strong>Let op bij het gebruiken van deze pagina. Deze informatie kan nog veranderen.</strong>
             </div>
           {% endif %}
 

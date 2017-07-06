@@ -23,4 +23,3 @@ Voorbeelden van locaties zijn De Vooruit, CC Berchem, Decascoop...
 |Contactinformatie|	URL, e-mailadres, telefoonnummer waar men terecht kan voor meer informatie of reserveringen. Voorbeeld: ```Telefoon: +32 9 2672828 - Voor reservaties Telefoon: +32 9 2672820 E-mail: info@vooruit.be E-mail: tickets@vooruit.be - Voor reservaties ```|
 |Labels|	Termen om informatie te filteren |
 |Afbeelding|vb. logo |
-

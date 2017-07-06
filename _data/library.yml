@@ -105,7 +105,7 @@
           - title: "UiTPAS"
             href: "tipsentricks/UiTPAS"
           - title: "XML valideren"
-            href: "tipsentricks/xmlvalidatie"           
+            href: "tipsentricks/xmlvalidatie"
 - title: "UiTdatabank doorzoeken met Search API"
   description: "Leer de querysyntax van de UiTdatabank."
   path: "content/search_api/"
@@ -139,6 +139,7 @@
           href: "referentiegids"
     - name: "v1"
       path: "content/search_api/v1/"
+      status: "deprecated"
       summary:
         - title: "Objecten opvragen"
           href: "objecten_opvragen"
@@ -468,6 +469,7 @@
   versions:
       - name: "latest"
         path: "content/entry_api/latest/"
+        status: "deprecated"
         versions:
         summary:
           - title: "Demo contentbeheer"

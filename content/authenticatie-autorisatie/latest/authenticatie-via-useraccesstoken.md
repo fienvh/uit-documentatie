@@ -15,21 +15,23 @@ Daarna wordt het access token + secret gebruikt om requests te tekenen.
 
 ## 1. Request token ophalen
 
-```
+~~~
 {server}/requestToken
-```
+~~~
 
 Het {server} gedeelte van de URL is afhankelijk van de omgeving.
 
 *Methode*
 
-```POST```
+~~~
+POST
+~~~
 
 *Authorization header*
 
-```
+~~~
 OAuth oauth_callback=”{callback}”, oauth_signature="{signature}", oauth_version="1.0", oauth_nonce="{nonce}", oauth_consumer_key="{consumerKey}", oauth_signature_method="HMAC-SHA1", oauth_timestamp="{timestamp}"
-```
+~~~
 
 *Variabelen in header*
 
@@ -39,10 +41,9 @@ OAuth oauth_callback=”{callback}”, oauth_signature="{signature}", oauth_vers
 | Signature	| Consumer key en secret worden gecombineerd tot een Signature. | 	```oauth_signature="fLkvbX8ynU3rsKd5AqrWwUr2O%2BQ%3D"``` |
 | Nonce	| Een unieke waarde voor iedere request met dezelfde timestamp. | 	 ```oauth_nonce="4572616e48616d6d65724c61686176"``` |
 | Consumerkey	 | 	|  ```oauth_consumer_key="0685bd9184jfhq22"``` |
-| Signature method	| UiTiD gebruikt standaard HMAC-SHA1. | 	```oauth_signature_method="HMAC-SHA1"```| 
+| Signature method	| UiTiD gebruikt standaard HMAC-SHA1. | 	```oauth_signature_method="HMAC-SHA1"```|
 | Timestamp	| De Timestamp wordt uitgedrukt in number of seconds since January 1, 1970 00:00:00 GMT“	|  ```oauth_timestamp="137131200"``` |
 | Version	| UiTiD gebruikt OAuth versie 1.0a.	|  ```oauth_version="1.0"``` |
-
 
 
 *Andere headers*
@@ -52,16 +53,20 @@ Indien je client de parameter niet automatisch toevoegt: Content-Type: applicati
 *Parameters*
 
 Alle andere parameters	Alle parameters die meegegeven worden, zullen terugkomen in de accessToken response na de callback.
-Response
+
+*Response*
+
+~~~
 oauth_token={TOKEN}&oauth_token_secret={TOKEN_SECRET}
+~~~
 
 ## 2. Gebruiker om autorisatie vragen
 
 In deze stap moet de browser van de gebruiker geredirect worden naar:
 
-```
+~~~
 {server}/auth/authorize
-```
+~~~
 
 Het {server} gedeelte van de URL is afhankelijk van de omgeving. De beschikbare omgevingen vind je terug hier.
 
@@ -82,22 +87,22 @@ Na de autorisatie stap wordt de callback URL opgeroepen met volgende parameters:
 
 | oauth_token	| het request token uit stap 1 |
 | --- | --- |
-| oauth_verifier |	een verificatie code om een access token mee op te halen
-Vervolgens kan een access token opgehaald worden via ```{server}/accessToken```
-Het {server} gedeelte van de URL is afhankelijk van de omgeving. De beschikbare omgevingen vind je terug hier. |
+| oauth_verifier |	een verificatie code om een access token mee op te halen. Vervolgens kan een access token opgehaald worden via ```{server}/accessToken``` Het {server} gedeelte van de URL is afhankelijk van de omgeving. De beschikbare omgevingen vind je terug hier. |
 
-Methode
+*Methode*
 
-```POST```
+~~~
+POST
+~~~
 
-Authorization header
+*Authorization header*
 
-```
+~~~
 OAuth oauth_signature="{signature}", oauth_version="1.0", oauth_nonce="{nonce}", oauth_consumer_key="{consumerKey}", oauth_signature_method="HMAC-SHA1", oauth_token="{token}", oauth_verifier="{verifier}", oauth_timestamp="{timestamp}"
-```
+~~~
 
-Response
+*Response*
 
-```
+~~~
 userId={userId}&oauth_token={accessToken}&oauth_token_secret={accessTokenSecret}[&extraParameter=extraValue]...
-```
+~~~
