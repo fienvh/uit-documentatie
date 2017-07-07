@@ -52,6 +52,10 @@ Wanneer je activiteit gericht is aan mensen met een beperking, kan je de specifi
 
 Wanneer je deze labels wilt gebruiken, neem je best vooraf contact op met [CultuurNet](mailto:vragen@uitdatabank.be).
 
+### Taaliconen
+
+Deze informatie wordt binnenkort aangevuld. 
+
 ### UiTPAS-labels
 
 Zie hiervoor de sectie over [UiTPAS](http://documentatie.uitdatabank.be/content/cdbxml/latest/tipsentricks/UiTPAS/).
