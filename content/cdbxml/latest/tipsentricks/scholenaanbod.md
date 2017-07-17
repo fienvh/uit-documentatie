@@ -15,11 +15,11 @@ Er bestaan 3 soorten aanbod:
 | -- | -- | -- |
 | Schoolvoorstellingen | x | x | 
 | Rondleidingen |  | x | 
-| Producties  | x |  | 
+| Producties / boekbaar aanbod  |  |  | 
 
 - **Schoolvoorstellingen** hebben zowel een tijdstip als een locatie. Het gaat bijvoorbeeld om een theatervoorstelling, gericht aan een vierde graad.
 - **Rondleidingen** hebben geen specifiek tijdstip, maar wel een locatie, bijvoorbeeld een rondleiding in een museum dat vastgelegd wordt in samenspraak met gids en school.
-- **Producties** hebben geen locatie en geen tijdstip. Dit is een typisch evenement waarbij het evenement naar de school komt. 
+- **Producties / boekbaar aanbod ** hebben geen locatie en geen tijdstip. Dit is typisch een workshop die op de school zelf gegeven wordt.
 
 ## Specifieke onderwijsvelden
 
