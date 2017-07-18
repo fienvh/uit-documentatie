@@ -94,13 +94,10 @@ Let wel: er kan maar één period element aangemaakt worden.
 ~~~
 
 ## Automatisch aanvullen van begin -en einduur
-Bij ontbrekende informatie, voegt UiTdatabank zelf een beginuur (00.00) en/of einduur (23:59) toe.
-
-Een dag, zonder begin of einduur:
-2017-08-01 van 00:00 tot 23:59
-
-Een dag met beginuur, zonder einduur
-2017-08-01 vanaf 10:00 tot 23:59
-
-Een periode met enkel openingsuren
-Van 2017-08-01 tot 2017-10-01, elke maandag van 10:00 tot 23:59
+Bij ontbrekende informatie, voegt UiTdatabank zelf een beginuur (00.00) en/of einduur (23.59) toe:
+- Een dag, zonder begin of einduur:
+2017-08-01 van *00:00* tot *23:59*
+- Een dag met beginuur, zonder einduur
+2017-08-01 vanaf 10:00 tot *23:59*
+- Een periode met enkel openingsuren
+Van 2017-08-01 tot 2017-10-01, elke maandag van 10:00 tot *23:59*
