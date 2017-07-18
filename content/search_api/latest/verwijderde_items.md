@@ -7,7 +7,7 @@
 {{site.search_api_server}}/searchv2/search/deleted
 ```
 
-Voor de server naam, zie http://tools.uitdatabank.be/docs/search-api-v2-getting-started.
+Voor de server naam, zie [http://tools.uitdatabank.be/docs/search-api-v2-getting-started](http://tools.uitdatabank.be/docs/search-api-v2-getting-started).
 
 | Parameter | Beschrijving	| Voorbeeld |
 |--|--|--|
