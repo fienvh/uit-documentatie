@@ -5,7 +5,7 @@
 
 Taaliconen worden gebruikt om activiteiten, workshops en cursussen aan te duiden die gericht zijn aan mensen die de Nederlandse taal niet of slechts gedeeltelijk machtig zijn. Taaliconen duiden bovendien aan dat er 'duidelijke taal' gebruikt wordt, zodat de activiteit een toffe oefenkans is voor anderstaligen. 
 
-| Aantal taaliconen | Doelgroep | 
+| # | Doelgroep | 
 | -- | -- | 
 | 1 | Je spreekt of begrijpt nog geen of niet zo veel Nederlands | 
 | 2 | Je begrijpt al een beetje Nederlands, maar je durft nog niet zo goed praten | 
