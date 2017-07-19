@@ -30,7 +30,7 @@ Wanneer een label niet zichtbaar mag zijn op de outputkanalen van UiT (zoals UiT
 
 ## Specifieke labels
 
-### 'ook voor kinderen'
+### Ook voor kinderen
 
 Activiteiten die toegankelijk zijn voor kinderen, maar niet gericht zijn naar een specifieke leeftijdscategorie kunnen doorgestuurd worden met het label ```ook voor kinderen```. Het meesturen van dit label zorgt ervoor dat de activiteit het Vlieg-logo krijgt en verschijnt op UiTmetVlieg.be 
 
