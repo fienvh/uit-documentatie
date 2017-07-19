@@ -7,10 +7,10 @@ Taaliconen worden gebruikt om activiteiten, workshops en cursussen aan te duiden
 
 | Aantal taaliconen | Doelgroep | 
 | -- | -- | 
-| <p align="center">1</p> | Je spreekt of begrijpt nog geen of niet zo veel Nederlands | 
-| <p align="center">2</p> | Je begrijpt al een beetje Nederlands, maar je durft nog niet zo goed praten | 
-| <p align="center">3</p> | Je begrijpt al veel Nederlands en je kan ook al iets vertellen. Je maakt soms nog fouten of je hebt wat hulp nodig |
-| <p align="center">4</p> | Je begrijpt en spreekt vlot Nederlands. Je moet weinig inspanningen doen om de taal te begrijpen |
+| 1 | Je spreekt of begrijpt nog geen of niet zo veel Nederlands | 
+| 2 | Je begrijpt al een beetje Nederlands, maar je durft nog niet zo goed praten | 
+| 3 | Je begrijpt al veel Nederlands en je kan ook al iets vertellen. Je maakt soms nog fouten of je hebt wat hulp nodig |
+| 4 | Je begrijpt en spreekt vlot Nederlands. Je moet weinig inspanningen doen om de taal te begrijpen |
 
 Taaliconen kunnen als labels ('keywords') meegestuurd worden onder ``` //event/keywords/keyword```. 
 
