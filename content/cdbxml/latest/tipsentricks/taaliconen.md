@@ -12,7 +12,7 @@ Taaliconen worden gebruikt om activiteiten, workshops en cursussen aan te duiden
 | 3 | Je begrijpt al veel Nederlands en je kan ook al iets vertellen. Je maakt soms nog fouten of je hebt wat hulp nodig |
 | 4 | Je begrijpt en spreekt vlot Nederlands. Je moet weinig inspanningen doen om de taal te begrijpen |
 
-Taaliconen kunnen als labels ('keywords') meegestuurd worden onder ``` //event/keywords/keyword```. 
+Taaliconen kunnen als labels ('keywords') meegestuurd worden onder ``` //event/keywords/keyword```. Let er op dat je steeds maar één type taalicoon meestuurt:
 
 #### één taalicoon
 ```
