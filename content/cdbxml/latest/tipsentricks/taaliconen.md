@@ -2,3 +2,44 @@
 ---
 
 # Taaliconen
+
+Taaliconen worden gebruikt om activiteiten, workshops en cursussen aan te duiden die gericht zijn aan mensen die de Nederlandse taal niet of slechts gedeeltelijk machtig zijn. Taaliconen duiden bovendien aan dat er 'duidelijke taal' gebruikt wordt, zodat de activiteit een toffe oefenkans is voor anderstaligen. 
+
+| Aantal taaliconen | Doelgroep | 
+| -- | -- | 
+| <p align="center">1</p> | Je spreekt of begrijpt nog geen of niet zo veel Nederlands | 
+| <p align="center">2</p> | Je begrijpt al een beetje Nederlands, maar je durft nog niet zo goed praten | 
+| <p align="center">3</p> | Je begrijpt al veel Nederlands en je kan ook al iets vertellen. Je maakt soms nog fouten of je hebt wat hulp nodig |
+| <p align="center">4</p> | Je begrijpt en spreekt vlot Nederlands. Je moet weinig inspanningen doen om de taal te begrijpen |
+
+Taaliconen kunnen als labels ('keywords') meegestuurd worden onder ``` //event/keywords/keyword```. 
+
+#### één taalicoon
+```
+<keywords>
+<keyword>één taalicoon</keyword>
+</keywords>
+```
+
+#### twee taaliconen
+```
+<keywords>
+<keyword>twee taaliconen/keyword>
+</keywords>
+```
+
+#### drie taaliconen
+```
+<keywords>
+<keyword>drie taaliconen</keyword>
+</keywords>
+```
+
+#### vier taaliconen
+```
+<keywords>
+<keyword>vier taaliconen</keyword>
+</keywords>
+```
+
+Meer achtergrondinformatie over taalpromotie en taaliconen vind je [hier](https://www.derand.be/nl/taalpromotie/taaliconen).
