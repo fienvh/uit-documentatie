@@ -14,28 +14,28 @@ Taaliconen worden gebruikt om activiteiten, workshops en cursussen aan te duiden
 
 Taaliconen kunnen als labels ('keywords') meegestuurd worden onder ``` //event/keywords/keyword```. Let er op dat je steeds maar één type taalicoon meestuurt:
 
-#### één taalicoon
+#### Eén taalicoon
 ```
 <keywords>
 <keyword>één taalicoon</keyword>
 </keywords>
 ```
 
-#### twee taaliconen
+#### Twee taaliconen
 ```
 <keywords>
 <keyword>twee taaliconen/keyword>
 </keywords>
 ```
 
-#### drie taaliconen
+#### Drie taaliconen
 ```
 <keywords>
 <keyword>drie taaliconen</keyword>
 </keywords>
 ```
 
-#### vier taaliconen
+#### Vier taaliconen
 ```
 <keywords>
 <keyword>vier taaliconen</keyword>
