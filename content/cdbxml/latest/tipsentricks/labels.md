@@ -54,7 +54,16 @@ Wanneer je deze labels wilt gebruiken, neem je best vooraf contact op met [Cultu
 
 ### Taaliconen
 
-Deze informatie wordt binnenkort aangevuld. 
+Activiteiten die gericht zijn aan mensen die Nederlands leren maar het nog niet of slechts gedeeltelijk machtig zijn worden aangeduid met taaliconen. Afhankelijk van het niveau stuur je één, twee, drie of vier taaliconen mee als label. 
+Let er op dat je steeds maar één type taalicoon meestuurt, zoals in onderstaand voorbeeld.
+
+~~~ xml
+<keywords>
+<keyword>twee taaliconen</keyword>
+</keywords>
+~~~
+
+Meer informatie over taaliconen vind je [hier](http://documentatie.uitdatabank.be/content/cdbxml/latest/tipsentricks/taaliconen/).
 
 ### UiTPAS-labels
 
