@@ -7,7 +7,9 @@ De organisatie architectuur van het UiTPAS systeem bevat volgende rollen met bij
 
 ## Pashouder
 
-De houder van een UiTPAS. Hij/zij is gekend in het UiTPAS systeem en werd geregistreerd volgens de validatieregels. 
+De houder van een UiTPAS. Hij/zij is gekend in het UiTPAS systeem en werd geregistreerd volgens de validatieregels.
+
+Bijhorende taken:
 
 * **Punten sparen** - een pashouder kan “inchecken” op een locatie waar UiTPAS apparatuur aanwezig is. Door in te checken spaart de pashouder één punt.
 
@@ -17,7 +19,9 @@ De houder van een UiTPAS. Hij/zij is gekend in het UiTPAS systeem en werd geregi
 
 ## MIA
 
-Een MIA is een pashouder die geregistreerd is met kansenstatuut. Deze pashouders kunnen aanspraak maken op bepaalde kortingen (= kansentarief) voor UiTPAS evenementen.
+Een MIA is een pashouder die geregistreerd is met kansenstatuut. Deze pashouders kunnen aanspraak maken op bepaalde kortingen (= kansentarief) voor UiTPAS evenementen. 
+
+Bijhorende taken:
 
 * **Korting MIA genieten** - pashouders met een kansenstatuut ontvangen kortingen bij ticket sales voor betalend cultuur- of vrijetijdsaanbod.
 
@@ -37,6 +41,8 @@ Slechts een beperkt aantal balies kan het kansenstatuut toekennen aan kansengroe
 ## Kaartsysteembeheerder (KSB)
 
 Een systeem- en applicatiebeheerder die instaat voor systeemconfiguratie. Dit zijn typisch business users met een doorgedreven kennis van het UiTPAS systeem.
+
+Bijhorende taken:
 
 * **Defaults instellen** bv. super user, frequentie van herinneringsmails, …
 

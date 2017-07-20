@@ -35,6 +35,7 @@ Er kan ingecheckt worden op een CID zodra deze is ingesteld op een event. Dat ge
 Een pashouder die zijn UiTPAS tegen de NFC lezer van een CID houdt, zal inchecken op dit event, indien voldaan aan de restricties (tijdrestricties, maximum checkins per event).
 
 Een CID kan ook andere functies vervullen:
+
 * **Ticket** - via de CID kan je punten te sparen en pashouders die daartoe recht hebben, kunnen tickets aan reductietarief kopen voor een specifiek in te stellen event
 
 * **Voordeel** - via de CID kan je inchecken om een specifiek voordeel om te ruilen
@@ -57,11 +58,9 @@ Deze webapplicatie wordt gebruikt door baliemedewerkers om pashouders te registr
 
 ## UiTPAS balie: mobiele applicatie
 
-Baliemedewerkers kunnen beschikken over de UiTPAS Balie-app waarmee ze:
-* Pashouders kunnen inchecken
-* Informatie over de pashouder kunnen raadplegen
-* Welkomst- en ruilvoordelen toekennen
-* Ticket sales kunnen registreren
+Baliemedewerkers kunnen beschikken over de UiTPAS Balie-app waarmee ze
+pashouders kunnen inchecken, informatie over de pashouder kunnen raadplegen, 
+welkomst- en ruilvoordelen toekennen en ticket sales kunnen registreren.
 
 De app is beschikbaar voor [Android](https://play.google.com/store/apps/details?id=be.cultuurnet.uitpasmobile) en voor [iOS](https://itunes.apple.com/be/app/uitpas-balie/id1117438672?mt=8). De app is geschikt voor smartphones en tablets.
 
