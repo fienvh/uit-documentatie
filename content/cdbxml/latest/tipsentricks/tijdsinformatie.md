@@ -93,7 +93,7 @@ Let wel: er kan maar één period element aangemaakt worden.
 <calendar>
 ~~~
 
-## Automatisch aanvullen van begin -en einduur
+## Automatisch aanvullen van begin- en einduur
 
 UiTdatabank zal ontbrekende begin- en einduren als volgt invullen:
 
