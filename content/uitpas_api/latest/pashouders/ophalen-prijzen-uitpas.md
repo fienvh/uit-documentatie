@@ -1,0 +1,33 @@
+---
+---
+
+# Ophalen prijzen uitpas
+
+Geeft uitpasprijzen terug voor de kaartsystemen waar de balie registratierechten heeft.
+
+_Method_  
+ GET
+
+_URL_  
+ {prefix}/uitpas/passholder/uitpasPrice
+
+Parameters:
+
+ <thead><th>**Naam**</th> <th>**Type**</th> <th>**Omschrijving**</th> <th>**Verplicht**</th> |  
+</thead> |balieConsumerKey |String |ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.3 | |  
+_Authenticatie_  
+ UserAccessToken van de Balie medewerker die de actie uitvoert
+
+**Response**
+
+<u>Bij succes</u>  
+ HTTP 200 OK met de prijs in response body
+
+_Voorbeeld request_
+
+GET {prefix}/uitpas/passholder/uitpasPrice
+
+_Voorbeeld response_
+
+~~~
+ <?xml version="1.0" encoding="UTF-8" standalone="yes"?> <response>   <uitpasPrices>     <uitpasPrice>             <id>1</id>             <reason>FIRST_CARD</reason>             <cardType>CARD</cardType>             <ageRange>                 <ageTo>17</ageTo>             </ageRange>             <kansenstatuut>false</kansenstatuut>             <price>2.00</price>             <cardSystem>                 <id>1</id>                 <name>UiTPAS Regio Aalst</name>             </cardSystem>         </uitpasPrice>         <uitpasPrice>             <id>1</id>             <reason>FIRST_CARD</reason>             <cardType>CARD</cardType>             <ageRange>                 <ageTo>17</ageTo>             </ageRange>             <kansenstatuut>true</kansenstatuut>             <price>0.00</price>             <cardSystem>                 <id>1</id>                 <name>UiTPAS Regio Aalst</name>             </cardSystem>         </uitpasPrice>         <uitpasPrice>             <id>10</id>             <reason>FIRST_CARD</reason>             <cardType>CARD</cardType>             <voucherType>                 <name>uitgegeven door CultuurNet Vlaanderen</name>                 <prefix>100</prefix>             </voucherType>             <ageRange>                 <ageTo>17</ageTo>             </ageRange>             <kansenstatuut>false</kansenstatuut>             <price>0.00</price>             <cardSystem>                 <id>1</id>                 <name>UiTPAS Regio Aalst</name>             </cardSystem>         </uitpasPrice>         <uitpasPrice>             <id>10</id>             <reason>FIRST_CARD</reason>             <cardType>CARD</cardType>             <voucherType>                 <name>uitgegeven door CultuurNet Vlaanderen</name>                 <prefix>100</prefix>             </voucherType>             <ageRange>                 <ageTo>17</ageTo>             </ageRange>             <kansenstatuut>true</kansenstatuut>             <price>0.00</price>             <cardSystem>                 <id>1</id>                 <name>UiTPAS Regio Aalst</name>             </cardSystem>         </uitpasPrice>         ...     </uitpasPrices> </response>~~~<br>
