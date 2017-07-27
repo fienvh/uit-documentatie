@@ -496,3 +496,231 @@
   versions:
       - name: "latest"
         path: "content/integratie-op-je-eigen-website/latest/"
+- title: "UiTPAS API"
+  description: "Er zijn 3 mogelijkheden om agenda-informatie te integreren."
+  path: "content/integratie-op-je-eigen-website/"
+  category: "Technisch"
+  weight: 100
+  versions:
+      - name: "latest"
+        path: "content/uitpas_api/latest/"
+        summary:
+        - title: Verenigingen
+          href: verenigingen
+          summary:
+          - title: Endpoints
+            href: verenigingen/endpoints
+          - title: Ophalen van lijst van verenigingen
+            href: verenigingen/ophalen-van-lijst-van-verenigingen
+        - title: Pashouders
+          href: pashouders
+          summary:
+          - title: Endpoints
+            href: pashouders/endpoints
+          - title: Ophalen prijzen uitpas
+            href: pashouders/ophalen-prijzen-uitpas
+          - title: Registreren van een pashouder
+            href: pashouders/registreren-van-een-pashouder
+          - title: Registreren, vernieuwen en heractiveren van lidmaatschap
+            href: pashouders/registreren-vernieuwen-en-heractiveren-van-lidmaatschap
+          - title: Verwijderen van lidmaatschap
+            href: pashouders/verwijderen-van-lidmaatschap
+          - title: Activatie e-mail opnieuw versturen
+            href: pashouders/activatie-e-mail-opnieuw-versturen
+          - title: Ophalen van pashouder
+            href: pashouders/ophalen-van-pashouder
+          - title: Ophalen van groepspas
+            href: pashouders/ophalen-van-groepspas
+          - title: Ophalen van pashouder dmv uid
+            href: pashouders/ophalen-van-pashouder-dmv-uid
+          - title: Zoeken van pashouders
+            href: pashouders/zoeken-van-pashouders
+          - title: Ophalen welkomstvoordelen voor pashouder
+            href: pashouders/ophalen-welkomstvoordelen-voor-pashouder
+          - title: Inchecken pashouder
+            href: pashouders/inchecken-pashouder
+          - title: Verzilveren welkomstvoordeel
+            href: pashouders/verzilveren-welkomstvoordeel
+          - title: Ophalen omruilvoordelen
+            href: pashouders/ophalen-omruilvoordelen
+          - title: Punten verzilveren
+            href: pashouders/punten-verzilveren
+          - title: Ophalen verzilverde omruilvoordelen
+            href: pashouders/ophalen-verzilverde-omruilvoordelen
+          - title: Upload picture
+            href: pashouders/upload-picture
+          - title: Update pashouder
+            href: pashouders/update-pashouder
+          - title: Block uitpas
+            href: pashouders/block-uitpas
+          - title: Zoeken van welkomstvoordelen
+            href: pashouders/zoeken-van-welkomstvoordelen
+          - title: Opzoeken van uitpasnummer
+            href: pashouders/opzoeken-van-uitpasnummer
+          - title: Nieuwe kaart registreren
+            href: pashouders/nieuwe-kaart-registreren
+          - title: Activatie link opvragen op basis van geboortedatum
+            href: pashouders/activatie-link-opvragen-op-basis-van-geboortedatum
+          - title: Acties voor een pashouder aan een balie ophalen
+            href: pashouders/acties-voor-een-pashouder-aan-een-balie-ophalen
+          - title: Acties voor een pashouder aan een balie uitvoeren
+            href: pashouders/acties-voor-een-pashouder-aan-een-balie-uitvoeren
+          - title: Bestaande pashouder registreren bij een nieuw kaartsysteem
+            href: pashouders/bestaande-pashouder-registreren-bij-een-nieuw-kaartsysteem
+          - title: Kaartsysteem specifieke pashouder gegevens aanpassen
+            href: pashouders/kaartsysteem-specifieke-pashouder-gegevens-aanpassen
+          - title: Opzoeken van coupons van een pashouder
+            href: pashouders/opzoeken-van-coupons-van-een-pashouder
+          - title: Opzoeken van een coupon van een pashouder
+            href: pashouders/opzoeken-van-een-coupon-van-een-pashouder
+        - title: Uitpas
+          href: uitpas
+          summary:
+          - title: Endpoints
+            href: uitpas/endpoints
+          - title: Ophalen van pashouder dmv uitpasnummer, chipnummer, INSZ of INSZ barcode
+            href: uitpas/ophalen-van-pashouder-dmv-uitpasnummer-chipnummer-insz-of-insz-barcode
+        - title: Events
+          href: events
+          summary:
+          - title: Endpoints
+            href: events/endpoints
+          - title: Registratie van verkoop van ticket
+            href: events/registratie-van-verkoop-van-ticket
+          - title: Annulatie van verkoop van ticket
+            href: events/annulatie-van-verkoop-van-ticket
+          - title: Checkins doorzoeken
+            href: events/checkins-doorzoeken
+          - title: Uitpas aanbod doorzoeken
+            href: events/uitpas-aanbod-doorzoeken
+          - title: Verkoop tickets doorzoeken
+            href: events/verkoop-tickets-doorzoeken
+          - title: Annulatie van verkoop van ticket adhv id
+            href: events/annulatie-van-verkoop-van-ticket-adhv-id
+          - title: Online registratie van verkoop van ticket
+            href: events/online-registratie-van-verkoop-van-ticket
+          - title: Online annulatie van verkoop van ticket adhv id
+            href: events/online-annulatie-van-verkoop-van-ticket-adhv-id
+        - title: Balies
+          href: balies
+          summary:
+          - title: Endpoints
+            href: balies/endpoints
+          - title: Points of Sale opzoeken
+            href: balies/points-of-sale-opzoeken
+          - title: Balies opzoeken
+            href: balies/balies-opzoeken
+          - title: Medewerker toevoegen aan balie
+            href: balies/medewerker-toevoegen-aan-balie
+          - title: Medewerker verwijderen van balie
+            href: balies/medewerker-verwijderen-van-balie
+          - title: Balies voor een medewerker opzoeken
+            href: balies/balies-voor-een-medewerker-opzoeken
+          - title: Alle medewerkers van een balie opzoeken
+            href: balies/alle-medewerkers-van-een-balie-opzoeken
+          - title: Opvragen voorraadtellers uitpassen
+            href: balies/opvragen-voorraadtellers-uitpassen
+        - title: Welkomstvoordelen en verzilveracties
+          href: welkomstvoordelen-en-verzilveracties
+          summary:
+          - title: Endpoints
+            href: welkomstvoordelen-en-verzilveracties/endpoints
+          - title: Ophalen gegevens van een welkomstvoordeel
+            href: welkomstvoordelen-en-verzilveracties/ophalen-gegevens-van-een-welkomstvoordeel
+          - title: Ophalen gegevens van een verzilveractie
+            href: welkomstvoordelen-en-verzilveracties/ophalen-gegevens-van-een-verzilveractie
+        - title: Checkin devices
+          href: checkin-devices
+          summary:
+          - title: Endpoints
+            href: checkin-devices/endpoints
+          - title: Ophalen van gegevens van checkin device
+            href: checkin-devices/ophalen-van-gegevens-van-checkin-device
+          - title: Opvragen checkin devices
+            href: checkin-devices/opvragen-checkin-devices
+          - title: Koppelen van een checkin device aan een evenement
+            href: checkin-devices/koppelen-van-een-checkin-device-aan-een-evenement
+          - title: Update gegevens checkin device
+            href: checkin-devices/update-gegevens-checkin-device
+        - title: Rapportering
+          href: rapportering
+          summary:
+          - title: Endpoints
+            href: rapportering/endpoints
+          - title: Financieel rapport aanmaken
+            href: rapportering/financieel-rapport-aanmaken
+          - title: Status opvragen financieel rapport
+            href: rapportering/status-opvragen-financieel-rapport
+          - title: Download financieel rapport
+            href: rapportering/download-financieel-rapport
+        - title: Uitpas prijzen
+          href: uitpas-prijzen
+          summary:
+          - title: Endpoints
+            href: uitpas-prijzen/endpoints
+          - title: Ophalen uitpas prijs
+            href: uitpas-prijzen/ophalen-uitpas-prijs
+        - title: End-user API
+          href: end-user-api
+          summary:
+          - title: Endpoints
+            href: end-user-api/endpoints
+          - title: Ophalen pashouder punten
+            href: end-user-api/ophalen-pashouder-punten
+          - title: Inchecken op basis van checkin code
+            href: end-user-api/inchecken-op-basis-van-checkin-code
+        - title: Entiteiten
+          href: entiteiten
+          summary:
+          - title: AgeRange entiteit
+            href: entiteiten/agerange-entiteit
+          - title: Association entiteit
+            href: entiteiten/association-entiteit
+          - title: Balie entiteit
+            href: entiteiten/balie-entiteit
+          - title: Card entiteit
+            href: entiteiten/card-entiteit
+          - title: CardSystem entiteit
+            href: entiteiten/cardsystem-entiteit
+          - title: CardSystem entiteit (voor balie)
+            href: entiteiten/cardsystem-entiteit-voor-balie
+          - title: CashedPointsPromotion entiteit
+            href: entiteiten/cashedpointspromotion-entiteit
+          - title: CheckinActivity entiteit
+            href: entiteiten/checkinactivity-entiteit
+          - title: CheckinDevice entiteit
+            href: entiteiten/checkindevice-entiteit
+          - title: CultureEvent entiteit
+            href: entiteiten/cultureevent-entiteit
+          - title: CultureEvents entiteit
+            href: entiteiten/cultureevents-entiteit
+          - title: Grouppass entiteit
+            href: entiteiten/grouppass-entiteit
+          - title: Membership entiteit
+            href: entiteiten/membership-entiteit
+          - title: Pashouder entiteit
+            href: entiteiten/pashouder-entiteit
+          - title: PassHolderCardSystemLink entiteit
+            href: entiteiten/passholdercardsystemlink-entiteit
+          - title: PeriodConstraint entiteit
+            href: entiteiten/periodconstraint-entiteit
+          - title: PointsPromotion entiteit
+            href: entiteiten/pointspromotion-entiteit
+          - title: PriceClass entiteit
+            href: entiteiten/priceclass-entiteit
+          - title: TicketSale entiteit
+            href: entiteiten/ticketsale-entiteit
+          - title: TicketSale entiteit (bij opzoeken van evenementen)
+            href: entiteiten/ticketsale-entiteit-bij-opzoeken-van-evenementen
+          - title: TicketSale entiteit (bij zoekopdracht):*
+            href: entiteiten/ticketsale-entiteit-bij-zoekopdracht
+          - title: TicketSaleCoupon entiteit
+            href: entiteiten/ticketsalecoupon-entiteit
+          - title: UitIdUser entiteit
+            href: entiteiten/uitiduser-entiteit
+          - title: UitpasPrice entiteit
+            href: entiteiten/uitpasprice-entiteit
+          - title: VoucherType entiteit
+            href: entiteiten/vouchertype-entiteit
+          - title: WelcomeAdvantage entiteit
+            href: entiteiten/welcomeadvantage-entiteit
