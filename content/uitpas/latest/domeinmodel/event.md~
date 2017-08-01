@@ -21,7 +21,7 @@ Wordt bepaald in UDB door de invoerder van het event. Dit is de totaalprijs van 
 Wordt bepaald in UDB door de invoerder van het event.
 
 **Points** ```Verplicht```
-Het aantal punten dat de pashouder spaart, wordt ingesteld per event. Default kan op één event één punt verdiend worden. De KSB kan dit optioneel voor speciale gevallen aanpassen. 
+Het aantal punten dat de pashouder spaart, wordt ingesteld per event. Default kan op één event één punt verdiend worden. De KSB kan dit optioneel voor speciale gevallen aanpassen. Als een pashouder gedurende 1 jaar geen enkel punt spaart of een voordeel omruilt, vervallen zijn punten.
 
 **Checkin constraint** ```Optioneel```
 Het aantal keer dat een pashouder kan inchecken op een event is beperkt. Default waarden zijn ingesteld door CultuurNet Vlaanderen per calendar type: gaat het event eenmalig, periodiek of permanent door. De constraint kan per event aangepast worden door de KSB.
