@@ -8,11 +8,11 @@ Een pashouder is de bezitter van een UiTPAS en de eindgebruiker van één of mee
 De pashouder heeft volgende eigenschappen:
 
 **Status** ```Verplicht```
-De status van de pas van de pashouder. Volgende statussen zijn mogelijk: actief, geblokkeerd, verwijderd (zie onderstaande illustratie).
+De status van de pas van de pashouder. Volgende statussen zijn mogelijk: actief, geblokkeerd, verwijderd.
 
 **INSZ** ```Verplicht```
-Wordt overgenomen van de eID
-D.i. het rijksregisternummer van de pashouder. Binnen het globale UiTPAS systeem moet het INSZ uniek zijn.
+Wordt overgenomen van de eID.
+Dit is het rijksregisternummer van de pashouder. Binnen het globale UiTPAS systeem moet het INSZ uniek zijn.
 
 **Woonplaats** ```Verplicht```
 Wordt overgenomen van de eID. De pashouder moet gedomicilieerd zijn in een Belgische gemeente.
@@ -20,7 +20,8 @@ Wordt overgenomen van de eID. De pashouder moet gedomicilieerd zijn in een Belgi
 **Kaartnummer** ```Verplicht```
 Verbindt de pashouder met de kaart via de kaartnummer/chipnummer combinatie.
 
-**Naam** (verplicht, wordt overgenomen van de eID) Naam en voornaam van de pashouder
+**Naam** ```Verplicht``` 
+Wordt overgenomen van de eID) Naam en voornaam van de pashouder
 
 **Afbeelding** ```Verplicht```
 Wordt overgenomen van de eID. Pasfoto van de eID
@@ -35,7 +36,7 @@ Wordt overgenomen van de eID.
 Wordt overgenomen van de eID
 
 **Nationaliteit**
-Vvrij veld
+Vrij veld
 
 **E-mailadres**
 Vrij veld
