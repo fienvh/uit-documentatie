@@ -8,7 +8,7 @@ Een balie is een organisator van cultuur- of vrijetijdsaanbod en/of een locatie 
 Een balie beschikt over volgende eigenschappen:
 
 **Kaartsysteem** ```Verplicht```
-Een balie behoort tot een kaartsysteem indien de overeenkomstige organisatie in de UiTdatabank de tag (“marker”) van het bijhorende systeem heeft gekregen. Deze marker wordt door een bevoegde invoerder geplaatst, momenteel is dit CultuurNet Vlaanderen, op vraag van de KSB.
+Een balie behoort tot een kaartsysteem indien de overeenkomstige organisatie in de UiTdatabank het label (“marker”) van het bijhorende systeem heeft gekregen. Deze marker wordt door een bevoegde invoerder geplaatst, momenteel is dit CultuurNet Vlaanderen, op vraag van de KSB.
 
 **Permissiegroepen** ```Verplicht```
 Een balie behoort tot één of meerdere permissiegroepen (“UiTPAS groepen”). Die groep bepaalt in welk permissiemodel de balie zit. De groepen en hun permissies zelf zijn instelbaar door CultuurNet Vlaanderen indien er nood is tot aanpassing. Bij creatie van een kaartsysteem stelt CultuurNet Vlaanderen een default groep voor het systeem in. Elke nieuwe balie zal tot deze groep behoren. Volgende permissiegroepen worden gehanteerd:
@@ -17,7 +17,8 @@ Een balie behoort tot één of meerdere permissiegroepen (“UiTPAS groepen”).
 deze balies kunnen pashouders met en zonder kansenstatuut registreren. Zij hebben ook het recht om pashouders zonder INSZ te registreren.
 * **Niet-geautoriseerde registratiebalies**  
 deze balies kunnen pashouders registreren, maar alleen deze zonder kansenstatuut.
-Mag personen uit andere gemeentes registreren - alleen balies binnen deze permissiegroep mogen pashouders registreren met woonplaats buiten de gemeente van de balie.
+* **Mag personen uit andere gemeentes registreren**
+alleen balies binnen deze permissiegroep mogen pashouders registreren met woonplaats buiten de gemeente van de balie.
 * **Checkin- en ticketbalies**  
 deze balies kunnen pashouders inchecken, voordelen omruilen, en ticket sales doen.
 
