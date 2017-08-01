@@ -3,7 +3,7 @@
 
 # Event
 
-Een UiTPAS event is een event uit de UiTdatabank. Het kan manueel ingevoerd worden via uitdatabank.be of uit een systeem van derden doorstromen via een API. Meer informatie over UiTdatabank API integratiemogelijkheden is beschikbaar op tools.uitdatabank.be/docs.
+Een UiTPAS event is een event uit de UiTdatabank. Het kan manueel ingevoerd worden via uitdatabank.be of uit een systeem van derden doorstromen via een API. Meer informatie over UiTdatabank API integratiemogelijkheden is beschikbaar op http://documentatie.uitdatabank.be/content/uitdatabank/latest/index.html.
 
 Een UiTPAS event bevat volgende eigenschappen:
 
@@ -16,7 +16,9 @@ Wordt bepaald in UDB door de invoerder van het event. De marker bepaalt in welk 
 
 **Prijs** ```Verplicht```
 Wordt bepaald in UDB door de invoerder van het event. Dit is de totaalprijs van het evenement
-Niet-automatische verdeelsleutel(s) (optioneel) Wordt bepaald in UDB door de invoerder van het event.
+
+**Niet-automatische verdeelsleutel(s)** ```optioneel``` 
+Wordt bepaald in UDB door de invoerder van het event.
 
 **Points** ```Verplicht```
 Het aantal punten dat de pashouder spaart, wordt ingesteld per event. Default kan op één event één punt verdiend worden. De KSB kan dit optioneel voor speciale gevallen aanpassen. Als een pashouder gedurende 1 jaar geen enkel punt spaart of een voordeel omruilt, vervallen zijn punten.
@@ -27,11 +29,12 @@ Het aantal keer dat een pashouder kan inchecken op een event is beperkt. Default
 **Buy constraint**
 Het aantal keren dat een pashouder met kansenstatuut kan genieten van een korting.
 Er zijn 2 soorten beperkingen op ticket sales:
-Absoluut: eerste ‘x’ pashouders kunnen een ticket aan kansentarief kopen.
-Het aantal maal dat een pashouder een ticket aan kansentarief kan kopen voor een event.
+* Absoluut: eerste ‘x’ pashouders kunnen een ticket aan kansentarief kopen.
+* Het aantal maal dat een pashouder een ticket aan kansentarief kan kopen voor een event.
+
 Een buy constraint kan op twee niveaus ingesteld worden:
-event niveau - default waarde of zoals ingesteld door de KSB. Deze waarde bepaalt hoe vaak een pashouder een ticket aan kansenkorting mag kopen voor een event.
-organiser niveau - default bestaat deze constraint niet. Kan worden ingesteld door de KSB op de balie in het dashboard
+* event niveau - default waarde of zoals ingesteld door de KSB. Deze waarde bepaalt hoe vaak een pashouder een ticket aan kansenkorting mag kopen voor een event.
+* organiser niveau - default bestaat deze constraint niet. Kan worden ingesteld door de KSB op de balie in het dashboard
 
 Defaultwaarden worden ingesteld door CultuurNet Vlaanderen per calendartype van het event. Deze waarde kan per event aangepast worden door de KSB. De default waarden zijn:
 
