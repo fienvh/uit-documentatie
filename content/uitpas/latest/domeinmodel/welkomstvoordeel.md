@@ -9,18 +9,18 @@ Een baliemedewerker kan een welkomstvoordeel dat toegekend is aan een pashouder 
 
 Een welkomstvoordeel heeft volgende eigenschappen:
 
-Titel ```Verplicht```
+* Titel ```Verplicht```
 
-Beschrijving 1 ```Verplicht```
+* Beschrijving 1 ```Verplicht```
 vrij HTML blok
 
-Beschrijving 2 ```Verplicht```
+* Beschrijving 2 ```Verplicht```
 vrij HTML blok
 
 **Twee images**
 
-Balies waar dit voordeel kan opgenomen worden
-Idien geen balie wordt gespecifieerd wordt elke balie beschouwd als balie waar het welkomstvoordeel opgenomen kan worden.
+**Balies waar dit voordeel kan opgenomen worden** ```Verplicht```
+Indien geen balie wordt gespecifieerd wordt elke balie beschouwd als balie waar het welkomstvoordeel opgenomen kan worden.
 
 **Beschikbare eenheden** ```Verplicht```
 Aantal keer dat een voordeel maximum kan opgenomen worden. Indien niet voorzien beschouwt het systeem het aantal beschikbare eenheden als oneindig. Bij een waarde van ‘x’ zullen de eerste ‘x’ pashouders die zich registreren dit voordeel toegekend krijgen.
@@ -35,6 +35,6 @@ De periode waarbinnen de pashouder zich moet registreren om aanspraak te maken o
 De periode waarbinnen de pashouder het voordeel kan opnemen.
 
 **Geldig voor inwoners van {gemeente}** ```Verplicht```
-Iindien geen gemeente gespecificeerd dan geldt het welkomstvoordeel voor inwoners uit eender welke gemeente)
+Indien geen gemeente gespecificeerd dan geldt het welkomstvoordeel voor inwoners uit eender welke gemeente.
 
 Kaartsystemen waar deze welkomstactie op toepasbaar is ```Verplicht```
