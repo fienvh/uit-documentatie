@@ -16,10 +16,10 @@ Een kaart wordt aan een pashouder verbonden via het kaartnummer. Het kaartnummer
 
 0xxxxx(1)  xxxxxx(2) x(3) x(4)
 
-1.: Optioneel prefix zoals ingesteld op kaartsysteem. Indien er een prefix wordt gebruikt, start dit steeds met 0 en bestaat het uit 5 digits.
-2.: volgnummer: 6 (indien prefix wordt gebruikt) of 11 digits (indien er geen prefix wordt gebruikt)
-3.: Indicatie of een pas al (1) dan niet (0) een kansenpas is.
-4.: Check digit volgens Luhn algoritme
+1. Optioneel prefix zoals ingesteld op kaartsysteem. Indien er een prefix wordt gebruikt, start dit steeds met 0 en bestaat het uit 5 digits.
+2. volgnummer: 6 (indien prefix wordt gebruikt) of 11 digits (indien er geen prefix wordt gebruikt)
+3. Indicatie of een pas al (1) dan niet (0) een kansenpas is.
+4. Check digit volgens Luhn algoritme
 
 
 **Balie**
