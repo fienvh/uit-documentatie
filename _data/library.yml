@@ -209,7 +209,6 @@
               href: "domeinmodel/groepscoupon"
             - title: "Verdeelsleutel"
               href: "domeinmodel/verdeelsleutel"
-	
         - title: "Processen"
           href: "processen"
           summary:
