@@ -38,13 +38,13 @@ Een niet-automatische verdeelsleutel wordt als volgt opgesteld:
 
 > Bijvoorbeeld voor een voorstelling in CC De Werf in Aalst:
 Pashouder uit Aalst
-Pashouder betaalt €1,5;
-Lokale overheid betaalt 50% van de totale ticketprijs,
-Inrichter betaalt de rest.
+* Pashouder betaalt €1,5;
+* Lokale overheid betaalt 50% van de totale ticketprijs,
+* Inrichter betaalt de rest.
 Pashouder uit Lede
-Pashouder betaalt €1,5,
-Lokale overheid betaalt 70% van de totale ticketprijs
-Inrichter betaalt de rest.
+* Pashouder betaalt €1,5,
+* Lokale overheid betaalt 70% van de totale ticketprijs
+* Inrichter betaalt de rest.
 
 ## Automatische verdeelsleutels
 Een automatische verdeelsleutel kan automatisch aan een event worden toegekend op basis van volgende conditionele parameters. De KSB stelt de condities in:
