@@ -5,38 +5,36 @@
 
 Koppel een checkin device aan een evenement.
 
-_Method_  
- POST
+_Method_<br> POST
 
-_URL_  
- {prefix}/uitpas/cid/connect
+_URL_<br> {prefix}/uitpas/cid/connect
 
 Parameters:
 
- <thead><th>**Naam**</th> <th>**Type**</th> <th>**Omschrijving**</th> <th>**Verplicht**</th> |  
-</thead> |balieConsumerKey |String |ConsumerKey van de balie waarvoor deze request wordt uigevoerd. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.3 |cdbid |String |identificatie van het evenement. Wanneer een lege waarde wordt meegegeven is er geen evenement meer gekoppeld aan het checkin device. |cidConsumerKey |String |identificatie van het checkin device |x |  
-_Authenticatie_  
-_User access token van de balie medewerker die de actie uitvoert_
+ 
+
+|**Naam**| **Type**| **Omschrijving**| **Verplicht**| |
+|balieConsumerKey| String| ConsumerKey van de balie waarvoor deze request wordt uigevoerd. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.3| cdbid| String| identificatie van het evenement. Wanneer een lege waarde wordt meegegeven is er geen evenement meer gekoppeld aan het checkin device.| cidConsumerKey| String| identificatie van het checkin device| x||
+
+_Authenticatie_<br> _User access token van de balie medewerker die de actie uitvoert_
 
 **Response**
 
-<u>Bij succes</u>  
- HTTP 200 OK met ACTION\_SUCCEEDED in response body in XML formaat
+<u>Bij succes</u><br> HTTP 200 OK met ACTION\_SUCCEEDED in response body in XML formaat
 
-<u>Bij fouten</u>  
- HTTP 400 met een response body in XML formaat:
+<u>Bij fouten</u><br> HTTP 400 met een response body in XML formaat:
 
- |code |ErrorCode van de fout:  
- UNKNOWN\_BALIE\_CONSUMERKEY  
- UNKNOWN\_CID\_CONSUMERKEY  
- BALIE\_NOT\_AUTHORIZED  
- UNKNOWN\_EVENT\_CDBID |  
- |message |Beschrijving van de fout |  
- |requiredPermission |Indien code = ACCESS\_DENIED, dan bevat dit veld de vereiste permissie. |  
+ 
+
+|code| ErrorCode van de fout:<br> UNKNOWN\_BALIE\_CONSUMERKEY<br> UNKNOWN\_CID\_CONSUMERKEY<br> BALIE\_NOT\_AUTHORIZED<br> UNKNOWN\_EVENT\_CDBID| |
+|message| Beschrijving van de fout| |
+|requiredPermission| Indien code = ACCESS\_DENIED, dan bevat dit veld de vereiste permissie.||
+
 _Voorbeeld request_
 
-POST {prefix}/uitpas/cid/connect  
- balieConsumerKey=57588868-EA2A-3A56-0AC173415A6D1BE7&cdbid=bb28db97-bb1c-48fb-89bf-34a4a91058b6&cidConsumerKey=36c1d88f88f97e44f744c5f59c23f8c6
+POST {prefix}/uitpas/cid/connect<br> balieConsumerKey=57588868-EA2A-3A56-0AC173415A6D1BE7&cdbid=bb28db97-bb1c-48fb-89bf-34a4a91058b6&cidConsumerKey=36c1d88f88f97e44f744c5f59c23f8c6
 
+
+~~~xml
+ <?xml version="1.0" encoding="UTF-8" standalone="yes"?> <response>     <balies>         <balie>             <name>CC De Werf</name>             <id>57588868-EA2A-3A56-0AC173415A6D1BE7</id>         </balie>     </balies>     <cdbid>bb28db97-bb1c-48fb-89bf-34a4a91058b6</cdbid>     <consumerKey>36c1d88f88f97e44f744c5f59c23f8c6</consumerKey>     <name>CiD1</name>     <status>ACTIVE</status> </response>
 ~~~
- <?xml version="1.0" encoding="UTF-8" standalone="yes"?> <response>     <balies>         <balie>             <name>CC De Werf</name>             <id>57588868-EA2A-3A56-0AC173415A6D1BE7</id>         </balie>     </balies>     <cdbid>bb28db97-bb1c-48fb-89bf-34a4a91058b6</cdbid>     <consumerKey>36c1d88f88f97e44f744c5f59c23f8c6</consumerKey>     <name>CiD1</name>     <status>ACTIVE</status> </response>~~~<br>
