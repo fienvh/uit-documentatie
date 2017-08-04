@@ -27,4 +27,4 @@ Modules waarmee je een UiTagenda integreert in een Drupal-site.
 - Fijngestelde SEO
 
 
-> [Aan de slag met Culturefeed](http://documentatie.uitdatabank.be/content/culturefeed/latest/index.html)
+> Aan de slag met [Culturefeed](http://documentatie.uitdatabank.be/content/culturefeed/latest/index.html)
