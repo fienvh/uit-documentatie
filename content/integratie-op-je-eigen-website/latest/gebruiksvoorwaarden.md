@@ -3,12 +3,12 @@
 
 # Gebruiksvoorwaarden publicatietools
 
-( dd 16/2/16)
+(dd 16/2/16)
 
 Onder publicatietools wordt begrepen (dd 16/02/16):
 
 - UiTdatabank API
-- agendawidgets: door CultuurNet gehoste agendamodule
+- Agendawidgets: door CultuurNet gehoste agendamodule
 - Culturefeed Module Suite, een set van Drupal-gebaseerde agenda modules
 
 De agendawidgets en de Culturefeed Modules zijn gebouwd bovenop de UiTdatabank API.
