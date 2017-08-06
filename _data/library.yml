@@ -497,8 +497,8 @@
       - name: "latest"
         path: "content/integratie-op-je-eigen-website/latest/"
 - title: "UiTPAS API"
-  description: "Er zijn 3 mogelijkheden om agenda-informatie te integreren."
-  path: "content/integratie-op-je-eigen-website/"
+  description: "Integreer met UiTPAS-toepassingen."
+  path: "content/uitpas_api/"
   category: "Technisch"
   weight: 100
   versions:
