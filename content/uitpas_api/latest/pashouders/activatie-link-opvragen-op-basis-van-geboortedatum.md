@@ -3,37 +3,37 @@
 
 # Activatie link opvragen op basis van geboortedatum
 
-_Method_<br> GET
+_Method_
+GET
 
-_URL_<br> {prefix}/uitpas/passholder/{uitpasNumber}/activation
+_URL_
+{prefix}/uitpas/passholder/{uitpasNumber}/activation
 
 Parameters:
 
- 
+| **Naam** | **Type** | **Omschrijving** | **Verplicht** |
+| dob | W3CDate | geboortedatum van de pashouder | x |
 
-|| | | | |
-|dob| W3CDate| geboortedatum van de pashouder| x||
+_Authenticatie_
+_ConsumerRequest van de service consumer die deze request uitvoert_
 
-_Authenticatie_<br> _ConsumerRequest van de service consumer die deze request uitvoert_
-
-_Required permission_<br> **PERMISSION\_PASSHOLDER - ACTION\_ACTIVATE**
+_Required permission_
+**PERMISSION_PASSHOLDER - ACTION_ACTIVATE**
 
 **Response**
 
-<u>Bij succes</u><br> HTTP 200 OK met een response body in XML formaat
+<u>Bij succes</u>
+HTTP 200 OK met een response body in XML formaat
 
- 
+| code | ACTION_SUCCEEDED |
+| activationLink | link waarmee de gebruiker zijn uitpas kan activeren |
 
-|code| ACTION\_SUCCEEDED| |
-|activationLink| link waarmee de gebruiker zijn uitpas kan activeren||
+<u>Bij fouten</u>
+HTTP 400 met een response body in XML formaat:
 
-<u>Bij fouten</u><br> HTTP 400 met een response body in XML formaat:
-
- 
-
-|code| ErrorCode van de fout:<br> MISSING\_REQUIRED\_FIELDS<br> PARSE\_INVALID\_UITPASNUMBER<br> PARSE\_INVALID\_DATE<br> UNKNOWN\_UITPASNUMBER<br> ACTION\_FAILED<br> USER\_ALREADY\_ACTIVATED<br> INVALID\_DOB| |
-|message| Beschrijving van de fout| |
-|requiredPermission| Indien code = ACCESS\_DENIED, dan bevat dit veld de vereiste permissie.||
+| code | ErrorCode van de fout:<br>MISSING_REQUIRED_FIELDS<br>PARSE_INVALID_UITPASNUMBER<br>PARSE_INVALID_DATE<br>UNKNOWN_UITPASNUMBER<br>ACTION_FAILED<br>USER_ALREADY_ACTIVATED<br>INVALID_DOB |
+| message | Beschrijving van de fout |
+| requiredPermission | Indien code = ACCESS_DENIED, dan bevat dit veld de vereiste permissie. |
 
 _Voorbeeld request_
 
@@ -43,5 +43,10 @@ _Voorbeeld response_
 
 
 ~~~xml
- <?xml version="1.0" encoding="UTF-8" standalone="yes"?> <response>     <code>ACTION_SUCCEEDED</code>     <message>activation link generated</message>     <activationLink>http://uitpas-acc.lodgon.com:8080/uitid/rest/uitpas/activate/0930000000107/98bdd8b3f4e48d4c</activationLink> </response>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <code>ACTION_SUCCEEDED</code>
+    <message>activation link generated</message>
+    <activationLink>http://uitpas-acc.lodgon.com:8080/uitid/rest/uitpas/activate/0930000000107/98bdd8b3f4e48d4c</activationLink>
+</response>
 ~~~

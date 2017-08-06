@@ -3,24 +3,37 @@
 
 # Status opvragen financieel rapport
 
-_Method_<br> GET
+_Method_
+GET
 
-_URL_<br> {prefix}/uitpas/report/financialoverview/organiser/{statusReportId}/status<br> waarbij {statusReportId} de id is van het status rapport
+_URL_
+{prefix}/uitpas/report/financialoverview/organiser/{statusReportId}/status
+waarbij {statusReportId} de id is van het status rapport
 
 Parameters:
 
- 
+| **Naam** | **Type** | **Omschrijving** | **Verplicht** |
+| --- | --- | --- | --- |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.3 |  |
 
-|**Naam**| **Type**| **Omschrijving**| **Verplicht**| |
-|balieConsumerKey| String| ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.3| message| wanneer generatie nog bezig is: Export in progress.<br> wanneer generatie klaar is: Export completed.| |
-|resource| wanneer generatie nog bezig is: URL om de status van het gestarte rapport op te vragen: {prefix}/uitpas/report/financialoverview/organiser/{REPORT\_ID}/status<br> wanneer generatie klaar is: URL om het rapport te downloaden: {prefix}/uitpas/report/financialoverview/organiser/{REPORT\_ID}/download<br> Indien de balieConsumerKey werd meegegeven, zal deze ook in de resource url gezet worden.||
+_Authenticatie_
+User access token van de balie medewerker die de actie uitvoert
 
-<u>Bij fouten</u><br> HTTP 400 met een response body in XML formaat:
+**Response**
 
- 
+<u>Bij succes</u>
+HTTP 200 met een response body in XML formaat:
 
-|code| ErrorCode van de fout:<br> UNKNOWN\_BALIE\_CONSUMERKEY<br> ACCESS\_DENIED<br> UNKNOWN\_REPORT\_ID<br> ACTION\_FAILED| |
-|message| Beschrijving van de fout||
+| code | ACTION_SUCCEEDED |
+| --- | --- |
+| message | wanneer generatie nog bezig is: Export in progress.<br> wanneer generatie klaar is: Export completed. |
+| resource | wanneer generatie nog bezig is: URL om de status van het gestarte rapport op te vragen: {prefix}/uitpas/report/financialoverview/organiser/{REPORT_ID}/status<br> wanneer generatie klaar is: URL om het rapport te downloaden: {prefix}/uitpas/report/financialoverview/organiser/{REPORT_ID}/download<br>Indien de balieConsumerKey werd meegegeven, zal deze ook in de resource url gezet worden. |
+
+<u>Bij fouten</u>
+HTTP 400 met een response body in XML formaat:
+
+| code | ErrorCode van de fout:<br>UNKNOWN_BALIE_CONSUMERKEY<br>ACCESS_DENIED<br>UNKNOWN_REPORT_ID<br>ACTION_FAILED |
+| message | Beschrijving van de fout |
 
 _Voorbeeld request_
 
@@ -30,5 +43,10 @@ _Voorbeeld response_
 
 
 ~~~xml
- <?xml version="1.0" encoding="UTF-8" standalone="yes"?> <response>     <code>ACTION_SUCCEEDED</code>     <message>Export completed.</message>     <resource>/uitpas/report/financialoverview/organiser/19/download?consumerKey=57588868-EA2A-3A56-0AC173415A6D1BE7</resource> </response>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <code>ACTION_SUCCEEDED</code>
+    <message>Export completed.</message>
+    <resource>/uitpas/report/financialoverview/organiser/19/download?consumerKey=57588868-EA2A-3A56-0AC173415A6D1BE7</resource>
+</response>
 ~~~

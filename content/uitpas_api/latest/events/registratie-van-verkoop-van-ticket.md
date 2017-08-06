@@ -3,34 +3,36 @@
 
 # Registratie van verkoop van ticket
 
-_Method_<br> POST
+_Method_
+POST
 
-_URL_<br> {prefix}/uitpas/cultureevent/{eventCdbid}/buy/{uitpasNumber}
+_URL_
+{prefix}/uitpas/cultureevent/{eventCdbid}/buy/{uitpasNumber}
 
-waarbij {eventCdbid} de cdbid van een event is<br> {uitpasNumber} de uitpas nummer van een pashouder of een groepspas
+waarbij {eventCdbid} de cdbid van een event is
+{uitpasNumber} de uitpas nummer van een pashouder of een groepspas
 
 Parameters:
 
- 
+| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.3 |
+| ticketSaleCouponId | Long | Ticket sale coupon Id die gebruikt moet worden bij de ticketsale |
+| amountOfTickets | Integer | Aantal tickets. Deze parameter is verplicht voor een groepspas, maar mag niet gebruikt worden bij pashouders |
+| priceClass | String | prijs klasse gebruikt bij de ticketsale |
 
-|balieConsumerKey| String| ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.3| |
-|ticketSaleCouponId| Long| Ticket sale coupon Id die gebruikt moet worden bij de ticketsale| |
-|amountOfTickets| Integer| Aantal tickets. Deze parameter is verplicht voor een groepspas, maar mag niet gebruikt worden bij pashouders| |
-|priceClass| String| prijs klasse gebruikt bij de ticketsale||
-
-_Authenticatie_<br> _UserAccessToken van de balie medewerker die de actie uitvoert._
+_Authenticatie_
+_UserAccessToken van de balie medewerker die de actie uitvoert._
 
 **Response**
 
-<u>Bij succes</u><br> HTTP 200 OK met een response body in XML formaat
+<u>Bij succes</u>
+HTTP 200 OK met een response body in XML formaat
 
-<u>Bij fouten</u><br> HTTP 400 met een response body in XML formaat:
+<u>Bij fouten</u>
+HTTP 400 met een response body in XML formaat:
 
- 
-
-|code| ErrorCode van de fout:<br> MISSING\_REQUIRED\_FIELDS<br> INVALID\_PARAMETERS<br> UNKNOWN\_EVENT\_CDBID<br> PARSE\_INVALID\_UITPASNUMBER<br> PARSE\_INVALID\_LONG<br> ACTION\_NOT\_ALLOWED<br> MAXIMUM\_REACHED<br> UNKNOWN\_UITPASNUMBER<br> INVALID\_CARD\_STATUS<br> TICKETSALE\_NOT\_ALLOWED\_FREE\_EVENT<br> NO\_VALID\_DISTRIBUTION\_KEY<br> UNKNOWN\_PRICE\_CLASS| |
-|message| Beschrijving van de fout| |
-|requiredPermission| Indien code = ACCESS\_DENIED, dan bevat dit veld de vereiste permissie.||
+| code | ErrorCode van de fout:<br>MISSING_REQUIRED_FIELDS<br>INVALID_PARAMETERS<br>UNKNOWN_EVENT_CDBID<br>PARSE_INVALID_UITPASNUMBER<br>PARSE_INVALID_LONG<br>ACTION_NOT_ALLOWED<br>MAXIMUM_REACHED<br>UNKNOWN_UITPASNUMBER<br>INVALID_CARD_STATUS<br>TICKETSALE_NOT_ALLOWED_FREE_EVENT<br>NO_VALID_DISTRIBUTION_KEY<br>UNKNOWN_PRICE_CLASS |
+| message | Beschrijving van de fout |
+| requiredPermission | Indien code = ACCESS_DENIED, dan bevat dit veld de vereiste permissie. |
 
 _Voorbeeld request_
 
@@ -40,5 +42,10 @@ _Voorbeeld response_
 
 
 ~~~xml
- <?xml version="1.0" encoding="UTF-8" standalone="yes"?> <ticketSale> 	<creationDate>2011-12-02T12:23:35.636+01:00</creationDate> 	<id>7</id> 	<price>45.0</price> </ticketSale>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ticketSale>
+	<creationDate>2011-12-02T12:23:35.636+01:00</creationDate>
+	<id>7</id>
+	<price>45.0</price>
+</ticketSale>
 ~~~

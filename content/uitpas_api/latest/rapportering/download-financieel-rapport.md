@@ -3,23 +3,36 @@
 
 # Download financieel rapport
 
-_Method_<br> GET
+_Method_
+GET
 
-_URL_<br> {prefix}/uitpas/report/financialoverview/organiser/{statusReportId}/download<br> waarbij {statusReportId} de id is van het status rapport
+_URL_
+{prefix}/uitpas/report/financialoverview/organiser/{statusReportId}/download
+waarbij {statusReportId} de id is van het status rapport
 
 Parameters:
 
- 
+| **Naam** | **Type** | **Omschrijving** | **Verplicht** |
+| --- | --- | --- | --- |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.3 |  |
 
-|**Naam**| **Type**| **Omschrijving**| **Verplicht**| |
-|balieConsumerKey| String| ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.3| Content-Disposition| attachment; filename=financialOverview\_{BALIE\_NAME}\_{COMPLETION\_DATE}.zip||
+_Authenticatie_
+User access token van de balie medewerker die de actie uitvoert
 
-<u>Bij fouten</u><br> HTTP 400 met een response body in XML formaat:
+**Response**
 
- 
+<u>Bij succes</u>
+HTTP 200 met een zip bestand en volgende HTTP headers:
 
-|code| ErrorCode van de fout:<br> UNKNOWN\_BALIE\_CONSUMERKEY<br> ACCESS\_DENIED<br> UNKNOWN\_REPORT\_ID<br> INVALID\_REPORT\_STATUS| |
-|message| Beschrijving van de fout||
+| Content-Type | application/x-zip-compressed |
+| --- | --- |
+| Content-Disposition | attachment; filename=financialOverview_{BALIE_NAME}_{COMPLETION_DATE}.zip |
+
+<u>Bij fouten</u>
+HTTP 400 met een response body in XML formaat:
+
+| code | ErrorCode van de fout:<br>UNKNOWN_BALIE_CONSUMERKEY<br>ACCESS_DENIED<br>UNKNOWN_REPORT_ID<br>INVALID_REPORT_STATUS |
+| message | Beschrijving van de fout |
 
 _Voorbeeld request_
 
