@@ -1,4 +1,5 @@
 ---
+layout: versions
 ---
 
 # UiTPAS API
