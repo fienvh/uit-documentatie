@@ -18,16 +18,12 @@ Gaat na of de pashouder met kansenstatuut (nog) recht heeft op het kansentarief.
 
 Defaultwaarden worden ingesteld door CultuurNet Vlaanderen per calendartype van het event (zie tabel hieronder). Deze waarde kan per event aangepast worden door de KSB. De default waarden zijn:
 
-calendar type
-buy constraint
-1 timestamp
-1 absoluut
-meerdere timestamps
-1 absoluut
-periode
-1 absoluut
-permanent
-1/week
+|  Calender type |   Buy Constraint|
+|---|---|
+|  1 timestamp |  1absoluut |
+|   meerdere timestamps|  1 absoluut |
+|   periode|   1 absoluut|
+|   permanent|   1/week|
 
 Aandachtspunt: buy constraints zijn globaal, niet systeemspecifiek. Als een KSB de constraint van een event aanpast, zal deze voor dit event aangepast worden in alle kaartsystemen.
 
