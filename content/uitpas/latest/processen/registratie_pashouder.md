@@ -14,16 +14,16 @@ fig. pashouder registreren
 Baliemedewerkers registreren pashouders met minstens een kaartnummer. Via de UiTPAS balie applicatie scant de baliemedewerker de eID van de pashouder (of voert de eID gegevens manueel in), scant hij een UiTPAS kaart om het kaartnummer met de pashouder te connecteren, en registreert hij het e-mailadres. Het e-mailadres is niet verplicht. Om het e-mailadres niet te registreren moet de baliemedewerker het veld weliswaar actief uitschakelen.
 
 De prijs die een pashouder voor een UiTPAS betaalt is instelbaar door de KSB. Een prijs wordt bepaald op basis van volgende parameters:
-- leeftijd van de pashouder
-- kansenstatuut
-- reden voor activatie kaart
-		- eerste kaart van de pashouder
-		- verlies/diefstal
-		- verkrijgen kansenstatuut
-		- verliezen kansenstatuut
-		- kaart bij upgrade (pashouder was reeds lid van een ander UiTPAS systeem)
-		- extra kaart (pashouder is reeds lid van het systeem en wil hier een kaart)
-- voucher (zie verder). Indien de KSB vouchers heeft aangemaakt, moet de prijzentabel ook voor vouchers worden ingevuld.
+* leeftijd van de pashouder
+* kansenstatuut
+* reden voor activatie kaart
+	* eerste kaart van de pashouder
+	* verlies/diefstal
+	* verkrijgen kansenstatuut
+	* verliezen kansenstatuut
+	* kaart bij upgrade (pashouder was reeds lid van een ander UiTPAS systeem)
+	* extra kaart (pashouder is reeds lid van het systeem en wil hier een kaart)
+* voucher (zie verder). Indien de KSB vouchers heeft aangemaakt, moet de prijzentabel ook voor vouchers worden ingevuld.
 
 Een pashouder krijgt bij registratie eventueel meteen een aantal punten, zoals ingesteld door de KSB.
 
@@ -59,7 +59,7 @@ De werking van vouchers is als volgt:
 * De KSB maakt een “Vouchertype” aan. Een vouchertype bevat een naam, een omschrijving en een prefix
 * De KSB genereert vouchernummers binnen een bepaald vouchertype. Op dit moment worden de UiTPAS prijzen zoals ingesteld in het UiTPAS prijzenbeheer gekopieerd voor dit vouchertype.
 * De KSB kan tenslotte voor elke reden van activatie van een UiTPAS met voucher een verschillende prijs opgeven.
-De gegenereerde nummers kunnen allemaal slechts 1 maal worden gebruikt. De nummers kunnen worden gebruikt door elke registratiebalie van het kaartsysteem.
+* De gegenereerde nummers kunnen allemaal slechts 1 maal worden gebruikt. De nummers kunnen worden gebruikt door elke registratiebalie van het kaartsysteem.
 
 ## Verlengen van een kansenstatuut
 
@@ -74,17 +74,19 @@ Blokkeren kaart
 Indien de pashouder dit vraagt of de baliemedewerker hier nood toe ziet, kan een kaart geblokkeerd worden door een baliemedewerker van een kaartsysteem waar de pashouder lid van is. Het is mogelijk dat een baliemedewerker van systeemA de kaart van systeemB dus blokkeert indien de pashouder lid is van beide systemen.
 
 Het lidmaatschap tussen pashouder en systeem wordt niet aangetast, slechts de kaart wordt onbruikbaar. Indien de pashouder een andere niet-geblokkeerde kaart heeft, zal hij hiermee kunnen verder sparen en omruilen in alle systemen waar hij lid van is.
-Blokkeren lidmaatschap pashouder
+
+## Blokkeren lidmaatschap pashouder
 Indien de kaartsysteembeheerder hier noodzaak toe ziet kan het lidmaatschap van een pashouder geblokkeerd worden. Dit kan niet door de baliemedewerker, enkel door de KSB.
 Het blokkeren van lidmaatschap zal niet de pas(sen) blokkeren.
 De pashouder zal binnen het geblokkeerde systeem geen voordelen meer kunnen omruilen. Indien hij nog lid is van minstens één systeem zal hij wel nog punten kunnen sparen op alle UiTPAS events.
-Nieuwe kaart toekennen aan een bestaande pashouder
+
+## Nieuwe kaart toekennen aan een bestaande pashouder
 Een baliemedewerker van een systeem kan een pashouder die reeds lid is van zijn systeem om verschillende redenen een nieuwe kaart uit het systeem toekennen.
-De kaart van de pashouder is geblokkeerd en de baliemedewerker geeft een nieuwe kaart om 1 van volgende redenen
-Pashouder is de geblokkeerde kaart verloren of hij werd gestolen (loss_theft)
-Pashouder verhuist naar een andere gemeente binnen het kaartsysteem en moet hierdoor een nieuwe kaart krijgen (removal)
-Pashouder heeft kansenstatuut verloren en krijgt een niet-kansenpas (loss_kansenstatuut)
-Pashouder heeft kansenstatuut verkregen en krijgt een kansenpas (obtain_kansenstatuut)
-De pashouder is lid van het systeem maar heeft geen kaart uit dit systeem (extra_card).
+* De kaart van de pashouder is geblokkeerd en de baliemedewerker geeft een nieuwe kaart om 1 van volgende redenen
+	* Pashouder is de geblokkeerde kaart verloren of hij werd gestolen (loss_theft)
+	* Pashouder verhuist naar een andere gemeente binnen het kaartsysteem en moet hierdoor een nieuwe kaart krijgen (removal)
+	* Pashouder heeft kansenstatuut verloren en krijgt een niet-kansenpas (loss_kansenstatuut)
+	* Pashouder heeft kansenstatuut verkregen en krijgt een kansenpas (obtain_kansenstatuut)
+* De pashouder is lid van het systeem maar heeft geen kaart uit dit systeem (extra_card).
 
 Puntentotaal, checkins en gegevens van de pashouder blijven ongewijzigd bestaan.
