@@ -133,6 +133,13 @@ ERROR 400 Bad Request
 </rsp>
 ~~~
 
+~~~ xml
+<rsp level="ERROR" version="0,1">
+    <code>DuplicateInsert</code>
+    <message>This insert is duplicate to an insert in process</message>
+</rsp>
+~~~
+
 ### Het document is te groot (max. 100K)
 
 ~~~ xml
