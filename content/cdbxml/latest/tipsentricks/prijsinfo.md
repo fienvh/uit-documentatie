@@ -30,9 +30,12 @@ Je kan meerdere prijzen importeren aan de hand van key-value pairs. Hierbij is h
 
 Pricedescription moet voldoen aan volgende voorwaarden, vooraleer deze te interpreteren als basis om prijsinfo te importeren 
 - Eerste key/value pair begint met "Basistarief" als key 
+- Een key bestaat enkel uit tekst (zonder gebruik van tekens als ```(``` of ``` >``` )
 - De value van key Basistarief komt exact overeen met pricevalue
 - Indien value een decimaal getal is, gebruik dan een komma en geen punt
 - De opmaak van pricedescription is als volgt (indien 3 tarieven doorgestuurd worden):
-<pricedescription>key: € value; key: € value; key: € value</pricedescription>
+~~~ xml 
+<pricedescription>key: € value; key: € value; key: € value</pricedescription> 
+~~~
 
 In alle andere gevallen wordt priceDescription genegeerd en wordt pricevalue als basistarief geïmporteerd.
