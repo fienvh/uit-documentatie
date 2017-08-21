@@ -36,6 +36,8 @@ Pricedescription moet voldoen aan volgende voorwaarden, vooraleer deze te interp
 <pricedescription>key: value €; key: value €; key: value €</pricedescription> 
 ~~~
 
+In alle andere gevallen wordt priceDescription genegeerd en wordt pricevalue als basistarief geïmporteerd.
+
 ### Voorbeeld
 
 ~~~ xml
@@ -45,4 +47,3 @@ Pricedescription moet voldoen aan volgende voorwaarden, vooraleer deze te interp
 <price>
 ~~~
 
-In alle andere gevallen wordt priceDescription genegeerd en wordt pricevalue als basistarief geïmporteerd.
