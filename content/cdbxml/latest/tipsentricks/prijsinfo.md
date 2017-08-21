@@ -40,7 +40,7 @@ Pricedescription moet voldoen aan volgende voorwaarden, vooraleer deze te interp
 
 ~~~ xml
 <price> 
-<pricevalue>10</pricevalue> (prijs dient aangegeven met punt voor decimalen)
+<pricevalue>10</pricevalue>
 <pricedescription>Basistarief: 10 €; Leden: value 7,5 €; Studenten: 5 €; Senioren: 0 €</pricedescription>
 <price>
 ~~~
