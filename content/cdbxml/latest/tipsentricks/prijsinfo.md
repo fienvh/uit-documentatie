@@ -36,7 +36,7 @@ Pricedescription moet voldoen aan volgende voorwaarden, vooraleer deze te interp
 <pricedescription>key: value €; key: value €; key: value €</pricedescription> 
 ~~~
 
-### Voorbeeld
+### Voorbeeld 
 
 ~~~ xml
 <price> 
