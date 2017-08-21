@@ -33,7 +33,7 @@ Pricedescription moet voldoen aan volgende voorwaarden, vooraleer deze te interp
 - Indien value een decimaal getal is, gebruik dan een komma en geen punt
 - De opmaak van pricedescription is als volgt (indien 3 tarieven doorgestuurd worden):
 ~~~ xml 
-<pricedescription>key: € value; key: € value; key: € value</pricedescription> 
+<pricedescription>key: value €; key: value €; key: value €</pricedescription> 
 ~~~
 
 ### Voorbeeld
