@@ -19,8 +19,6 @@ Het meegeven van één prijs moet gebeuren als numeriek getal, met punt voor de 
 
 Je kan meerdere prijzen importeren aan de hand van key-value pairs. Hierbij is het belangrijk dit volgens onderstaand formaat te doen, zodat deze juist doorkomen in het invoerformulier en op de outputkanalen. Enkel op volgende wijze, kunnen - indien van toepassing - ook de UiTPAS-kansentarieven correct berekend worden voor meerdere prijsklassen. 
 
-### Voorbeeld
-
 ~~~ xml
 <price> 
 <pricevalue>X</pricevalue> (prijs dient aangegeven met punt voor decimalen)
@@ -36,6 +34,15 @@ Pricedescription moet voldoen aan volgende voorwaarden, vooraleer deze te interp
 - De opmaak van pricedescription is als volgt (indien 3 tarieven doorgestuurd worden):
 ~~~ xml 
 <pricedescription>key: € value; key: € value; key: € value</pricedescription> 
+~~~
+
+### Voorbeeld
+
+~~~ xml
+<price> 
+<pricevalue>10</pricevalue> (prijs dient aangegeven met punt voor decimalen)
+<pricedescription>Basistarief: 10 €; Leden: value 7,5 €; Studenten: 5 €; Senioren: 0 €</pricedescription>
+<price>
 ~~~
 
 In alle andere gevallen wordt priceDescription genegeerd en wordt pricevalue als basistarief geïmporteerd.
