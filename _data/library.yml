@@ -503,3 +503,23 @@
             href: "mogelijkheden"
           - title: "Gebruiksvoorwaarden"
             href: "gebruiksvoorwaarden"
+- title: "Frontend afstemmen op het CdbXML-formaat"
+  description: "Enkele tips & tricks om CdbXML-changes op te vangen sinds 2017."
+  path: "content/frontend/"
+  category: "Technisch"
+  weight: 100
+  versions:
+      - name: "latest"
+        path: "content/frontend/latest/"
+        summary:
+          - title: "Achtergrond"
+            href: "achtergrond"
+          - title: "Wijzigingen en optimalisaties"
+            href: "wijzigingen-optimalisaties"
+            summary:
+            - title: "Korte en lange beschrijving"
+              href: "wijzigingen-optimalisaties/korte-lange-beschrijving"
+            - title: "Korte en lange beschrijving"
+              href: "wijzigingen-optimalisaties/korte-lange-beschrijving"
+          - title: "Toekomst"
+            href: "toekomst"
