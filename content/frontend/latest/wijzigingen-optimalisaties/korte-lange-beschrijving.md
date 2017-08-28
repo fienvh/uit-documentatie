@@ -1,11 +1,12 @@
 ---
+jira: UIV-1890
 ---
 
-# Korte en lange beschrijving
+# Dubbele beschrijving van activiteiten
 
 ## Symptoom
 
-Dubbele tekst bij
+Dubbele tekst in de beschrijving van een activiteit.
 
 ## Oorzaak
 

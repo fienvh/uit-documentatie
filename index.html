@@ -20,7 +20,7 @@ layout: index
   <div class="catalog">
     <h2 class="group-title"><strong>Handleidingen</strong> <small>Technische how-to's, geschreven voor ontwikkelaars en systeembeheerders</small></h2>
     <div class="books">
-    {% assign books = (site.data.library | sort: 'weight')%}
+    {% assign books = site.data.library | sort: 'weight'%}
     {% for book in books%}
       {% if book.category == "Technisch" %}
         {% include bookteaser.html %}
