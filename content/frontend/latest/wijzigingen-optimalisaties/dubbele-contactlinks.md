@@ -20,6 +20,6 @@ De nieuwe UiTdatabank bewaart links onder het object contactinfo, maar verwijder
 
 ## Mogelijke oplossing
 
-Culturefeed-sites kunnen gebruik maken van een instelling die de contactinformatie niet meer toont.
+Voor Culturefeed-sites is sinds versie 3.10 [een instelling toegevoegd](https://github.com/cultuurnet/culturefeed/pull/148/ "Check pull request on Github for more details") waarmee je optioneel alle mogelijke dubbele links kan verbergen. Deze instelling staat default uit en moet je dus expliciet inschakelen.
 
 Andere integraties hebben zelf de keuze welke links ze tonen: url's onder contactinformatie óf url's meegestuurd als webresource/weblink. Let wel: links onder webresource of weblink kunnen niet door een organisator aangepast worden.

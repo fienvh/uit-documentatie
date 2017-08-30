@@ -18,10 +18,10 @@ Als zowel de korte en lange beschrijving onder elkaar worden weergegeven, staat 
 
 ## Mogelijke oplossing
 
-Voor CultureFeed-sites is code toegevoegd die de korte beschrijving stript uit de lange beschrijving.
+Voor Culturefeed-sites is sinds versie 3.10 [een instelling toegevoegd](https://github.com/cultuurnet/culturefeed/pull/155/ "Check pull request on Github for more details") die ervoor zorgt dat de eerste volledige paragraaf van de lange beschrijving gebruikt wordt als korte beschrijving zonder dat deze op een willekeurige plaats afgebroken wordt en zich herhaalt in de lange beschrijving. 
 
-Op overzichtspagina's, bv. zoekresultaten, wordt de korte beschrijving gebruikt.
+We vullen hier de huidige variabelen `shortdescription` en `longdescription` mee op om de oplossing backward compatible te maken voor bestaande integraties. Deze instelling staat default aan, maar kan je indien gewenst dus uitschakelen.
 
-Op detailpagina's, bv. een evenementen-pagina, wordt de korte en lange beschrijving onder elkaar weergegeven.
+Ontwikkelaars die rechtstreeks CdbXML-informatie inlezen kunnen een gelijkaardige aanpak gebruiken. 
 
-Ontwikkelaars die rechtstreeks CdbXML-informatie inlezen kunnen een gelijkaardige aanpak gebruiken.
+In beide gevallen is de korte beschrijving enkel nog relevant om op overzichtspagina's (bv. zoekresultaten) te gebruiken, waar een gebruiker sowieso moet doorklikken om meer details te kunnen raadplegen.

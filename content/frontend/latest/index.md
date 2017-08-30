@@ -7,4 +7,4 @@ Sinds de release van de nieuwe UiTdatabank (begin 2017) zijn er een aantal noodz
 
 Hierdoor is het mogelijk dat bepaalde informatie op de publicatiekanalen niet optimaal verschijnt.
 
-In deze handleiding geven we een overzich van de belangrijkste wijzigingen, samen met enkele best practices om ermee om te gaan.
+In deze handleiding geven we een overzicht van de belangrijkste wijzigingen, samen met enkele best practices om ermee om te gaan.
