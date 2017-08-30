@@ -24,4 +24,4 @@ We vullen hier de huidige variabelen `shortdescription` en `longdescription` mee
 
 Ontwikkelaars die rechtstreeks CdbXML-informatie inlezen kunnen een gelijkaardige aanpak gebruiken. 
 
-In beide gevallen is de korte beschrijving enkel nog relevant om op overzichtspagina's (bv. zoekresultaten) te gebruiken, waar een gebruiker sowieso moet doorklikken om meer details te kunnen raadplegen.
+In beide gevallen is de korte beschrijving enkel nog relevant om op overzichtspagina's (bv. zoekresultaten) te gebruiken, waar een gebruiker sowieso moet doorklikken om meer details te kunnen raadplegen. Voor de detailpagina van een evenement of locatie kan je in beide gevallen dus ook enkel de longdescription gebruiken. Deze bevat de volledige beschrijving en kan je dus naar wens zelf inkorten, opsplitsen, open- en dichtklappen,...
