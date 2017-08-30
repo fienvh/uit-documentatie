@@ -12,7 +12,7 @@ Op een detailpagina van een activiteit verschijnt een lijst met uitvoerders die 
 
 Sinds 2017 kan je geen uitvoerders meer toevoegen aan een activiteit.
 
-Als je een oude activiteit kopieert en aanpast wordt de oude uitvoerders-informatie mee overgenomen, maar is dit niet bewerkbaar via uitdatabank.be.
+Als je een oude activiteit kopieert en aanpast wordt de oude uitvoerders-informatie mee overgenomen, maar is dit niet bewerkbaar via [uitdatabank.be](https://www.uitdatabank.be).
 
 ## Mogelijke oplossing
 

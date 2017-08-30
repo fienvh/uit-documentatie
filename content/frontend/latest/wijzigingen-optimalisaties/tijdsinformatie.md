@@ -21,6 +21,6 @@ Activiteiten die een volledige dag duren, krijgen automatisch een beginuur 00:00
 
 ## Mogelijke oplossing
 
-Voor Culturefeed werken we aan een oplossing.
+Voor Culturefeed-integraties werken we momenteel nog aan een oplossing om de niet relevante informatie te verbergen of te vertalen naar een meer leesbare tekststring.
 
 Voor andere integraties kan je een gelijkaardige werkwijze hanteren.
