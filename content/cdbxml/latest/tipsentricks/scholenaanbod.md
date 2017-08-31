@@ -3,11 +3,11 @@
 
 # Scholenaanbod
 
-Onder scholenaanbod verstaan we activiteiten die door cultuurorganisaties worden georganiseerd en bedoeld zijn
+Onder scholenaanbod verstaan we activiteiten die door cultuurorganisaties worden georganiseerd en specifiek bedoeld zijn
 - voor leerlingen (meerderheid van de evenementen)
 - voor leerkrachten (vb. naschoolse vormingen)
 
-Scholenaanbod wordt gepubliceerd op cultuurkuur.be, het cultuureducatief platform van CANON Cultuurcel en CultuurNet Vlaanderen. 
+Scholenaanbod wordt enkel gepubliceerd op cultuurkuur.be, het cultuureducatief platform van CANON Cultuurcel en CultuurNet Vlaanderen. 
 
 Er bestaan 3 soorten aanbod:
 
@@ -20,6 +20,17 @@ Er bestaan 3 soorten aanbod:
 - **Schoolvoorstellingen** hebben zowel een tijdstip als een locatie. Het gaat bijvoorbeeld om een theatervoorstelling, gericht aan een vierde graad.
 - **Rondleidingen** hebben geen specifiek tijdstip, maar wel een locatie, bijvoorbeeld een rondleiding in een museum dat vastgelegd wordt in samenspraak met gids en school.
 - **Producties / boekbaar aanbod** hebben geen locatie en geen tijdstip. Dit is typisch een workshop die op de school zelf gegeven wordt.
+
+## Privaat aanbod
+
+Scholenaanbod richt zich niet tot het grote publiek, maar enkel tot leerlingen en leerkrachten. Om te verschijnen op cultuurkuur.be moet de rootnode de property ```private=true``` bevatten zoals in onderstaand voorbeeld:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL/CdbXSD.xsd">
+    <event availablefrom="2016-01-25T00:00:00" private="true">
+</cdbxml>
+```
 
 ## Specifieke onderwijsvelden
 
@@ -46,12 +57,14 @@ Elke organisator heeft een eigen pagina op Cultuurkuur.
 Wanneer een organisator nog geen eigen pagina heeft, dient een nieuwe pagina aangemaakt te worden, onder de ```<media/> ```-node
 
 ~~~ xml
+<media>
 <file>
 <hlink>https://www.uitid.be/uitid/rest/page/6a5a08d8-21fb-4123-bc2c-2dd39f16fb6d</hlink>
 <mediatype>culturefeed-page</mediatype>
 <title>organiser</title>
 <reltype>organiser</reltype>
 </file>
+</media>
 ~~~
 
 Wanneer een organisator reeds een pagina heeft, dien je de page ID steeds mee te sturen onder de ```<media/>```-node.
