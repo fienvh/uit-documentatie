@@ -123,7 +123,7 @@ ERROR 400 Bad Request
 ~~~
 
 
-### Duplicaat gevonden
+### Duplicaat (event) gevonden
 
 ~~~ xml
 <rsp level=”ERROR” version=”0.1”>
@@ -132,6 +132,8 @@ ERROR 400 Bad Request
   <message>Item already exists.</message>
 </rsp>
 ~~~
+
+### Duplicaat (element) gevonden 
 
 ~~~ xml
 <rsp level="ERROR" version="0,1">
