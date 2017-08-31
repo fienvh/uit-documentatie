@@ -10,7 +10,7 @@ Het is daarom beter om deze [repository](https://github.com/cultuurnet/php-oauth
 Om een Consumer Request via Postman Chrome Rest Extension te doen heb je nodig:
 
 * POSTMAN: https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
-* Consumer Key & secret, deze kan je via CultuurNet verkrijgen of de van de demo consumer gebruiken te vinden in onze sectie over [authenticatie en autorisatie] (http://documentatie.uitdatabank.be/content/uitid/latest/index.html)
+* Consumer Key & secret, deze kan je via CultuurNet verkrijgen of de van de demo consumer gebruiken te vinden in onze sectie over [authenticatie en autorisatie](http://documentatie.uitdatabank.be/content/uitid/latest/index.html)
 
 Vervolgens heb je ook een endpoint nodig van de API die je wil aanspreken:
 
