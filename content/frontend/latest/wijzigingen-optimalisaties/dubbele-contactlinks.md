@@ -10,7 +10,7 @@ Links in de contactinformatie verschijnen meer dan één keer.
 
 ## Oorzaak
 
-Dit probleem doen zich enkel voor bij activiteiten die:
+Dit probleem doet zich enkel voor bij activiteiten die:
 
 - voor 2017 ingevoerd werden
 - niet via uitdatabank.be ingevoerd werden
