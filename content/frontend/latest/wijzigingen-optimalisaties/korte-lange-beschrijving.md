@@ -12,7 +12,7 @@ Dubbele tekst in de beschrijving van een activiteit.
 
 Sinds 2017 voeren organisatoren maar één beschrijving meer in. Er is geen korte en lange beschrijving meer.
 
-De korte beschrijving die je terugvindt in CdbXML wordt automatisch gegenereerd en bevat de eerste X karakters van de tekst.
+De korte beschrijving die je terugvindt in CdbXML wordt automatisch gegenereerd en bevat de eerste 400 karakters van de originele beschrijving, gestript van eventuele html-opmaak.
 
 Als zowel de korte en lange beschrijving onder elkaar worden weergegeven, staat er tekst dubbel.
 
