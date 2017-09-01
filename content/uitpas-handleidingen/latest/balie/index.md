@@ -3,15 +3,14 @@
 
 # UiTPAS voor baliemedewerkers
 
-```
-Er zijn een **pdf versies** beschikbaar van de handleiding voor baliemedewerkers. 
+Er zijn **pdf versies** beschikbaar van de handleiding voor baliemedewerkers. 
 - [Cheat-sheet met de voornaamste functies](http://files.uitpas.be/documentatie/UiTPas-balie%20handleiding-korteversie.pdf)
 - [Uitgebreide versie met detail overzicht](http://files.uitpas.be/documentatie/UiTPas-balie%20handleiding-langeversie.pdf)
-```
+
 
 ## Aanmelden
 
-Ga naar [balie.uitpas.be](http://balie.uitpas.be)of open de balie-applicatie op jouw computer. Meld aan met jouw persoonlijke UiTiD.
+Ga naar [balie.uitpas.be](http://balie.uitpas.be) of open de balie-applicatie op jouw computer. Meld aan met jouw persoonlijke UiTiD.
 
 ## Een nieuwe UiTPAS registreren
 
