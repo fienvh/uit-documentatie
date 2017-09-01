@@ -448,14 +448,14 @@
           summary:
           - title: "Aan de slag"
             href: "balie"
-	- title: "Balie Browser"
+	      - title: "Balie Browser"
           href: "balie-browser"
           summary:
           - title: "Installatie"
             href: "Installatie"
-	  - title: "Gebruik"
+	        - title: "Gebruik"
             href: "Gebruik"
-	  - title: "Debug-modus"
+	        - title: "Debug-modus"
             href: "Debug-modus"
 - title: "Authenticatie en autorisatie"
   description: "Hoe kan je verbinden met onze omgevingen?"
