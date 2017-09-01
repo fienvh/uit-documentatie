@@ -6,7 +6,7 @@
 
 Kaartbeheer is het proces waarbij kaartnummer/chipnummer combinaties worden geregistreerd binnen het UiTPAS systeem en verdeeld worden over de verschillende registratiebalies. Van daaruit kan de kaart toegekend worden aan een pashouder.
 
-
+![hh-kaarten-beheren](/img/hh-kaarten-beheren.png "hh-kaarten-beheren")
 
 
 ## Werking:

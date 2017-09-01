@@ -3,6 +3,7 @@
 
 # Punten sparen
 
+![hh-punt-sparen](/img/hh-punt-sparen.png "hh-punt-sparen")
 Pashouders kunnen punten sparen door in te checken op een event. Inchecken kan 5 uur op voorhand en 5 uur na afloop. Indien geen startuur gekend is kan er doorlopend worden ingecheckt tijdens de dag(en) dat het event plaatsvindt. Dit wordt door CultuurNet Vlaanderen ingesteld.
 
 Een checkin heeft volgende eigenschappen:

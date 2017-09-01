@@ -33,7 +33,7 @@ Cardpackages bestaan altijd uit 50 UiTPAS’en. Het is aangeraden dat de kaartle
 
 7. Baliemedewerker of pashouder blokkeert UiTPAS
 
-Sanity checks
+## Sanity checks
 * Chipnummers zijn globaal uniek
 * UiTPASnummers zijn globaal uniek
 * UiTPAS’en worden alleen verdeeld naar registratiebalies

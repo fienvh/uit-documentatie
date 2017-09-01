@@ -3,6 +3,8 @@
 
 # Tickets tegen kansentarief verkopen
 
+![hh-ticket-kansentarief-verkopen](/img/hh-ticket-kansentarief-verkopen.png "hh-ticket-kansentarief-verkopen")
+
 ## 1. Check buy constraint
 
 ### Default kansentarief
