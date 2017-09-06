@@ -3,7 +3,7 @@
 
 # Referentiegids
 
-Een overzicht van alle geïndexeerde velden, gefilterd op relevantie, met voorbeelden.
+Een overzicht van geïndexeerde velden & parameters, gefilterd op relevantie, met voorbeelden waarmee je events kan zoeken.
 
 <a id="index"></a>
 
