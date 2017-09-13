@@ -5,7 +5,7 @@
 
 Deze methode wordt [hier](http://oauth.googlecode.com/svn/spec/ext/consumer_request/1.0/drafts/2/spec.html) beschreven en staat ook bekend als 2-legged oauth.
 
-![2-legged oauth](/img/2legged.png "2-legged oauth")
+![2-legged oauth](/img/2leggednieuw.png "2-legged oauth")
 
 Bij deze vorm van authenticatie is er geen accesToken of accessTokenSecret. Deze worden uit de request weggelaten (of als lege string meegegeven).
 
