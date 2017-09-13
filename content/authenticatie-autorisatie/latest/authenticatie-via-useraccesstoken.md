@@ -11,7 +11,7 @@ De oAuth request cyclus verloopt als volgt:
 
 Daarna wordt het access token + secret gebruikt om requests te tekenen.
 
-![3-legged oauth](/img/3legged.png "3-legged oauth")
+![3-legged oauth](/img/3leggednieuw.png "3-legged oauth")
 
 ## 1. Request token ophalen
 
