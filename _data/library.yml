@@ -440,7 +440,7 @@
               href: "wijzigingen-optimalisaties/prijsinformatie"
 title: "JSON-LD"
   description: "This document describes the UiTdatabank v3 native JSON-LD format"
-  path: "content/cdbxml/"
+  path: "content/json-ld/"
   category: "Technisch"
   weight: 110
   versions:
