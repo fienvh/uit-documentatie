@@ -1,0 +1,4 @@
+---
+---
+
+# JSON-LD offertype place
