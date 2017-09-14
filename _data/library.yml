@@ -443,6 +443,7 @@
   path: "content/json-ld/"
   category: "Technisch"
   weight: 110
+  hidden: true
   versions:
     - name: "latest"
       path: "content/json-ld/latest/"
