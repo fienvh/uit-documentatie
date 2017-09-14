@@ -22,7 +22,7 @@ layout: index
     <div class="books">
     {% assign books = site.data.library | sort: 'weight'%}
     {% for book in books%}
-      {% if book.category == "Technisch" %}
+      {% if book.category == "Technisch" and book.hidden != true %}
         {% include bookteaser.html %}
       {% endif %}
     {% endfor %}
@@ -35,7 +35,7 @@ layout: index
     <h2 class="group-title"><strong>Gidsen</strong> <small>Achtergrondinformatie voor analisten</small></h2>
     <div class="books">
     {% for book in books %}
-      {% if book.category == "Functioneel" %}
+      {% if book.category == "Functioneel" and book.hidden != true %}
         {% include bookteaser.html %}
       {% endif %}
     {% endfor %}
