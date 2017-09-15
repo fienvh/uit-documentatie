@@ -3,10 +3,9 @@
 
 # UiTPAS voor baliemedewerkers
 
-Er zijn **pdf versies** beschikbaar van de handleiding voor baliemedewerkers. 
-- [Cheat-sheet met de voornaamste functies](http://files.uitpas.be/documentatie/UiTPas-balie%20handleiding-korteversie.pdf)
-- [Uitgebreide versie met detail overzicht](http://files.uitpas.be/documentatie/UiTPas-balie%20handleiding-langeversie.pdf)
-
+> Handleiding voor baliemedewerkers in pdf-formaat:. 
+- [Korte versie met de voornaamste functies](http://files.uitpas.be/documentatie/UiTPas-balie%20handleiding-korteversie.pdf)
+- [Uitgebreide versie](http://files.uitpas.be/documentatie/UiTPas-balie%20handleiding-langeversie.pdf)
 
 ## Aanmelden
 

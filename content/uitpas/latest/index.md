@@ -9,4 +9,4 @@ Daarvoor worden de belangrijkste concepten toegelicht aan de hand van een organi
 
 Kaartsysteembeheerders zijn business users met een doorgedreven kennis van het systeem en staan typisch in voor systeemconfiguratie. Onder IT medewerkers verstaan we o.m. IT project managers, systeembeheerders, analisten en ontwikkelaars.
 
-> download hier de [pdf versie van deze gids](http://documentatie.uitdatabank.be/files/UiTPAS-Systeem-functionele-beschrijving.pdf)
+> Download hier de [gids in pdf-formaat](http://documentatie.uitdatabank.be/files/UiTPAS-Systeem-functionele-beschrijving.pdf).
