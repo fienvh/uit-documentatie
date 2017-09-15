@@ -1,9 +1,9 @@
 ---
 ---
 
-# UiTPAS voor baliemedewerkers
+# Desktop applicatie voor baliemedewerkers
 
-> Handleiding voor baliemedewerkers in pdf-formaat:. 
+> Download hier de handleiding voor baliemedewerkers in pdf-formaat: 
 - [Korte versie met de voornaamste functies](http://files.uitpas.be/documentatie/UiTPas-balie%20handleiding-korteversie.pdf)
 - [Uitgebreide versie](http://files.uitpas.be/documentatie/UiTPas-balie%20handleiding-langeversie.pdf)
 
