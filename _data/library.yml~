@@ -330,6 +330,13 @@
     - name: "latest"
       path: "content/uitpas-handleidingen/latest/"
       summary:
+        - title: "Balie"
+          href: "balie"
+          summary:
+          - title: "Handleiding voor baliemedewerkers"
+            href: "balie"
+          - title: "Gebruik van de balie browser"
+            href: "balie-browser"
         - title: "Zuil"
           href: "zuil"
           summary:
@@ -341,20 +348,6 @@
             href: "zuil/netwerk"
           - title: "Problemen"
             href: "zuil/foutmeldingen"
-        - title: "Balie"
-          href: "balie"
-          summary:
-          - title: "Aan de slag"
-            href: "balie"
-        - title: "Balie Browser"
-          href: "balie-browser"
-          summary:
-          - title: "Installatie"
-            href: "balie-browser/installatie"
-          - title: "Gebruik"
-            href: "balie-browser/gebruik"
-          - title: "Debug-modus"
-            href: "balie-browser/debug-modus"
 - title: "Authenticatie en autorisatie"
   description: "Hoe kan je verbinden met onze omgevingen?"
   path: "content/authenticatie-autorisatie/"
