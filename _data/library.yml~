@@ -196,7 +196,7 @@
             - title: "Card"
               href: "domeinmodel/card"
             - title: "Omruilvoordeel"
-              href: "domeinmodel/Omruilvoordeel"
+              href: "domeinmodel/omruilvoordeel"
             - title: "Welkomstvoordeel"
               href: "domeinmodel/welkomstvoordeel"
             - title: "Vereniging"

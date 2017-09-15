@@ -3,7 +3,7 @@
 
 # Event
 
-Een UiTPAS event is een event uit de UiTdatabank. Het kan manueel ingevoerd worden via uitdatabank.be of uit een systeem van derden doorstromen via een API. Meer informatie over UiTdatabank API integratiemogelijkheden is beschikbaar op http://documentatie.uitdatabank.be/content/uitdatabank/latest/index.html.
+Een UiTPAS event is een event uit de UiTdatabank. Het kan manueel ingevoerd worden via uitdatabank.be of uit een systeem van derden doorstromen via een API. Meer informatie over UiTdatabank API integratiemogelijkheden is beschikbaar op [http://documentatie.uitdatabank.be/content/uitdatabank/latest/index.html](http://documentatie.uitdatabank.be/content/uitdatabank/latest/index.html).
 
 Een UiTPAS event bevat volgende eigenschappen:
 

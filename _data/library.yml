@@ -165,7 +165,7 @@
         - title: "Domeinen"
           href: "domeinen"
 - title: "Zo werkt UiTPAS"
-  description: "Ontdek de basisconcepten achter UiTPAS."
+  description: "Basis van het UiTPAS-systeem."
   path: "content/uitpas/"
   category: "Functioneel"
   weight: 20
@@ -322,7 +322,7 @@
           - title: "Afbeelding verwijderen"
             href: "afbeeldingen/afbeelding-verwijderen"
 - title: "Gebruikershandleidingen voor UiTPAS"
-  description: "Hoe gebruik je de UiTPAS-systemen?"
+  description: "Handleidingen voor UiTPAS balie en zuil (CID)."
   path: "content/uitpas-handleidingen/"
   category: "Technisch"
   weight: 40
