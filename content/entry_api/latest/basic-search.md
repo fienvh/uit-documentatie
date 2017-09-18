@@ -10,8 +10,8 @@ Als ondersteunende service is een eenvoudige zoekfunctie voorzien om dubbele inv
 
 | URL | POST | PUT | DELETE | GET |
 | -- | -- | -- | -- | -- |
-| ```http://www.uitdatabank.be/api/v2/event?q=test``` |  |  |  | X (events zoeken) |
-| ```http://www.uitdatabank.be/api/v2/event?q=test``` |  |  |  | X (actors zoeken) |
+| ```http://www.uitdatabank.be/api/v3/event?q=test``` |  |  |  | X (events zoeken) |
+| ```http://www.uitdatabank.be/api/v3/event?q=test``` |  |  |  | X (actors zoeken) |
 
 # Zoeken
 
@@ -21,13 +21,13 @@ Method: GET
 URL:
 
 ```
-http://www.uitdatabank.be/api/v2/event?q=
+http://www.uitdatabank.be/api/v3/event?q=
 ```
 
 OF
 
 ```
-http://www.uitdatabank.be/api/v2/actor?q=
+http://www.uitdatabank.be/api/v3/actor?q=
 ```
 
 Argumenten:
@@ -52,7 +52,7 @@ http://www.uitdatabank.be/api/event?q=Kunstencentrum Vooruit
 ### Response
 
 ~~~ xml
-<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.1/FINAL">
+<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL">
 <nofrecords>2</nofrecords>
   <list>
     <item cdbid="851d0490-a34a-4b41-980d-5fb0b6493c34"
@@ -77,13 +77,13 @@ Method: GET
 URL:
 
 ```
-http://www.uitdatabank.be/api/v2/event/{id}
+http://www.uitdatabank.be/api/v3/event/{id}
 ```
 
 OF
 
 ```
-http://www.uitdatabank.be/api/v2/actor/{id}
+http://www.uitdatabank.be/api/v3/actor/{id}
 ```
 
 Argumenten:
@@ -95,7 +95,7 @@ Argumenten:
 ## Voorbeeld
 
 ~~~ xml
-<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.1/FINAL">
+<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL">
   <events>
     <event
       availablefrom="2012-02-10T00:00:00"
