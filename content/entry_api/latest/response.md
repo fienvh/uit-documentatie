@@ -13,7 +13,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>ItemCreated</code>
-  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+  <link>http://www.uitdatabank.be/api/v3/event/{id}</link>
 </rsp>
 ~~~
 
@@ -23,7 +23,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>ItemModified</code>
-  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+  <link>http://www.uitdatabank.be/api/v3/event/{id}</link>
 </rsp>
 ~~~
 
@@ -42,7 +42,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>TranslationCreated</code>
-  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+  <link>http://www.uitdatabank.be/api/v3/event/{id}</link>
 </rsp>
 ~~~
 
@@ -52,7 +52,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>TranslationWithdrawn</code>
-  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+  <link>http://www.uitdatabank.be/api/v3/event/{id}</link>
 </rsp>
 ~~~
 
@@ -62,7 +62,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>KeywordsCreated</code>
-  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+  <link>http://www.uitdatabank.be/api/v3/event/{id}</link>
 </rsp>
 ~~~
 
@@ -72,7 +72,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
   <code>KeywordWithdrawn</code>
-  <link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+  <link>http://www.uitdatabank.be/api/v3/event/{id}</link>
 </rsp>
 ~~~
 
@@ -84,7 +84,7 @@ Een POST, PUT, DELETE of GET kan ofwel succesvol ofwel foutief zijn. Na elke act
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”ERROR” version=”0.1”>
   <code>TooManyItems</code>
-  <link>http://www.uitdatabank.be/api/v2/event/123123123</link>
+  <link>http://www.uitdatabank.be/api/v3/event/123123123</link>
   <message>Too many items in your messages.</message>
 </rsp>
 ~~~
@@ -128,7 +128,7 @@ ERROR 400 Bad Request
 ~~~ xml
 <rsp level=”ERROR” version=”0.1”>
   <code>DuplicateContent</code>
-  <link>http://www.uitdatabank.be/api/v2/event/123123123</link>
+  <link>http://www.uitdatabank.be/api/v3/event/123123123</link>
   <message>Item already exists.</message>
 </rsp>
 ~~~
