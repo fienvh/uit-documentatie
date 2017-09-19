@@ -1,7 +1,7 @@
 ---
 ---
 
-# Netwerk vereisten
+# Netwerk vereisten voor de UiTPAS-zuil
 
 ## IP via DHCP
 

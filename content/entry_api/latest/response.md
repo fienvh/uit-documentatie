@@ -122,7 +122,6 @@ ERROR 400 Bad Request
 </rsp>
 ~~~
 
-
 ### Duplicaat (event) gevonden
 
 ~~~ xml
@@ -148,6 +147,15 @@ ERROR 400 Bad Request
 <rsp level=”ERROR” version=”0.1”>
   <code>FilesizeTooLarge</code>
   <message>Maximum document size 100K. Account deactivated.</message>
+</rsp>
+~~~
+
+### Account geblokkeerd 
+
+~~~ xml
+<rsp level="ERROR" version='0.1">
+  <code>Unauthorized</code> 
+  <message>Authorization required.</message> 
 </rsp>
 ~~~
 

@@ -322,7 +322,7 @@
           - title: "Afbeelding verwijderen"
             href: "afbeeldingen/afbeelding-verwijderen"
 - title: "Gebruikershandleidingen voor UiTPAS"
-  description: "Handleidingen voor UiTPAS balie en zuil (CID)."
+  description: "Handleidingen voor UiTPAS balie (desktop en mobiele versie) en zuil (CID)."
   path: "content/uitpas-handleidingen/"
   category: "Technisch"
   weight: 40
@@ -330,13 +330,15 @@
     - name: "latest"
       path: "content/uitpas-handleidingen/latest/"
       summary:
-        - title: "Balie"
+        - title: "Balie applicatie"
           href: "balie"
           summary:
-          - title: "Handleiding voor baliemedewerkers"
-            href: "balie"
-          - title: "Gebruik van de balie browser"
-            href: "balie-browser"
+          - title: "Installatie desktop applicatie"
+            href: "balie/balie-browser"
+          - title: "Handleiding desktop applicatie"
+            href: "balie/balie-desktop"
+          - title: "Handleiding mobiele applicatie"
+            href: "balie/balie-mobile"
         - title: "Zuil"
           href: "zuil"
           summary:
