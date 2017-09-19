@@ -330,13 +330,15 @@
     - name: "latest"
       path: "content/uitpas-handleidingen/latest/"
       summary:
-        - title: "Balie"
+        - title: "Balie applicatie"
           href: "balie"
           summary:
-          - title: "Handleiding voor baliemedewerkers"
-            href: "balie"
-          - title: "Gebruik van de balie browser"
+          - title: "Installatie desktop applicatie"
             href: "balie-browser"
+          - title: "Handleiding dektop applicatie"
+            href: "balie-desktop"
+          - title: "Handleiding mobiele applicatie"
+            href: "balie-mobile"
         - title: "Zuil"
           href: "zuil"
           summary:
