@@ -12,7 +12,7 @@ Linebreaks are encoded as `\n`
 **Method + URL**
 
 ```
-PUT /places/{cdbid}/{lang}/description
+PUT /places/{cdbid}/description/{lang}
 ```
 
 **Definition**

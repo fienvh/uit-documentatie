@@ -29,3 +29,11 @@ PUT /events/{cdbid}/audience
   }
 }
 ```
+
+**Example body**
+
+```
+{
+  "audienceType": "everyone"
+}
+```

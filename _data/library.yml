@@ -462,7 +462,7 @@
             href: "event/event-calendar"
           - title: "Location"
             href: "event/event-location"
-          - title: "Title"
+          - title: "Name"
             href: "event/event-name"
           - title: "Target audience"
             href: "event/event-audience"
