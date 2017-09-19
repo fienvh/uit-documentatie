@@ -334,11 +334,11 @@
           href: "balie"
           summary:
           - title: "Installatie desktop applicatie"
-            href: "balie-browser"
-          - title: "Handleiding dektop applicatie"
-            href: "balie-desktop"
+            href: "balie/balie-browser"
+          - title: "Handleiding desktop applicatie"
+            href: "balie/balie-desktop"
           - title: "Handleiding mobiele applicatie"
-            href: "balie-mobile"
+            href: "balie/balie-mobile"
         - title: "Zuil"
           href: "zuil"
           summary:
