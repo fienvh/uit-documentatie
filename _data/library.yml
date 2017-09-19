@@ -515,3 +515,5 @@
             href: "place/place-image"
           - title: "Facilities"
             href: "place/place-facility"
+      - title: "Publish offer"
+        href: "publish-offer"
