@@ -18,20 +18,22 @@ PUT /events/{cdbid}/calendar
 ```
 {
 "calendarType": "multiple",
-  "timestamps": [
+ "timeSpans": [
     {
-      "date": "2015-05-07",
-      "startHour": "09:30",
-      "endHour": "12:00"
+      "start": "2015-05-07T12:02:53+00:00",
+      "end": "2015-05-07T14:02:53+00:00"
     },
     {
-      "date": "2015-06-10",
-      "startHour": "13:00",
-      "endHour": "16:30"
+      "start": "2015-05-08T12:02:53+00:00",
+      "end": "2015-05-08T14:02:53+00:00"
+    },
+    {
+      "start": "2015-05-09T12:02:53+00:00",
+      "end": "2015-05-09T14:02:53+00:00"
     }
   ],
-  "startDate": "2015-05-07T09:30:00+00:00",
-  "endDate": "2015-06-10T16:30:00+00:00"
+  "startDate": "2015-05-07T12:02:53+00:00",
+  "endDate": "2015-05-09T14:02:53+00:00"
 }
 ```
 
@@ -46,7 +48,7 @@ calendarType 'permanent' is reserved for offertype 'place'!
 
 **Definition**
 
-```
+``
 {
   "type": "string",
   "enum": [
@@ -59,29 +61,35 @@ calendarType 'permanent' is reserved for offertype 'place'!
 }
 ```
 
-## timestamps
+## timeSpans
 
-Timestamps can be combined with calendarTypes 'single' and 'multiple'.
-One timestamp consists of:
+timeSpans can be combined with calendarTypes 'single' and 'multiple'.
+One timeSpans consists of a start and end date-time
 
-- a date (YYYY-MM-DD)
 
-```
+**Definition**
+
+``
 {
-  "type": "string",
-  "format": "date",
-  "example": "2015-05-07"
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "start": {
+                "type": "string",
+                "format": "date-time",
+                "example": "2015-05-07T12:02:53+00:00"
+            },
+            "end": {
+                "type": "string",
+                "format": "date-time",
+                "example": "2015-05-07T12:02:53+00:00"
+            }
+        }
+    }
 }
 ```
 
-- a startHour and endHour (HH:MM)
-
-```
-{
-  "type": "string",
-  "example": "14:30"
-}
-```
 
 ## openingHours
 
@@ -89,6 +97,7 @@ openingHours can be combined with calendarTypes 'periodic' and 'permanent'
 openingHours contain an array of weekdays with matching opening hours and closing hours
 
 **Definition**
+
 ```
 {
   "type": "array",

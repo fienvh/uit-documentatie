@@ -8,7 +8,7 @@ An object containing the name in the given language. UiTdatabanks default langua
 **Method + URL**
 
 ```
-PUT /places/{cdbid}/{lang}/name
+PUT /places/{cdbid}/name/{lang}
 ```
 
 **Definition**
@@ -17,7 +17,7 @@ PUT /places/{cdbid}/{lang}/name
 {
     "type": "object",
     "properties": {
-        "nl": {
+        "name": {
             "type": "string",
             "example": "Name example"
         }
@@ -29,8 +29,6 @@ PUT /places/{cdbid}/{lang}/name
 
 ```
 {
-"name": {
-    "nl": "Name example"
-  }
+"name": "Name example"
 }
 ```

@@ -12,9 +12,27 @@ The calendar information for a place consists of calendarType 'permanent' with o
 PUT /places/{cdbid}/calendar
 ```
 
+**Example body**
+
+```
+{
+ "calendarType": "permanent",
+  "openingHours": [
+    {
+      "dayOfWeek": [
+        "monday"
+      ],
+      "opens": "14:30",
+      "closes": "17:00"
+    }
+  ]
+}
+```
+
+
 ## calendarType
 
-Only calendarType 'permanent' can be used for offertype 'place'
+calendarType 'permanent' and 'periodic' can be used for offertype 'place', but 'permanent' is preferred and this calendarType is hardcoded in UiTdatabank when adding a new place.
 
 
 **Definition**
@@ -72,19 +90,28 @@ openingHours contain an array of weekdays with matching opening hours and closin
 }
 ```
 
-**Example body**
+## startDate
 
+calendarType 'periodic' can be combined with a startDate and endDate
+
+**Definition**
 ```
 {
- "calendarType": "permanent",
-  "openingHours": [
-    {
-      "dayOfWeek": [
-        "monday"
-      ],
-      "opens": "14:30",
-      "closes": "17:00"
-    }
-  ]
+  "type": "string",
+  "format": "date-time",
+  "example": "2015-05-07T14:30:00+00:00"
+}
+```
+
+## endDate
+
+calendarType 'periodic' can be combined with a startDate and endDate
+
+**Definition**
+```
+{
+  "type": "string",
+  "format": "date-time",
+  "example": "2015-05-07T14:30:00+00:00"
 }
 ```
