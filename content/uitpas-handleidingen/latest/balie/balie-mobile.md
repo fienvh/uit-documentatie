@@ -12,16 +12,14 @@ De app werkt op toestellen met iOS 8.0 (en hoger), en Android 4.0.3 (en hoger).
 * [Google Play (Android)](https://play.google.com/store/apps/details?id=be.cultuurnet.uitpasmobile&hl=nl)
 * [App store (iOS)](https://itunes.apple.com/be/app/uitpas-balie/id1117438672?l=nl&mt=8)
 
-![Google Play](/img/google-play.png "Google Play")
-
 Om met de app te werken, heb je vanzelfsprekend een internet connectie nodig (3G, 4G of WiFi).
 
 ## Openen / aanmelden
+> Vergeet niet dat de UiTPAS-verantwoordelijke jouw UiTID moet hebben toegevoegd aan je UiTPAS-organisatie vooraleer je kan aanmelden.
+
 Wanneer je de app opent, moet je aanmelden met je UiTID. Dit is hetzelfde e-mailadres en wachtwoord waarmee je aanmeldt op het UiTPAS programma op je computer. 
 
 ![Aanmelden](/img/ups-oa-1-aanmelden.png "Aanmelden")
-
-> Vergeet niet dat de UiTPAS-verantwoordelijke jouw UiTID moet hebben toegevoegd aan je UiTPAS-organisatie vooraleer je kan aanmelden.
 
 ## UiTPAS balie kiezen
 Na het aanmelden, kies je je UiTPAS-balie. Als je gekoppeld bent aan verschillende organisaties of verenigingen, verschijnen er meerdere mogelijkheden. 
@@ -31,11 +29,11 @@ Na het aanmelden, kies je je UiTPAS-balie. Als je gekoppeld bent aan verschillen
 Je kan steeds van organisatie veranderen door in de rechterbovenhoek te tappen op het tandwiel.
 
 ## Activiteit selecteren
+> Let op, deze activiteiten moeten uiteraard zijn ingevoerd in de UiTdatabank. Je kan geen activiteiten in de toekomst selecteren. 
+
 Nu krijg je de activiteit of activiteiten te zien die op dit moment doorgaan bij jouw organisatie. Kies de activiteit waarvoor je wil punten laten sparen, kansentarieven op wil toekennen of bonnen voor wil omruilen.
 
 ![Activiteit kiezen](/img/ups-oa-3-activiteit-kiezen.png "Activiteit kiezen")
-
-> Let op, deze activiteiten moeten uiteraard zijn ingevoerd in de UiTdatabank. Je kan geen activiteiten in de toekomst selecteren. 
 
 Als je enkel pashouder- of groepspasinformatie wil uitlezen of een voordeel wil omruilen, hoef je geen activiteit te selecteren maar het mag wel.
 
@@ -71,13 +69,13 @@ Als de pashouder wil, kan die ook omruilvoordelen omruilen:
 ### Kansentarieven toekennen
 > Hiervoor moet je een activiteit selecteren.
 
+> Let op, heeft de pashouder naast het kansentarief ook bonnen op de UiTPAS staan, dan zal je die ook in de lijst terugvinden.
+
 Als de pashouder die je identificeerde recht op een kansentarief heeft, zie je dat je ook tickets aan kansentarief kan verkopen aan die pashouder via 'Verkoop ticket(s)'.
 
 ![Verkoop tickets](/img/ups-oa-8-verkoop-tickets.png "Verkoop tickets")
 
 Je ziet steeds doorgestreept tussen haakjes de originele prijs en ervoor de prijs aan kansentarief. 
-
-> Let op, heeft de pashouder naast het kansentarief ook bonnen op de UiTPAS staan, dan zal je die ook in de lijst terugvinden.
 
 ### Bonnen omruilen
 > Hiervoor moet je een activiteit selecteren.
@@ -96,16 +94,19 @@ Je kan via de UiTPAS Balie app ook bekijken:
 ![Pashouder informatie](/img/ups-oa-10-pashouder-informatie.png "Pashouder informatie")
 
 **De pashouder heeft recht op kansentarief**
+
 Als de pashouder die je scande recht op een kansentarief heeft, dan krijg je ook de pashouderinformatie te zien. Hier kan je zien tot wanneer het kansentarief geldig is. Heeft de pashouder geen kansentarief (of geen geldig kansentarief) dan krijg je deze mogelijkheid niet te zien.
 
 ![De pashouder heeft recht op kansentarief](/img/ups-oa-10-1-pashouder-kansen.png "De pashouder heeft recht op kansentarief")
 
 **De pashouder is lid van een vereniging**
+
 Als de pashouder die je scande lid is van een vereniging en jouw UiTPASorganisatie kan de informatie over deze vereniging lezen/bewerken, dan krijg je ook de pashouderinformatie te zien. Hier kan je zien tot wanneer het lidmaatschap geldig is. Is de pashouder geen lid van een vereniging geregistreerd in UiTPAS (of is dat lidmaatschap verlopen) dan krijg je deze mogelijkheid niet te zien!
 
 ![De pashouder is lid van een vereniging](/img/ups-oa-10-2-pashouder-vereniging.png "De pashouder is lid van een vereniging")
 
 **De pashouder heeft recht op kansentarief, en is lid van een vereniging**
+
 Als een pashouder lidmaatschap(pen) en kansenstatuut heeft, krijg je beide te zien.
 
 ## Acties voor een groepspas
@@ -119,6 +120,8 @@ Dit doe je op dezelfde manier als je een individuele pashouder identificeert. Of
 ### Kansentarieven via een groepspas toekennen (kansentarief groepspas)
 > Hiervoor moet je een activiteit selecteren
 
+> Handig - je kan altijd de info van de UiTPAS opvragen door op 'Info UiTPAS(houder)' te tappen. Zo kan je nakijken hoeveel tickets aan kansentarief er nog op de groepspas staan.
+
 Wanneer je een activiteit kiest waarop een kansentarief van toepassing is, is het mogelijk om meerdere tickets aan kansentarief te verkopen. 
 * Tap op Verkoop tickets(s)
 * Kies het aantal tickets (maximum aantal is beperkt door het aantal kansentarieven dat nog op de groepspas staat)
@@ -126,11 +129,11 @@ Wanneer je een activiteit kiest waarop een kansentarief van toepassing is, is he
 
 ![Kansentarieven via een groepspas toekennen](/img/ups-oa-11-verkoop-tickets-kansen.png "Kansentarieven via een groepspas toekennen") ![Aantal kiezen](/img/ups-oa-11-1-verkoop-tickets-kansen-aantal.png "Aantal kiezen")
 
-> Handig - je kan altijd de info van de UiTPAS opvragen door op 'Info UiTPAS(houder)' te tappen. Zo kan je nakijken hoeveel tickets aan kansentarief er nog op de groepspas staan.
-
 ### Bonnen via een groepspas omruilen (niet-kansentarief groepspas)
 
 > Hiervoor moet je een activiteit selecteren
+
+> Handig - je kan altijd de info van de UiTPAS opvragen door op 'Info UiTPAS(houder)' te tappen. Zo kan je nakijken hoeveel bonnen er nog op de groepspas staan.
 
 Wanneer je een activiteit kiest met een prijs, is het mogelijk om via een groepspas (met bonnen), hier bonnen voor om te ruilen. 
 * Tap op 'Verkoop tickets(s)'
@@ -138,8 +141,6 @@ Wanneer je een activiteit kiest met een prijs, is het mogelijk om via een groeps
 * Tap 'Bevestig'
 
 ![Bonnen via een groepspas omruilen](/img/ups-oa-12-bonnen-groepspas-omruilen.png "Bonnen via een groepspas omruilen")
-
-> Handig - je kan altijd de info van de UiTPAS opvragen door op 'Info UiTPAS(houder)' te tappen. Zo kan je nakijken hoeveel bonnen er nog op de groepspas staan.
 
 ### Groepspas informatie bekijken
 Je kan na het scannen van de groepspas de informatie over de pas opvragen door op 'Info UiTPAS(houder)' te tappen. 
