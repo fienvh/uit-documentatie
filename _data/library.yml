@@ -447,6 +447,8 @@
       summary:
       - title: "JSON WebToken-authentication"
         href: "jwt-authentication"
+      - title: "JSON-LD Definitions"
+        href: "json-ld-definitions"
       - title: "Offertype Event"
         href: "event"
         summary:
