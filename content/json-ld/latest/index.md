@@ -8,15 +8,15 @@
 Resource collections should always be plural, and end in a trailing slash because they represent a directory of resources.
 
 Examples:
-- Get all users: `GET /users/`
-- Add a new user: `POST /users/`
+- Get all events: `GET /events/`
+- Add a new event: `POST /events/`
 
 ## Filtering resource collections
 
 Resource collections are always filtered using query parameters.
 
 Examples:
-- Get all users with a specific role: `GET /users/?role=...`
+- Get all places with a specific postalCode: `GET /places/?postalCode=...`
 
 ## Resource detail
 
@@ -24,10 +24,9 @@ Resources are subdirectories of their collection, identified by an id or slug.
 They have no trailing slash.
 
 Examples:
-- Get a specific user: `GET /users/{userId}`
-- Create a user with a specific id: `PUT /users/{userId}`
-- Update a specific user: `PATCH /users/{userId}`
-- Delete a specific user: `DELETE /users/{userId}`
+- Get a specific event: `GET /events/{eventId}`
+- Update a specific event: `PUT /events/{eventId}`
+- Delete a specific event: `DELETE /events/{eventId}`
 
 ## Singletons
 

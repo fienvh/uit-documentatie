@@ -445,6 +445,8 @@
     - name: "latest"
       path: "content/json-ld/latest/"
       summary:
+      - title: "JSON WebToken-authentication"
+        href: "jwt-authentication"
       - title: "Offertype Event"
         href: "event"
         summary:
