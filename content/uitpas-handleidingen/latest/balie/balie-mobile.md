@@ -1,7 +1,7 @@
 ---
 ---
 
-# Handleiding voor de UiTPAS-balie (mobiele app)
+# Handleiding UiTPAS-balie (mobiele app)
 
 De UiTPAS Balie app is een mobiele versie van de UiTPAS Balie applicatie. Je kan hiermee de kernfuncties van de desktop versie uitvoeren. De app is ontworpen voor gebruik op een smartphone, maar werkt ook op een tablet.
 
