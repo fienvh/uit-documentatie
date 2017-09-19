@@ -1,7 +1,7 @@
 ---
 ---
 
-# Handleiding van de Balie applicatie (desktop)
+# Handleiding voor de UiTPAS-balie (desktop)
 
 > Download hier de handleiding voor baliemedewerkers in pdf-formaat: 
 * [Korte versie met de voornaamste functies](http://files.uitpas.be/documentatie/UiTPas-balie%20handleiding-korteversie.pdf)

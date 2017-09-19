@@ -1,7 +1,7 @@
 ---
 ---
 
-# Ontwerp voor de UiTPAS zuilen
+# Ontwerp voor de UiTPAS-zuil (plexi)
 
 Deze documentatie is bedoeld voor toekomstige UiTPAS-gemeentes die een eigen ontwerp willen maken voor de zuil waarmee de pashouders puntjes kunnen sparen.
 
