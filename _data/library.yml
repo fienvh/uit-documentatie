@@ -322,7 +322,7 @@
           - title: "Afbeelding verwijderen"
             href: "afbeeldingen/afbeelding-verwijderen"
 - title: "Gebruikershandleidingen voor UiTPAS"
-  description: "Handleidingen voor UiTPAS balie en zuil (CID)."
+  description: "Handleidingen voor UiTPAS balie (desktop en mobiele versie) en zuil (CID)."
   path: "content/uitpas-handleidingen/"
   category: "Technisch"
   weight: 40
