@@ -57,7 +57,8 @@ Use the correct HTTP method for the chosen path
 ![Postman method](/img/postman-method-url.png "Postman method")
 
 ### Body
-For some requests a well formed json-ld body is required. See documentation
+For some requests a well formed json-ld body is required (See documentation for specs).
+Use 'raw'
 
 ![Postman body](/img/postman-body.png "Postman body")
 
