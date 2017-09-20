@@ -3,7 +3,8 @@
 
 # Name
 
-An object containing the name in the given language. UiTdatabanks default language is nl
+An object containing the name in the given language.
+The default language of UiTdatabank is dutch (nl).
 
 ## Resource URI
 
