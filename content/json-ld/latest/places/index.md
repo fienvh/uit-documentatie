@@ -9,6 +9,15 @@
 /places/
 ```
 
+## HTTP GET
+
+List all places
+> no authentication necessary
+
+| Parameter	| Type | Description | Example |
+| -- |--|--|--|
+| postalCode | string | Limit the list to places with this postal code in the address. |?postalCode=3000|
+
 ## HTTP POST
 
 To create a new place the object-body must contain the following properties:
@@ -90,7 +99,5 @@ Not supported
 
 Not supported
 
-## HTTP GET
 
-Not supported
 

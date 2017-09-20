@@ -9,6 +9,19 @@
 /organizers/
 ```
 
+## HTTP GET
+
+List all organizers
+> no authentication necessary
+
+| Parameter	| Type | Description | Example |
+| -- |--|--|--|
+| name | string | Limit the list to organizers with a specific name. Can be used for fuzzy search. |?name=Bozar*|
+| website | string | Limit the list to places with a specific unique url. |?website=https://www.cultuurnet.be|
+| limit | string | Limit the results to a specific number. Used for paged results |?limit=10|
+| start | string | start search results from a specific number. Used for paged results |?start=11|
+
+
 ## HTTP POST
 
 To create a new organizer the object-body must contain the following properties:
@@ -48,7 +61,5 @@ Not supported
 
 Not supported
 
-## HTTP GET
 
-Not supported
 
