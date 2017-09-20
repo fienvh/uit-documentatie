@@ -37,7 +37,7 @@ Address is not required, an organizer can only have one address.
 {
   "addressCountry": "BE",
   "addressLocality": "Leuven",
-  "postalCode": 3000,
+  "postalCode": "3000",
   "streetAddress": "Sluisstraat 79"
 }
 ```

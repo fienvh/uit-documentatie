@@ -3,7 +3,7 @@
 
 # Labels 
 
-Add or remove a specific label from an offer
+Add or remove a specific label from an organizer
 
 ## Resource URI
 
