@@ -1,4 +1,0 @@
----
----
-
-# JSON-LD offertype event 
