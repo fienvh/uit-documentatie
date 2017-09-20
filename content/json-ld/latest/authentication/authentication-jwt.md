@@ -1,11 +1,9 @@
 ---
 ---
 
-# Authentication
+# How to perform authenticated requests using a JWT
 
-## How to perform authenticated requests using a JWT
-
-### Connect your UiTiD
+## Connect your UiTiD
 ```
 http://<udb-jwt-provider>/culturefeed/oauth/connect?destination=<your url>
 ```
@@ -24,7 +22,7 @@ https://jwtprovider-test.uitdatabank.be/culturefeed/oauth/oob?jwt=eyJ0eXAiOiJKV1
 
 Collect the value behind `?jwt=<your jwt>
 
-### Add JWT as authorization header with every request
+## Add JWT as authorization header with every request
 
 ```
 PUT /places/ed388184-f18f-47b6-8e8f-1056a48a4b4b/name/nl HTTP/1.1
