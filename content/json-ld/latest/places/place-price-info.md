@@ -5,7 +5,7 @@
 
 Add an array of price info objects for the offer. 
 
-Price is not required, although once added it can not be removed from an offer
+Price is not required, although once added it can not be removed from an offer.
 
 ## Resource URI
 
