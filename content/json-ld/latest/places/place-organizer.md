@@ -3,8 +3,6 @@
 
 # Organizer
 
-# Organizer
-
 Update a place with a new organizer. For a list of all organizers, see GET /organizers/ documentation.
 
 Organizer is not required, a place can only have one organizer.
