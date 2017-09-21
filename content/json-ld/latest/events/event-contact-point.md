@@ -2,7 +2,7 @@
 ---
 
 # Contact point
-Contact point can contain one or more of the following properties, each property can contain multiple entries:
+Contact point must contain the following properties, each property can contain zero or multiple entries:
 - url
 - email
 - phone
@@ -47,6 +47,23 @@ Contact point can contain one or more of the following properties, each property
 }
 ```
 
+contactPoint without phone
+```
+{
+  "contactPoint": {
+    "url": [
+      "http://google.be"
+    ],
+    "email": [
+      "user@example.com"
+    ],
+    "phone": [
+     
+    ]
+  }
+}
+```
+
 ## HTTP POST
 
 Not supported
@@ -57,4 +74,4 @@ Not supported
 
 ## HTTP DELETE
 
-Not supported: to remove specific contact-info, perform PUT request with empty contactPoint
+Not supported: to remove specific contact-info, perform PUT request with empty contactPoint-property
