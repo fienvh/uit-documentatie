@@ -41,6 +41,18 @@ The calendar information for an event consists of:
 
 ```
 {
+    "calendarType": "single",
+    "timeSpans": [{
+        "start": "2015-05-07T12:02:53+00:00",
+        "end": "2015-05-07T14:02:53+00:00"
+    }],
+    "startDate": "2015-05-07T12:02:53+00:00",
+    "endDate": "2015-05-07T14:02:53+00:00"
+}
+```
+
+```
+{
 "calendarType": "multiple",
  "timeSpans": [
     {
@@ -58,6 +70,26 @@ The calendar information for an event consists of:
   ],
   "startDate": "2015-05-07T12:02:53+00:00",
   "endDate": "2015-05-09T14:02:53+00:00"
+}
+```
+  
+
+```
+{
+"calendarType": "periodic",
+    "startDate": "2015-04-07T12:02:53+00:00",
+    "endDate": "2015-05-09T14:02:53+00:00",
+    "openingHours": [
+        {
+            "opens": "14:30",
+            "closes": "17:00",
+            "dayOfWeek": [
+                "monday",
+                "wednesday",
+                "friday"
+            ]
+        }
+    ]
 }
 ```
 

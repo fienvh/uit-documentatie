@@ -36,14 +36,35 @@ The calendar information for a place consists of
 
 ```
 {
- "calendarType": "permanent",
+  "calendarType": "permanent",
   "openingHours": [
     {
       "dayOfWeek": [
-        "monday"
+        "monday",
+        "wednesday",
+        "friday"
       ],
       "opens": "14:30",
       "closes": "17:00"
+    }
+  ]
+}
+```
+
+```
+{
+  "calendarType": "periodic",
+  "startDate": "2015-04-07T12:02:53+00:00",
+  "endDate": "2015-05-09T14:02:53+00:00",
+    "openingHours": [
+    {
+      "opens": "14:30",
+      "closes": "17:00",
+      "dayOfWeek": [
+        "monday",
+        "wednesday",
+        "friday"
+      ]
     }
   ]
 }
