@@ -35,12 +35,10 @@ Address is required, a place can only have one address.
 
 ```
 {
-"address": {
     "addressCountry": "BE",
     "addressLocality": "Scherpenheuvel-Zichem",
     "postalCode": "3271",
     "streetAddress": "Hoornblaas 107"
-  }
 }
 ```
 
