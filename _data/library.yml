@@ -535,3 +535,17 @@
           href: "images"
         - title: "JSON-LD Definitions"
           href: "json-ld-definitions"
+- title: "UiTPAS API 3.0"
+  description: "Handleiding voor de ontwikkeling van een 'Mijn UiTPAS'-omgeving."
+  path: "content/uitpas_api-mijn-uitpas/"
+  category: "Technisch"
+  weight: 120
+  hidden: true
+  versions:
+      - name: "latest"
+        path: "content/uitpas_api-mijn-uitpas/latest/"
+        summary:
+          - title: "Aan de slag"
+            href: "aan-de-slag"
+          - title: "UiTPAS activeren"
+            href: "uitpas-activeren"
