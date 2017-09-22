@@ -48,7 +48,7 @@ Als er informatie van het event getoond moet worden (buiten de titel), dan kan h
 Voorbeeld
 
 ```
-https://www.uitid.be/uitid/rest/searchv2/search?q=cdbid:{value nodeId}
+https://www.uitid.be/uitid/rest/searchv2/search?q=cdbid:{nodeId}
 ```
 
 **Referentie UiTPAS API v3.0**
