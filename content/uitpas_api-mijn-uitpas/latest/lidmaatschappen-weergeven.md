@@ -25,6 +25,7 @@ Voorbeeld
 Volgende velden heb je nodig:
 
 | Data | Veld | Opmerking |
+| --- | --- | --- |
 | Naam vereniging | memberships > membership > association > name | - |
 | Einddatum van het lidmaatschap | memberships > membership > endDate | - |
 | Kaartsyste(e)m(en) | memberships > membership > association > cardSystem | Kaartsysteem waar de vereniging deel van uitmaakt. |

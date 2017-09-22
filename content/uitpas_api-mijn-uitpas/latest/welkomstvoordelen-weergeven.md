@@ -25,6 +25,7 @@ Voorbeeld
 Volgende velden heb je nodig:
 
 | Data | Veld | Opmerking |
+| --- | --- | --- |
 | Naam welkomstvoordeel | promotion > title | - |
 | Balies waar je het voordeel kan opnemen | promotion > balies | Lijst van balies waar je het voordeel kan opnemen. |
 | Kaartsyste(e)m(en) | promotion > applicableCardSystems | Lijst van de kaartsystemen waar het voordeel toepasbaar is. |

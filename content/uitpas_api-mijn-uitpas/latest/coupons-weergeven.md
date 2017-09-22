@@ -31,8 +31,7 @@ Volgende velden heb je nodig:
 | --- | --- | --- |
 | Naam coupon | ticketSaleCoupon > name | - |
 | Geldigheid | ticketSaleCoupon > validFrom en ticketSaleCoupon > validTo | Bepaalt de periode waarin de coupon geldig is. |
-| Aantal beurten op de coupon | ticketSaleCoupon > remainingTotal > periodType en ticketSaleCoupon > remainingTotal > periodVolume | In geval <periodtype> de waarde ‘absolute’ heeft", toon dan volgende copy: *Beschikbaar: <periodVolume> beurten*. In geval <periodtype> een andere waarde heeft, ga je de output wat moeten veranderen. *Beschikbaar: <periodVolume> beurten, per <periodtype>*.
-PeriodType kan daarbij volgende waarden aannemen: daily, weekly, monthly, quarterly, yearly. |
+| Aantal beurten op de coupon | ticketSaleCoupon > remainingTotal > periodVolume | In geval ```periodType``` de waarde ```absolute``` heeft, toon dan volgende copy: "Beschikbaar: ```periodVolume``` beurten". In geval ```periodType``` een andere waarde heeft, ga je de output wat moeten veranderen. "Beschikbaar: ```periodVolume``` beurten, per ```periodType```". ```periodType``` kan daarbij volgende waarden aannemen: ```daily```, ```weekly```, ```monthly```, ```quarterly```, ```yearly```. |
 | Kaartsysteem | ticketSaleCoupon > cardSystem | Een UiTPAS-gebruiker kan aangesloten zijn bij meerdere kaartsystemen, en dus coupons hebben bij meerdere kaartsystemen. Op basis van het element ```cardSystem``` kan de lijst van coupons opgesplitst worden in de frontend. Velden ```id``` en ```name``` zijn beschikbaar. |
 
 **Referentie UiTPAS API v3.0**
