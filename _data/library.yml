@@ -196,7 +196,7 @@
             - title: "Card"
               href: "domeinmodel/card"
             - title: "Omruilvoordeel"
-              href: "domeinmodel/Omruilvoordeel"
+              href: "domeinmodel/omruilvoordeel"
             - title: "Welkomstvoordeel"
               href: "domeinmodel/welkomstvoordeel"
             - title: "Vereniging"
@@ -536,7 +536,7 @@
         - title: "JSON-LD Definitions"
           href: "json-ld-definitions"
 - title: "UiTPAS API 3.0"
-  description: "Handleiding voor de ontwikkeling van een 'Mijn UiTPAS'-omgeving."
+  description: "Ontwikkeling van een 'Mijn UiTPAS'-omgeving."
   path: "content/uitpas_api-mijn-uitpas/"
   category: "Technisch"
   weight: 120
