@@ -73,4 +73,13 @@ Het te gebruiken endpoint:
 uitpas/passholder/eventActions
 ```
 
+Parameters:
+
+|  Parameters | Verplicht  |
+|---|---|
+| balieConsumerKey  | x  |
+|  chipNumber | x |
+|  cdbid |   |
+| includeProfilePicture  |  true/false |
+
 

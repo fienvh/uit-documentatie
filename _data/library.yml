@@ -559,3 +559,25 @@
             href: "welkomstvoordelen-weergeven"
           - title: "Lidmaatschappen van een gebruiker weergeven"
             href: "lidmaatschappen-weergeven"
+- title: "UiTPAS integreren met ticketingsystemen"
+  description: "Welke API calls kunnen ticketingvendors gebruiken"
+  path: "content/uitpas_api_ticketing/"
+  category: "Technisch"
+  weight: 130
+  hidden: true
+  versions:
+      - name: "latest"
+        path: "content/uitpas_api_ticketing/latest/"
+        summary:
+          - title: "Authenticatie"
+            href: "authenticatie"
+          - title: "Use Cases"
+            href: "use-cases"
+          - title: "Baliemedewerker selecteert event"
+            href: "baliemedewerker-selecteert-event"
+          - title: "Baliemedewerker scant UiTPAS"
+            href: "baliemedewerker-scant-UiTPAS"
+          - title: "Baliemedewerker ziet beperkte pashouderinfo"
+            href: "baliemedewerker-ziet-beperkte-pashouderinfo"
+          - title: "Doorvoeren acties aan een balie"
+            href: "doorvoeren-acties-aan-een-balie"
