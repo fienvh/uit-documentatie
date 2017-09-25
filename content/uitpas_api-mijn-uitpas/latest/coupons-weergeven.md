@@ -23,7 +23,25 @@ Voorbeeld
 
 **Response**
 
-[Voorbeeld response in XML](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_opzoeken_van_coupons_van_een_pashouder)
+~~~ xml
+<ticketSaleCoupon>
+    <exchangeConstraint>
+         <periodType>ABSOLUTE</periodType>
+         <periodVolume>2</periodVolume>
+    </exchangeConstraint>
+    <id>35</id>
+    <name>Cultuurbon</name>
+     <remainingTotal>
+        <periodType>ABSOLUTE</periodType>
+        <periodVolume>1</periodVolume>
+     </remainingTotal>
+     <expired>false</expired>
+    <validFrom>2015-06-29T00:00:00+02:00</validFrom>
+    <validTo>2015-12-31T23:59:59+01:00</validTo>
+</ticketSaleCoupon>
+~~~
+
+[Voorbeeld response in XML (volledig)](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_opzoeken_van_coupons_van_een_pashouder)
 
 Volgende velden heb je nodig:
 

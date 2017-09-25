@@ -32,7 +32,40 @@ Voorbeeld
 
 **Response** 
 
-[Voorbeeld response in XML](http://acc.uitid.be/uitid/apidoc/uitpas-api.html#_checkins_doorzoeken)
+~~~ xml
+<checkinActivity>
+    <type>12</type>
+    <contentType>event</contentType>
+    <createdViaId>5C9C73D3-E82F-E7B3-44161E6E3802E64F</createdViaId>
+    <createdVia>'t Gasthuys - Stedelijk Museum Aalst</createdVia>
+    <creationDate>2015-06-29T11:44Z</creationDate>
+    <depiction>//media.uitid.be/fis/rest/../../uiv/picture.jpg</depiction>
+    <id>57b00f28-dfff-4f09-90c4-08a6d313fc5c</id>
+    <nick>Nickname</nick>
+    <nodeID>389FA8E8-D766-B566-E24BF8EF8413B7C7</nodeID>
+    <nodeTitle>'t Gasthuys - Stedelijk Museum Aalst</nodeTitle>
+    <points>1.000</points>
+    <private>false</private>
+    <userId>22b69dc0-abf7-40f2-8ae7-c1e69811ed7c</userId>
+    <eventLocationLat>50.937940</eventLocationLat>
+    <eventLocationLon>4.043132</eventLocationLon>
+    <firstName>Firstname</firstName>
+    <secondName>middlename</secondName>
+    <gender>FEMALE</gender>
+    <kansenStatuut>false</kansenStatuut>
+    <lastName>Lastname</lastName>
+    <organiser>'t Gasthuys - Stedelijk Museum Aalst</organiser>
+    <organiserCardSystems>
+        <organiserCardSystem>1</organiserCardSystem>
+    </organiserCardSystems>
+    <userHomeCity>Brussel</userHomeCity>
+    <userHomeLocationLat>50.857746</userHomeLocationLat>
+    <userHomeLocationLon>4.3463604</userHomeLocationLon>
+    <userPoints>10.550</userPoints>
+</checkinActivity>
+~~~
+
+[Voorbeeld response in XML (volledig)](http://acc.uitid.be/uitid/apidoc/uitpas-api.html#_checkins_doorzoeken)
 
 Volgende velden heb je nodig:
 
@@ -74,7 +107,25 @@ Voorbeeld
 
 **Response**
 
-[Voorbeeld reponse in XML](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_verzilverde_omruilvoordelen)
+~~~ xml
+<cashedPromotion>
+    <id>18</id>
+    <promotion>
+        <balies/>
+        <cashedIn>true</cashedIn>
+        <id>7</id>
+        <points>5</points>
+        <title>Gratis stickers</title>
+    </promotion>
+    <cashingDate>2012-02-29T14:18:49+01:00</cashingDate>
+    <balie>
+        <name>'t Gasthuys - Stedelijk Museum Aalst</name>
+        <id>testkey5c9c73d3-e82f-e7b3-44161e6e3802e64f</id>
+    </balie>
+</cashedPromotion>
+~~~
+
+[Voorbeeld reponse in XML (volledig)](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_verzilverde_omruilvoordelen)
 
 Volgende velden heb je nodig:
 
@@ -111,7 +162,40 @@ Voorbeeld
 
 **Response**
 
-[Voorbeeld response in XML](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_verkoop_tickets_doorzoeken)
+~~~ xml
+<ticketSale>
+    <createdVia>Flagey</createdVia>
+    <creationDate>2015-06-19T11:31:09+02:00</creationDate>
+    <id>17005</id>
+    <nodeId>2364619f-6984-4f0d-a28d-5b0edd6de121</nodeId>
+    <nodeTitle>Animazaterdag: Minuscule, La vallée fourmis perdues</nodeTitle>
+    <price>5.0</price>
+    <tariff>0.0</tariff>
+    <firstName>Firstname</firstName>
+    <lastName>Lastname</lastName>
+    <dateOfBirth>1982-08-23T02:00:00+02:00</dateOfBirth>
+    <status>ACTIVE</status>
+    <location>Flagey</location>
+    <userId>1b567cc7-26f8-44e9-ab5b-990e92e34bfa</userId>
+    <organiser>Flagey</organiser>
+    <userHomeCity>Brussel</userHomeCity>
+        <ticketSaleCoupon>
+            <buyConstraint>
+                <periodType>ABSOLUTE</periodType>
+                 <periodVolume>1</periodVolume>
+            </buyConstraint>
+             <exchangeConstraint>
+                <periodType>YEAR</periodType>
+                <periodVolume>1</periodVolume>
+            </exchangeConstraint>
+            <id>27</id>
+            <name>Cultuurbonnnnn</name>
+        </ticketSaleCoupon>
+    <groupPass>false</groupPass>
+</ticketSale>
+~~~
+
+[Voorbeeld response in XML (volledig)](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_verkoop_tickets_doorzoeken)
 
 Volgende velden heb je nodig:
 

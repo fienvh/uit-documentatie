@@ -20,7 +20,29 @@ Voorbeeld
 
 **Response**
 
-[Voorbeeld response in XML](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_van_pashouder) 
+~~~ xml
+<memberships>
+    <membership>
+        <id>1</id>
+        <association>
+            <id>1</id>
+            <name>Chiro Jongens</name>
+            <cardSystem>
+                <id>1</id>
+                <name>HELA</name>
+            </cardSystem>
+            <enddateCalculation>BASED_ON_REGISTRATION_DATE</enddateCalculation>
+            <enddateCalculationValidityTime>2</enddateCalculationValidityTime>
+        </association>
+        <endDate>2015-12-31T23:59:59+01:00</endDate>
+        <renewable>true</renewable>
+        <renewDate>2015-09-30T23:59:59+01:00</renewDate>
+        <newEndDate>2017-12-31T23:59:59+01:00</newEndDate>
+    </membership>
+</memberships>
+~~~ 
+
+[Voorbeeld response in XML (volledig)](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_van_pashouder) 
 
 Volgende velden heb je nodig:
 

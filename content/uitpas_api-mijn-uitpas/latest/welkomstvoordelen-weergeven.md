@@ -20,7 +20,34 @@ Voorbeeld
 
 **Response**
 
-[Voorbeeld response in XML](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_welkomstvoordelen_voor_pashouder) 
+~~~ xml
+<promotion>
+    <applicableCardSystems>
+        <cardsystem>
+            <id>1</id>
+            <name>UiTPAS Regio Aalst</name>
+        </cardsystem>
+    </applicableCardSystems>
+    <balies>
+        <balie>
+            <name>Stedelijk Zwembad Aalst</name>
+            <id>A56CEC7E-F377-A942-296E3BCDF4884E07</id>
+            <visible>false</visible>
+        </balie>
+    </balies>
+    <cashedIn>false</cashedIn>
+    <id>4</id>
+    <inSpotlight>false</inSpotlight>
+    <owningCardSystem>
+        <id>1</id>
+        <name>UiTPAS Regio Aalst</name>
+    </owningCardSystem>
+    <points>0</points>
+    <title>1 € voor zwembeurt in zwembad Aalst</title>
+</promotion>
+~~~
+
+[Voorbeeld response in XML (volledig)](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_welkomstvoordelen_voor_pashouder) 
 
 Volgende velden heb je nodig:
 
