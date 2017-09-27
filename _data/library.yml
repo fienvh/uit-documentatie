@@ -137,7 +137,7 @@
           href: "boosting"
         - title: "Suggesties"
           href: "suggesties"
-        - title: "Referentiegids"
+        - title: "Referentiegids" 
           href: "referentiegids"
     - name: "v1"
       path: "content/search_api/v1/"
