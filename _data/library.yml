@@ -82,6 +82,8 @@
       - title: "Tips en tricks"
         href: "tipsentricks"
         summary:
+          - title: "Beschrijving"
+            href: "tipsentricks/beschrijving"
           - title: "Prijsinfo"
             href: "tipsentricks/prijsinfo"
           - title: "Reservatieinfo"
