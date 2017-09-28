@@ -95,6 +95,8 @@
           - title: "Scholenaanbod"
             href: "tipsentricks/scholenaanbod"
           - title: "Ledenaanbod"
+            href: "tipsentricks/locatie"
+          - title: "Locatie"
             href: "tipsentricks/ledenaanbod"
           - title: "Organisator"
             href: "tipsentricks/organisator"
