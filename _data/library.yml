@@ -139,7 +139,7 @@
           href: "boosting"
         - title: "Suggesties"
           href: "suggesties"
-        - title: "Referentiegids" 
+        - title: "Referentiegids"
           href: "referentiegids"
     - name: "v1"
       path: "content/search_api/v1/"
@@ -411,6 +411,8 @@
         summary:
           - title: "Mogelijkheden"
             href: "mogelijkheden"
+          - title: "HTTPS-ondersteuning"
+            href: "https"
           - title: "Gebruiksvoorwaarden"
             href: "gebruiksvoorwaarden"
 - title: "Frontend afstemmen op het CdbXML-formaat"
