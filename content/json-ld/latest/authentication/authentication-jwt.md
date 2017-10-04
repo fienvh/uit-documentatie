@@ -28,7 +28,7 @@ https://jwtprovider-test.uitdatabank.be/culturefeed/oauth/oob?jwt=eyJ0eXAiOiJKV1
 
 Collect the value behind `?jwt=<your jwt>
 
-Note: the experation of a JWT is set to 12 hours
+Note: the expiration of a JWT is set to 12 hours
 
 ## Add JWT and API Key as headers with every authenticated request
 
