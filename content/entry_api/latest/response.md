@@ -274,3 +274,15 @@ ERROR 400 Bad Request
   <message>Duplicate parameter found.</message>
 </rsp>
 ~~~
+
+### Foutieve syntax
+
+ERROR 400 Bad Request
+
+~~~ xml
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp level=”ERROR” version=”0.1”>
+    <code>XmlError</code>
+    <message>The [...] element has an invalid value according to its data type.</message>
+</rsp>
+~~~
