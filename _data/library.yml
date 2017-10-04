@@ -456,8 +456,8 @@
         - title: "Authentication"
           href: "authentication"
           summary:
-            - title: "JSON Web Token"
-              href: "authentication/authentication-jwt"
+            - title: "JSON Web Token & API Key"
+              href: "authentication/authentication"
             - title: "Postman setup"
               href: "authentication/authentication-postman"
         - title: "Manage events"

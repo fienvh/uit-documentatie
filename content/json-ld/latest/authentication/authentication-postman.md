@@ -5,10 +5,16 @@
 ## Authorization header
 
 Under 'Headers' set:
+
+JWT:
 - Key: `Authorization`
 - Value: `Bearer <jwt>`
 
-![Postman authorization](/img/postman-authorization-header.png "Postman authorization")
+API Key:
+- Key: `X-Api-Key`
+- Value: `<your api key>`
+
+![Postman authorization](/img/postman-authorization.png "Postman authorization")
 
 ## Define host & path
 
