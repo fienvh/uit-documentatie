@@ -21,8 +21,11 @@ Add or remove an existing image on a existing offer
 
 ### HTTP PUT
 
-Add an image to an offer
-Update description and/or copyright information for a specifi image linked to a specific offer
+* Add an image to an offer
+
+No body required. If body is absent, the original description and copyrightHolder of the mediaObject will be used
+
+* Update description and/or copyright information for a specifi image linked to a specific offer
 
 | Property	| Type | Description |
 |--|--|--|
