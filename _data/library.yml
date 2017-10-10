@@ -587,3 +587,15 @@
             href: "baliemedewerker-ziet-beperkte-pashouderinfo"
           - title: "Doorvoeren acties aan een balie"
             href: "doorvoeren-acties-aan-een-balie"
+- title: "SAPI 3"
+  description: "..."
+  path: "content/search_api_3/"
+  category: "Technisch"
+  weight: 130
+  hidden: true
+  versions:
+      - name: "latest"
+        path: "content/search_api_3/latest/"
+        summary:
+          - title: "Authenticatie"
+            href: "authentication"
