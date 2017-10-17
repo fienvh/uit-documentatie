@@ -1,5 +1,6 @@
 ---
 ---
+
 # Locatie
 
 Het is verplicht aan te geven waar het event doorgaat. Dit is de locatie van het evenement. 
