@@ -20,6 +20,7 @@ Elke locatie heeft een naam en adres:
 ~~~
 
 ## Uniciteit van locaties garanderen
+
 Om de uniciteit van de locaties te kunnen garanderen, heeft elke locatie een unieke locatie-ID binnen UiTdatabank. 
 Dit ID zorgt er bovendien voor dat de locatie aanklikbaar is op UiTinVlaanderen en de andere kanalen van UiT. Het garanderen van deze uniciteit kan op twee manieren.
 
