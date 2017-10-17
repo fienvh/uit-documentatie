@@ -3,8 +3,9 @@
 
 # Locatie
 
-Het is verplicht aan te geven waar het event doorgaat. Dit is de locatie van het evenement. 
-Elke locatie heeft een naam en adres:
+De locatie waar het event plaatsvindt. Verplicht is minstens de zipcode, het land en de gemeente te voorzien + de naam van de locatie.
+
+Geef bij voorkeur ook een straat en een huisnummer zodat de UiTdatabank de correcte GIS coördinaten kan berekenen.
 
 ~~~ xml
 <location>
@@ -12,6 +13,8 @@ Elke locatie heeft een naam en adres:
     <physical>
         <city>Heist-op-den-Berg</city>
         <country>BE</country>
+        <housenr>1</housenr>
+        <street>Cultuurplein</street>
         <zipcode>2220</zipcode>
     </physical>
   </address>
