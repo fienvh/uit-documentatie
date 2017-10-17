@@ -598,4 +598,4 @@
         path: "content/search_api_3/latest/"
         summary:
           - title: "Authenticatie"
-            href: "authentication"
+            href: "authentication" 
