@@ -36,5 +36,5 @@ Bij het importeren van evenementen is het daarom aangeraden het ID van een reeds
 De correcte locatie-id’s kunnen opgevraagd worden via [helpdesk@publiq.be](mailto:helpdesk@publiq.be).
 
 ### Het external-ID bezorgen aan publiq
-
+ 
 Wanneer er voor de locatie reeds een external ID meegestuurd wordt in de XML, volstaat het om dit ID aan [publiq](mailto:helpdesk@publiq.be) te bezorgen. publiq koppelt jouw locatie dan aan de juiste locatiefiche binnen UiTdatabank. 
