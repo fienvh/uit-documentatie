@@ -3,4 +3,4 @@
 
 # Search API
 
-Dit document bevat een beschrijving van de mogelijkheden van de UiTdatabank Search API 3.
+This document contains all the info needed to start working with the UiTdatabank JSON-LD Search API
