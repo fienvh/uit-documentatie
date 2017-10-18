@@ -27,7 +27,7 @@ GET https://search.uitdatabank.be/offers/?q=labels:Paspartoe
 
 In this example, the `text` parameter will look for documents that have the string `labels:Paspartoe` in them, while the `q` parameter will look for documents that actually have the label `Paspartoe`.
 
-See [advanced queries](/reference/advanced-queries.md) for more info on the `q` parameter.
+See [advanced queries](../../reference/advanced-queries) for more info on the `q` parameter.
 
 ## Fields
 
@@ -95,4 +95,4 @@ GET https://search.uitdatabank.be/offers/?text="the editors"&textLanguages[]=nl&
 
 Note that the `textLanguages` parameter does not filter documents by their available languages. For example, when searching in both `nl` and `fr`, you can get results that only have either one language but still have a matching term in that specific language.
 
-To actually filter documents by their available languages, see [Languages](/searching/languages.md).
+To actually filter documents by their available languages, see [Languages](../../searching/languages).

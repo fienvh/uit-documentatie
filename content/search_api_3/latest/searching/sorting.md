@@ -26,7 +26,7 @@ Note that if you use multiple `sort` options,  the order of the `sort` options i
 
 ## Distance
 
-When searching by [geo distance](/searching/geo-distance.md), it is possible to sort the results by the distance from the given coördinates.
+When searching by [geo distance](../../searching/geo-distance), it is possible to sort the results by the distance from the given coördinates.
 
 For example:
 

@@ -44,7 +44,7 @@ GET https://search.uitdatabank.be/offers/?maxPrice=25
 
 ## Advanced queries
 
-Using the `q` parameter, you can execute more [advanced queries](/reference/advanced-queries.md) than by using the `price` and/or `minPrice` and/or `maxPrice` URL parameter.
+Using the `q` parameter, you can execute more [advanced queries](../../reference/advanced-queries) than by using the `price` and/or `minPrice` and/or `maxPrice` URL parameter.
 
 ### Exact price
 
@@ -62,4 +62,4 @@ It is possible to search on a range of prices:
 GET https://search.uitdatabank.be/offers/?q=price:[9.99 TO 20] OR price:29.99
 ```
 
-For more info, see the [advanced queries documentation](/reference/advanced-queries.md).
+For more info, see the [advanced queries documentation](../../reference/advanced-queries).

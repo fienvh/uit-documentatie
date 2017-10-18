@@ -3,7 +3,7 @@
 
 # Advanced queries
 
-The `q` parameter used for [free text search](/searching/free-text-search.md) can also be used to execute more complex queries.
+The `q` parameter used for [free text search](../../searching/free-text-search) can also be used to execute more complex queries.
 
 For example:
 
@@ -49,36 +49,36 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 | Field | Type | Comments |
 | :--- | :--- | :--- |
 | id | String | Looks for complete matches |
-| address.{[lang](/searching/languages.md)}.addressCountry | Enum | See [Address](/searching/address.md) |
-| address.{[lang](/searching/languages.md)}.addressLocality | String | See [Address](/searching/address.md) |
-| address.{[lang](/searching/languages.md)}.postalCode | String | See [Address](/searching/address.md) |
-| address.{[lang](/searching/languages.md)}.streetAddress | String | See [Address](/searching/address.md) |
-| audienceType | String | See [Audience type](/searching/audience-type.md) |
-| availableRange | Date range | See [Availability](/searching/availability.md) |
+| address.{[lang](../../searching/languages)}.addressCountry | Enum | See [Address](../../searching/address) |
+| address.{[lang](../../searching/languages)}.addressLocality | String | See [Address](../../searching/address) |
+| address.{[lang](../../searching/languages)}.postalCode | String | See [Address](../../searching/address) |
+| address.{[lang](../../searching/languages)}.streetAddress | String | See [Address](../../searching/address) |
+| audienceType | String | See [Audience type](../../searching/audience-type) |
+| availableRange | Date range | See [Availability](../../searching/availability) |
 | calendarType | String | Looks for complete matches |
-| createdRange | DateRange | See [Created and Modified](/searching/created-and-modified.md) |
-| creator | String | See [Creator](/searching/creator.md) |
-| dateRange | Date range | See [Date & time](/searching/date.md) |
-| description.{[lang](/searching/languages.md)} | String |  |
-| labels | String | See [Labels](/searching/labels.md). Looks for complete matches |
-| languages | String | See [Languages](/searching/languages.md) |
+| createdRange | DateRange | See [Created and Modified](../../searching/created-and-modified) |
+| creator | String | See [Creator](../../searching/creator) |
+| dateRange | Date range | See [Date & time](../../searching/date) |
+| description.{[lang](../../searching/languages)} | String |  |
+| labels | String | See [Labels](../../searching/labels). Looks for complete matches |
+| languages | String | See [Languages](../../searching/languages) |
 | location.id | String | Looks for complete matches |
-| location.name.{[lang](/searching/languages.md)} | String |  |
+| location.name.{[lang](../../searching/languages)} | String |  |
 | location.labels | String | Looks for complete matches |
 | location.terms.id | String | Looks for complete matches |
 | location.terms.label | String | Looks for complete matches |
-| mediaObjectsCount | Integer | See [Media objects](/searching/media-objects.md) |
-| modifiedRange | DateRange | See [Created and Modified](/searching/created-and-modified.md) |
-| name.{[lang](/searching/languages.md)} | String |  |
+| mediaObjectsCount | Integer | See [Media objects](../../searching/media-objects) |
+| modifiedRange | DateRange | See [Created and Modified](../../searching/created-and-modified) |
+| name.{[lang](../../searching/languages)} | String |  |
 | organizer.id | String | Looks for complete matches |
-| organizer.name.{[lang](/searching/languages.md)} | String |  |
+| organizer.name.{[lang](../../searching/languages)} | String |  |
 | organizer.labels | String | Looks for complete matches |
-| price | Integer | See [Price](/searching/price.md) |
-| regions | Enum | See [Region](/searching/region.md) |
+| price | Integer | See [Price](../../searching/price) |
+| regions | Enum | See [Region](../../searching/region) |
 | terms.id | String | Looks for complete matches |
 | terms.label | String | Looks for complete matches |
-| typicalAgeRange | Integer range | See [Age](/searching/age.md) |
-| workflowStatus | Enum \(String\) | See [Workflow status](/searching/workflow-status.md) |
+| typicalAgeRange | Integer range | See [Age](../../searching/age) |
+| workflowStatus | Enum \(String\) | See [Workflow status](../../searching/workflow-status) |
 
 ### Notes
 * Wildcards (`*` or `?`) allowed to search for partial matches. (See [ElasticSearch documentation on syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html\#query-string-syntax))
