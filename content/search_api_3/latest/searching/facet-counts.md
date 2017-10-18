@@ -1,3 +1,6 @@
+---
+---
+
 # Facet counts
 
 It is possible to get facet counts for specific fields using the `facets` URL parameter.

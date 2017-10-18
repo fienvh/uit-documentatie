@@ -1,3 +1,6 @@
+---
+---
+
 # Advanced queries
 
 The `q` parameter used for [free text search](/searching/free-text-search.md) can also be used to execute more complex queries.
@@ -103,4 +106,3 @@ Searching by `postalCode` in any address translation:
 ```
 GET https://search.uitdatabank.be/offers/?q=address.\*.postalCode:3000
 ```
-

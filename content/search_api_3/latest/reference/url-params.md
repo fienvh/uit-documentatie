@@ -1,8 +1,11 @@
-## Reference 
+---
+---
+
+## Reference
 
 | URL param | Value | Example | doc |
 | :-----: | :-----: | :-----: | :-----: |
-| addressCountry | ISO 3166-1 alpha-2 country code (Default = BE) | addressCountry=NL | [Address](/searching/address.md) | 
+| addressCountry | ISO 3166-1 alpha-2 country code (Default = BE) | addressCountry=NL | [Address](/searching/address.md) |
 | audienceType | Supported values: everyone (default), members, education | audienceType=members | [Audience type](/searching/audience-type.md) |
 | availableFrom | ISO-8601 datetime (default = current date)| availableFrom=2017-04-01T00:00:00+01:00 | [Availability](/searching/availability.md) |
 | availableTo | ISO-8601 datetime (default = current date) | availableTo=2017-04-30T23:59:59+01:00 | [Availability](/searching/availability.md) |  
@@ -18,11 +21,11 @@
 | distance | ElasticSearch distance units| coordinates=50.8511740,4.3386740&distance=10km | [Geo distance](/searching/geo-distance.md) |
 | embed | Boolean (default=false) | embed=true | [Embedding result bodies](/getting_started/embedding-full-result-bodies.md) |  
 | facets | Supported values: regions, types, themes, facilities | facets[]=regions | [Facet counts](/searching/facet-counts.md) |
-| hasMediaObjects| boolean | hasMediaObjects=true | [Media objects](/searching/media-objects.md) | 
+| hasMediaObjects| boolean | hasMediaObjects=true | [Media objects](/searching/media-objects.md) |
 | id | uuid | id=f29d2182-2db0-4f99-831a-8e6a64c1c9c1 | [Id](/searching/id.md) |
 | labels | string | labels[]=paspartoe | [Labels](/searching/labels.md) |
 | languages | Supported values: nl, fr, de, en | languages[]=fr | [Languages](/searching/languages.md) |  
-| limit | integer | limit=5 | [Pagination](/getting_started/pagination.md)| 
+| limit | integer | limit=5 | [Pagination](/getting_started/pagination.md)|
 | locationId | uuid | locationId=b8bff8fa-988a-44db-8dd8-70bef77f3933 | [Id](/searching/id.md) |  
 | locationTermIds | UiTdatabank taxonomy | locationTermIds[]=JCjA0i5COUmdjMwcyjNAFA | [Terms](/searching/terms.md) |  
 | locationTermLabels | UiTdatabank taxonomy | locationTermLabels[]=Jeugdhuis of jeugdcentrum | [Terms](/searching/terms.md) |

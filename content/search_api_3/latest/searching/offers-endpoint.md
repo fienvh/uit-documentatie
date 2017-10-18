@@ -1,3 +1,6 @@
+---
+---
+
 # Searching events & places
 
 Events & places can be searched from the following endpoint:

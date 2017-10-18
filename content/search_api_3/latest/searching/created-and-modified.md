@@ -1,3 +1,6 @@
+---
+---
+
 # Created and modified - metadata
 
 UiTdatabank v3 keeps track of offer creation en modification dates. This metdata can be queried with the following parameters:
@@ -44,6 +47,3 @@ The next example searches for all offers modified before or on a specific date:
 ```
 GET https://search.uitdatabank.be/offers/?q=modified:[* TO 2017-04-11T12:08:01%2B01:00]
 ```
-
-
-

@@ -1,3 +1,6 @@
+---
+---
+
 # Calendar type
 
 All events and places in UiTdatabank v3 have one of four calendar types:

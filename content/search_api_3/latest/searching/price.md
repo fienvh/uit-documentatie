@@ -1,3 +1,6 @@
+---
+---
+
 # Price
 
 You can search by price using two methods:

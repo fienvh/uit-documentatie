@@ -1,3 +1,6 @@
+---
+---
+
 # Media objects
 
 Currently it's only possible to filter events and places by their number of media objects.
@@ -45,4 +48,3 @@ GET https://search.uitdatabank.be/offers/?q=mediaObjectsCount:[5 TO 10]
 ```
 
 For more info, see [advanced queries](/reference/advanced-queries.md).
-

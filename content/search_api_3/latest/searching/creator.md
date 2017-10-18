@@ -1,3 +1,6 @@
+---
+---
+
 # Creator
 
 You can search by creator using two methods:
@@ -24,4 +27,3 @@ GET https://search.uitdatabank.be/offers/?q=creator:janedoe OR creator:john*
 ```
 
 For more info, see the [advanced queries documentation](/reference/advanced-queries.md).
-

@@ -1,3 +1,6 @@
+---
+---
+
 # Region
 
 Searching by region is based on the geographical coördinates of events and places, that are then matched with pre-indexed geographical shapes.

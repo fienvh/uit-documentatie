@@ -1,3 +1,6 @@
+---
+---
+
 # Audience type
 
 You can search by audience type using two methods:

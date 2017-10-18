@@ -1,3 +1,6 @@
+---
+---
+
 # Availability
 
 Most events in UiTdatabank v3 have a limited availability, from the time they are published \(or their scheduled publication date has been reached\) until the end date of the event.

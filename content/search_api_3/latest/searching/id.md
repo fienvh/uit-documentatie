@@ -1,3 +1,6 @@
+---
+---
+
 # Id
 
 You can search by id using two methods:
@@ -5,7 +8,7 @@ You can search by id using two methods:
 * URL parameter
 * Advanced queries
 
-This search is always done with an exact match. 
+This search is always done with an exact match.
 
 It is possible to search by an offer id (event or place), and/or a related location id, and/or a related organizer id.
 
@@ -36,6 +39,3 @@ GET https://search.uitdatabank.be/offers/?q=id:f29d2182-2db0-4f99-831a-8e6a64c1c
 ```
 
 For more info, see the [advanced queries documentation](/reference/advanced-queries.md).
-
-
-

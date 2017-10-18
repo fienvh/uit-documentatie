@@ -1,3 +1,6 @@
+---
+---
+
 # Sorting
 
 You can sort events and places either by `score` \(relevance\), or by their `availableTo` date \(most commonly used to show events that will be ending soon first\).
@@ -38,5 +41,3 @@ GET https://search.uitdatabank.be/offers/?...&sort[distance]=asc&sort[score]=des
 ```
 
 However, the `distance` field can ONLY be used to sort when the `coordinates` and `distance` parameter are also present.
-
-

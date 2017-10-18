@@ -1,3 +1,6 @@
+---
+---
+
 # Address
 
 You can filter by address-related fields using two methods:
@@ -56,6 +59,3 @@ address.\*.streetAddress:Bondgenotenlaan*
 ```
 
 For more information, see [advanced queries](/reference/advanced-queries.md).
-
-
-

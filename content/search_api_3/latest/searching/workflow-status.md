@@ -1,3 +1,6 @@
+---
+---
+
 # Workflow status
 
 ## Allowed values

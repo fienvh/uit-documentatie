@@ -1,15 +1,18 @@
+---
+---
+
 # Example queries
 
 ## Tipswidget "Mijn Kind op Kamp"
 > show a selection of the first 5 occuring events for children with eventtype "kamp of vakantie" that take place during the summer of 2017
 
-- [periode](/searching/date.md): zomervakantie 2017 
+- [periode](/searching/date.md): zomervakantie 2017
 `q=dateRange:[2017-07-01T00:00:00+01:00 TO 2017-08-31T23:59:59+01:00]`
-- [type](/searching/terms.md):"Kamp of vakantie" 
+- [type](/searching/terms.md):"Kamp of vakantie"
 `q=terms.label:"Kamp of vakantie"`
-- [leeftijd](/searching/age.md): jonger dan 14 jaar 
+- [leeftijd](/searching/age.md): jonger dan 14 jaar
 `q=typicalAgeRange:[* TO 14]`
-- met [afbeelding](/searching/media-objects.md) 
+- met [afbeelding](/searching/media-objects.md)
 `q=mediaObjectsCount:>=1`
 - [gesorteerd](/searching/sorting.md) op startdatum
 `sort[availableTo]=asc`

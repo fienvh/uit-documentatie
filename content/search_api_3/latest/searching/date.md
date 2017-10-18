@@ -1,3 +1,6 @@
+---
+---
+
 # Date & time
 
 Using Search API v3, you can easily search all events that occur within a given time frame, and all places that are open within that same time frame.
@@ -67,4 +70,3 @@ GET https://search.uitdatabank.be/offers/?q=dateRange:[2017-01-01T00:00:00%2B01:
 ```
 
 Same as the URL parameters, the expected value is an `ISO-8601` datetime including a timezone offset.
-

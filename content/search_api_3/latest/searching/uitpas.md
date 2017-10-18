@@ -1,3 +1,6 @@
+---
+---
+
 # UiTPAS
 
 You can search for UiTPAS related events or places using an URL parameter.
@@ -17,4 +20,3 @@ GET https://search.uitdatabank.be/offers/?uitpas=false
 ```
 
 Behind the screens this filter is converted to a Lucene query that searches for the labels `UiTPAS*` or `Paspartoe` on each event's or place's organizer.
-

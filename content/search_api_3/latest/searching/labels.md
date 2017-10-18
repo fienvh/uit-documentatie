@@ -1,3 +1,6 @@
+---
+---
+
 # Labels
 
 You can search by label\(s\) using two methods:

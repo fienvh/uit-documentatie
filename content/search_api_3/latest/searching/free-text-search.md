@@ -1,3 +1,6 @@
+---
+---
+
 # Free text search
 
 Using either the `text` and the `q` URL parameters, you can search for text across multiple pre-defined fields:

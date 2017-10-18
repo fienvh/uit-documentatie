@@ -1,3 +1,6 @@
+---
+---
+
 # Terms
 
 You can search by term id\(s\) and term label\(s\) using two methods:
