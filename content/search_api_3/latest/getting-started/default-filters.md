@@ -14,19 +14,19 @@ You can either reset these filters individually, or disable them all at once.
 
 ## Individually reset
 
-[**Workflow status**](searching/workflow-status.md)**:**
+[**Workflow status**](../../searching/workflow-status.md)**:**
 
 ```
 GET https://search.uitdatabank.be/offers/?workflowStatus=*
 ```
 
-[**Availability**](searching/availability.md):
+[**Availability**](../searching/availability.md):
 
 ```
 GET https://search.uitdatabank.be/offers/?availableFrom=*&availableTo=*
 ```
 
-[**Country**](searching/address.md):
+[**Country**](/searching/address.md):
 
 ```
 GET https://search.uitdatabank.be/offers/?addressCountry=*
