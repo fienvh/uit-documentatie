@@ -3,4 +3,11 @@
 
 # Search API
 
-This document contains all the info needed to start working with the UiTdatabank JSON-LD Search API
+## Introduction
+
+This documentation provides an overview of all public features available in CultuurNet's Search API v3 for UiTdatabank.
+
+The API is available at the following urls:
+
+* Production: [https://search.uitdatabank.be](http://search.uitdatabank.be)
+* Test environment: [https://search-test.uitdatabank.be](http://search-test.uitdatabank.be)
