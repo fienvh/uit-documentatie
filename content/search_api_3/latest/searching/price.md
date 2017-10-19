@@ -51,7 +51,7 @@ Using the `q` parameter, you can execute more [advanced queries](../../reference
 It is possible to exactly match the price of an event or place:
 
 ```
-GET https://search.uitdatabank.be/offers/?q=price:19.99 OR price:99.99
+GET https://search.uitdatabank.be/offers/?q=price:19.99 OR price:66.66
 ```
 
 ### Price range
