@@ -33,7 +33,7 @@ See [advanced queries](../../reference/advanced-queries) for more info on the `q
 
 The following fields will be searched when using either the `text` parameter, or the `q` parameter with free text:
 
-`id`, `name`, `description`, `labels`, `terms.id`, `terms.label`, `performer.name`, `addressLocality`, `postalCode`, `streetAddress`, `location.id`, `location.name`, `organizer.id`, `organizer.name`
+`id`, `name`, `description`, `labels`, `terms.id`, `terms.label`, `addressLocality`, `postalCode`, `streetAddress`, `location.id`, `location.name`, `organizer.id`, `organizer.name`
 
 **Important notes:**
 
