@@ -19,7 +19,7 @@ API Key:
 ## Define host & path
 
 Host:
-- Test: https://udb-silex-test.uitdatabank.be
+- Test: https://test-io.uitdatabank.be
 - Production: https://io.uitdatabank.be
 
 Path:
@@ -37,4 +37,3 @@ For some requests a well formed json-ld body is required (See documentation for 
 Use 'raw'
 
 ![Postman body](/img/postman-body.png "Postman body")
-

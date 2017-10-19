@@ -463,6 +463,8 @@
         - title: "Manage events"
           href: "events"
           summary:
+            - title: "POST to /events/"
+              href: "events/event-post"
             - title: "Type"
               href: "events/event-type"
             - title: "Theme"
@@ -496,6 +498,8 @@
         - title: "Manage places"
           href: "places"
           summary:
+            - title: "POST to /places/"
+              href: "places/place-post"
             - title: "Type"
               href: "places/place-type"
             - title: "Calendar"
@@ -527,6 +531,8 @@
         - title: "Manage organizers"
           href: "organizers"
           summary:
+            - title: "POST to /organizers/"
+              href: "organizers/organizer-post"
             - title: "Unique URL"
               href: "organizers/organizer-url"
             - title: "Name"
@@ -539,6 +545,11 @@
               href: "organizers/organizer-label"
         - title: "Manage images"
           href: "images"
+          summary:
+            - title: "POST to /images/"
+              href: "images/image-post"
+        - title: "Manage translations"
+          href: "translations"
         - title: "JSON-LD Definitions"
           href: "json-ld-definitions"
 - title: "UiTPAS API 3.0"

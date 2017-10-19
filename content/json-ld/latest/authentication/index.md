@@ -7,7 +7,7 @@
 
 **Test environment**
 ```
-https://udb-silex-test.uitdatabank.be
+https://io-test.uitdatabank.be
 ```
 
 **Production environment**

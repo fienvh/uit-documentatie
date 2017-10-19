@@ -14,7 +14,7 @@ You can either reset these filters individually, or disable them all at once.
 
 ## Individually reset
 
-[**Workflow status**](../../searching/workflow-status)**:**
+[**Workflow status**](../../searching/workflow-status):
 
 ```
 GET https://search.uitdatabank.be/offers/?workflowStatus=*
