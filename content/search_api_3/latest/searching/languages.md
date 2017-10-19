@@ -1,13 +1,13 @@
 ---
 ---
 
-# Languages
+# Languages and translations
 
-All documents created in UiTdatabank are available in Dutch \(NL\). Besides Dutch, content editors can translate their documents in French \(FR\), German \(DE\) and English \(EN\).
+All documents created in UiTdatabank are available in Dutch \(NL\). Besides Dutch, content editors can use UiTdatabank to translate the `name` and `description` of their documents in French \(FR\), German \(DE\) and English \(EN\). The API supports translations in every [two-letter language ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
-To limit your results to documents that have translations for a specific language, you can use the `languages` URL parameter, or the `languages` field in [advanced queries](../../reference/advanced-queries).
+To limit your results to documents that have translations for `name` and `description` in a specific language, you can use the `languages` URL parameter, or the `languages` field in [advanced queries](../../reference/advanced-queries).
 
-Allowed values for both are:
+Allowed values for both are any of the [two-letter language ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), but the most used languages are:
 
 * nl \(or NL\)
 * fr \(or FR\)
@@ -16,13 +16,13 @@ Allowed values for both are:
 
 ## Url parameter
 
-An example to get results that have a French translation:
+An example to get results that have a French translation for the `name` and/or `description`:
 
 ```
 GET https://search.uitdatabank.be/offers/?languages[]=fr
 ```
 
-You can repeat this parameter to filter by multiple languages \(note that this uses the `AND` operator, so you will only get results that have translations for both languages\).
+You can repeat this parameter to filter by multiple languages \(note that this uses the `AND` operator, so you will only get results that have translations for both languages in the `name` and/or `description` field\).
 
 ```
 GET https://search.uitdatabank.be/offers/?languages[]=fr&languages[]=de
@@ -50,7 +50,7 @@ To fix this, you should use the `textLanguage` parameter as described in the [fr
 
 ## Incomplete translations
 
-Using either the URL parameter or advanced queries to filter by language\(s\), you might still get results that only have partial translations. This is because as soon as a single field is translated to a specific language, the whole document is considered to have a translation \(albeit an incomplete one\).
+Using either the URL parameter or advanced queries to filter by language\(s\), you might still get results that only have partial translations. This is because as soon as a single field (`name` or `description`) is translated to a specific language, the whole document is considered to have a translation in that specific language \(albeit an incomplete one\).
 
 If you require specific fields to be translated, you can search for those documents by using [advanced queries](../../reference/advanced-queries) to check for the existence of a field translation:
 
@@ -68,7 +68,7 @@ GET https://search.uitdatabank.be/offers/?q=!(_exists_:name.fr) OR !(_exists_:de
 
 This will return all documents that are missing French translations for either `name` and/or `description`.
 
-Alternatively, you use the `completedLanguages` URL parameter \(and field in [advanced queries](../../reference/advanced-queries)\) to only look for documents that are fully translated to a specific language.
+Alternatively, you use the `completedLanguages` URL parameter \(and field in [advanced queries](../../reference/advanced-queries)\) to only look for documents that are fully translated (both name and description) to a specific language.
 
 ```
 GET https://search.uitdatabank.be/offers/?completedLanguages[]=fr
@@ -82,7 +82,7 @@ Note that if an optional field is left empty in all languages, a translation can
 
 ## Main Language
 
-Traditionally, each document starts as Dutch and can then be translated to other languages. However, in the future the main language of a document might become configurable. To accommodate this, each document already has a `mainLanguage` property on which you can also search in the Search API.
+Traditionally, each document created in UiTdatabank starts as Dutch and can then be translated to other languages. However, in the future the main language of a document might become configurable. To accommodate this, each document already has a `mainLanguage` property on which you can also search in the Search API.
 
 For example:
 
@@ -95,3 +95,12 @@ Or using [advanced queries](../../reference/advanced-queries):
 ```
 GET https://search.uitdatabank.be/offers/?q=mainLanguage:nl
 ```
+
+## Organizer name
+
+It is possible to translate the `name` of an organizer. See [advanced queries](../../reference/advanced-queries) for exact parameter.
+
+
+## Address
+
+It is possible to translate the different address fields of a place. See advanced query documentation in [address](../../searching/address) for the exact search parameters.
