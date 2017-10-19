@@ -39,6 +39,7 @@ The following fields will be searched when using either the `text` parameter, or
 
 * IDs only return results if the complete ID is given in the free text input.
 * Searching for a part of a word is not supported at the time of writing. For example, searching for `Fiets` will not return an event with the title `Fietsen langs de Dijle`.
+* Wildcards are supported. For example, searching for `Fiets*` will return results with `Fietsen` or `Fietseling` or `Fietstocht` ...
 
 ## Operators
 
@@ -61,20 +62,20 @@ Note: if you want to specify the fields you want to search on, or search through
 
 By default the free text search looks for one or more matches with any of the given terms, regardless of their order and/or position in the document's text.
 
-For example, both an event with the title `Lekker veggie` and a different event with the title `Veggie eten is lekker` would be returned as results when searching for `text=lekker veggie`.
+For example, both an event with the title `Lekker vegetarisch` and a different event with the title `Vegetarisch eten is niet lekker` would be returned as results when searching for `text=lekker veggie`.
 
-To limit the results to exact matches, encapsulate the given search terms with quotes:
+To limit the results to exact matches, encapsulate the given search terms with double quotes:
 
 ```
-GET https://search.uitdatabank.be/offers/?text="lekker veggie"
+GET https://search.uitdatabank.be/offers/?text="lekker vegetarisch"
 ```
 
-This will only return results that have `lekker veggie` in exactly that order in their text.
+This will only return results that have `lekker vegetarisch` in exactly that order in their text.
 
 Encapsulated terms can still be combined with other terms, for example:
 
 ```
-GET https://search.uitdatabank.be/offers/?text="lekker veggie" eten bereiden klaarmaken
+GET https://search.uitdatabank.be/offers/?text="lekker vegetarisch" eten bereiden koken
 ```
 
 ## Localization \(Translations\)

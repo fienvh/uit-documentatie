@@ -3,7 +3,7 @@
 
 # Created and modified - metadata
 
-UiTdatabank v3 keeps track of offer creation en modification dates. This metdata can be queried with the following parameters:
+UiTdatabank v3 keeps track of offer creation and modification dates. This metdata can be queried with the following parameters:
 
 * `createdFrom` \(ISO-8601 datetime, eg. "2017-04-01T12:08:01+01:00"\)
 * `createdTo` \(ISO-8601 datetime, eg. "2017-04-20T12:08:01+01:00"\)

@@ -39,15 +39,15 @@ Because a document can have address translations, you can search by a specific l
 For example:
 
 ```
-GET https://search.uitdatabank.be/offers/?addressCountry=*&q=address.nl.addressCountry:BE AND address.nl.postalCode:3000 AND address.nl.addressLocality:Leuven AND address.nl.streetAddress:Bondgenotenlaan*
+GET https://search.uitdatabank.be/offers/?addressCountry=*&q=address.fr.addressCountry:BE AND address.fr.postalCode:1000 AND address.fr.addressLocality:Bruxelles AND address.fr.streetAddress:Boulevard Anspach*
 ```
 
-The query above will look for specific matches in the `nl` address.
+The query above will look for specific matches in the `fr` address.
 
 The following example looks for matches in any language:
 
 ```
-GET https://search.uitdatabank.be/offers/?addressCountry=*&q=address.\*.addressCountry:BE AND address.\*.postalCode:3000 AND address.\*.addressLocality:Leuven AND address.\*.streetAddress:Bondgenotenlaan*
+GET https://search.uitdatabank.be/offers/?addressCountry=*&q=address.\*.addressCountry:BE AND address.\*.postalCode:1000 AND address.\*.addressLocality:Bruxelles AND address.\*.streetAddress:Boulevard Anspach*
 ```
 
 Note that wildcards in field names should be escaped using a backslash. \(`\`\)
