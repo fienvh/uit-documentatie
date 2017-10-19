@@ -10,7 +10,14 @@ You can add your API key to a request in two ways:
 * As a query parameter
 * In a custom `X-Api-Key` header
 
-\[@stan Info over projectaanvraag etc toevoegen.\]
+To apply for you personal API key you must register via the [UiTdatabank projectaanvraag platform](https://projectaanvraag.uitdatabank.be).
+
+The API is available at the following urls:
+
+* Production: [https://search.uitdatabank.be](http://search.uitdatabank.be)
+* Test environment: [https://search-test.uitdatabank.be](http://search-test.uitdatabank.be)
+
+Make sure to use the correct API key with the correct environment.
 
 ## Query parameter
 
