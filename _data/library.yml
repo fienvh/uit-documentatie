@@ -610,6 +610,8 @@
               href: "getting-started/case-sensitivity"
             - title: "Default filters"
               href: "getting-started/default-filters"
+            - title: "Escaping"
+              href: "getting-started/escaping"
         - title: "Searching events and places"
           href: "searching"
           summary:

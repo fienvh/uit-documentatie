@@ -35,7 +35,7 @@ Using the `q` parameter, you can execute more [advanced queries](../../reference
 For example:
 
 ```
-GET https://search.uitdatabank.be/offers/?q=id:f29d2182-2db0-4f99-831a-8e6a64c1c9c1 or location.id:b8bff8fa-988a-44db-8dd8-70bef77f3933 and organizer.id:7d1f485d-dab5-4ad2-8894-322060a2bc52
+GET https://search.uitdatabank.be/offers/?q=id:f29d2182-2db0-4f99-831a-8e6a64c1c9c1 OR location.id:b8bff8fa-988a-44db-8dd8-70bef77f3933 AND organizer.id:7d1f485d-dab5-4ad2-8894-322060a2bc52
 ```
 
 For more info, see the [advanced queries documentation](../../reference/advanced-queries).

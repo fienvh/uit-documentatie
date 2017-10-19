@@ -8,6 +8,8 @@
 
 - [periode](../../searching/date): zomervakantie 2017
 `q=dateRange:[2017-07-01T00:00:00+01:00 TO 2017-08-31T23:59:59+01:00]`
+- [Default Filters](../../getting_started/default-filters)
+`disableDefaultFilters=true`
 - [type](../../searching/terms):"Kamp of vakantie"
 `q=terms.label:"Kamp of vakantie"`
 - [leeftijd](../../searching/age): jonger dan 14 jaar
@@ -21,7 +23,7 @@
 
 
 ```
-GET https://search.uitdatabank.be/events/?q=terms.label:%22Kamp%20of%20vakantie%22%20AND%20typicalAgeRange:[*%20TO%2014]%20AND%20dateRange:[2017-07-01T00:00:00%2B01:00%20TO%202017-08-31T23:59:59%2B01:00]%20AND%20mediaObjectsCount:%3E=1&sort[availableTo]=asc&limit=5
+GET https://search.uitdatabank.be/events/?q=terms.label:%22Kamp%20of%20vakantie%22%20AND%20typicalAgeRange:[*%20TO%2014]%20AND%20dateRange:[2017-07-01T00:00:00%2B01:00%20TO%202017-08-31T23:59:59%2B01:00]%20AND%20mediaObjectsCount:%3E=1&sort[availableTo]=asc&limit=5&disableDefaultFilters=true&embed=true
 ```
 
 
@@ -47,8 +49,7 @@ GET https://search.uitdatabank.be/events/?q=terms.label:%22Kamp%20of%20vakantie%
 - [eventtype](../../searching/terms): cursus en workshop
 `q=terms.id:0.3.1.0.0`
 - [eventtype](../../searching/terms): lezing en congres
-`q=terms.id:0.3.2.0.0
-
+`q=terms.id:0.3.2.0.0`
 
 
 ```

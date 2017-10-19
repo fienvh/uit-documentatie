@@ -8,6 +8,8 @@ You can search by creator using two methods:
 * URL parameter
 * Advanced queries
 
+At the moment of writing, `creator` can contain a nickname or emailaddress, depending on the source of the offer: UiTdatabank v2 or UiTdatabank v3. In the near future `creator` will only contain the UiTiD uuid. 
+
 ## Url parameter
 
 You can filter by an exact match with the `creator`  URL parameter.

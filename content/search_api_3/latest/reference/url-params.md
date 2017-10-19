@@ -12,7 +12,7 @@
 | calendarType | permanent, periodic, multiple, single | calendarType=single,multiple | [Calendar type](../../searching/calendar-type) |
 | createdFrom | ISO-8601 datetime | createdFrom=2017-01-01T00:00:00+01:00 | [Created and modified](../../searching/created-and-modified) |
 | createdTo | ISO-8601 datetime | createdTo=2017-01-01T00:00:00+01:00 | [Created and modified](../../searching/created-and-modified) |
-| creator | string | creator:janedoe@john.org | [Creator](../../searching/creator) |
+| creator | string | creator=janedoe | [Creator](../../searching/creator) |
 | completedLanguages | Supported values: nl, fr, de, en | completedLanguages[]=fr | [Languages](../../searching/languages) |
 | coordinates | decimal representation of latitude & longitude | coordinates=50.8511740,4.3386740 | [Geo distance](../../searching/geo-distance) |  
 | dateFrom | ISO-8601 datetime | dateFrom=2017-01-01T00:00:00+01:00 | [Date & time](../../searching/date) |  
@@ -47,4 +47,4 @@
 | termLabels | UiTdatabank taxonomy | termLabels[]=Theatervoorstelling | [Terms](../../searching/terms) |  
 | text | Query string syntax | text=(wandeling OR wandelen) AND femma | [Free text search](../../searching/free-text-search) |  
 | uitpas | Boolean (true/false/*) | uitpas=true | [UiTPAS](../../searching/uitpas) |  
-| workflowStatus | supported values: DRAFT, READY\_FOR\_VALIDATION, APPROVED, REJECTED, DELETED | workflowStatus=READY\_FOR\_VALIDATION,APPROVED (default) | [Workflow status](../../searching/workflow-status) |
+| workflowStatus | supported values: DRAFT, READY_FOR_VALIDATION, APPROVED, REJECTED, DELETED | workflowStatus=READY_FOR_VALIDATION,APPROVED (default) | [Workflow status](../../searching/workflow-status) |

@@ -41,7 +41,7 @@ Using the `q` parameter, you can execute more [advanced queries](../../reference
 For example:
 
 ```
-GET https://search.uitdatabank.be/offers/?q=terms.id:"0.7.0.0.0" or location.terms.id:JCjA0i5COUmdjMwcyjNAFA
+GET https://search.uitdatabank.be/offers/?q=terms.id:"0.7.0.0.0" OR location.terms.id:JCjA0i5COUmdjMwcyjNAFA
 ```
 
 Searching by term ids and/or term labels in advanced queries still looks for complete matches, but contrary to the URL parameters, wildcards are supported.

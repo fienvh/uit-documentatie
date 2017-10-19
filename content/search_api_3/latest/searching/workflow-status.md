@@ -13,7 +13,7 @@ A workflow status can be any of the following values \(case-insensitive\):
 * `REJECTED`
 * `DELETED`
 
-**Important!** Documents with a `DRAFT` status are not considered to be "available" by default, because they have not been published yet. Therefor, to find `DRAFT` documents, you will have to disable the default `availableFrom` and `availableTo` parameters like this:
+**Important!** Documents with a `DRAFT` status are not considered to be "available" by default, because they have not been published yet. Therefore, to find `DRAFT` documents, you will have to disable the default `availableFrom` and `availableTo` parameters like this:
 
 ```
 GET https://search.uitdatabank.be/offers/?workflowStatus=DRAFT&availableFrom=*&availableTo=*
@@ -58,7 +58,7 @@ Using the `q` parameter, you can execute more [advanced queries](../../reference
 For example:
 
 ```
-GET https://search.uitdatabank.be/offers/?...&q=workflowStatus:DRAFT or workflowStatus:READY_FOR_VALIDATION
+GET https://search.uitdatabank.be/offers/?q=workflowStatus:DRAFT OR workflowStatus:READY_FOR_VALIDATION
 ```
 
 **Note that you still have to reset the default `workflowStatus` filter first.** Alternatively you can use the `disableDefaultFilters` parameter, as described in [Default filters](../../getting_started/default-filters).

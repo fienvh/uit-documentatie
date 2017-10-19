@@ -7,7 +7,7 @@ Most events in UiTdatabank v3 have a limited availability, from the time they ar
 
 Places are considered to be permanently available, starting when they are published \(or, again, their scheduled publication date has been reached\). A small portion of the events is permanent as well, depending on their calendar information.
 
-Note however, that an event's availability is not the same as the date and time that the event actually takes place. Instead, it is an indication of when the event can be shown on public output channels. **Generally, you will only want to search through events and places that are available right now**, unless you are building a backend in which users can create and edit their events and places, in which case they need to be able to view their events that are no longer available or will become available in the future.
+Note however, that an event's availability is not the same as the date and time that the event actually takes place. Instead, it is an indication of when the event can be shown on public output channels (e.g. UiTinvlaanderen.be). **Generally, you will only want to search through events and places that are available right now**, unless you are building a backend in which users can create and edit their events and places, in which case they need to be able to view their events that are no longer available or will become available in the future.
 
 Because of this, Search API v3 has default filters that hide any events or places that are considered to be either no longer available, or not available yet. However, you can disable these default filters, and even override them.
 
@@ -16,7 +16,7 @@ The API provides two parameters which are **both set to the current date and tim
 * `availableFrom` \(ISO-8601 datetime, eg. "2017-04-11T12:08:01+01:00"\)
 * `availableTo` \(ISO-8601 datetime, eg. "2017-04-11T12:08:01+01:00"\)
 
-**Note that the "+" sign should be encoded for URLs \(as %2B\)!** Otherwise it will be interpreted as whitespace and the given date time will be considered invalid.
+**Note that the "+" sign should be encoded for URLs \(as %2B\)** Otherwise it will be interpreted as whitespace and the given date time will be considered invalid.
 
 ## Retrieving all events and places regardless of availability
 
@@ -78,7 +78,7 @@ This will return all events and places that were, at some point, available befor
 
 ## Advanced queries
 
-You can also search by availability using [advanced queries](../../reference/advanced-queries). **However! You should always reset the default **`availableFrom`** and **`availableTo`** if you want to search by availability in your advanced queries.**
+You can also search by availability using [advanced queries](../../reference/advanced-queries). **However! You should always reset the default **`availableFrom`** and **`availableTo`** if you want to search by availability in your advanced queries (as explained in [default filters](../../getting-started/default-filters)).**
 
 To search by availability in advanced queries, you can use the `availableRange` field and either look for a specific date, or a range.
 
