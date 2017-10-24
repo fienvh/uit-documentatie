@@ -17,7 +17,7 @@ UiTiD Productie
 
 Search Test
 
-* URL: ```https://www.uitid.be/uitid/rest/searchv2/search```
+* URL: ```https://acc.uitid.be/uitid/rest/searchv2/search```
 * Key: ```BAAC107B-632C-46C6-A254-13BC2CE19C6C```
 * Secret: ```ec9a0e8c2cdc52886bc545e14f888612```
 
