@@ -22,5 +22,5 @@ deploy:
   on:
     branch: master
     repo: cultuurnet/uit-documentatie
- notifications:
-    slack: cultuurnet:Ve4ngjCOQridp4Q4DtVORQcq
+notifications:
+  slack: cultuurnet:Ve4ngjCOQridp4Q4DtVORQcq
