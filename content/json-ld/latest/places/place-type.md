@@ -18,7 +18,7 @@ Type is required for every place and an event can only have one typeid.
 | Property	| Type | Description | Example |
 |--|--|--|--|
 | placeId	| uuid | unique identifier for a place | d595414a-13e0-4dd2-b4bd-706599427351 |
-| typeId	| string | unique place type-id | 0.50.4.0.0 |
+| typeId	| string | unique place type-id | BtVNd33sR0WntjALVbyp3w |
 
 ## HTTP PUT
 
