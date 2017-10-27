@@ -141,6 +141,8 @@
           href: "suggesties"
         - title: "Referentiegids"
           href: "referentiegids"
+	    - title: "Referentiegids Pages"
+          href: "referentiegids_pages"
     - name: "v1"
       path: "content/search_api/v1/"
       status: "deprecated"
