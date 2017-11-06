@@ -12,7 +12,7 @@ Het meegeven van één prijs moet gebeuren als numeriek getal, met punt voor de 
 ~~~ xml
 <price> 
 <pricevalue>9.00</pricevalue> 
-<price> 
+</price> 
 ~~~
 
 ## Meerdere prijzen
@@ -23,7 +23,7 @@ Je kan meerdere prijzen importeren aan de hand van key-value pairs. Hierbij is h
 <price> 
 <pricevalue>X</pricevalue> (prijs dient aangegeven met punt voor decimalen)
 <pricedescription>Basistarief: X €; key: value €; key: value €; key: value €</pricedescription>
-<price> 
+</price> 
 ~~~
 
 Pricedescription moet voldoen aan volgende voorwaarden, vooraleer deze te interpreteren als basis om prijsinfo te importeren 
@@ -45,6 +45,6 @@ In alle andere gevallen wordt priceDescription genegeerd en wordt pricevalue als
 <price> 
 <pricevalue>10</pricevalue>
 <pricedescription>Basistarief: 10 €; Leden: value 7,5 €; Studenten: 5 €; Senioren: 0 €</pricedescription>
-<price>
+</price>
 ~~~
 
