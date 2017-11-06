@@ -708,6 +708,7 @@
                 href: "entiteiten/welcomeadvantage-entiteit"
           - title: "Events"
             href: "events"
+            summary:
               - title: "Endpoints"
                 href: "events/endpoints"
               - title: "Annulatie van verkoop van een ticket"
@@ -728,6 +729,7 @@
                 href: "events/verkoop-tickets-doorzoeken"
           - title: "Pashouders"
             href: "pashouders"
+            summary:
               - title: "Endpoints"
                 href: "pashouders/endpoints"
               - title: "Acties voor een pashouder aan een balie ophalen"
@@ -786,6 +788,7 @@
                 href: "pashouders/zoeken-van-welkomstvoordelen"
           - title: "Rapportering"
             href: "rapportering"
+            summary
               - title: "Endpoints"
                 href: "rapportering/endpoints"
               - title: "Financieel rapport aanmaken"
@@ -796,24 +799,28 @@
                 href: "rapportering/download-financieel-rapport"
           - title: "UiTPAS"
             href: "uitpas"
+            summary:
               - title: "Endpoints"
                 href: "uitpas/endpoints"
               - title: "Ophalen van een pashouder dmv uitpasnummer, chipnummer, insz of insz-barcode"
                 href: "uitpas/ophalen-van-pashouder-dmv-uitpasnummer-chipnummer-insz-of-insz-barcode"
           - title: "UiTPAS Prijzen"
             href: "uitpas-prijzen"
+            summary:
               - title: "Endpoints"
                 href: "uitpas-prijzen/endpoints"
               - title: "Ophalen UiTPAS prijs"
                 href: "uitpas-prijzen/ophalen-uitpas-prijs"
           - title: "Verenigingen"
             href: "verenigingen"
+            summary:
               - title: "Endpoints"
                 href: "verenigingen/endpoints"
               - title: "Ophalen van een lijstvan verenigingen"
                 href: "verenigingen/ophalen-van-lijst-van-verenigingen"
           - title: "Welkomstvoordelen en verzilveracties"
             href: "welkomstvoordelen-en-verzilveracties"
+            summary:
               - title: "Endpoints"
                 href: "welkomstvoordelen-en-verzilveracties/endpoints"
               - title: "Ophalen gegevens van een verzilveractie"
