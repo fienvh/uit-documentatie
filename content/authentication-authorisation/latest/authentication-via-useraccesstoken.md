@@ -5,9 +5,9 @@
 
 The oAuth request cycle is as follows:
 
-1. Get a request token from UiTiD
-2. Ask the user for authorization by sending it to UiTiD
-3. Redeem the request token for an access token at UiTiD
+1. Get a request token from UiTiD.
+2. Ask the user for authorization by sending it to UiTiD.
+3. Redeem the request token for an access token at UiTiD.
 
 Then, the access token + secret is used to sign requests.
 
