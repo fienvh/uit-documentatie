@@ -1,4 +1,4 @@
----
+﻿---
 ---
 
 # Authentication via User Access token
@@ -11,7 +11,7 @@ The oAuth request cycle is as follows:
 
 Then, the access token + secret is used to sign requests.
 
-![3-legged oauth](/img/3leggednieuw.png "3-legged oauth")
+![3-legged oauth](/img/3leggednew.png "3-legged oauth")
 
 ## 1. Retrieve Request Token
 

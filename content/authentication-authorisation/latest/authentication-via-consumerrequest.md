@@ -5,7 +5,7 @@
 
 This method is described [here](http://oauth.googlecode.com/svn/spec/ext/consumer_request/1.0/drafts/2/spec.html) and is also known as 2-legged oauth. 
 
-![2-legged oauth](/img/2leggednieuw.png "2-legged oauth")
+![2-legged oauth](/img/2leggednew.png "2-legged oauth")
 
 With this form of authentication, there is no AccessToken or AccessTokenSecret. These are omitted from the request (or given as a blank string).
 
