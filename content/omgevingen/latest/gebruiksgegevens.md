@@ -1,0 +1,40 @@
+---
+---
+
+## Gebruiksgegevens
+
+### UiTiD Test
+
+* URL: ```https://test.uitid.be/uitid/rest```
+* Key: ```b0da8306ea57853c1e7954b3445e0f51```
+* Secret: ```4e8656e4f8afc9abec8ee1e728f51f54```
+
+### UiTiD Productie
+
+* URL: ```https://www.uitid.be/uitid/rest```
+* Key: op aanvraag
+* Secret: op aanvraag
+
+### Search API Test
+
+* URL: ```https://test.uitid.be/uitid/rest/searchv2/search```
+* Key: ```BAAC107B-632C-46C6-A254-13BC2CE19C6C```
+* Secret: ```ec9a0e8c2cdc52886bc545e14f888612```
+
+### Search API Productie
+
+* URL: ```https://www.uitid.be/uitid/rest/searchv2/search```
+* Key: op aanvraag
+* Secret: op aanvraag
+
+### Entry API Test
+
+* URL: ```https://test.uitid.be/uitid/rest/entry/test.rest.uitdatabank.be```
+* Key: op aanvraag
+* Secret: op aanvraag
+
+### Entry API Productie
+
+* URL: ```https://www.uitid.be/uitid/rest/entry/rest.uitdatabank.be```
+* Key: op aanvraag
+* Secret: op aanvraag
