@@ -8,7 +8,7 @@ You can filter by address-related fields using two methods:
 * URL parameter
 * Advanced queries
 
-By default, the search API will only return results that are in Belgium. You can reset this default as described in [Default filters](../../getting_started/default-filters).
+By default, the search API will only return results that are in Belgium. You can reset this default as described in [Default filters](../../getting-started/default-filters).
 
 ## URL parameter
 
