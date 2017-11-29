@@ -9,6 +9,8 @@
       summary:
       - title: "Wat is de UiTDatabank?"
         href: "uitdatabank"
+      - title: "Hoe werkt de UiTDatabank?"
+        href: "werking-uitdatabank"
       - title: "Content types"
         href: "content_types/content_types"
         summary:
