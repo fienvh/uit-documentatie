@@ -4,9 +4,9 @@
 # Example response for event with all available fields
 
 
-The JSON-LD body below is a response from the search api which contains an example of a event with  embedded place and organizer. The three entities contain all the currently available fields (with dummy content).
+The JSON-LD body below is a example response from the Search API of an event with embedded place and organizer. The three entities are containing all of the currently available fields (with dummy content).
 
-This example can be used as a reference for developers to form an idea of the possible fields an event, a place or an organizer may contain.
+This example can be used as a reference for developers to form an idea of the possible fields an event, a place or an organizer.
 
 ```
 {
