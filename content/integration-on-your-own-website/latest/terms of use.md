@@ -1,4 +1,4 @@
-﻿---
+---
 ---
 
 # Terms of Use of the Publishing Tools

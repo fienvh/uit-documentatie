@@ -1,7 +1,6 @@
 ---
 ---
 
-
 # Possibilities
 
 ## API
