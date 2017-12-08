@@ -3,7 +3,7 @@
 
 # Integration of UiT data
 
-CultuurNet offers 3 methods with which you can integrate agenda information on your website.
+publiq offers 3 methods with which you can integrate agenda information on your website.
 
 The agenda information comes from the UiT database and is filtered according to your target group.
 
