@@ -3,7 +3,6 @@
 
 # Terms of Use of the Publishing Tools
 
-
 (dated 16/2/16)
 
 The term publishing tools is understood to mean (dated 16/02/16):
