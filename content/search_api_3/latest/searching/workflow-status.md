@@ -13,7 +13,9 @@ A workflow status can be any of the following values \(case-insensitive\):
 * `REJECTED`
 * `DELETED`
 
-**Important!** Documents with a `DRAFT` status are not considered to be "available" by default, because they have not been published yet. Therefore, to find `DRAFT` documents, you will have to disable the default `availableFrom` and `availableTo` parameters like this:
+For more information about workflow status and UiTdatabank, see [Aanbod modereren](http://documentatie.uitdatabank.be/content/uitdatabank/latest/werking-uitdatabank/) **(in Dutch)**
+
+**Important!** Documents with a `DRAFT` status are not considered to be "available" by default, because they have not been published yet. Therefore, to include `DRAFT` documents in your search results, you need to disable the default `availableFrom` and `availableTo` parameters like this:
 
 ```
 GET https://search.uitdatabank.be/offers/?workflowStatus=DRAFT&availableFrom=*&availableTo=*
@@ -43,7 +45,7 @@ GET https://search.uitdatabank.be/offers/?workflowStatus=REJECTED,DELETED
 
 Delimiting the `workflowStatus` parameter using a comma works as if using an `OR` operator.
 
-If the `workflowStatus` parameter is not set explicitly, it is set to `READY_FOR_VALIDATION,APPROVED` by default.
+If the `workflowStatus` parameter is not set explicitly, `READY_FOR_VALIDATION,APPROVED` is used as default.
 
 You can disable the default `workflowStatus` filter by using a wildcard character:
 

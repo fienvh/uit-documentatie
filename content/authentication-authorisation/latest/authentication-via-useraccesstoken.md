@@ -1,4 +1,4 @@
-﻿---
+---
 ---
 
 # Authentication via User Access token
