@@ -2,6 +2,7 @@
 ---
 
 # Terms of Use of the Publishing Tools
+test
 
 (dated 16/2/16)
 
