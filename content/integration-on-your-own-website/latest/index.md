@@ -1,10 +1,10 @@
 ---
 ---
 
-# Integratie van UiT-data
+# Integration of UiT data
 
-CultuurNet biedt 3 methodes waarmee je agenda-informatie op je website integreert.
+CultuurNet offers 3 methods with which you can integrate agenda information on your website.
 
-De agenda-informatie komt uit de UiTdatabank en wordt gefilterd op maat van jouw doelgroep.
+The agenda information comes from the UiT database and is filtered according to your target group.
 
-Je vraagt je project aan op [tools.uitdatabank.be](https://tools.uitdatabank.be/).
+You apply for your project on [tools.uitdatabank.be] (https://tools.uitdatabank.be/).
