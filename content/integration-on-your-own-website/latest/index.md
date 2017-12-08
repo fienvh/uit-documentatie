@@ -2,7 +2,6 @@
 ---
 
 # Integration of UiT data
-test
 
 CultuurNet offers 3 methods with which you can integrate agenda information on your website.
 
