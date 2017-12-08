@@ -1,110 +1,105 @@
+﻿---
 ---
----
 
-# Gebruiksvoorwaarden publicatietools
+# Terms of Use of the Publishing Tools
 
-(dd 16/2/16)
+(dated 16/2/16)
 
-Onder publicatietools wordt begrepen (dd 16/02/16):
+The term publishing tools is understood to mean (dated 16/02/16):
 
-- UiTdatabank API
-- Agendawidgets: door publiq gehoste agendamodule
-- Culturefeed Module Suite, een set van Drupal-gebaseerde agenda modules
+- UiTdatabase API
+- Calendar Widgets: hosted by publiq calendar module
+- Culture Feed Module Suite, a set of Drupal-based calendar modules
 
-De agendawidgets en de Culturefeed Modules zijn gebouwd bovenop de UiTdatabank API.
+The Calendar Widgets and the Culturefeed Modules are built on top of the UiTdatabase API.
 
-## I. Onvoorwaardelijke aanvaarding van deze gebruiksvoorwaarden
+## I. Unconditional acceptance of these terms of use
 
-publiq biedt u de mogelijkheid om via het gebruik van UiTdatabank API op een eenvoudige wijze toegang te krijgen tot de gegevens van de UiTdatabank. De UiTdatabank API, hieronder API genoemd, is de web service beschikbaar via de URL te vinden op http://documentatie.uitdatabank.be. Hier staat ook alle technische documentatie.
+publiq offers you the ability to access UiTatabank data in a simple way through the use of the UiTdatabank API. The UiTdatabank API, referred to as the API below, is available via the URL at http://documentatie.uitdatabank.be. All the technical documentation is also there.
 
-Het gebruik van de API, van de databank “UiTdatabank” en van de gegevens van de UiTdatabank is slechts toegestaan indien u, zonder enig voorbehoud, instemt met alle hierna volgende voorwaarden en ze correct naleeft en toepast.
+The use of the API, the database "UiTatabank" and the data from the UiTabank is permitted only if you, without any reservation, agree to all of the following conditions and correctly observe and apply them.
 
-publiq behoudt zich het recht voor om deze gebruiksvoorwaarden op elk ogenblik uit te breiden of te wijzigen. De meest actuele versie is steeds beschikbaar via http://documentatie.uitdatabank.be. Wij raden u dus aan om op geregelde tijdstippen deze gebruiksvoorwaarden te consulteren en te controleren op wijzigingen.
+publiq reserves the right to extend or modify these Terms of Use at any time. The most current version is always available via http://documentatie.uitdatabank.be. We therefore advise you to regularly consult these terms of use and check for changes.
 
-Met het begrip “gebruiker” wordt hierna bedoeld: de fysieke persoon, de entiteit of de rechtspersoon die gebruik maakt van de API en via deze API toegang krijgt tot de databank “UiTdatabank” en de gegevens van deze databank. De bepalingen van deze gebruiksvoorwaarden zijn van toepassing ongeacht of de gebruiker zelf rechtstreeks gebruik maakt van de publicatietools of hiervoor een beroep doet op bijvoorbeeld een IT-leverancier of softwareontwikkelaar.
+The term "user" means 'the physical person, entity or corporation that uses the API and through this API accesses the  "UiTdatabase" and the data from this database. The conditions of these terms of use apply regardless of whether the user directly uses the publishing tools or, for example, outsources to an IT supplier or software developer.
 
-## II. Betreffende het gebruik van de UiTdatabank publicatietools
+## II. Regarding the use of theUiTdatabase publishing tools
 
-### Service condities
-Een gebruiker kan een project indienen om gebruik te maken van een van de publicatietools.
+### Service conditions
+A user can submit a project to use one of the publication tools.
 
-### Omgevingen en toegang
-Voor de API is er zowel een testomgeving als een productie-omgeving ter beschikking.
+### Environments and access
+There is direct and free access for the test environment.
 
-Voor de testomgeving is er een directe en gratis toegang.
+At the request of the user, publiq can switch the project to the production environment. This involves an annual administrative cost of  €80 excl VAT. publiq expects a link to the project/app that uses the API, to provide free feedback and tips with regard to optimal use of the API.
 
-Op vraag van de gebruiker kan CultuurNet het project omschakelen naar de productie-omgeving. Hieraan is een jaarlijkse administratieve kost verbonden van 80€ excl BTW. Hierbij verwacht CultuurNet  een link naar het project/app die gebruik maakt van de API,  om vrijblijvend feedback en tips te kunnen geven met betrekking tot een optimale inzet van de API.
+publiq also provides generic developer keys that provide access to the production environment. These are for temporary use to work out a proof of concept, change at irregular times and do not give any right to a continuously available service.
 
-CultuurNet stelt ook generieke developer keys die toegang geven tot de productie-omgeving ter beschikking. Deze zijn voor tijdelijk gebruik om een proof of concept uit te werken, veranderen op onregelmatige tijdstippen en geven geen enkel recht op een voortdurend beschikbare dienst.
+The API key ("access key") assigned to the user is for personal use only and may not be transferred or communicated to a third party.
 
-De API-sleutel (“access key”) die aan de gebruiker wordt toegekend, dient enkel voor persoonlijk gebruik en mag niet worden overgedragen of medegedeeld aan een derde partij.
+### Support
 
-### Ondersteuning
+All technical documentation for use of the publishing tools can be found at http://documentatie.uitdatabank.be
 
-Alle technische documentatie voor gebruik van de publicatietools is te vinden op http://documentatie.uitdatabank.be
+Regarding the use of the API, we do not provide free technical support within the above context.
 
-Met betrekking tot het gebruik van de API bieden we geen gratis technische ondersteuning binnen bovenstaand kader
+Ad hoc support is available as a professional service, and is charged in man-hours, with a minimum of 3 hours. Please contact with vragen@uitdatabank.be.
 
-Ad hoc support is beschikbaar als professional service, en wordt aangerekend in manuren, met een minimum van 3u. Neem hiervoor contact op met vragen@uitdatabank.be
+For Culture Feed Drupal Modules the same service conditions apply as for the use of the API.
 
-Voor de Culturefeed Drupal Modules gelden dezelfde service condities als voor het gebruik van de API.
+For the widgets, in addition to the administrative cost of the access key, there is also a cost for the hosting ( €30 excluding VAT / year).
 
-Voor de widgets  komt er behalve de administratieve kost inzake de access key ook een kost voor de hosting load bij (30€ exclusief btw/jaar).
+### Permissible use
 
-### Geoorloofd gebruik
+The use of the publishing tools is not permitted in a manner that causes damage to publiq or to develop products or services that directly or indirectly undermine the business model of the UiTdatabase, namely to collect and enrich leisure activities as completely as possible and to make them available in a growing and thriving ecosystem with the final social objective of broadening participation and participation: "more people, more enthusiasm, more culture".
 
-Het gebruik van de publicatietools is niet toegestaan op een wijze die schade toebrengt aan publiq of om producten of diensten te ontwikkelen die het business model van de UiTdatabank direct of indirect ondergraven, namelijk het zo volledig mogelijk verzamelen en verrijken van vrijetijdsaanbod en dit ter beschikking te stellen van een groeiend en bloeiend ecosysteem met als finale maatschappelijke doelstelling participatieverbreding en participatieverdieping: “meer mensen, meer goesting, meer cultuur”.
+The use of the publication tools is only permitted for non-commercial purposes. The use of the publishing tools for other purposes is not permitted unless the user obtains the explicit prior written agreement of publiq. The user may not resell the use of the publication tools or the data made available through the publication tools for reimbursement to third parties. Users of the publishing tools must recognise the share alike principle (https://en.wikipedia.org/wiki/Share-alike).
 
-Het gebruik van de publicatietools is enkel toegestaan voor niet-commerciële doeleinden. Het gebruik van de publicatietools voor andere doeleinden is niet toegestaan, tenzij de gebruiker hierover het uitdrukkelijke voorafgaand schriftelijke akkoord van publiq verkrijgt. De gebruiker mag noch het gebruik van de publicatietools noch de data die via de publicatietools ter beschikking gesteld wordt tegen vergoeding aan derden doorverkopen.
-Gebruikers van de publicatietools huldigen het share alike-principe (https://en.wikipedia.org/wiki/Share-alike).
+The user may not use publishing tools in a manner or for a purpose that is not in accordance with the law, in the broadest sense of the word. These comprise, without being an exhaustive list, the applicable rules of international, national, regional, local law or custom. So you should,among other things, respect the rules on intellectual property rights, privacy protection and the protection of databases.
 
-De gebruiker mag geen gebruik maken van de publicatietools op een wijze die of voor een doel dat niet in overeenstemming is met de wet, in de meest ruime betekenis van het woord. Hieronder worden begrepen, zonder een exhaustieve opsomming te zijn, de regels van het toepasselijke internationale, nationale, regionale lokale recht of van het gewoonterecht. Zo dient u onder meer de regelgeving inzake intellectuele eigendomsrechten, inzake bescherming van de privacy en inzake bescherming van databanken te respecteren.
+The use of the publishing tools is only permitted with explicit mention of the source (eg Source: UiTinVlaanderen.be).In addition, the set requirements regarding the inclusion of logos that publiq communicates to the user for publication on the channel of the user must be respected. The logos and information are available at https://docs.google.com/a/cultuurnet.be/document/d/1dpoow3xwaAlhUtzmSz5rNtoDUWnwybuCbfvfQHwiRFA/edit?usp=sharing
 
-Het gebruik van de publicatietools is enkel toegestaan mits expliciete vermelding van de bron  (bvb.  Bron: UiTinVlaanderen.be). Daarnaast dienen  de gestelde vereisten omtrent het opnemen van beeldmerken die CultuurNet de gebruiker doorgeeft voor publicatie op het kanaal van de gebruiker gerespecteerd te worden. De beeldmerken en informatie zijn te vinden op https://docs.google.com/a/cultuurnet.be/document/d/1dpoow3xwaAlhUtzmSz5rNtoDUWnwybuCbfvfQHwiRFA/edit?usp=sharing
+Any adjustments and additions to the data, including enrichments and corrections, must flow back to the UiTdatabase. publiq must be able to distribute these adjustments to other users.
 
-Eventuele aanpassingen en aanvullingen van de data, o.m. verrijkingen en correcties, moeten terugstromen naar de UiTdatabank. CultuurNet moet deze aanpassingen kunnen verspreiden naar andere gebruikers.
+When using the open source Culturefeed Modules, publiq reserves the right to request and use the source code that the user has developed for their own purposes and to make it available to third parties.
 
-Bij gebruik van de open source Culturefeed Modules  eigent CultuurNet zich het recht toe de broncode die de gebruiker bijkomend ontwikkelde op te vragen en te gebruiken voor eigen doeleinden en ter beschikking te stellen voor inzicht aan derden.
+The user undertakes not to store or use information obtained via the publishing tools that is privacy-sensitive in the context of the applications that are being built or offered
 
-De gebruiker verbindt zich ertoe informatie verkregen via de publicatietools die privacygevoelig is niet lokaal op te slaan noch te gebruiken in het kader van de applicaties die men bouwt of aanbiedt.
 
-### Gebruikslimiet
+### Useage Limit
 
-Het aantal API calls per project, ongeacht de gekozen publicatietool, is beperkt tot 60.000 per dag. Indien een gebruiker dit aantal overschreden heeft, wordt het gebruiksrecht hem onmiddellijk ontzegd voor de resterende tijd van de desbetreffende dag. Bij herhaaldelijke overschrijding van het maximaal aantal oproepen behoudt publiq zich het recht voor om de gebruiker zijn gebruiksrecht te ontnemen door zijn persoonlijke sleutel onbruikbaar te maken. Indien de gebruiker meer calls nodig heeft, dan kan hij voorafgaandelijk afspraken maken met CultuurNet.
+The number of API calls per project, regardless of the chosen publication tool, is limited to 60,000 per day. If a user has exceeded this number, the right of use is immediately denied to them for the rest of the day in question. In the event of repeatedly exceeding of the maximum number of calls, publiq reserves the right to deprive the user of his right of use by rendering his personal key unusable. If the user needs more calls, he can make prior agreements with publiq.
 
-### Beschikbaarheid van API
-publiq behoudt zich het recht voor om te allen tijde de API te wijzigen of de beschikbaarheid ervan op te schorten of te beëindigen, zonder dat de gebruiker in dat geval enig recht kan claimen op het gebruik van de API of enig recht op schadevergoeding wegens het niet beschikbaar zijn of van de API. CultuurNet tracht over wijzigingen steeds te communiceren via tools.uitdatabank.be.
-Het huidig gebruik van de API creëert geen verworven recht op het verdere gebruik van de API in de toekomst. publiq behoudt zich het recht voor om te allen tijde de vereiste in te voeren dat het gebruiksrecht afhankelijk wordt gemaakt van het ondertekenen van een voorafgaande schriftelijke overeenkomst.
+### Availability of API
+publiq reserves the right to change the API at any time or to suspend or terminate its availability, without the user being able to claim any right to use the API or any right to compensation for the unavalibility of the API. publiq always tries to communicate about changes via tools.uitdatabank.be. The current use of the API does not create an acquired right to the further use of the API in the future. publiq reserves the right at all times to introduce the requirement that the right of use is made conditional upon the signing of a prior written agreement.
 
-### Gebrekkig functioneren van API  
-publiq wijst elke aansprakelijkheid af voor het gebeurlijk gebrekkig functioneren van de API en is dus niet gehouden tot vergoeding van enige schade die de gebruiker zou lijden ten gevolge van het gebeurlijk gebrekkig functioneren van de API.
+### Malfunctioning of the API
+publiq declines any responsibility for the malfunctioning of the API and is therefore not obliged to compensate for any damage that the user suffers as a result of the malfunctioning of the API
 
-### Persoonsgegevens
-Om gebruik te kunnen maken van de API dient de gebruiker volgende gegevens te verstrekken: naam van de gebruiker, contactinformatie, publicatiekanaal of applicatie die door de gebruiker met de API gekoppeld zullen worden. Deze gegevens worden door CultuurNet enkel gebruikt in functie van het gebruik van de publicatietools en om de gebruiker hierover te informeren. De gebruiker heeft steeds recht op toegang en verbetering van zijn gegevens.
+### Personal Information
+In order to use the API, the user must provide the following data: name of the user, contact information, publication channel or application that will be linked to the API by the user. These data are only used by publiq in function of the use of the publishing tools and to inform the user about this. The user always has the right to access and update his data.
 
-### Vrijwaring
-Door gebruik te maken van de API verbindt de gebruiker zich ertoe om publiq geheel en onvoorwaardelijk te vrijwaren voor elk nadeel en elke schade die publiq lijdt ten gevolge van zijn onrechtmatig of ongeoorloofd gebruik van de API.
-De gebruiker verbindt zich er ook toe om op eerste verzoek van publiq op zijn persoonlijke kosten tussen te komen in elke hangende procedure ingeleid door derden lasten publiq op grond van zijn ongeoorloofd gebruik of van schade veroorzaakt aan derden door iw ongeoorloofd gebruik van de API.
+### Indemnity
+By using the API, the user undertakes to indemnify publiq wholly and unconditionally for any disadvantage and any damage that publiq suffers as a result of his unlawful or unauthorized use of the API. The user also undertakes to intervene at his personal costs at the first request of publiq in any pending proceedings initiated by third parties on the grounds of his unauthorized use or of damage caused to third parties due to unauthorized use of the API.
 
 ### Logging
-Elke oproep van de API wordt in een centraal register opgeslagen en kan nadien gebruikt worden voor analyse en rapporteringsdoeleinden. I.g.v. gratis gebruik kan CultuurNet de web server logs manueel of automatisch opvragen van de server die door de gebruiker ingezet wordt voor publicatie zodat deze logs gekoppeld kunnen worden aan de API logs. CultuurNet kan de gebruiker vragen een cookie door te sturen naar de bezoeker van zijn site om onderzoek te plegen naar terugkerende gebruikers. publiq wijst in dat geval elke aansprakelijkheid af in geval van schade voor de gebruiker ten gevolge van het weigeren van een cookie.
+Each call from the API is stored in a central register and can subsequently be used for analysis and reporting purposes. For free use, publiq can request the web server logs manually or automatically from the server that is used by the user for publication so that these logs can be linked to the API logs. publiq can ask the user to forward a cookie to the visitor of his site to conduct research on returning users. In that case, publiq rejects any liability in case of damage to the user as a result of the refusal of a cookie.
 
-## III. Betreffende het gebruik van de UiTdatabank
-De gebruiker verbindt zich ertoe om de bepalingen van de wet van 31 augustus 1998 houdende omzetting in Belgisch recht van de Europese richtlijn van 11 maart 1996 betreffende de rechtsbescherming van databanken te respecteren en correct na te leven.
-publiq behoudt zich het recht voor om iedere inbreuk op voormelde wet te laten sanctioneren via een burgerrechtelijke procedure of via de neerlegging van een strafrechtelijke klacht.
+## III. Regarding the use of the UiTdatabase
+The user undertakes to respect and correctly comply with the provisions of the Act of 31 August 1998 on the transposition into Belgian law of the European Directive of 11 March 1996 on the legal protection of databases. publiq reserves the right to have any infringement of the aforementioned law punished by civil proceedings or by filing a criminal complaint
 
-## IV. Betreffende het aanleveren van gegevens aan de UiTdatabank
-De API laat toe audiovisueel materiaal aan te leveren aan de UiTdatabank. De gebruiker dient zich ervan bewust te zijn dat via de UiTdatabank dit audiovisueel materiaal openbaar wordt verspreid. De gebruiker dient bijgevolg alle geldende auteurs- en portretrechten te respecteren, evenals alle andere toepasselijke wetgeving, en kan daarvoor ook aansprakelijk worden gehouden.
+## IV. Regarding the delivery of data to the UiTdatabase
+The API allows audiovisual material to be supplied to the database. The user should be aware that this audiovisual material is publicly disseminated through the database. The user must therefore respect all applicable copyright and portrait rights, as well as any other applicable law, and may also be held liable.
 
-## V. Betreffende het gebruik van de gegevens van de UiTdatabank
-publiq streeft ernaar de gegevens van de UiTdatabank zo accuraat en volledig als mogelijk ter beschikking te stellen. publiq kan niet aansprakelijk worden gesteld voor onvolledige of onjuiste informatie, noch voor enige schade die zou voortvloeien uit het ter beschikking stellen of uit het gebruik van de gegevens van de UiTdatabank.
+## V. Regarding the use of data from the UiTdatabase
+publiq strives to make the data of the UiTdatabase as accurate and complete as possible. publiq can not be held liable for incomplete or incorrect information, nor for any damage that may result from making available or using the data from the UiTdatabase.
 
-De gegevens van de UiTdatabank zijn beschermd overeenkomstig de bepalingen van de wet van 31 augustus 1998 inzake de rechtsbescherming van databanken, de wet van 30 juni 1994 inzake bescherming van computerprogramma’s, de wet van 30 juni 1994 betreffende het auteursrecht en de naburige rechten en elke ander toepasselijk intellectueel eigendomsrecht.
+The data from the UiTdatabase are protected under the provisions of the Act of August 31, 1998 on the legal protection of databases, the Law of June 30, 1994 on the protection of computer programs, the Act of June 30, 1994 on copyright and related rights, and any other applicable intellectual property
 
-## VI. Algemene bepalingen
+## VI. General Provisions
 
-### Toepasselijk recht
-Het Belgische recht is van toepassing op interpretatie en uitvoering van deze gebruiksvoorwaarden. In geval van geschil zijn enkel de hoven en rechtbanken van het arrondissement Brussel bevoegd om kennis te nemen van het geschil.
+### Applicable law
+Belgian law applies to the interpretation and implementation of these terms of use. In case of dispute, only the courts and tribunals of the Brussels district have jurisdiction to hear the dispute.
 
-### Deelbaarheid van clausules
-De onwettigheid of nietigheid van één bepaling van deze gebruiksvoorwaarden zal geenszins de onwettigheid of nietigheid van de overige bepalingen in deze gebruiksvoorwaarden of van deze gebruiksvoorwaarden in z’n geheel met zich meebrengen. publiq behoudt zich het recht voor om, in voorkomend geval de onwettige of nietige bepaling te vervangen door een werkbare en geldige bepaling.
+### Divisibility of clauses
+The illegality or nullity of one provision of these terms and conditions of use shall not in any way entail the unlawfulness or nullity of the other provisions in these terms of use or of these terms and conditions of use in their entirety. publiq reserves the right, where appropriate, to replace the illegal or void provision with a workable and valid provision.
