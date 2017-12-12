@@ -61,7 +61,7 @@ Het is ook mogelijk meerdere prijzen aan te maken in cdbxml. Zie hiervoor de sec
 
 ## Tijdsinfo: aanvangsuur
 
-Het is verplicht zowel het aanvangsuur als het einduur als volgt mee te sturen: 
+Het is verplicht het aanvangsuur (en bij voorkeur ook het einduur) als volgt mee te sturen: 
 
 
 ```
