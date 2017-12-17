@@ -64,9 +64,9 @@ Let wel: er kan maar één period element aangemaakt worden.
     <period>
       <datefrom>2014-01-01</datefrom>
       <dateto>2018-12-31</dateto>
-    <period>
-  <periods>
-<calendar>
+    </period>
+  </periods>
+</calendar>
 ~~~
 
 ### Met weekschema
@@ -89,9 +89,10 @@ Let wel: er kan maar één period element aangemaakt worden.
           <friday opentype="closed"/>
           <saturday opentype="closed"/>
           <sunday opentype="closed"/>
-    <period>
-  <periods>
-<calendar>
+        </weekscheme>
+    </period>
+  </periods>
+</calendar>
 ~~~
 
 ## Automatisch aanvullen van begin- en einduur
