@@ -886,8 +886,6 @@
                 href: "searching/geosearch/shape"
               - title: "List of shapes"
                 href: "searching/geosearch/list_of_shapes"
-              - title: "Search by postalcode"
-                href: "searching/geosearch/postalcode"
               - title: "Search by distance"
                 href: "searching/geosearch/distance"
             - title: "Id"
