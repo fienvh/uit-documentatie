@@ -74,7 +74,7 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 | organizer.name.{[lang](../../searching/languages)} | String |  |
 | organizer.labels | String | Looks for complete matches |
 | price | Integer | See [Price](../../searching/price) |
-| regions | Enum | See [Region](../../searching/region) |
+| regions | Enum | See [Geosearch](../../searching/geosearch) |
 | terms.id | String | Looks for complete matches |
 | terms.label | String | Looks for complete matches |
 | typicalAgeRange | Integer range | See [Age](../../searching/age) |

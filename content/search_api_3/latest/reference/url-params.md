@@ -4,7 +4,7 @@
 ## Reference
 
 | URL param | Value | Example | doc |
-| :-----: | :-----: | :-----: | :-----: |
+| :----- | :----- | :----- | :----- |
 | addressCountry | ISO 3166-1 alpha-2 country code (Default = BE) | addressCountry=NL | [Address](../../searching/address) |
 | audienceType | Supported values: everyone (default), members, education | audienceType=members | [Audience type](../../searching/audience-type) |
 | availableFrom | ISO-8601 datetime (default = current date)| availableFrom=2017-04-01T00:00:00+01:00 | [Availability](../../searching/availability) |
@@ -40,7 +40,7 @@
 | postalCode | integer or string | postalCode=3000 | [Address](../../searching/address) |  
 | price | numeric | price=5 | [Price](../../searching/price) |  
 | q | Query string syntax| q=(wandeling OR wandelen) AND femma | [Advanced queries](../../reference/advanced-queries) and [Free text search](../../searching/free-text-search) |  
-| regions | region id | regions=gem-leuven | [Region](../../searching/region) |  
+| regions | region id | regions=nis-24062 | [Geosearch](../../searching/geosearch) |  
 | start | integer | start=10 | [Pagination](../../getting_started/pagination) |
 | sort | supported values: score, availableTo / order: asc, desc | sort[availableTo]=asc | [Sorting](../../searching/sorting) |  
 | termIds | UiTdatabank taxonomy | termIds[]=0.55.0.0.0 | [Terms](../../searching/terms) |  

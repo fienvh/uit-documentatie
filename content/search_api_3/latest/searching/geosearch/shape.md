@@ -26,15 +26,17 @@ You can use the `regions` URL parameter to filter all documents by one or more r
 For example:
 
 ```
-GET https://search.uitdatabank.be/offers/?regions=gem-leuven
+GET https://search.uitdatabank.be/offers/?regions=nis-24062
 ```
 
-This will return all events and places located in Leuven.
+This will return all events and places located in **Leuven**.
 
 If you want to filter multiple regions, pass them along as separate parameters
 ```
-GET https://search.uitdatabank.be/offers/?regions[]=prv-vlaams-brabant&regions[]=gem-leuven
+GET https://search.uitdatabank.be/offers/?regions[]=nis-20001&regions[]=nis-24062
 ```
+
+This will return all events and places located in both **Provincie Vlaams-Brabant** and **Leuven**
 
 The `regions` URL parameter only accepts complete region ids, and wildcards are not supported. Any incomplete id will return zero results.
 
@@ -47,17 +49,17 @@ Using advanced queries, you can create more complex queries than by using the `r
 For example:
 
 ```
-GET https://search.uitdatabank.be/offers/?q=regions:gem-leuven OR regions:gem-gent
+GET https://search.uitdatabank.be/offers/?q=regions:nis-24062 OR regions:nis-44021
 ```
 
-This will return all events and places located in both Leuven and Gent.
+This will return all events and places located in **Leuven** and all events and places located in **Gent**.
 
 Note that wildcards are supported:
 
 ```
-GET https://search.uitdatabank.be/offers/?q=regions:gem-zo*
+GET https://search.uitdatabank.be/offers/?q=regions:reg-g*
 ```
 
-This will return all events and places located in municipalities starting with "zo". For example Zonhoven, Zolder, ...
+This will return all events and places located in regions starting with "g". For example **reg-gent**, **reg-groene-gordel**, ...
 
 The `regions` property is a cached list, so it may be slightly outdated, but it is faster than the `regions` URL parameter.

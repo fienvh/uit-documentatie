@@ -9,7 +9,8 @@ The key, the regions-parameter in the URL, is based on the alphanumeric code for
 * When multiple submunicipalities are collected in one NIS-code, a Roman numeral (I, II, III, IV,...) is added to the NIS-code.
 * When a submunicipality has multiple NIS-codes, a character (-Z, -Y, -X,...) is added to the NIS-code.
 
-|Name(dutch)| Key|
+| Name(dutch)| Key |
+| :--- | :--- |
 | Brussels Hoofdstedelijk Gewest| nis-01000 |
 | Regio Brussel| reg-brussel |
 | Anderlecht + deelgemeenten| nis-21001 |
