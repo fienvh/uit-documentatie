@@ -880,7 +880,7 @@
             - title: "Facet counts"
               href: "searching/facet-counts"
             - title: "Geosearch"
-              href: "searching/geosearch/"
+              href: "searching/geosearch"
               summary:
               - title: "Search by shape"
                 href: "searching/geosearch/shape"
