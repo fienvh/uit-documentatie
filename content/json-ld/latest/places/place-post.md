@@ -3,23 +3,21 @@
 
 # Create place
 
-## Resource URI
+## HTTP request
 
 ```
-/places/
+POST /places/
 ```
 
-## HTTP GET
+## Request headers
 
-List all places
-> no authentication necessary
+| Header        | Value                     |
+| ------------- | ------------------------- |
+| Authorization | Bearer {token}. Required  |
+| X-Api-Key     | {apiKey}. Required        |
+| Content-Type  | application/json          |
 
-| Parameter	| Type | Description | Example |
-| -- |--|--|--|
-| postalCode | string | Limit the list to places with this postal code in the address. |?postalCode=3000|
-| embed | true | Embed JSON-LD body in search results, default = false |?embed=true|
-
-## HTTP POST
+## Request body
 
 To create a new place the object-body must contain the following properties:
 - name
@@ -27,13 +25,25 @@ To create a new place the object-body must contain the following properties:
 - address
 - calendarType
 
-
 The initial POST request must contain a JSON body with (at least) all mandatory fields. These fields can be edited separately with individual PUT requests.
-See specific PUT requests for definitions of each property
+See specific update requests for definitions of each property
 
-**Example body**
+## Response
+
+If successful, this method returns a `200` response code and a placeId and url in the response body.
+
+## Example
+
+**request**
+
+The following is an example of the request
 
 ```
+POST https://io-test.uitdatabank.be/places/
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
 {
   "name": {
     "nl": "Café Den Hemel"
@@ -92,10 +102,15 @@ See specific PUT requests for definitions of each property
 }
 ```
 
-## HTTP PUT
+**Response**
 
-Not supported
+The following is an example of the response.
 
-## HTTP DELETE
+```
+200 OK
 
-Not supported
+{
+  "placeId": "03116768-1abc-405a-93d7-ba6ede52fe78",
+  "url": "https://io-test.uitdatabank.be/place/03116768-1abc-405a-93d7-ba6ede52fe09"
+}
+```

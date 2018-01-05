@@ -104,7 +104,6 @@ An event can have one of the following calendarTypes:
 
 calendarType 'permanent' is reserved for offertype 'place'!
 
-**Definition**
 
 ```
 {
@@ -123,9 +122,6 @@ calendarType 'permanent' is reserved for offertype 'place'!
 
 timeSpans can be combined with calendarTypes 'single' and 'multiple'.
 One timeSpans consists of a start and end date-time
-
-
-**Definition**
 
 ```
 {
@@ -153,8 +149,6 @@ One timeSpans consists of a start and end date-time
 
 openingHours can be combined with calendarTypes 'periodic' and 'permanent'
 openingHours contain an array of weekdays with matching opening hours and closing hours
-
-**Definition**
 
 ```
 {
@@ -194,7 +188,6 @@ openingHours contain an array of weekdays with matching opening hours and closin
 
 The first occurence of the event
 
-**Definition**
 ```
 {
   "type": "string",
@@ -207,7 +200,7 @@ The first occurence of the event
 
 The last occurence of the event
 
-**Definition**
+
 ```
 {
   "type": "string",

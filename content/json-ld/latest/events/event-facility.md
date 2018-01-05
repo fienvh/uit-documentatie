@@ -1,23 +1,24 @@
 ---
 ---
 
-# Update Contact point
-Contact point must contain the following properties, each property can contain zero or multiple entries:
-- url
-- email
-- phone
+# Update facilities
+
+One or more of the enabled/visible facility types available at http://taxonomy.uitdatabank.be/api/domain/facility/classification.
+
+Object must contain:
+- id
+
+**Note**: special permission is needed to update facilities in UDB3. Contact an administrator for further information.
 
 ## HTTP request
 
 ```
-PUT /events/{eventId}/contactPoint
+PUT /events/{eventId}/facilities/
 ```
-
-Update specific contact info from an offer
 
 **HTTP DELETE**
 
-Not supported: to remove specific contact-info, perform PUT request with empty contactPoint-property
+Not supported: to remove specific facilities, perform PUT request with empty array
 
 ## Request headers
 
@@ -37,10 +38,7 @@ Not supported: to remove specific contact-info, perform PUT request with empty c
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
-| contactPoint | object | object containing one or more properties | |
-| url | array | contactlink | https://www.domain.be/contact |
-| email | array | emailaddress | user@example.com |
-| phone | array | phonenumber | 0123456789 |
+| facilities | array | one or more facilityIds | 3.23.1.0.0 |
 
 ## Response
 
@@ -53,23 +51,17 @@ If successful, this method returns a `200` response code and a commandId in the 
 The following is an example of the request
 
 ```
-PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/contactPoint
+PUT https://io-test.uitdatabank.be/events/18717eeb-4ff0-4de5-afa8-5170b58e335d/facilities/
 Content-Type: application/json
 Authorization: Bearer {token}
 X-Api-Key: {apiKey}
 
 {
-  "contactPoint": {
-    "url": [
-      "http://google.be"
-    ],
-    "email": [
-      "user@example.com"
-    ],
-    "phone": [
-      "0123456789"
-    ]
-  }
+"facilities": [
+   "3.23.2.0.0",
+   "3.13.3.0.0",
+   "3.17.3.0.0"
+  ]
 }
 ```
 

@@ -1,7 +1,7 @@
 ---
 ---
 
-# Booking info 
+# Update booking info
 
 Booking info can contain one or more of the following properties, limited to one of each:
 - url & urlLabel: Deeplink to online ticketlink, urlLabel is used for copy to print on ticket-link button
@@ -9,11 +9,23 @@ Booking info can contain one or more of the following properties, limited to one
 - phone
 - availabilityStarts & availabilityEnds: Used to define a date range during which it is possible to make reservations or book tickets
 
-## Resource URI
+## HTTP request
 
 ```
-/places/{placeId}/bookingInfo
+PUT /places/{placeId}/bookingInfo
 ```
+
+**HTTP DELETE**
+
+Not supported: to remove (specific) bookingInfo perform a PUT request with empty properties
+
+## Request headers
+
+| Header        | Value                     |
+| ------------- | ------------------------- |
+| Authorization | Bearer {token}. Required  |
+| X-Api-Key     | {apiKey}. Required        |
+| Content-Type  | application/json          |
 
 ## Resource properties
 
@@ -22,7 +34,7 @@ Booking info can contain one or more of the following properties, limited to one
 | placeId	| uuid | unique identifier for a place | d595414a-13e0-4dd2-b4bd-706598427351 |
 
 
-## HTTP PUT
+## Request body
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
@@ -34,10 +46,22 @@ Booking info can contain one or more of the following properties, limited to one
 | availabilityStarts | date-time | the starttime for bookings | 2015-05-07T12:02:53+00:00 |
 | availabilityEnds | date-time | the endtime for bookings | 2015-05-07T12:02:53+00:00 |
 
+## Response
 
-**Example body**
+If successful, this method returns a `200` response code and a commandId in the response body.
+
+## Example
+
+**request**
+
+The following is an example of the request
 
 ```
+PUT https://io-test.uitdatabank.be/places/18717eeb-4ff0-4de5-afa8-5170b58e335d/bookingInfo
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
 {
   "bookingInfo": {
     "url": "https://www.domain.be/reservations/eventname",
@@ -49,15 +73,3 @@ Booking info can contain one or more of the following properties, limited to one
   }
 }
 ```
-
-## HTTP POST
-
-Not supported
-
-## HTTP GET
-
-Not supported
-
-## HTTP DELETE
-
-Not supported: to remove (specific) bookingInfo perform a PUT request with empty properties

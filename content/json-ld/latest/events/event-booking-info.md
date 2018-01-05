@@ -17,7 +17,7 @@ PUT /events/{cdbid}/bookingInfo
 
 Update the bookingInfo for an offer
 
-### HTTP DELETE
+**HTTP DELETE**
 
 Not supported: to remove (specific) bookingInfo perform a PUT request with empty properties
 

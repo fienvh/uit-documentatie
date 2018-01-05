@@ -1,25 +1,15 @@
 ---
 ---
 
-# Update description
+# Set main image
 
-Add a description in the given language for an offer.
-Description is not limited in size, but it is recommended to use the first 200 characters of the description for promotional copy as these characters are visible in list-view of results.
-
-Keep in mind:
-
--  Description should be UTF-8 encoded
--  Linebreaks are encoded as `\n`
+The main image is the only image shown in search-result listviews and the image more prominently displayed on offer-details, when the offer has multiple mediaObjects
 
 ## HTTP request
 
 ```
-PUT /places/{placeId}/description/{lang}
+PUT /places/{placeId}/images/main
 ```
-
-**HTTP DELETE**
-
-Not supported: to remove description, perform PUT request with blank description.
 
 ## Request headers
 
@@ -34,13 +24,15 @@ Not supported: to remove description, perform PUT request with blank description
 | Property	| Type | Description | Example |
 |--|--|--|--|
 | placeId	| uuid | unique identifier for a place | d595414a-13e0-4dd2-b4bd-706599427351 |
-| lang	| string | 2-character language reference | nl |
+
 
 ## Request body
 
+Define the mediaObject you want to set as main image
+
 | Property	| Type | Description |
 |--|--|--|
-| description | string | The description for your place |
+| mediaObjectId | uuid | unique identifier for an image |
 
 ## Response
 
@@ -53,13 +45,13 @@ If successful, this method returns a `200` response code and a commandId in the 
 The following is an example of the request
 
 ```
-PUT https://io-test.uitdatabank.be/places/18717eeb-4ff0-4de5-afa8-5170b58e335d/description/nl
+PUT https://io-test.uitdatabank.be/places/03116768-1abc-405a-93d7-ba6ede52fe09/images/main
 Content-Type: application/json
 Authorization: Bearer {token}
 X-Api-Key: {apiKey}
 
 {
-  "description": "This is a description.\n This is a new line."
+  "mediaObjectId": "73695986-e4cf-4b29-8699-13d7cd77af8c"
 }
 ```
 

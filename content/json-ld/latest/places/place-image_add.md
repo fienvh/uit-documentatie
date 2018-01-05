@@ -1,16 +1,13 @@
 ---
 ---
 
-# Update location
-
-Update an event with a new location. For a list of all locations, see [List places](../../places/place-list) documentation.
-
-Location is required, an event can only have one location.
+# Add mediaObject to an offer
+Add an existing image to an existing offer. To create a new mediaObject, see [INSERT LINK](/images/insert_link)
 
 ## HTTP request
-Update event with the given locationId
+
 ```
-PUT /events/{eventId}/location/{locationId}
+POST /places/{placeId}/images/
 ```
 
 ## Request headers
@@ -25,12 +22,15 @@ PUT /events/{eventId}/location/{locationId}
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
-| eventId	| uuid | unique identifier for an event | d595414a-13e0-4dd2-b4bd-706599427351 |
-| locationId	| uuid | unique placeId | d595414a-13e0-4dd2-b4bd-706599427351 |
+| placeId	| uuid | unique identifier for aa place | d595414a-13e0-4dd2-b4bd-706599427351 |
 
 ## Request body
 
-Do not supply a request body for this method
+Add an image to an offer
+
+| Property	| Type | Description | Example |
+|--|--|--|--|
+| mediaObjectId	| uuid | unique identifier of a mediaObject | d595414a-13e0-4dd2-b4bd-706599427351 |
 
 ## Response
 
@@ -43,10 +43,14 @@ If successful, this method returns a `200` response code and a commandId in the 
 The following is an example of the request
 
 ```
-PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/location/6f072ba8-c510-40ac-b387-51f582650e27
+POST https://io-test.uitdatabank.be/places/03116768-1abc-405a-93d7-ba6ede52fe09/images/
 Content-Type: application/json
 Authorization: Bearer {token}
 X-Api-Key: {apiKey}
+
+{
+  "mediaObjectId": "f6ccb2c1-9eb1-4281-a2e3-07c12c06109b"
+}
 ```
 
 **Response**

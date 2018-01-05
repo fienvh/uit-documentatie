@@ -1,18 +1,26 @@
 ---
 ---
 
-# Calendar
+# Update calendar
 
-The calendar information for a place consists of 
+The calendar information for a place consists of
 - calendarType 'permanent' with or without openingHours
 - calendarType 'periodic' with or without openingHours
 
 
-## Resource URI
+## HTTP request
 
 ```
-/places/{placeId}/calendar
+PUT /places/{placeId}/calendar
 ```
+
+## Request headers
+
+| Header        | Value                     |
+| ------------- | ------------------------- |
+| Authorization | Bearer {token}. Required  |
+| X-Api-Key     | {apiKey}. Required        |
+| Content-Type  | application/json          |
 
 ## Resource properties
 
@@ -20,7 +28,7 @@ The calendar information for a place consists of
 |--|--|--|--|
 | placeId	| uuid | unique identifier for a place | d595414a-13e0-4dd2-b4bd-706598427351 |
 
-## HTTP PUT
+## Request body
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
@@ -32,9 +40,22 @@ The calendar information for a place consists of
 | opens | time | opening time | 09:00 |
 | closes | time | closing time | 17:30 |
 
-**Example body**
+## Response
+
+If successful, this method returns a `200` response code and a commandId in the response body.
+
+## Example
+
+**request**
+
+The following is an example of the request
 
 ```
+PUT https://io-test.uitdatabank.be/places/18717eeb-4ff0-4de5-afa8-5170b58e335d/calendar
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
 {
   "calendarType": "permanent",
   "openingHours": [
@@ -51,32 +72,23 @@ The calendar information for a place consists of
 }
 ```
 
+**Response**
+
+The following is an example of the response.
+
 ```
+200 OK
+
 {
-  "calendarType": "periodic",
-  "startDate": "2015-04-07T12:02:53+00:00",
-  "endDate": "2015-05-09T14:02:53+00:00",
-    "openingHours": [
-    {
-      "opens": "14:30",
-      "closes": "17:00",
-      "dayOfWeek": [
-        "monday",
-        "wednesday",
-        "friday"
-      ]
-    }
-  ]
+  "commandId": "a55486283a53a1e45041002c4887580f"
 }
 ```
 
+## Definitions
 
 ### calendarType
 
 calendarType 'permanent' and 'periodic' can be used for offertype 'place', but 'permanent' is preferred and this calendarType is hardcoded in UiTdatabank when adding a new place.
-
-
-**Definition**
 
 ```
 {
@@ -96,7 +108,6 @@ calendarType 'permanent' and 'periodic' can be used for offertype 'place', but '
 calendarType 'permanent' can be combined with openingHours
 openingHours contain an array of weekdays with matching opening hours and closing hours
 
-**Definition**
 ```
 {
   "type": "array",
@@ -116,7 +127,7 @@ openingHours contain an array of weekdays with matching opening hours and closin
             "saturday",
             "sunday"
           ]
-        } 
+        }
       },
       "opens": {
         "type": "string",
@@ -135,7 +146,6 @@ openingHours contain an array of weekdays with matching opening hours and closin
 
 calendarType 'periodic' can be combined with a startDate and endDate
 
-**Definition**
 ```
 {
   "type": "string",
@@ -148,7 +158,7 @@ calendarType 'periodic' can be combined with a startDate and endDate
 
 calendarType 'periodic' can be combined with a startDate and endDate
 
-**Definition**
+
 ```
 {
   "type": "string",

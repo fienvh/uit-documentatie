@@ -13,7 +13,7 @@ Price is not required, although once added it is not possible to remove the pric
 PUT /events/{eventId}/priceInfo
 ```
 
-### HTTP DELETE
+**HTTP DELETE**
 
 Not supported: once priceInfo is added it can only be updated.
 
