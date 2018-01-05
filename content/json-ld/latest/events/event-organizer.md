@@ -47,6 +47,7 @@ If successful, this method returns a `200` response code and a commandId in the 
 ## Example
 
 **request**
+
 The following is an example of the request
 
 ```
@@ -57,6 +58,7 @@ X-Api-Key: {apiKey}
 ```
 
 **Response**
+
 The following is an example of the response.
 
 ```
