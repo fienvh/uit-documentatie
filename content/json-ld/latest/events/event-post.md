@@ -1,15 +1,24 @@
 ---
 ---
 
-# Create Event
+# Add Event
 
-## Resource URI
+## HTTP request
 
 ```
-/events/
+POST /events/
 ```
 
-## HTTP POST
+## Request headers
+
+| Header        | Value                     |
+| ------------- | ------------------------- |
+| Authorization | Bearer {token}. Required  |
+| X-Api-Key     | {apiKey}. Required        |
+| Content-Type  | application/json          |
+
+
+## Request body
 
 To create a new event the object-body must contain the following properties:
 - name
@@ -21,9 +30,21 @@ To create a new event the object-body must contain the following properties:
 The initial POST request must contain a JSON body with (at least) all mandatory fields. These fields can be edited separately with individual PUT requests.
 See individual PUT requests for definitions of each property
 
-**Example body**
+## Response
+
+If successful, this method returns a `200` response code and a eventId and url in the response body.
+
+## Example
+
+**request**
+The following is an example of the request
 
 ```
+POST https://io-test.uitdatabank.be/events/
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
 {
   "name": {
     "nl": "Name example"
@@ -68,14 +89,14 @@ See individual PUT requests for definitions of each property
 }
 ```
 
-## HTTP PUT
+**Response**
+The following is an example of the response.
 
-Not supported
+```
+200 OK
 
-## HTTP DELETE
-
-Not supported
-
-## HTTP GET
-
-Not supported
+{
+  "eventId": "03116768-1abc-405a-93d7-ba6ede52fe78",
+  "url": "https://io-test.uitdatabank.be/event/03116768-1abc-405a-93d7-ba6ede52fe09"
+}
+```

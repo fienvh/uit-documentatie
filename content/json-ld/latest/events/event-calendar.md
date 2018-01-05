@@ -1,17 +1,26 @@
 ---
 ---
 
-# Calendar
+# Update Calendar info
 
 The calendar information for an event consists of:
 - a combination 'calendarType + openingHours' OR 'calendarType + timestamps'
 - a startDate and endDate
 
-## Resource URI
+## HTTP request
 
 ```
-/events/{eventId}/calendar
+PUT /events/{eventId}/calendar
 ```
+
+## Request headers
+
+| Header        | Value                     |
+| ------------- | ------------------------- |
+| Authorization | Bearer {token}. Required  |
+| X-Api-Key     | {apiKey}. Required        |
+| Content-Type  | application/json          |
+
 
 ## Resource properties
 
@@ -20,7 +29,7 @@ The calendar information for an event consists of:
 | eventId	| uuid | unique identifier for an event | d595414a-13e0-4dd2-b4bd-706598427351 |
 
 
-## HTTP PUT
+## Request body
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
@@ -35,23 +44,21 @@ The calendar information for an event consists of:
 | opens | time | opening time | 09:00 |
 | closes | time | closing time | 17:30 |
 
+## Response
 
+If successful, this method returns a `200` response code and a commandId in the response body.
 
-**Example body**
+## Example
 
-```
-{
-    "calendarType": "single",
-    "timeSpans": [{
-        "start": "2015-05-07T12:02:53+00:00",
-        "end": "2015-05-07T14:02:53+00:00"
-    }],
-    "startDate": "2015-05-07T12:02:53+00:00",
-    "endDate": "2015-05-07T14:02:53+00:00"
-}
-```
+**request**
+The following is an example of the request
 
 ```
+PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/calendar
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
 {
 "calendarType": "multiple",
  "timeSpans": [
@@ -72,26 +79,19 @@ The calendar information for an event consists of:
   "endDate": "2015-05-09T14:02:53+00:00"
 }
 ```
-  
+
+**Response**
+The following is an example of the response.
 
 ```
+200 OK
+
 {
-"calendarType": "periodic",
-    "startDate": "2015-04-07T12:02:53+00:00",
-    "endDate": "2015-05-09T14:02:53+00:00",
-    "openingHours": [
-        {
-            "opens": "14:30",
-            "closes": "17:00",
-            "dayOfWeek": [
-                "monday",
-                "wednesday",
-                "friday"
-            ]
-        }
-    ]
+  "commandId": "a55486283a53a1e45041002c4887580f"
 }
 ```
+
+## Definitions
 
 ### calendarType
 
@@ -173,7 +173,7 @@ openingHours contain an array of weekdays with matching opening hours and closin
             "saturday",
             "sunday"
           ]
-        } 
+        }
       },
       "opens": {
         "type": "string",
@@ -213,16 +213,3 @@ The last occurence of the event
   "example": "2015-05-07T14:30:00+00:00"
 }
 ```
-
-## HTTP POST
-
-Not supported
-
-## HTTP GET
-
-Not supported
-
-## HTTP DELETE
-
-Not supported
-

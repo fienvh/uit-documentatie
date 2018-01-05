@@ -1,24 +1,23 @@
 ---
 ---
 
-# Update Description
+# Update mediaObject
+Update or remove an image from an offer
 
-Add a description in the given language for an offer.
-Description is not limited in size, but it is recommended to use the first 200 characters of the description for promotional copy as these characters are visible in list-view of results
-Description should be UTF-8 encoded
-Linebreaks are encoded as `\n`
 
 ## HTTP request
 
 ```
-PUT /events/{eventId}/description/{lang}
+PUT /events/{eventId}/images/{mediaObjectId}
 ```
 
-Add a description to an offer
+Add an image to an offer
 
-### HTTP DELETE
+```
+DELETE /events/{eventId}/images/{mediaObjectId}
+```
 
-Not supported: to remove description, perform PUT request with blank description.
+Delete an image from an offer
 
 ## Request headers
 
@@ -33,13 +32,17 @@ Not supported: to remove description, perform PUT request with blank description
 | Property	| Type | Description | Example |
 |--|--|--|--|
 | eventId	| uuid | unique identifier for an event | d595414a-13e0-4dd2-b4bd-706599427351 |
-| lang	| string | 2-character language reference | nl |
+| mediaObjectId	| uuid | unique identifier of a mediaObject | d595414a-13e0-4dd2-b4bd-706599427351 |
 
 ## Request body
 
+Update description and/or copyright information for a specific image linked to a specific offer
+
 | Property	| Type | Description |
 |--|--|--|
-| description | string | The description for your event |
+| description | string | The description for your image |
+| copyrightholder | string | The copyrightholder for the used image |
+
 
 ## Response
 
@@ -51,13 +54,14 @@ If successful, this method returns a `200` response code and a commandId in the 
 The following is an example of the request
 
 ```
-PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/description/nl
+PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/images/f6ccb2c1-9eb1-4281-a2e3-07c12c06109b
 Content-Type: application/json
 Authorization: Bearer {token}
 X-Api-Key: {apiKey}
 
 {
-  "description": "This is a description.\n This is a new line."
+  "description": "string",
+  "copyrightHolder": "Dirk Dirkington"
 }
 ```
 
