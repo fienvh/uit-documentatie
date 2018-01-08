@@ -1,41 +1,50 @@
 ---
 ---
 
-# Create organizer
+# Add organizer
 
-## Resource URI
+## HTTP request
 
 ```
-/organizers/
+POST /organizers/
 ```
 
-## HTTP GET
+## Request headers
 
-List all organizers
-> no authentication necessary
+| Header        | Value            | Required? |
+| ------------- | ---------------- | --------- |
+| Authorization | Bearer {token}   | true      |
+| X-Api-Key     | {apiKey}         | true      |
+| Content-Type  | application/json | false     |
 
-| Parameter	| Type | Description | Example |
-| -- |--|--|--|
-| name | string | Limit the list to organizers with a specific name. Can be used for fuzzy search. |?name=Bozar*|
-| website | string | Limit the list to places with a specific unique url. |?website=https://www.cultuurnet.be|
-| limit | string | Limit the results to a specific number. Used for paged results |?limit=10|
-| start | string | start search results from a specific number. Used for paged results |?start=11|
-| embed | true | Embed JSON-LD body in search results, default = false |?embed=true|
+## Request body
 
-
-## HTTP POST
-
-To create a new organizer the object-body must contain the following properties:
-- website
-- name
-
+To create a new organizer the object-body can contain the following properties:
+- website (mandatory)
+- name (mandatory)
+- address
+- contact
 
 The initial POST request must contain a JSON body with (at least) all mandatory fields. These fields can be edited separately with individual PUT requests.
+
 See specific PUT requests for definitions of each property
 
-**Example body**
+## Response
+
+If successful, this method returns a `200` response code and a organizerId and url in the response body.
+
+## Example
+
+**request**
+
+The following is an example of the request
 
 ```
+POST https://io-test.uitdatabank.be/organizers/
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
 {
   "website": "http://www.stuk.be/",
   "name": "STUK",
@@ -54,10 +63,15 @@ See specific PUT requests for definitions of each property
 }
 ```
 
-## HTTP PUT
+**Response**
 
-Not supported
+The following is an example of the response.
 
-## HTTP DELETE
+```
+200 OK
 
-Not supported
+{
+  "organizerId": "6b476d79-c404-425f-8b1c-357e39a60410",
+  "url": "https://udb-silex-acc.uitdatabank.be/organizers/6b476d79-c404-425f-8b1c-357e39a60410"
+}
+```
