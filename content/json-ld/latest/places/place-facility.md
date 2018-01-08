@@ -8,7 +8,7 @@ One or more of the enabled/visible facility types available at http://taxonomy.u
 Object must contain:
 - id
 
-**Note**: special permission is needed to update facilities in UDB3. Contact an administrator for further information.
+**Note**: special permission is needed to update facilities in UiTdatabank. Contact an administrator for further information.
 
 **List of facilities for places**
 
