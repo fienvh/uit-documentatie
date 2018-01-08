@@ -560,7 +560,7 @@
         - title: "Manage images"
           href: "images"
           summary:
-            - title: "POST to /images/"
+            - title: "Add mediaObject"
               href: "images/image-post"
         - title: "Manage translations"
           href: "translations"

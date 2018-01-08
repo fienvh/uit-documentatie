@@ -1,36 +1,60 @@
 ---
 ---
 
-# Create mediaObject
+# Add mediaObject
 
-## Resource URI
+## HTTP request
 
 ```
-/images/
+POST /images/
 ```
 
-## HTTP POST
+## Request headers
+
+| Header        | Value            | Required? |
+| ------------- | ---------------- | --------- |
+| Authorization | Bearer {token}   | true      |
+| X-Api-Key     | {apiKey}         | true      |
+| Content-Type  | multipart/form-data | true      |
+
+## Request body
 
 To create a new image the object-body must contain the following properties:
-- image location
+- file
 - language
 - description
-- copyright
+- copyrightHolder
 
+## Response
 
-The initial POST request must contain a JSON body with (at least) all mandatory fields. These fields can be edited separately with individual PUT requests.
-See individual PUT requests for definitions of each property
+If successful, this method returns a `200` response code and a imageId and commandId in the response body.
 
-[add documentation]
+## Example
 
-## HTTP PUT
+**request**
 
-Not supported
+The following is an example of the Curl-request
 
-## HTTP DELETE
+```
+POST https://io-test.uitdatabank.be/images/
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
 
-Not supported
+-F file=@"Screenshot 2017-11-28 12.37.19.png"
+-F description=Example description
+-F copyrightHolder=example copyrightHolder
+-F language=nl
+```
 
-## HTTP GET
+**Response**
 
-Not supported
+The following is an example of the response.
+
+```
+200 OK
+
+{
+  "commandId": "a9d5a5f86572c0c2a275acb73ea49c94",
+  "imageId": "373dcebd-dce5-4fee-8e31-45458b2f6735"
+}
+```
