@@ -17,11 +17,11 @@ PATCH /places/{placeId}
 
 ## Request headers
 
-| Header        | Value                     |
-| ------------- | ------------------------- |
-| Authorization | Bearer {token}. Required  |
-| X-Api-Key     | {apiKey}. Required        |
-| Content-Type  | application/ld+json;domain-model=Publish |
+| Header        | Value            | Required? |
+| ------------- | ---------------- | --------- |
+| Authorization | Bearer {token}   | true      |
+| X-Api-Key     | {apiKey}         | true      |
+| Content-Type  | application/ld+json;domain-model=Publish | true |
 
 The supplied token must be from the creator of the offer!
 

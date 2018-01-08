@@ -14,11 +14,11 @@ List all places
 
 ## Request headers
 
-| Header        | Value                     |
-| ------------- | ------------------------- |
-| Authorization | Bearer {token}. Not required  |
-| X-Api-Key     | {apiKey}. Required        |
-| Content-Type  | application/json          |
+| Header        | Value            | Required? |
+| ------------- | ---------------- | --------- |
+| Authorization | Bearer {token}   | false     |
+| X-Api-Key     | {apiKey}         | true      |
+| Content-Type  | application/json | false     |
 
 ## Request body
 

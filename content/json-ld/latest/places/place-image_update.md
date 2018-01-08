@@ -21,11 +21,11 @@ Delete an image from an offer
 
 ## Request headers
 
-| Header        | Value                     |
-| ------------- | ------------------------- |
-| Authorization | Bearer {token}. Required  |
-| X-Api-Key     | {apiKey}. Required        |
-| Content-Type  | application/json          |
+| Header        | Value            | Required? |
+| ------------- | ---------------- | --------- |
+| Authorization | Bearer {token}   | true      |
+| X-Api-Key     | {apiKey}         | true      |
+| Content-Type  | application/json | false     |
 
 ## Resource properties
 
