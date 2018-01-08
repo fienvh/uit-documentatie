@@ -1,16 +1,6 @@
 ---
 ---
 
-# Authentication
+# Getting started
 
-## Base URL
-
-**Test environment**
-```
-https://io-test.uitdatabank.be
-```
-
-**Production environment**
-```
-https://io.uitdatabank.be
-```
+All the info needed to get started with UiTdatabank's JSON-LD API.
