@@ -25,7 +25,7 @@ List all organizers
 | Parameter	| Type | Description | Example |
 | -- |--|--|--|
 | name | string | The name of the organizer to be used for fuzzy search |?name=STUK|
-| website | string | The url of the organizer website |?website=www.30cc.be|
+| website | string | The url of the organizer website |?website=http://www.30cc.be|
 | limit | string | The limit of organizers included in the result set. When omitted it defaults to 30 items. |?limit=10|
 | start | string | The number of organizers to skip from the start of the result set. |?start=10|
 | embed | true | Embed JSON-LD body in search results, default = false |?embed=true|
