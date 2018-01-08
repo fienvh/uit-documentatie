@@ -460,8 +460,10 @@
         - title: "Authentication"
           href: "authentication"
           summary:
-            - title: "JSON Web Token & API Key"
-              href: "authentication/authentication"
+            - title: "Get a valid API Key"
+              href: "authentication/authentication-apiKey"
+            - title: "Generate JSON Web Token"
+              href: "authentication/authentication-jwt"
             - title: "Postman setup"
               href: "authentication/authentication-postman"
         - title: "Manage events"

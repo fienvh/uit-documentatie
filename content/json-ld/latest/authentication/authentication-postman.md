@@ -16,12 +16,13 @@ API Key:
 
 ![Postman authorization](/img/postman-authorization.png "Postman authorization")
 
-## Define host & path
+## Define host
 
 Host:
 - Test: https://test-io.uitdatabank.be
 - Production: https://io.uitdatabank.be
 
+## Define path
 Path:
 See documentation
 
@@ -32,7 +33,7 @@ Use the correct HTTP method for the chosen path
 
 ![Postman method](/img/postman-method-url.png "Postman method")
 
-## Body
+## Request Body
 For some requests a well formed json-ld body is required (See documentation for specs).
 Use 'raw'
 
