@@ -10,6 +10,15 @@ Object must contain:
 
 **Note**: special permission is needed to update facilities in UDB3. Contact an administrator for further information.
 
+**List of facilities for places**
+
+| Facility ID | Facility name                         |
+| ----------- | ------------------------------------- |
+| 3.13.1.0.0 | Voorzieningen voor assistentiehonden |
+| 3.23.3.0.0 | Rolstoel ter beschikking |
+| 3.25.0.0.0 | Contactpunt voor personen met handicap |
+| 3.26.0.0.0 | Parkeerplaats |
+
 ## HTTP request
 
 ```
