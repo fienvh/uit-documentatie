@@ -45,7 +45,6 @@ Elke UiTPAS-regio heeft zijn eigen label:
 | Heist-op-den-Berg | UiTPAS Heist-op-den-Berg |
 | Meetjesland | UiTPAS Meetjesland |
 | Westhoek | UiTPAS Westhoek |
-| Algemeen UiTPAS-label | UiTPAS  |
 
 ## Prijs
 
