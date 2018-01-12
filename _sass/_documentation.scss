@@ -495,3 +495,11 @@ a[href^="#"] {
     background: #f4f6f8;
     margin: 15px 0;
 }
+
+.markdown-body pre code {
+  word-break: break-all;
+  white-space: pre-wrap;
+  text-indent: -1rem;
+  display: block;
+  margin-left: 1rem;
+}
