@@ -8,10 +8,11 @@ Update an event with a new location. For a list of all locations, see [List plac
 Location is required, an event can only have one location.
 
 ## HTTP request
-Update event with the given locationId
+
 ```
 PUT /events/{eventId}/location/{locationId}
 ```
+Update event with the given locationId
 
 ## Request headers
 
