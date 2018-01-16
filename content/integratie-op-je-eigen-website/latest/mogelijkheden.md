@@ -17,7 +17,7 @@ Met deze API krijg je toegang tot de zoekengine van de UiTdatabank.
 Kant en klare html-modules die je in je website kan inpassen.
 
 - Geschikt voor basisoplossingen
-- Zelf of door CultuurNet in te stellen
+- Zelf of door publiq in te stellen
 
 ## Culturefeed
 
