@@ -1,4 +1,4 @@
----
+﻿---
 ---
 
 # Total Activities
@@ -11,7 +11,7 @@ Allows the totals of activities of one particular user to be queried.
 
 * Method: GET
 * Authentication:
-	* ConsumerRequest of the consumer Service that requests the totals.
+	* ConsumerRequest of the consumer Service that requests the total.
 	* UserAccessToken of the user who requests the totals in the case of private activities (parameter private = true). Users can only count their own private activities in totals.
 
 ## Parameters
