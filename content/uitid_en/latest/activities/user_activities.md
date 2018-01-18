@@ -25,7 +25,7 @@ max	|`int`	| Maximum number of users that will be returned
 ### Success
 
 HTTP 200 OK with a response body in XML format
-* cod : Status code string
+* code : Status code string
 * users : list of found User entities
 * total : total number of found User entities with this search
 
