@@ -27,5 +27,5 @@ HTTP 200 OK with a response body in XML format
 
 HTTP status code, possibly supplemented with an XML body with additional information
 
-* HTTP 400 Bad Request: Code ' ActivityDeleteNotAllowed ' if it is not possible to delete the activity
+* HTTP 400 Bad Request: Code `ActivityDeleteNotAllowed` if it is not possible to delete the activity
 * HTTP 403 Forbidden: No user authenticated or authenticated user has no rights to delete an activity for the specified userId
