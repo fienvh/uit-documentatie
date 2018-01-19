@@ -5,8 +5,8 @@
 
 This call is typically used to build lists of "users who liked this event" or "users who are going to this event"
 
-* Methode: GET
-* Authenticatie: ConsumerRequest from the Service Consumer who performs the search
+* Method: GET
+* Authentication: ConsumerRequest from the Service Consumer who performs the search
 
 ```
 {server}/activity/
