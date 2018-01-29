@@ -18,8 +18,9 @@
 | Brochure beschikbaar in grootletterschrift || 3.13.4.0.0 |
 | Brochure beschikbaar in gesproken vorm || 3.13.5.0.0 |
 | Educatieve dienstverlening | Dienst die streeft naar het toegankelijk en begrijpelijk maken van het aanbod, en hiervoor verscheidene programma’s uitwerkt die aangepast zijn aan de noden van verschillende doelgroepen binnen het publiek. | 3.14.0.0.0 |
-| Audiogids | Voorziening of toestel waarmee het publiek van een tentoonstelling of een andere culturele activiteit uitleg krijgt bij hetgeen zij tijdens de tentoonstelling of de activiteit te zien krijgt. | 3.15.0.0.0  |
+| Audiogids| Voorziening of toestel waarmee het publiek van een tentoonstelling of een andere culturele activiteit uitleg krijgt bij hetgeen zij tijdens de tentoonstelling of de activiteit te zien krijgt. | 3.15.0.0.0  |
 | Gids | Personen die onder meer rondleidingen geven in musea, steden, etc. | 3.16.0.0.0 |
+| Voorzieningen voor rolstoelgebruikers | Infrastructuur ten behoeve van andersvaliden. | 3.23.1.0.0 |
 
 ## Toegankelijkheidsvoorzieningen 
 
@@ -27,7 +28,6 @@ Onderstaande lijst van toegankelijkheidsvoorzieningen werd samengesteld in overl
 
 | Categorie | Toelichting | Identifier |
 | --- | --- | --- |
-| Voorzieningen voor rolstoelgebruikers | Infrastructuur ten behoeve van andersvaliden. | 3.23.1.0.0 |
  Assistentie || 3.23.2.0.0 |
 | Rolstoel ter beschikking || 3.23.3.0.0 |
 | Blindenvoorzieningen | Infrastructuur ten behoeve van blinden en slechtzienden. | 3.13.0.0.0 |
