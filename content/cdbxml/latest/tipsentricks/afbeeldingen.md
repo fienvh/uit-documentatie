@@ -12,7 +12,7 @@ Verhoog de zichtbaarheid van je activiteit door een thumbnail toe te voegen, zoa
 <filename>x.jpg</filename> 
 <filetype>jpeg</filetype> 
 <hlink>http://www.flickr.com/images/x.jpg</hlink>
-<mediatype>image</mediatype> 
+<mediatype>photo</mediatype> 
 </file> 
 </media>
 ~~~
