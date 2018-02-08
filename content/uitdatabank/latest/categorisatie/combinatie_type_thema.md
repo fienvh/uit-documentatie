@@ -30,3 +30,48 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  |	Strips	| 1.10.8.0.0 |
 |  |  |	Voeding	| 1.65.0.0.0 |
 |  |  | Wetenschap | 1.25.0.0.0 |
+| Concert | 0.50.4.0.0 |  |  |
+|  |  | Amusementsmuziek | 1.8.3.5.0 |
+|  |  | Dance	| 1.8.3.3.0 |
+|  |  | Folk en wereldmuziek |  1.8.4.0.0 |
+|  |  | Hip hop, rnb en rap	| 1.8.3.2.0 |
+|  |  | Jazz en blues |	1.8.2.0.0 |
+|  |  | Klassieke muziek	| 1.8.1.0.0 |
+|  |  | Pop en rock	| 1.8.3.1.0 |
+| Lezing of congres | 0.3.2.0.0 |  |  |
+|  |  | Computer en techniek	| 1.21.0.0.0 |
+|  |  | Creativiteit |	1.42.0.0.0 |
+|  |  | Erfgoed |	1.40.0.0.0 |
+|  |  | Geschiedenis	| 1.11.0.0.0 |
+|  |  | Gezondheid en zorg |	1.37.1.0.0 |
+|  |  | Kunst en kunsteducatie	| 1.41.0.0.0 |
+|  |  | Literatuur	| 1.10.0.0.0 |
+|  |  | Milieu en natuur	| 1.64.0.0.0 |
+|  |  | Opvoeding |	1.37.0.0.0 |
+|  |  | Persoon en relaties |	1.61.0.0.0 |
+|  |  | Poëzie |	1.10.5.0.0 |
+|  |  | Samenleving  |	1.37.2.0.0 |
+|  |  | Wetenschap |	1.25.0.0.0 |
+|  |  | Zingeving, filosofie en religie |	1.44.0.0.0 |
+| Cursus of workshop | 0.3.1.0.0 | Dans |  |
+|  |  | Ballet en klassieke dans |	1.9.1.0.0 |
+|  |  | Moderne dans	| 1.9.2.0.0 |
+|  |  | Stijl- en salondansen | 1.9.5.0.0 |
+|  |  | Volksdans en werelddans |	1.9.3.0.0 |
+|  |  | Kunst en erfgoed |  |
+|  |  | Audiovisuele Kunst | 1.1.0.0.0 |
+|  |  | Beeldhouwkunst  | 1.0.2.0.0 |
+|  |  | Circus | 0.52.0.0.0 |
+|  |  | Creativiteit | 1.42.0.0.0 |
+|  |  | Decoratieve kunst | 1.0.5.0.0 |
+|  |  | Design | 1.2.2.0.0 |
+|  |  | Erfgoed | 1.40.0.0.0 |
+|  |  | Fotografie | 1.0.6.0.0 |
+|  |  | Grafiek	| 1.0.4.0.0 |
+|  |  | Literatuur | 1.10.0.0.0 |
+|  |  | Meerdere kunstvormen | 1.0.9.0.0 |
+|  |  | Mode | 1.49.0.0.0 |
+|  |  | Poëzie | 1.10.5.0.0 |
+|  |  | Schilderkunst | 1.0.1.0.0 |
+|  |  | Tekst- en muziektheater | 1.3.1.0.0 |
+
