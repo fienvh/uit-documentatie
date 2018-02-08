@@ -58,7 +58,6 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Moderne dans	| 1.9.2.0.0 |
 |  |  | Stijl- en salondansen | 1.9.5.0.0 |
 |  |  | Volksdans en werelddans |	1.9.3.0.0 |
-|  |  |  |  |
 |  |  | Audiovisuele Kunst | 1.1.0.0.0 |
 |  |  | Beeldhouwkunst  | 1.0.2.0.0 |
 |  |  | Circus | 0.52.0.0.0 |
@@ -99,6 +98,27 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Voeding |	1.65.0.0.0 |
 |  |  | Wetenschap | 1.25.0.0.0 |
 |  |  | Zingeving, filosofie en religie |	1.44.0.0.0 |
+| Dansvoorstelling | 0.54.0.0.0 |  |  |
+|  |  | Ballet en klassieke dans |	1.9.1.0.0 |
+|  |  | Moderne dans	| 1.9.2.0.0 |
+|  |  | Stijl- en salondansen | 1.9.5.0.0 |
+|  |  | Volksdans en werelddans |	1.9.3.0.0 |
+| Festival | 0.5.0.0.0 |  |  |
+|  |  | Amusementsmuziek | 1.8.3.5.0 |
+|  |  | Circus | 0.52.0.0.0 |
+|  |  | Dance | 1.8.3.3.0 |
+|  |  | Folk en wereldmuziek | 1.8.4.0.0 |
+|  |  | Humor en comedy | 1.3.10.0.0 |
+|  |  | Jazz en blues | 1.8.2.0.0 |
+|  |  | Klassieke muziek | 1.8.1.0.0 |
+|  |  | Kunst en kunsteducatie | 1.41.0.0.0 |
+|  |  | Literatuur | 1.10.0.0.0 |
+|  |  | Meerdere filmgenres | 1.7.14.0.0 |
+|  |  | Meerdere kunstvormen | 1.0.9.0.0 |
+|  |  | Pop en rock | 1.8.3.1.0 |
+|  |  | Samenleving | 1.37.2.0.0 |
+|  |  | Tekst- en muziektheater | 1.3.1.0.0 |
+|  |  | Wetenschap | 1.25.0.0.0 |
 | Theatervoorstelling | 1.3.5.0.0 |  |  |
 |  |  | Circus | 0.52.0.0.0 |
 |  |  | Figuren- en poppentheater | 1.3.4.0.0 |
