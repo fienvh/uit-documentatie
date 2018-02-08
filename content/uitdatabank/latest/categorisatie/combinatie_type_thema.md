@@ -53,12 +53,12 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Samenleving  |	1.37.2.0.0 |
 |  |  | Wetenschap |	1.25.0.0.0 |
 |  |  | Zingeving, filosofie en religie |	1.44.0.0.0 |
-| Cursus of workshop | 0.3.1.0.0 | Dans |  |
+| Cursus of workshop | 0.3.1.0.0 |  |  |
 |  |  | Ballet en klassieke dans |	1.9.1.0.0 |
 |  |  | Moderne dans	| 1.9.2.0.0 |
 |  |  | Stijl- en salondansen | 1.9.5.0.0 |
 |  |  | Volksdans en werelddans |	1.9.3.0.0 |
-|  |  | Kunst en erfgoed |  |
+|  |  |  |  |
 |  |  | Audiovisuele Kunst | 1.1.0.0.0 |
 |  |  | Beeldhouwkunst  | 1.0.2.0.0 |
 |  |  | Circus | 0.52.0.0.0 |
@@ -74,4 +74,28 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Poëzie | 1.10.5.0.0 |
 |  |  | Schilderkunst | 1.0.1.0.0 |
 |  |  | Tekst- en muziektheater | 1.3.1.0.0 |
-
+|  |  | Amusementsmuziek | 1.8.3.5.0 |
+|  |  | Dance | 1.8.3.3.0 |
+|  |  | Folk en wereldmuziek | 1.8.4.0.0 |
+|  |  | Hip hop, R&B en rap | 1.8.3.2.0 |
+|  |  | Jazz en blues | 1.8.2.0.0 |
+|  |  | Klassieke muziek | 1.8.1.0.0 |
+|  |  | Pop en rock | 1.8.3.1.0 |
+|  |  | Atletiek, wandelen en fietsen |	1.51.14.0.0 |
+|  |  | Bal- en racketsport |	1.51.13.0.0 |
+|  |  | Fitness, gymnastiek, dans- en vechtsport | 1.51.6.0.0 |
+|  |  | Lucht- en motorsport | 1.58.8.0.0 |
+|  |  | Omnisport en andere |	1.51.12.0.0 |
+|  |  | Outdoor en adventure |	1.51.11.0.0 |
+|  |  | Volkssporten | 1.51.10.0.0 |
+|  |  | Zwemmen en watersport |	1.51.3.0.0 |
+|  |  | Computer en techniek |	1.21.0.0.0 |
+|  |  | Gezondheid en welness |	1.37.1.0.0 |
+|  |  | Interculturele vorming |	1.43.0.0.0 |
+|  |  | Milieu en natuur | 1.64.0.0.0 |
+|  |  | Opvoeding |	1.37.0.0.0 |
+|  |  | Persoon en relaties |	1.61.0.0.0 |
+|  |  | Samenleving |	1.37.2.0.0 |
+|  |  | Voeding |	1.65.0.0.0 |
+|  |  | Wetenschap | 1.25.0.0.0 |
+|  |  | Zingeving, filosofie en religie |	1.44.0.0.0 |
