@@ -132,14 +132,6 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Kortfilm |	1.7.13.0.0 |
 |  |  | Science fiction |	1.7.7.0.0 |
 |  |  | Thriller |	1.7.15.0.0 |
-| Theatervoorstelling | 1.3.5.0.0 |  |  |
-|  |  | Circus | 0.52.0.0.0 |
-|  |  | Figuren- en poppentheater | 1.3.4.0.0 |
-|  |  | Humor en comedy | 1.3.10.0.0 |
-|  |  | Mime en bewegingstheater | 1.3.4.0.0 |
-|  |  | Musical | 1.4.0.0.0 |
-|  |  | Opera en operette | 1.5.0.0.0 ||
-|  |  | Tekst- en muziektheater | 1.3.1.0.0 |
 | Kamp of vakantie | 0.57.0.0.0 |  |  |
 |  |  | Avontuur (< Actie en avontuur) | 1.7.2.0.0 |
 |  |  | Technologie (< Computer en techniek) | 1.21.0.0.0 |
@@ -147,4 +139,65 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Koken (< Voeding) |	1.65.0.0.0 |
 |  |  | Natuur (< Milieu en natuur) |	1.64.0.0.0 |
 |  |  | Sport (< Omnisport en andere) |	1.51.12.0.0 |
-
+| Markt of braderie | 0.37.0.0.0 |  |  |
+|  |  | Antiek en brocante | 1.17.0.0.0 |
+|  |  | Economie |	1.66.0.0.0 |
+|  |  | Gezondheid en wellness |	1.62.0.0.0 |
+|  |  | Landbouw en platteland |	1.63.0.0.0 |
+|  |  | Literatuur |	1.10.0.0.0 |
+|  |  | Meerdere kunstvormen |	1.0.9.0.0 |
+|  |  | Milieu en natuur |	1.64.0.0.0 |
+|  |  | Samenleving |	1.37.2.0.0 |
+| Opendeurdag | 0.12.0.0.0 |  |  |
+|  |  | Architectuur | 1.2.1.0.00 |
+|  |  | Computer en techniek |	1.21.0.0.00 |
+|  |  | Erfgoed |	1.40.0.0.00 |
+|  |  | Kunst en kunsteducatie |	1.41.0.0.00 |
+|  |  | Landbouw en platteland |	1.63.0.0.0
+|  |  | Literatuur |	1.10.0.0.00 |
+|  |  | Milieu en natuur |	1.64.0.0.00 |
+|  |  | Meerdere kunstvormen |	1.0.9.0.00 |
+|  |  | Samenleving |	1.37.2.0.00 |
+|  |  | Wetenschap |	1.25.0.0.00 |
+| Sport en beweging | 0.59.0.0.0 |  |  |
+|  |  | Atletiek, wandelen en fietsen |	1.51.14.0.0 |
+|  |  | Bal- en racketsport |	1.51.13.0.0 |
+|  |  | Fitness, gymnastiek, dans- en vechtsport |	1.51.6.0.0 |
+|  |  | Lucht- en motorsport |	1.58.8.0.0 |
+|  |  | Omnisport en andere |	1.51.12.0.0 |
+|  |  | Outdoor en adventure |	1.51.11.0.0 |
+|  |  | Volkssporten |	1.51.10.0.0 |
+|  |  | Zwemmen en watersport |	1.51.3.0.0 |
+| Sportwedstrijd bekijken | 0.19.0.0.0 |  |  |
+|  |  | Atletiek, wandelen en fietsen |	1.51.14.0.0 |
+|  |  | Bal- en racketsport |	1.51.13.0.0 |
+|  |  | Fitness, gymnastiek, dans- en vechtsport |	1.51.6.0.0 |
+|  |  | Lucht- en motorsport |	1.58.8.0.0 |
+|  |  | Omnisport en andere |	1.51.12.0.0 |
+|  |  | Outdoor en adventure |	1.51.11.0.0 |
+|  |  | Volkssporten |	1.51.10.0.0 |
+|  |  | Zwemmen en watersport |	1.51.3.0.0 |
+| Tentoonstelling | 0.0.0.0.0 |  |  |
+|  |  | Audiovisuele Kunst |	1.1.0.0.0 |
+|  |  | Beeldhouwkunst |	1.0.2.0.0 |
+|  |  | Decoratieve kunst |	1.0.5.0.0 |
+|  |  | Design |	1.2.2.0.0 |
+|  |  | Erfgoed |	1.40.0.0.0 |
+|  |  | Fotografie |	1.0.6.0.0 |
+|  |  | Geschiedenis |	1.11.0.0.0 |
+|  |  | Grafiek |	1.0.4.0.0 |
+|  |  | Installatiekunst |	1.0.3.0.0 |
+|  |  | Meerdere kunstvormen |	1.0.9.0.0 |
+|  |  | Milieu en natuur |	1.64.0.0.0 |
+|  |  | Mode |	1.49.0.0.0 |
+|  |  | Samenleving |	1.37.2.0.0 |
+|  |  | Schilderkunst |	1.3.1.0.0 |
+|  |  | Wetenschap |	1.25.0.0.0 |
+| Theatervoorstelling | 1.3.5.0.0 |  |  |
+|  |  | Circus | 0.52.0.0.0 |
+|  |  | Figuren- en poppentheater | 1.3.4.0.0 |
+|  |  | Humor en comedy | 1.3.10.0.0 |
+|  |  | Mime en bewegingstheater | 1.3.4.0.0 |
+|  |  | Musical | 1.4.0.0.0 |
+|  |  | Opera en operette | 1.5.0.0.0 |
+|  |  | Tekst- en muziektheater | 1.3.1.0.0 |
