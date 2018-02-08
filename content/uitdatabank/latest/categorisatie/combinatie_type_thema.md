@@ -133,12 +133,12 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Science fiction |	1.7.7.0.0 |
 |  |  | Thriller |	1.7.15.0.0 |
 | Kamp of vakantie | 0.57.0.0.0 |  |  |
-|  |  | Avontuur (< Actie en avontuur) | 1.7.2.0.0 |
-|  |  | Technologie (< Computer en techniek) | 1.21.0.0.0 |
+|  |  | Actie en avontuur | 1.7.2.0.0 |
+|  |  | Computer en techniek | 1.21.0.0.0 |
 |  |  | Creativiteit |  1.42.0.0.0 |
-|  |  | Koken (< Voeding) |	1.65.0.0.0 |
-|  |  | Natuur (< Milieu en natuur) |	1.64.0.0.0 |
-|  |  | Sport (< Omnisport en andere) |	1.51.12.0.0 |
+|  |  | Voeding |	1.65.0.0.0 |
+|  |  | Milieu en natuur |	1.64.0.0.0 |
+|  |  | Omnisport en andere |	1.51.12.0.0 |
 | Markt of braderie | 0.37.0.0.0 |  |  |
 |  |  | Antiek en brocante | 1.17.0.0.0 |
 |  |  | Economie |	1.66.0.0.0 |
