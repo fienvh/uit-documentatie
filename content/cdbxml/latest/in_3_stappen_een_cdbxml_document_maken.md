@@ -47,7 +47,7 @@ Het XML-document dat je aanlevert moet voldoen aan volgende vormvereisten:
         </timestamps>
       </calendar>
       <categories>
-        <category type="eventtype" catid="0.50.4.0.0"/>
+        <category type="eventtype" catid="0.50.4.0.0">Concert</category>
       </categories>
       <contactinfo>
         <mail>info@info.be</mail>
