@@ -119,6 +119,19 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Samenleving | 1.37.2.0.0 |
 |  |  | Tekst- en muziektheater | 1.3.1.0.0 |
 |  |  | Wetenschap | 1.25.0.0.0 |
+| Film | 0.50.6.0.0 |  |  |
+|  |  | Actie en avontuur |	1.7.2.0.0 |
+|  |  | Animatie en kinderfilms |	1.7.12.0.0 |
+|  |  | Cinefiel |	1.7.11.0.0 |
+|  |  | Drama |	1.7.4.0.0 |
+|  |  | Documentaires en reportages |	1.7.1.0.0 |
+|  |  | Filmmusical |	1.7.10.0.0 |
+|  |  | Griezelfilm of horror |	1.7.6.0.0 |
+|  |  | Historische film |	1.7.8.0.0 |
+|  |  | Komedie |	1.7.3.0.0 |
+|  |  | Kortfilm |	1.7.13.0.0 |
+|  |  | Science fiction |	1.7.7.0.0 |
+|  |  | Thriller |	1.7.15.0.0 |
 | Theatervoorstelling | 1.3.5.0.0 |  |  |
 |  |  | Circus | 0.52.0.0.0 |
 |  |  | Figuren- en poppentheater | 1.3.4.0.0 |
@@ -127,3 +140,11 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Musical | 1.4.0.0.0 |
 |  |  | Opera en operette | 1.5.0.0.0 ||
 |  |  | Tekst- en muziektheater | 1.3.1.0.0 |
+| Kamp of vakantie | 0.57.0.0.0 |  |  |
+|  |  | Avontuur (< Actie en avontuur) | 1.7.2.0.0 |
+|  |  | Technologie (< Computer en techniek) | 1.21.0.0.0 |
+|  |  | Creativiteit |  1.42.0.0.0 |
+|  |  | Koken (< Voeding) |	1.65.0.0.0 |
+|  |  | Natuur (< Milieu en natuur) |	1.64.0.0.0 |
+|  |  | Sport (< Omnisport en andere) |	1.51.12.0.0 |
+
