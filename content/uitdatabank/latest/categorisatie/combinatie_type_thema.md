@@ -9,24 +9,24 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 | Eventtype | Identifier | Bijhorende thema's | Identifier |
 | --- | --- | --- | --- |
 | Begeleide rondleiding | 0.7.0.0.0 |  |  |
-|  |  | Architectuur | 1.2.1.0.0 |  |  | 
-|  |  | Erfgoed | 1.40.0.0.0 |  |  |
-|  |  | Geschiedenis | 1.11.0.0.0 |  |  |
-|  |  | Kunst en kunsteducatie | 1.41.0.0.0 |  |  |
-|  |  | Landbouw en platteland | 1.63.0.0.0 |  |  |
-|  |  | Meerdere kunstvormen | 1.0.9.0.0 |  |  |
-|  |  | Milieu en natuur | 1.64.0.0.0 |  |  |
-|  |  | Samenleving | 1.37.2.0.0 |  |  |
-|  |  | Wetenschap | 1.25.0.0.0 |  |  |
-|  |  | Zingeving, filosofie en religie | 1.44.0.0.0 |  |  |
+|  |  | Architectuur | 1.2.1.0.0 |
+|  |  | Erfgoed | 1.40.0.0.0 |
+|  |  | Geschiedenis | 1.11.0.0.0 |
+|  |  | Kunst en kunsteducatie | 1.41.0.0.0 |
+|  |  | Landbouw en platteland | 1.63.0.0.0 |
+|  |  | Meerdere kunstvormen | 1.0.9.0.0 |
+|  |  | Milieu en natuur | 1.64.0.0.0 |
+|  |  | Samenleving | 1.37.2.0.0 |
+|  |  | Wetenschap | 1.25.0.0.0 | 
+|  |  | Zingeving, filosofie en religie | 1.44.0.0.0 |
 | Beurs | 0.7.0.0.0 |  |  |
-|  |  |	Antiek en brocante | 1.17.0.0.0 |  |  |
-|  |  |	Erfgoed	| 1.40.0.0.0 |  |  |
-|  |  | Gezondheid en wellness | 1.62.0.0.0 |  |  |
-|  |  | Literatuur | 1.10.0.0.0 |  |  |
-|  |  | Meerdere kunstvormen | 1.0.9.0.0 |  |  |
-|  |  | Milieu en natuur	| 1.64.0.0.0 |  |  |
-|  |  |	Samenleving	| 1.37.2.0.0 |  |  |
-|  |  |	Strips	| 1.10.8.0.0 |  |  |
-|  |  |	Voeding	| 1.65.0.0.0 |  |  |
-|  |  | Wetenschap | 1.25.0.0.0 |  |  |
+|  |  |	Antiek en brocante | 1.17.0.0.0 |
+|  |  |	Erfgoed	| 1.40.0.0.0 |
+|  |  | Gezondheid en wellness | 1.62.0.0.0 |
+|  |  | Literatuur | 1.10.0.0.0 |
+|  |  | Meerdere kunstvormen | 1.0.9.0.0 | 
+|  |  | Milieu en natuur	| 1.64.0.0.0 |
+|  |  |	Samenleving	| 1.37.2.0.0 |
+|  |  |	Strips	| 1.10.8.0.0 |
+|  |  |	Voeding	| 1.65.0.0.0 |
+|  |  | Wetenschap | 1.25.0.0.0 |
