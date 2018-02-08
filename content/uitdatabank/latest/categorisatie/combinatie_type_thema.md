@@ -99,3 +99,11 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Voeding |	1.65.0.0.0 |
 |  |  | Wetenschap | 1.25.0.0.0 |
 |  |  | Zingeving, filosofie en religie |	1.44.0.0.0 |
+| Theatervoorstelling | 1.3.5.0.0 |  |  |
+|  |  | Circus | 0.52.0.0.0 |
+|  |  | Figuren- en poppentheater | 1.3.4.0.0 |
+|  |  | Humor en comedy | 1.3.10.0.0 |
+|  |  | Mime en bewegingstheater | 1.3.4.0.0 |
+|  |  | Musical | 1.4.0.0.0 |
+|  |  | Opera en operette | 1.5.0.0.0 ||
+|  |  | Tekst- en muziektheater | 1.3.1.0.0 |
