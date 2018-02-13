@@ -48,17 +48,7 @@ X-Api-Key: {apiKey}
 
 {
   "name": {
-    "nl": "Name example"
-  },
-  "type": {
-    "id": "0.50.4.0.0",
-    "label": "Concert",
-    "domain": "eventtype"
-  },
-  "theme": {
-    "id": "1.8.2.0.0",
-    "label": "Jazz en blues",
-    "domain": "theme"
+    "nl": "name example"
   },
   "location": {
     "id": "6f072ba8-c510-40ac-b387-51f582650e27",
@@ -70,23 +60,40 @@ X-Api-Key: {apiKey}
       "streetAddress": "Hoornblaas 107"
     }
   },
- "calendarType": "multiple",
- "timeSpans": [
+  "type": {
+    "id": "0.50.4.0.0",
+    "label": "Concert",
+    "domain": "eventtype"
+  },
+  "theme": {
+    "id": "1.8.2.0.0",
+    "label": "Jazz en blues",
+    "domain": "theme"
+  },
+  "activeCalendarLabel": "Eén of meerdere dagen",
+  "calendarType": "multiple",
+  "timestamps": [
     {
-      "start": "2015-05-07T12:02:53+00:00",
-      "end": "2015-05-07T14:02:53+00:00"
+      "date": "2018-05-04T22:00:00.000Z",
+      "startHour": "20:00",
+      "startHourAsDate": "2018-05-05T18:00:00.000Z",
+      "showStartHour": true,
+      "endHour": "23:00",
+      "endHourAsDate": "2018-05-05T21:00:00.000Z",
+      "showEndHour": true
     },
     {
-      "start": "2015-05-08T12:02:53+00:00",
-      "end": "2015-05-08T14:02:53+00:00"
-    },
-    {
-      "start": "2015-05-09T12:02:53+00:00",
-      "end": "2015-05-09T14:02:53+00:00"
+      "date": "2018-05-11T22:00:00.000Z",
+      "startHour": "20:00",
+      "startHourAsDate": "2018-05-12T18:00:00.000Z",
+      "showStartHour": true,
+      "endHour": "23:00",
+      "endHourAsDate": "2018-05-12T21:00:00.000Z",
+      "showEndHour": true
     }
   ],
-  "startDate": "2015-05-07T12:02:53+00:00",
-  "endDate": "2015-05-09T14:02:53+00:00"
+  "workflowStatus": "DRAFT",
+  "audienceType": "everyone"
 }
 ```
 
