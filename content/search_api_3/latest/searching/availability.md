@@ -82,7 +82,7 @@ You can also search by availability using [advanced queries](../../reference/adv
 
 To search by availability in advanced queries, you can use the `availableRange` field and either look for a specific date, or a range.
 
-**Note that the ":" sign should be escaped using a "\" (backslash) for a date time in advanced queries** Otherwise ElasticSearch will consider it as a key-value separator and the given date time will return the following error:
+**Note that the ":" sign should be escaped using a "\\" (backslash) for a date time in advanced queries** Otherwise ElasticSearch will consider it as a key-value separator and the given date time will return the following error:
 
 ```
 {
