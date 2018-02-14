@@ -19,6 +19,7 @@ Remember to reset the default availability filters when a datetime in the past o
 
 **Note that the "+" sign should be encoded for URLs \(as %2B\)** Otherwise it will be interpreted as whitespace and the given date time will be considered invalid.
 
+
 **Examples**
 
 Get all events that occur on a given day, and all places that are open on that same day:
@@ -59,18 +60,28 @@ To search by date using advanced queries, you can use the `dateRange` field that
 
 Remember to reset the default availability filters when a datetime in the past or future is used: to get all events that occured on a given day in the past, or to get all events that will take place on a given day in the future (see [default filters](../../getting-started/default-filters)).
 
+**Note that the ":" sign should be escaped using a "\" (backslash) for a date time in advanced queries** Otherwise ElasticSearch will consider it as a key-value separator and the given date time will return the following error:
+
+```
+{
+"title": "failed to parse date field [2017-01-01T00] with format [yyyy-MM-dd'T'HH:mm:ssZZ]",
+"type": "about:blank",
+"status": 400
+}
+```
+
 Single value example:
 
 ```
 Date range: 2017-01-01T00:00:00+01:00
-GET https://search.uitdatabank.be/offers/?q=dateRange:2017-01-01T00:00:00%2B01:00
+GET https://search.uitdatabank.be/offers/?q=dateRange:2017-01-01T00\:00\:00%2B01\:00
 ```
 
 Range example:
 
 ```
 Date range: [2017-01-01T00:00:00+01:00 TO 2017-01-01T23:59:59+01:00]
-GET https://search.uitdatabank.be/offers/?q=dateRange:[2017-01-01T00:00:00%2B01:00 TO 2017-01-01T23:59:59%2B01:00]
+GET https://search.uitdatabank.be/offers/?q=dateRange:[2017-01-01T00\:00\:00%2B01\:00 TO 2017-01-01T23\:59\:59%2B01\:00]
 ```
 
 Same as the URL parameters, the expected value is an `ISO-8601` datetime including a timezone offset.
