@@ -60,7 +60,7 @@ To search by date using advanced queries, you can use the `dateRange` field that
 
 Remember to reset the default availability filters when a datetime in the past or future is used: to get all events that occured on a given day in the past, or to get all events that will take place on a given day in the future (see [default filters](../../getting-started/default-filters)).
 
-**Note that the ":" sign should be escaped using a "\" (backslash) for a date time in advanced queries** Otherwise ElasticSearch will consider it as a key-value separator and the given date time will return the following error:
+**Note that the ":" sign should be escaped using a "\\" (backslash) for a date time in advanced queries** Otherwise ElasticSearch will consider it as a key-value separator and the given date time will return the following error:
 
 ```
 {
