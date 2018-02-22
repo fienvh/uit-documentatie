@@ -18,9 +18,7 @@ API Key:
 
 ## Define host
 
-Host:
-- Test: https://test-io.uitdatabank.be
-- Production: https://io.uitdatabank.be
+see [UiTdatabank host](../../authentication/authentication-baseUrl) documentation
 
 ## Define path
 Path:

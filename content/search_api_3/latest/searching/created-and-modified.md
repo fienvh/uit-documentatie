@@ -36,14 +36,24 @@ GET https://search.uitdatabank.be/offers/?modifiedTo=2017-04-11T12:08:01%2B01:00
 
 You can also search on `created` or `modified` using [advanced queries](../../reference/advanced-queries).
 
+**Note that the ":" sign should be escaped using a "\\" (backslash) for a date time in advanced queries** Otherwise ElasticSearch will consider it as a key-value separator and the given date time will return the following error:
+
+```
+{
+"title": "failed to parse date field [2017-01-01T00] with format [yyyy-MM-dd'T'HH:mm:ssZZ]",
+"type": "about:blank",
+"status": 400
+}
+```
+
 For example to search for all offers created on or after a specific date use the following query:
 
 ```
-GET https://search.uitdatabank.be/offers/?q=created:[2017-04-11T12:08:01%2B01:00 TO *]
+GET https://search.uitdatabank.be/offers/?q=created:[2017-04-11T12\:08\:01%2B01\:00 TO *]
 ```
 
 The next example searches for all offers modified before or on a specific date:
 
 ```
-GET https://search.uitdatabank.be/offers/?q=modified:[* TO 2017-04-11T12:08:01%2B01:00]
+GET https://search.uitdatabank.be/offers/?q=modified:[* TO 2017-04-11T12\:08\:01%2B01\:00]
 ```
