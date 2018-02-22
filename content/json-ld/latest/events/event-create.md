@@ -1,7 +1,7 @@
 ---
 ---
 
-# Add Event
+# Create Event
 
 ## HTTP request
 
