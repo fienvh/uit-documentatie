@@ -10,6 +10,7 @@
 		{% for book in site.data.library %}
 			 {% if folder contains book.path %}
 					 {% assign selected_book = book %}
+           {% break %}
 			 {% endif %}
 		{% endfor %}
 
