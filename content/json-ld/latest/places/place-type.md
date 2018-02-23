@@ -5,7 +5,7 @@
 
 One of the place types available at http://taxonomy.uitdatabank.be/api/domain/eventtype/classification. This list contains all offer-types: both for events and places. For an overview of all types appropriate for offer-type 'place': [http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_locatie/](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_locatie/)
 
-Type is required for every place and an event can only have one typeid.
+Type is required for every place and a place can only have one typeid.
 
 ## HTTP request
 
