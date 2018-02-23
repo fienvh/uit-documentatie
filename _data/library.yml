@@ -518,8 +518,8 @@
           summary:
             - title: "List places"
               href: "places/place-list"
-            - title: "Add place"
-              href: "places/place-post"
+            - title: "Create place"
+              href: "places/place-create"
             - title: "Update place type"
               href: "places/place-type"
             - title: "Update calendar"
