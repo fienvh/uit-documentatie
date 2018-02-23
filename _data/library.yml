@@ -511,6 +511,8 @@
               href: "events/event-facility"
             - title: "Publish event"
               href: "events/event-publish"
+            - title: "Delete event"
+              href: "events/event-delete"
         - title: "Manage places"
           href: "places"
           summary:
