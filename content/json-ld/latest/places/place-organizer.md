@@ -3,7 +3,7 @@
 
 # Update organizer
 
-Update an event with a new organizer. For a list of all organizers, see see [list organizers](/organizers/organizer-list) documentation.
+Update an event with a new organizer. For a list of all organizers, see [list organizers](/organizers/organizer-list) documentation.
 
 Organizer is not required, an event can only have one organizer.
 
