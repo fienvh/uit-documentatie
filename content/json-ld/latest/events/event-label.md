@@ -49,7 +49,7 @@ If successful, this method returns a `200` response code and a commandId in the 
 The following is an example of the request
 
 ```
-PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/labels/exampleLabel
+PUT https://io-acc.uitdatabank.be/events/5d713d56-636e-414a-b49f-614adec73b1e/labels/Mijn%20label
 Content-Type: application/json
 Authorization: Bearer {token}
 X-Api-Key: {apiKey}
