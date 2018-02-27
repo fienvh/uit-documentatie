@@ -21,14 +21,16 @@ POST /events/
 ## Request body
 
 To create a new event the object-body must contain the following properties:
-- name
+- mainLanguage: to set the main language for the offer. Translations can be added afterwards
+- name: don't specify a language, the mainLanguage will be used to add a language property for the name
 - type
 - theme
 - location
 - calendar
 
 The initial POST request must contain a JSON body with (at least) all mandatory fields. These fields can be edited separately with individual PUT requests.
-See individual PUT requests for definitions of each property
+See individual PUT requests for definitions of each property.
+
 
 ## Response
 
@@ -47,9 +49,8 @@ Authorization: Bearer {token}
 X-Api-Key: {apiKey}
 
 {
-  "name": {
-    "nl": "name example"
-  },
+  "mainLanguage": "nl",
+  "name": "name example",
   "location": {
     "id": "6f072ba8-c510-40ac-b387-51f582650e27",
     "name": "Café Den Hemel",
