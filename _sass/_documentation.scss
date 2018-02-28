@@ -190,6 +190,10 @@ a {
 }
 
 .book-teaser-title {
+  margin: 0;
+}
+
+.book-teaser-title-link {
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
@@ -209,15 +213,17 @@ a {
 .book-teaser {
   background-color: #FFF;
 	border: 1px solid $border-color;
-	padding: 1em;
+	padding: 0.5rem;
 	margin-right: $spacing-unit;
-  margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit / 2;
 	width: 100%;
 	float: left;
 	display: block;
   position: relative;
 
 }
+
+/*
 
 @media screen and (min-width: $width-toc-visible) {
 
@@ -231,12 +237,12 @@ a {
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
-    width: 50%;
+    width: 100%;
     float: left;
   }
 
   .book-teaser {
-    height: 200px;
+    //height: 200px;
   }
 
   .book-teaser-title
@@ -254,16 +260,7 @@ a {
     right: 15px;
   }
 }
-
-@media screen and (min-width: $width-toc-visible*2) {
-  .book
-  {
-    width: 25%;
-  }
-}
-
-
-
+*/
 
 .btn {
 	padding: 3px 9px;
@@ -284,6 +281,14 @@ a {
 
 .book-description {
 	color: #777;
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .row
@@ -296,11 +301,15 @@ a {
   background-color: $zebra;
 }
 
-.catalog,
 .book-index {
 	margin: 0 15px;
 	display: block;
   max-width: 1200px;
+}
+
+.catalog {
+  margin: 0 15px;
+  display: block;
 }
 
 .books {
