@@ -10,8 +10,7 @@ Via zoekresultaten bouw je een lijst van (gevonden) activiteiten. Dit blok bevat
 
 ## Algemeen
 * **Huidige zoekopdracht tonen** bepaalt of de zoekopdracht uit de zoekbox getoond moet worden of niet
-* **Verbergfilters:** via twee filters kan je een gebruiker eenvoudig langlopend aanbod en permanente activiteiten laten verbergen. Je kan deze filters aan -of afvinken.
-
+* **Verbergfilters** laten je toe een surfer eenvoudig langlopend aanbod en permanente activiteiten te laten verbergen. Je kan deze filters aan -of afvinken.
 
 ## Header
 Bepaal welke tekst en/of afbeelding er in de header verschijnt.
@@ -46,4 +45,4 @@ Bepaal welke elementen (informatie) zichtbaar zijn op de detailpagina van je eve
 De overige elementen zijn identiek aan de lijstelementen.
 
 ## Extra parameters
-Bepaal de query voor de zoekresultaten. Hiervoor maak je gebruik van de [SAPI3-syntax](link naar documentatie).
+Bepaal de query voor de zoekresultaten. Hiervoor maak je gebruik van de [SAPI3-syntax](http://documentatie.uitdatabank.be/content/search_api_3/latest/index.html).
