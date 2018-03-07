@@ -1,7 +1,8 @@
 ---
 ---
 
-# Waar je op moet letten na upgrade
+# Na upgrade
+## Waar je op moet letten na upgrade
 
 Het upgradeproces zorgt ervoor dat je widget(s) overgezet worden naar de nieuwe versie. Die nieuwe versie widgets bevatten een aantal nieuwe features en zijn geënt op nieuwere technologieën dan de voorgaande versie. Dit betekent dat je geüpgrade versie op sommige punten zal verschillen van je oude versie.
 
@@ -43,7 +44,7 @@ De volgorde van de facetfilters verschilt (van links naar rechts, boven naar ond
 In de vorige versie van de widgets kon je een query instellen onder ‘extra zoekparameters’. Deze query werd bij de upgrade gekopieerd en vind je nu terug onder ‘extra parameters’. Let wel: deze query is geschreven in de syntax van Search API 1 en zal niet de gewenste resultaten geven in de nieuwe versie van de widgets, die gebruik maakt van Search API 3.
 Een vertaaltabel om je query van API 1-syntax te vertalen naar API 3-syntax vind je [hier](link naar documentatie)
 
-Voor de tipswidgets is de query van de extra zoekparameters niet mee gekopieerd, omdat dit deze in de meeste gevallen overbodig en zelfs belemmerend werkte. Wil je toch extra zoekparameters definiëren, dan kan je dat onder ‘extra parameters’.
+Voor de tipswidgets is de query van de extra zoekparameters niet mee gekopieerd, omdat dit deze in de meeste gevallen overbodig en zelfs belemmerend werkte. Wil je toch extra zoekparameters definiëren, dan kan je dat onder _extra parameters_.
 
 ## CSS
 In de vorige versie van de widget voegde je CSS-regels toe per blok. Dit maakte het beheer onoverzichtelijk en ongebruiksvriendelijk. 
@@ -57,12 +58,11 @@ De caroussel-widget wordt niet meer aangeboden in de nieuwe versie van widgets. 
 ## Zoekbox
 Een zoekbox die na upgrade in een blok over de volledige breedte staat wordt nu automatisch horizontaal getoond. Indien je de zoekbox toch verticaal wilt tonen, dien je die te verplaatsen naar een blok de niet de volledige paginabreedte inneemt.
 
-
 ## Default settings nakijken (optioneel)
 Je geüpgrade widget bevat een aantal standaardinstellingen die niet aanwezig waren in de vorige versie. Deze nieuwe instellingen zijn gebaseerd op best practices. 
  
 ### UiTPAS
-Het UiTPAS-logo wordt in versie 3 standaard weergegeven bij de UiTPAS-evenementen. Als je dit logo niet wenst te tonen kan je het uitvinken onder ‘Lijstelementen’ (voor het agendaoverzicht) en ‘Detailpagina’ (voor de detailpagina).
+Het UiTPAS-logo wordt in versie 3 standaard weergegeven bij de UiTPAS-evenementen. Als je dit logo niet wenst te tonen kan je het uitvinken onder _Lijstelementen_ (voor het agendaoverzicht) en _Detailpagina_ (voor de detailpagina).
 
 ### Verbergfilter
 Bovenaan elk agenda-overzicht staat een filter die een gebruiker toelaat langlopende reeksen en permanente bezienswaardigheden snel te verbergen. Je kan deze functionaliteit verwijderen onder ‘Algemeen’.
@@ -71,7 +71,11 @@ Bovenaan elk agenda-overzicht staat een filter die een gebruiker toelaat langlop
 De nieuwe versie neemt de suggesties over van je vorige versie. Indien die in je vorige versie ontbraken, gebruikt versie 3 een aantal standaard suggesties.
 
 ### Leeftijd
-De nieuwe versie toont standaard de leeftijd-informatie, zowel op het agendaoverzicht als op de detailpagina. Indien je deze info niet wilt tonen, kan je dit afvinken onder ‘lijstelementen’ (voor het agendaoverzicht) en ‘detailpagina’ (voor de detailpagina).
+De nieuwe versie toont standaard de leeftijd-informatie, zowel op het agendaoverzicht als op de detailpagina. Indien je deze info niet wilt tonen, kan je dit afvinken onder _lijstelementen_ (voor het agendaoverzicht) en _detailpagina_ (voor de detailpagina).
 
 ### Afbeelding
-De afbeelding wordt standaard links weergegeven in het agendaoverzicht in plaats van rechts (zoals in versie 2). Je kan deze setting aanpassen onder ‘lijstelementen’.
+De afbeelding wordt standaard links weergegeven in het agendaoverzicht in plaats van rechts (zoals in versie 2). Je kan deze setting aanpassen onder _lijstelementen_.
+
+## Verder configureren en finetunen
+
+Je kan je widget na de upgrade nog verder configureren en finetunen. Een gids daarvoor vind je [hier](www.documentatie.uitdatabank.be).
