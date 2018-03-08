@@ -23,7 +23,7 @@
 
 
 ```
-GET https://search.uitdatabank.be/events/?q=terms.label:%22Kamp%20of%20vakantie%22%20AND%20typicalAgeRange:[*%20TO%2014]%20AND%20dateRange:[2017-07-01T00:00:00%2B01:00%20TO%202017-08-31T23:59:59%2B01:00]%20AND%20mediaObjectsCount:%3E=1&sort[availableTo]=asc&limit=5&disableDefaultFilters=true&embed=true
+GET https://search.uitdatabank.be/events/?q=(terms.label:"Kamp of vakantie" AND typicalAgeRange:[* TO 14] AND dateRange:[2017-07-01T00\:00\:00%2B01\:00 TO 2017-08-31T23\:59\:59%2B01\:00] AND mediaObjectsCount:>=1)&sort[availableTo]=asc&limit=5&disableDefaultFilters=true&embed=true
 ```
 
 
