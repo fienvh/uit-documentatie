@@ -939,7 +939,7 @@
               href: "reference/example-response"
 - title: "Aan de slag met widgets"
   description: "De UiTwidgets van publiq zijn eenvoudige toepassingen waarmee je agenda-informatie in je website kan integreren."
-  path: "content/widgets"
+  path: "content/widgets/"
   weight: 55
   hidden: true
   category: "Technisch"
