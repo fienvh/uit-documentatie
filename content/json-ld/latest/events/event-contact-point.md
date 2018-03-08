@@ -42,6 +42,8 @@ Not supported: to remove specific contact-info, perform PUT request with empty c
 | email | array | emailaddress | user@example.com |
 | phone | array | phonenumber | 0123456789 |
 
+At the moment, there is no check to validate the request body when updating a contact point. `url`, `email` and `phone` can contain any string.
+
 ## Response
 
 If successful, this method returns a `200` response code and a commandId in the response body.
