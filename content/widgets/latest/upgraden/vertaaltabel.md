@@ -18,14 +18,14 @@ Deze queries dien je zelf nog te vertalen. Onderstaande vertaaltabel helpt je da
 ## Vertaaltabel
 Hieronder vind je een overzicht van veel gebruikte attributen binnen de widgets, met hun overeenkomstige syntax binnen SAPI 1 en SAPI 3.  
 
-| Betekenis | SAPI 1 | SAPI 3 | Meer info | 
+| Betekenis | SAPI 1 | SAPI 3 | Info | 
 | -- | -- | -- | -- |
 | cdbid | cdbid=0ce16653-9260-4e4a-9d77-aba82aceee2b | id:0ce16653-9260-4e4a-9d77-aba82aceee2b |  |
 | Eventtype (naam) | type="concert" | terms.label:"concert" |  |
-| Eventtype (id) | type=0.50.4.0.0 | terms.id:0.50.4.0.0 |  |
+| Eventtype (id) | type=0.50.4.0.0 | terms.id:0.50.4.0.0 | [Info](#identifiers) |
 | Thema (naam) | thema="Pop en Rock" |terms.label:"Pop en Rock" |  |
-| Thema (id) | thema=1.8.3.1.0 | terms.id:1.8.3.1.0 |  |
-| Rubrieken | heading="muziek" | nvt | Info |
+| Thema (id) | thema=1.8.3.1.0 | terms.id:1.8.3.1.0 | [Info](#identifiers) |
+| Rubrieken | heading="muziek" | nvt | [Info](#rubrieken) |
 | Provincie (naam) | regio=Gent | regions:reg-Gent |  |
 | Stad of gemeente (naam) | city=Gent | regions:gem-Gent |  |
 | Stad of gemeente (nis) | nvt | regions:nis-44021-Z  | [Info](#nis_codes) |
@@ -46,11 +46,15 @@ Volstaat bovenstaande vertaaltabel niet om je (complexe) SAPI 1-query te vertale
 * Neem dan een kijkje op de [documentatiepagina van SAPI 3](link SAPI 3 documentatie). Voor widgets dien je steeds gebruik te maken van de syntax onder ‘Advanced queries’.
 * Of neem contact op met onze [helpdesk](mailto:vragen@uitdatabank.be)
 
-## Identifiers
+<a id="identifiers"></a>
+<h2>Identifiers</h2>
+
 Een overzicht van alle identifiers vind je op ```http://taxonomy.uitdatabank.be/api/domain```
 Om de taxonomy in detail te bekijken voeg je het ```/{ID}/classification``` toe, bijvoorbeeld: ```http://taxonomy.uitdatabank.be/api/domain/eventtype/classification```
 
-## Headings 
+<a id="rubrieken"></a>
+<h2>Rubrieken</h2>
+
 In SAPI 1 bestonden rubrieken (zoals ‘muziek’). De rubrieken worden niet meer als vaste elementen aangeboden, maar kunnen wel zelf nagebouwd worden door verschillende types en thema’s binnen een query te combineren. 
 
 ## Hasimage
