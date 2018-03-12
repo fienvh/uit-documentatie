@@ -966,7 +966,11 @@
             - title: "HTML"
               href: "configureren/html"   
             - title: "Tips"
-              href: "configureren/tips"                    
+              href: "configureren/tips"  
+            - title: "Groepfilters"
+              href: "configureren/groepfilters"  
+            - title: "Je eigen UiTPAS-regio maken"
+              href: "configureren/uitpasregio"             
         - title: "Stijlen"
           href: "stijlen"
           summary:
