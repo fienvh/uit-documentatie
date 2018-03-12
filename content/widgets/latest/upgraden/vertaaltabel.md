@@ -43,7 +43,7 @@ Hieronder vind je een overzicht van veel gebruikte attributen binnen de widgets,
 | vrije zoek| q="Radiohead" | text:"Radiohead" |  |
 
 Volstaat bovenstaande vertaaltabel niet om je (complexe) SAPI 1-query te vertalen? 
-* Neem dan een kijkje op de [documentatiepagina van SAPI 3](link SAPI 3 documentatie). Voor widgets dien je steeds gebruik te maken van de syntax onder ‘Advanced queries’.
+* Neem dan een kijkje op de [documentatiepagina van SAPI 3](http://documentatie.uitdatabank.be/content/search_api_3/latest/getting-started/). Voor widgets dien je steeds gebruik te maken van de syntax onder ‘Advanced queries’.
 * Of neem contact op met onze [helpdesk](mailto:vragen@uitdatabank.be)
 
 <a id="identifiers"></a>
