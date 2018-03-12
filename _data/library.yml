@@ -958,7 +958,7 @@
           href: "configureren"
           summary:
             - title: "Zoekbox"
-              href: "configureren/lay-out"
+              href: "configureren/zoekbox"
             - title: "Zoekresultaten"
               href: "configureren/zoekresultaten"
             - title: "Zoekverfijningen"
