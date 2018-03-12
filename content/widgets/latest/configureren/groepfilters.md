@@ -19,6 +19,7 @@ Vervolgens definieer je één of meerdere filters, die je voorziet van
 * een logische naam (vb. Paasvakantie 2018)
 * een query (vb. ```dateRange:[2018-04-02T00:00:00+01:00 TO 2018-04-15T23:59:59+01:00]``` ) 
 
+Voor het definiëren van je query maak je gebruik van [SAPI 3-syntax](http://documentatie.uitdatabank.be/content/search_api_3/latest/getting-started/)
+
 ![Kampzoeker](/img/kampzoeker.png "Kampzoeker")
 
-Voor het definiëren van je query maak je gebruik van (SAPI 3-syntax)[]
