@@ -59,7 +59,7 @@ In SAPI 1 was het mogelijk te zoeken op events waar een afbeelding aanhangt via 
 <a id="nis_codes"></a>
 <h2>NIS-codes</h2>
 
-Voor het geografisch afbakenen van je query kan je in SAPI 3 gebruik maken van NIS-codes. De verschillende NIS-codes vind je op -http://documentatie.uitdatabank.be/content/search_api_3/latest/searching/geosearch/list_of_shapes/
+Voor het geografisch afbakenen van je query kan je in SAPI 3 gebruik maken van NIS-codes. De verschillende NIS-codes vind je op ```http://documentatie.uitdatabank.be/content/search_api_3/latest/searching/geosearch/list_of_shapes/```
 
 
 
