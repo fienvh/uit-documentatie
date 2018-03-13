@@ -950,10 +950,10 @@
         - title: "Bouwen"
           href: "bouwen"
           summary:
-            - title: "Lay-out"
-              href: "bouwen/lay-out"
             - title: "Sjablonen"
               href: "bouwen/sjablonen"
+            - title: "Lay-out"
+              href: "bouwen/lay-out"              
         - title: "Configureren"
           href: "configureren"
           summary:
