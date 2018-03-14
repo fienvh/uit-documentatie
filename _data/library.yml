@@ -992,8 +992,6 @@
         - title: "Upgraden (v2 -> v3)"
           href: "upgraden"  
           summary:
-            - title: "Context"
-              href: "upgraden/context"
             - title: "Hoe upgraden?"
               href: "upgraden/upgraden"    
             - title: "Na upgrade"
