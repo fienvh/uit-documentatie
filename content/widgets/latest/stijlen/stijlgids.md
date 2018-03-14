@@ -33,10 +33,20 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 
 | Onderdeel | Selector | class |
 | -- | -- | -- | 
+| Zoekresultaten (geheel) | div | .cnw_searchresult__results |
 | Aantal gevonden resultaten | div | .cnw_searchresult__counter |
 | Blok eventtitel | h2 | .cnw_card-title |
 | Eventtitel | h2 a | .cnw_block-title |
 | Tags | span | .cnw_search-result-tags-item |
+| Beschrijving |  |  |
+| Afbeelding | img |  |
+| UiTPASicoon | span | .cnw_block-title |
+| Vliegicoon | span | .cnw_sticker--vlieg |
+|  | dl | .cnw_block-title |
+|  | dd | .nw_sticker--vlieg |
+|  | dt | .nw_sticker--vlieg |
+| Pager | li | .cnw_page-item |
+| Pager (eerste, volgende, laatste) | li | .cnw_page-link |
 
 ### Zoekverfijningen
 
@@ -50,14 +60,14 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 
 ### HTML
 
+| Onderdeel | Selector | class |
+| -- | -- | -- | 
+
 ### Tips
 
-
-
+| Onderdeel | Selector | class |
+| -- | -- | -- | 
 
 ## Declarations
 
-
-
-
- 
+Voor een overzicht van de mogelijke declarations verwijzen we naar [W3Schools](https://www.w3schools.com/css/default.asp)
