@@ -13,10 +13,10 @@ We sommen hieronder op op welke punten je geüpgrade versie kan verschillen.
 De weergave van locatie-info verschilt tussen widgets versie 2 en versie 3.
 
 **Versie 2:**
-```
+<pre>
 Locatie     Handelsbeurs Concertzaal
 Gemeente    Gent
-```
+</pre>
 
 **Versie 3:** 
 ``` 
