@@ -5,8 +5,8 @@
 
 Voor het stijlen van je widget maak je gebruik van CSS. Een CSS-regel bestaat steeds uit twee onderdelen:
 * **Een selector:** het element dat je wil stijlen (vb. ```h2```). 
-Elementen die bij elkaar horen bevatten dezelfde class (vb. ```.form-select```)
-* **Een of meerdere declarations** bestaande uit een property name (vb. font-size) en een waarde (vb. ```2em```). Elke declaration sluit je af met een puntkomma.
+Elementen die bij elkaar horen bevatten dezelfde class (vb. ```.cnw_card_title```)
+* **Een of meerdere declarations** bestaande uit een property name (vb. ```font-size```) en een waarde (vb. ```2em```). Elke declaration sluit je af met een puntkomma.
 
 Voorbeeld:
 ```
