@@ -26,27 +26,33 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 | Onderdeel | Selector | class |
 | -- | -- | -- | 
 | Zoekbox (geheel) | div | .cnw_search_form |
-| Label van een tekstbox of selectielijst | label | .cnw_form-control |
+| Label van een tekstbox of uitschuiflijst | label | x |
+| Label van extra groepfilters | span | .cnw_form-check--label |
+| Keuzemogelijkheden (checkbox) | label | .form-check-label |
 | Zoekknop | div | .cnw_btn-search |
 
-### Zoekresultaten
+<a id="zoekresultaten"></a>
+<h3>Zoekresultaten</h3>
 
 | Onderdeel | Selector | class |
 | -- | -- | -- | 
 | Zoekresultaten (geheel) | div | .cnw_searchresult__results |
 | Aantal gevonden resultaten | div | .cnw_searchresult__counter |
+| Verbergfilters | label | .cnw_form-check-label |
 | Blok eventtitel | h2 | .cnw_card-title |
+| Eventtype | span | .cnw_badge |
 | Eventtitel | h2 a | .cnw_block-title |
-| Tags | span | .cnw_search-result-tags-item |
-| Beschrijving |  |  |
+| Beschrijving | p | .cnw_card-description |
 | Afbeelding | img |  |
-| UiTPASicoon | span | .cnw_block-title |
+| UiTPASicoon | span | .cnw_sticker-uitpas |
 | Vliegicoon | span | .cnw_sticker--vlieg |
-|  | dl | .cnw_block-title |
-|  | dd | .cnw_sticker--vlieg |
-|  | dt | .cnw_sticker--vlieg |
+| Lijstelementen (label) | dt | .cnw_col-3 |
+| Lijstelementen (info) | dd | .cnw_col-9 |
+| Tags | div | .cnw_card-labels |
+| Lees meer | a | .cnw_btn__card-readmore |
 | Pager | li | .cnw_page-item |
 | Pager (eerste, volgende, laatste) | li | .cnw_page-link |
+
 
 ### Zoekverfijningen
 
@@ -60,15 +66,11 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 
 ### HTML
 
-| Onderdeel | Selector | class |
-| -- | -- | -- |
-| -- | -- | -- | 
+Het HTML-blok is standaard een paragraaf (selector = p), maar door zelf HTML in het block te schrijven kan je hier van afwijken.
 
 ### Tips
 
-| Onderdeel | Selector | class |
-| -- | -- | -- | 
-| -- | -- | -- | 
+De selectors voor het tipsblok zijn identiek aan die van de [zoekresultaten](#zoekresultaten)
 
 ### Detailpagina
 
