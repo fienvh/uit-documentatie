@@ -11,6 +11,6 @@ Je kan verschillende types verfijningen definiëren:
 * Wat
 * Extra opties
 
-De extra opties laten je toe extra groepfilters te definiëren. Het is mogelijk dat het aantal resultaten in de preview van de box afwijkt van het effectieve aantal zoekresultaten.
+De extra opties laten je toe extra [groepfilters](http://documentatie.uitdatabank.be/content/widgets/latest/configureren/groepfilters/) te definiëren. Het is mogelijk dat het aantal resultaten in de preview van de box afwijkt van het effectieve aantal zoekresultaten.
 
 Ook aan een zoekverfijningenblok kan je extra groepfilters toevoegen.
