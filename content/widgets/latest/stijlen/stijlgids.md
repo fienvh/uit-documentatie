@@ -31,7 +31,22 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 
 ### Zoekresultaten
 
+| Onderdeel | Selector | class |
+| -- | -- | -- | 
+| Aantal gevonden resultaten | div | .cnw_searchresult__counter |
+| Blok eventtitel | h2 | .cnw_card-title |
+| Eventtitel | h2 a | .cnw_block-title |
+| Tags | span | .cnw_search-result-tags-item |
+
 ### Zoekverfijningen
+
+| Onderdeel | Selector | class |
+| -- | -- | -- | 
+| Zoekverfijningen (geheel) | div | .cnw_facets |
+| Verberg verfijningen | a | .cnw_facets_toggle |
+| Titel set van verfijningen | h3 | .cnw_block-title |
+| Lijst van verfijningen | ul | .cnw_facet-search |
+| Lijstitems | li | .cnw_facet-label  |
 
 ### HTML
 
