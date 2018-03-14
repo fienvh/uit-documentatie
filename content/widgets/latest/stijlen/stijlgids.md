@@ -70,4 +70,4 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 
 ## Declarations
 
-Voor een overzicht van de mogelijke declarations verwijzen we naar [W3Schools](https://www.w3schools.com/css/default.asp)
+Voor een overzicht van de verschillende properties en hun waarden verwijzen we naar [W3Schools](https://www.w3schools.com/css/default.asp)
