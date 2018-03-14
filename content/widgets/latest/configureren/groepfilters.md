@@ -11,7 +11,7 @@ De groepfilters stellen je in staat filters te maken op maat je doelgroep.
 
 ## Voorbeeld: kampzoeker
 Op [Kampzoeker.be](https://www.kampzoeker.be) bevat de zoekbox bovenaan bevat een uitschuiflijst met daarin keuzemogelijkheden tussen de verschillende vakantieperiodes.
-Deze periodes zijn samengesteld obv groepfilters.
+Deze periodes zijn samengesteld op basis van groepfilters.
 
 ## Zelf aan de slag gaan
 Om een eigen groepfilter samen te stellen geef je je filtergroep een passende naam (vb. Vakantieperiodes). 
