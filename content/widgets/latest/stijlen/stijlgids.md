@@ -90,6 +90,6 @@ De overige selectors voor het tipsblok zijn identiek aan die van de [zoekresulta
 | Laadelement (geheel) | div | .widget-loader--block | 
 | Laadelement (tekst) | div | .widget-loader--text | 
 
-## Declarations
+## Declaraties
 
 Voor een overzicht van de verschillende properties en hun waarden verwijzen we naar [W3Schools](https://www.w3schools.com/css/default.asp).
