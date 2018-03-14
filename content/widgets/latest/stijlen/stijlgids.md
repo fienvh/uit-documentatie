@@ -43,8 +43,8 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 | UiTPASicoon | span | .cnw_block-title |
 | Vliegicoon | span | .cnw_sticker--vlieg |
 |  | dl | .cnw_block-title |
-|  | dd | .nw_sticker--vlieg |
-|  | dt | .nw_sticker--vlieg |
+|  | dd | .cnw_sticker--vlieg |
+|  | dt | .cnw_sticker--vlieg |
 | Pager | li | .cnw_page-item |
 | Pager (eerste, volgende, laatste) | li | .cnw_page-link |
 
