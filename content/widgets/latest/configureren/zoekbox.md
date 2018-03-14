@@ -25,7 +25,7 @@ Dit is de eerste kolom van je zoekbox en laat toe een surfer toe te zoeken op ee
 
 * **Label** bepaalt het label dat boven de zoekbox verschijnt
 * **Suggestie** bepaalt de voorbeeldtekst die binnen de zoekbox verschijnt
-* **Extra groepfilters**
+* **Extra groepfilters** laten je toe [eigen filters](http://documentatie.uitdatabank.be/content/widgets/latest/configureren/groepfilters/) te maken op maat van je doelgroep.
 
 ### 2. Plaats 
 Dit is de tweede kolom van je zoekbox en laat een surfer toe te zoeken op een gemeente of locatienaam. Deze functionaliteit staat standaard aangevinkt. Als je dit niet wilt, kan je checkbox ‘Zoeken op plaats’ afvinken.
@@ -33,7 +33,7 @@ Dit is de tweede kolom van je zoekbox en laat een surfer toe te zoeken op een ge
 
 * **Label** bepaalt het label dat boven de zoekbox verschijnt
 * **Suggestie** bepaalt de tekst die binnen de zoekbox verschijnt
-* **Extra groepfilters**
+* **Extra groepfilters** laten je toe [eigen filters](http://documentatie.uitdatabank.be/content/widgets/latest/configureren/groepfilters/) te maken op maat van je doelgroep.
 
 ### 3. Tijd 
 Dit is de derde kolom van je zoekbox en laat een surfer toe zijn zoekopdracht te beperken tot een periode. Deze functionaliteit staat standaard aangevinkt. Als je dit niet wilt, kan je checkbox ‘Zoeken op datum’ afvinken.
@@ -42,10 +42,10 @@ Dit is de derde kolom van je zoekbox en laat een surfer toe zijn zoekopdracht te
 * **Suggestie** bepaalt de tekst die binnen de zoekbox verschijnt
 * **Opties** bepaalt welke keuzeopties er getoond mogen worden
 * **Standaardkeuze** bepaalt welke van de gekozen opties de standaardkeuze is
-* **Extra groepfilters**
+* **Extra groepfilters** laten je toe [eigen filters](http://documentatie.uitdatabank.be/content/widgets/latest/configureren/groepfilters/) te maken op maat van je doelgroep.
 
 ### 4. Extra opties 
-Dit is de meest rechtse of onderste kolom van je zoekbox en stelt je in staat om eigen filters te definiëren, op maat van jouw doelpubliek (bv. een filter op vakantieperiodes voor een kampensite, een filter op concertzalen voor een muziekblog, etc.). Deze functionaliteit staat standaard aangevinkt. Als je dit niet wilt, kan je checkbox ‘Extra groepfilters’ afvinken.
+Dit is de meest rechtse of onderste kolom van je zoekbox en stelt je in staat om [eigen filters](http://documentatie.uitdatabank.be/content/widgets/latest/configureren/groepfilters/) te definiëren, op maat van jouw doelpubliek (bv. een filter op vakantieperiodes voor een kampensite, een filter op concertzalen voor een muziekblog, etc.). Deze functionaliteit staat standaard aangevinkt. Als je dit niet wilt, kan je checkbox ‘Extra groepfilters’ afvinken.
 
 Je kan één of meerdere groepen toevoegen, bvb. een groep ‘vakantieperiodes’. Elke groep kan één of meerdere filters bevatten (bv. ‘paasvakantie 2018’, ‘zomervakantie 2018’)
 
