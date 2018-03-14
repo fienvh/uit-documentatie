@@ -5,7 +5,7 @@
 
 Voor het stijlen van je widget maak je gebruik van CSS. Een CSS-regel bestaat steeds uit twee onderdelen:
 * **Een selector:** het element dat je wil stijlen (vb. ```h2```). 
-Elementen die bij elkaar horen bevatten dezelfde class (vb. .```form-select```)
+Elementen die bij elkaar horen bevatten dezelfde class (vb. ```.form-select```)
 * **Een of meerdere declarations** bestaande uit een property name (vb. font-size) en een waarde (vb. ```2em```). Elke declaration sluit je af met een puntkomma.
 
 Voorbeeld:
@@ -61,11 +61,13 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 ### HTML
 
 | Onderdeel | Selector | class |
+| -- | -- | -- |
 | -- | -- | -- | 
 
 ### Tips
 
 | Onderdeel | Selector | class |
+| -- | -- | -- | 
 | -- | -- | -- | 
 
 ## Declarations
