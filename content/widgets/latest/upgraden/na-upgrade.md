@@ -42,7 +42,7 @@ De volgorde van de facetfilters verschilt (van links naar rechts, boven naar ond
 
 ## Query ‘extra zoekparameters’
 In de vorige versie van de widgets kon je een query instellen onder ‘extra zoekparameters’. Deze query werd bij de upgrade gekopieerd en vind je nu terug onder ‘extra parameters’. Let wel: deze query is geschreven in de syntax van Search API 1 en zal niet de gewenste resultaten geven in de nieuwe versie van de widgets, die gebruik maakt van Search API 3.
-Een vertaaltabel om je query van API 1-syntax te vertalen naar API 3-syntax vind je [hier](link naar documentatie)
+Een vertaaltabel om je query van API 1-syntax te vertalen naar API 3-syntax vind je [hier](http://documentatie.uitdatabank.be/content/widgets/latest/upgraden/vertaaltabel/).
 
 Voor de tipswidgets is de query van de extra zoekparameters niet mee gekopieerd, omdat dit deze in de meeste gevallen overbodig en zelfs belemmerend werkte. Wil je toch extra zoekparameters definiëren, dan kan je dat onder _extra parameters_.
 
@@ -50,7 +50,7 @@ Voor de tipswidgets is de query van de extra zoekparameters niet mee gekopieerd,
 In de vorige versie van de widget voegde je CSS-regels toe per blok. Dit maakte het beheer onoverzichtelijk en ongebruiksvriendelijk. 
 In het upgradeproces werd de CSS van je widget verzameld en in één centraal blok geplaatst. Je vindt de CSS terug bovenaan, centraal in de topnavigatie.
 
-Een deel van de oorspronkelijk geschreven CSS zal geen invloed meer hebben op geüpgrade versie, omdat de nieuwe versie widgets gebruik maakt van andere HTML-tags en klasses. De CSS kan je manueel aanpassen waar nodig. Hulp daarbij vind je in volgende [gids](link naar CSS gids).
+Een deel van de oorspronkelijk geschreven CSS zal geen invloed meer hebben op geüpgrade versie, omdat de nieuwe versie widgets gebruik maakt van andere HTML-tags en klasses. De CSS kan je manueel aanpassen waar nodig. Hulp daarbij vind je in volgende [gids](http://documentatie.uitdatabank.be/content/widgets/latest/stijlen/stijlgids/).
 
 ## Caroussel-widget
 De caroussel-widget wordt niet meer aangeboden in de nieuwe versie van widgets. Caroussel-widgets worden geüpgrade naar een tipswidget in lijstview. Uitgebreide gebruikersonderzoeken bewezen dat een lijstweergave zorgt voor betere doorklikresultaten.
@@ -78,4 +78,4 @@ De afbeelding wordt standaard links weergegeven in het agendaoverzicht in plaats
 
 ## Verder configureren en finetunen
 
-Je kan je widget na de upgrade nog verder configureren en finetunen. Een gids daarvoor vind je [hier](www.documentatie.uitdatabank.be).
+Je kan je widget na de upgrade nog [verder configureren en finetunen](http://documentatie.uitdatabank.be/content/widgets/latest/configureren/).
