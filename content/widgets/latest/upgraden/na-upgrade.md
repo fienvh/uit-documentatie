@@ -19,9 +19,9 @@ Gemeente    Gent
 </pre>
 
 **Versie 3:** 
-``` 
+<pre>
 Locatie    Handelsbeurs Concertzaal, 9000 Gent
-```
+</pre>
 
 ### Facetfilters
 In de vorige versie van de widgets waren de facetfilters een onderdeel van het zoekresultaten-blok. 
