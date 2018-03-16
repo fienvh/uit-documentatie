@@ -625,7 +625,7 @@
   path: "content/uitpas_api/"
   category: "Technisch"
   weight: 130
-  hidden: false
+  hidden: true
   versions:
       - name: "latest"
         path: "content/uitpas_api/latest/"
