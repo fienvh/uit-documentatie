@@ -1,6 +1,8 @@
 ---
 ---
 
+# Environments
+
 The API is available at the following urls:
 
 * Production: [https://search.uitdatabank.be](http://search.uitdatabank.be)
