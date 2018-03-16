@@ -2,7 +2,7 @@
 ---
 
 # UiTPAS API 3.0 : referentie
-Deze referentie geeft een volledig overzicht van de beschikbare UiTPAS API-endpoints en entiteiten.
+Deze referentie geeft een overzicht van de beschikbare UiTPAS API-endpoints en entiteiten.
 
 ## Conventie i.v.m. URLs
 Alle URLs hebben de volgende opbouw:
