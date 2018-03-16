@@ -621,7 +621,7 @@
           - title: "Doorvoeren acties aan een balie"
             href: "doorvoeren-acties-aan-een-balie"
 - title: "UiTPAS API 3.0 : referentie"
-  description: "Overzicht van de beschikbare UiTPAS API-endpoints en entiteiten"
+  description: "Overzicht van de beschikbare UiTPAS API-endpoints en entiteiten."
   path: "content/uitpas_api/"
   category: "Technisch"
   weight: 120
