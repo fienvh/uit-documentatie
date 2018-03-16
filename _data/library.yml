@@ -332,7 +332,7 @@
           - title: "Afbeelding verwijderen"
             href: "afbeeldingen/afbeelding-verwijderen"
 - title: "Gebruikershandleidingen voor UiTPAS"
-  description: "Handleidingen voor UiTPAS balie (desktop en mobiele versie) en zuil (CID)."
+  description: "UiTPAS balie (desktop en mobiele) en zuilen (CID)."
   path: "content/uitpas-handleidingen/"
   category: "Technisch"
   weight: 40
@@ -574,8 +574,8 @@
           href: "translations"
         - title: "JSON-LD Definitions"
           href: "json-ld-definitions"
-- title: "Mijn UiTPAS API"
-  description: "Ontwikkeling van een 'Mijn UiTPAS'-omgeving."
+- title: "UiTPAS API 3.0 : how-to 'Mijn UiTPAS' omgeving"
+  description: "Handleiding voor de ontwikkeling van een 'Mijn UiTPAS' omgeving."
   path: "content/uitpas_api-mijn-uitpas/"
   category: "Technisch"
   weight: 120
@@ -620,8 +620,8 @@
             href: "baliemedewerker-ziet-beperkte-pashouderinfo"
           - title: "Doorvoeren acties aan een balie"
             href: "doorvoeren-acties-aan-een-balie"
-- title: "UiTPAS API 3.0"
-  description: "referentiegids voor UiTPAS API calls"
+- title: "UiTPAS API 3.0 : referentie"
+  description: "Exhaustieve referentie voor de UiTPAS API"
   path: "content/uitpas_api/"
   category: "Technisch"
   weight: 130
