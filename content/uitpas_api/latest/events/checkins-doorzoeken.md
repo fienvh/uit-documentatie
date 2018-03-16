@@ -8,6 +8,7 @@ GET
 
 _URL_
 {prefix}/uitpas/cultureevent/searchCheckins
+
 Parameters:
 
 | **Naam** | **Type** | **Omschrijving** | **Verplicht** |

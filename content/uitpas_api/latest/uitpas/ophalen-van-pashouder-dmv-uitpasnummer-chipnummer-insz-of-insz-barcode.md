@@ -166,7 +166,7 @@ _Voorbeeld response_
 ~~~
 
 
-_Voorbeeld response groepspass_
+_Voorbeeld response groepspas_
 
 
 ~~~xml

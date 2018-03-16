@@ -4,8 +4,9 @@
 # Balies voor een medewerker opzoeken
 
 Zoek alle balies voor een medewerker en de rol die de medewerker binnen de balie vervult. (member of admin). Ook de permissies en groepen van elk kaartsysteem waarmee de gekoppeld is balie, worden meegegeven. De mogelijke permissies zijn:
-1\. _registratie_: indien de balie pashouders mag registreren binnen het kaartsysteem
-2\. _kansenstatuut toekennen_: indien de balie naast registreren van pashouder, ook kansenstatuut mag toekennen binnen het kaartsysteem. Deze permissie komt steeds samen voor met de permissie “_registratie_”
+
+1. _registratie_: indien de balie pashouders mag registreren binnen het kaartsysteem
+2. _kansenstatuut toekennen_: indien de balie naast registreren van pashouder, ook kansenstatuut mag toekennen binnen het kaartsysteem. Deze permissie komt steeds samen voor met de permissie “_registratie_”.
 
 De groepen kunnen o.a. Scholen, Geauthorizeerde registratie balies,… zijn.
 

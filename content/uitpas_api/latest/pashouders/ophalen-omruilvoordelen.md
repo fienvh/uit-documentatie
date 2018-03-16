@@ -5,8 +5,8 @@
 
 _Method_
 GET
-_URL_
 
+_URL_
 {prefix}/uitpas/passholder/pointsPromotions
 
 Parameters:

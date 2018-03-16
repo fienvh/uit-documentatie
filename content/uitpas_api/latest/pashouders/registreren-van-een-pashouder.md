@@ -21,8 +21,8 @@ Parameters:
 | dateOfBirth | String | geboortedatum van pashouder (in w3c format, YYYY-MM-DD) | x |
 | gender | String | Toegelaten waarden:<br>M, MALE: man<br>V: vrouw<br>F, FEMALE: vrouw |  |
 | street | String | straat pashouder |  |
-| <span class="line-through">number</span> <span class="blue">(Deprecated)</span> | String | huisnummer pashouder |  |
-| <span class="line-through">box</span> <span class="blue">(Deprecated)</span> | String | postbus pashouder |  |
+| ~~number~~ (Deprecated) | String | huisnummer pashouder |  |
+| ~~box~~ (Deprecated) | String | postbus pashouder |  |
 | postalCode | String | postcode pashouder | x |
 | city | String | gemeente pashouder. indien geldige deelgemeente opgegeven wordt, wordt deze automatisch omgezet naar de hoofdgemeente. de postcode blijft behouden. | x |
 | telephone | String | telefoonnummer pashouder |  |

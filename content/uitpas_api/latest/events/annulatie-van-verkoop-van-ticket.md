@@ -10,7 +10,7 @@ _URL_
 {prefix}/uitpas/cultureevent/{eventCdbid}/cancel/{uitpasNumber}
 
 waarbij {eventCdbid} de cdbid van een event is
-{uitpasNumber} de uitpas nummer van een pashouder of een groepspas
+{uitpasNumber} de uitpas nummer van een pashouder of een groepspas.
 
 Parameters:
 

@@ -3,7 +3,7 @@
 
 # Medewerker verwijderen van balie
 
-Verwijder een medewerker van een balie
+Verwijder een medewerker van een balie.
 
 _Method_
 POST

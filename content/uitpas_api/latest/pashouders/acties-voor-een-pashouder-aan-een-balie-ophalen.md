@@ -4,10 +4,10 @@
 # Acties voor een pashouder aan een balie ophalen
 
 _Method_
-
 GET
 
-_URL_{prefix}/uitpas/passholder/eventActions
+_URL_
+{prefix}/uitpas/passholder/eventActions
 
 Parameters:
 

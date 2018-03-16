@@ -8,6 +8,7 @@ GET
 
 _URL_
 {prefix}/uitpas/grouppass/{uitpasNummer}
+
 waarbij {uitpasNummer} de uitpas nummer van de groeppas is
 
 Parameters: Geen

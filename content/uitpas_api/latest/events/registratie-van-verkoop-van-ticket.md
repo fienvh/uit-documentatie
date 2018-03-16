@@ -1,25 +1,25 @@
 ---
 ---
 
-# Online registratie van verkoop van ticket
+# Registratie van verkoop van ticket
 
 _Method_
 POST
 
 _URL_
-{prefix}/uitpas/cultureevent/{eventCdbid}/buyonline/{uitpasNumber}
+{prefix}/uitpas/cultureevent/{eventCdbid}/buy/{uitpasNumber}
 
-waarbij {eventCdbid} de cdbid van een event is
-{uitpasNumber} de uitpas nummer van een pashouder of een groepspas
+waarbij {eventCdbid} de cdbid van een event is {uitpasNumber} de uitpas nummer van een pashouder of een groepspas.
 
 Parameters:
 
+| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |
 | ticketSaleCouponId | Long | Ticket sale coupon Id die gebruikt moet worden bij de ticketsale |
 | amountOfTickets | Integer | Aantal tickets. Deze parameter is verplicht voor een groepspas, maar mag niet gebruikt worden bij pashouders |
 | priceClass | String | prijs klasse gebruikt bij de ticketsale |
 
 _Authenticatie_
-ConsumerRequest met een consumer met rechten op ticketsales
+UserAccessToken van de balie medewerker die de actie uitvoert.
 
 **Response**
 
@@ -35,7 +35,7 @@ HTTP 400 met een response body in XML formaat:
 
 _Voorbeeld request_
 
-POST {prefix}/uitpas/cultureevent/283e8449-4ce8-44f9-aa87-c7e9395be025/buyonline/1234567890113
+POST {prefix}/uitpas/cultureevent/283e8449-4ce8-44f9-aa87-c7e9395be025/buy/1234567890113
 
 _Voorbeeld response_
 

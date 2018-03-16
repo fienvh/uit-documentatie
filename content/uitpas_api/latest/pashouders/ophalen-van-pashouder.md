@@ -12,8 +12,8 @@ waarbij {uitpasNumber} de uitpas nummer
 
 Parameters:
 
+| **Naam** | **Type** | **Omschrijving** |
 | balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |
-| --- | --- | --- |
 
 _Authenticatie_
 UserAccessToken van de Balie medewerker die de actie uitvoert of van de eigenaar van de uitpas zelf

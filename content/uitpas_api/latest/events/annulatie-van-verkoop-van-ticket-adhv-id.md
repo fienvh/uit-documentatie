@@ -1,22 +1,23 @@
 ---
 ---
 
-# Online annulatie van verkoop van ticket adhv id
+# Annulatie van verkoop van ticket adhv id
 
 _Method_
 POST
 
 _URL_
-{prefix}/uitpas/cultureevent/cancelonline/{ticketSaleId}
+{prefix}/uitpas/cultureevent/cancel/{ticketSaleId}
 
-waarbij {ticketSaleId} de id van een ticket sale is
+waarbij {ticketSaleId} de id van een ticket sale is.
 
 Parameters:
 
-Geen
+| **Parameter** | **Type** | **Beschrijving** |
+| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |
 
 _Authenticatie_
-ConsumerRequest met een consumer met rechten op ticketsales
+UserAccessToken van de balie medewerker die de actie uitvoert.
 
 **Response**
 
@@ -32,7 +33,7 @@ HTTP 400 met een response body in XML formaat:
 
 _Voorbeeld request_
 
-POST {prefix}/uitpas/cultureevent/cancelonline/17006
+POST {prefix}/uitpas/cultureevent/cancel/17006
 
 _Voorbeeld response_
 

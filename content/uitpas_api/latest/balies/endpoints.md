@@ -4,6 +4,7 @@
 # Endpoints
 
 |  | Endpoint | Method | Beschrijving | Authenticatie |
+| --- | --- | --- | --- | --- |
 | 1 | /uitpas/balie/pos | GET | Points of Sale opzoeken | ConsumerRequest |
 | 2 | /uitpas/balie/search | GET | Balies opzoeken | ConsumerRequest |
 | 3 | /uitpas/balie/member | POST | Medewerker toevoegen aan balie | Balie medewerker |

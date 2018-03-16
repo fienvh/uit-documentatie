@@ -3,7 +3,7 @@
 
 # Medewerker toevoegen aan balie
 
-Voeg een medewerker toe aan een balie
+Voeg een medewerker toe aan een balie.
 
 _Method_
 POST
