@@ -28,6 +28,8 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 | Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
 | Zoekbox (geheel) | div | .cnw_search_form |
+| UiT-logo | img | .logo-uiv |
+| Tekst bij UiT-logo | h2 | nvt |
 | Label van een tekstbox of uitschuiflijst | label | nvt |
 | Label van extra groepfilters | span | .cnw_form-check--label |
 | Keuzemogelijkheden (checkbox) | label | .form-check-label |
