@@ -3,6 +3,38 @@
 
 # Possible exceptions and deprecated data
 
+## @id
+
+* it is possible an event has an organizer without `@id`
+```
+"organizer": {
+"name": "CodeFever VZW",
+"@type": "Organizer"
+},
+```
+We call this a dummy organizer; legacy data from the previous version of UiTdatabank. These organizers can be ignored or just used to print the name.
+
+* it is possible an event has a place without `@id`
+
+```
+"location": {
+  "@type": "Place",
+  "address": {
+    "nl": {
+      "addressCountry": "BE",
+      "addressLocality": "Borgloon",
+      "postalCode": "3840",
+      "streetAddress": "Grootloonstraat 111a"
+    }
+  },
+  "geo": {
+    "latitude": 50.7925781,
+    "longitude": 5.3658241
+  }
+```
+
+We call this a dummy location; legacy data from the previous version of UiTdatabank. These places can't be ignored because they contain the address and geocoordinates needed to locate the event.
+
 
 ## availableTo
 
@@ -111,6 +143,7 @@ The creator should contain the nickname for the UiTiD user that created the offe
     "postalCode": "3220",
     "streetAddress": "Horststraat 28"
   }
+}
   ```
 
 It is possible that an address does not have a language property yet.
