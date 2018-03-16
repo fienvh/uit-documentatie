@@ -12,10 +12,7 @@ You can add your API key to a request in two ways:
 
 To apply for you personal API key you must register via the [UiTdatabank projectaanvraag platform](https://projectaanvraag.uitdatabank.be).
 
-The API is available at the following urls:
-
-* Production: [https://search.uitdatabank.be](http://search.uitdatabank.be)
-* Test environment: [https://search-test.uitdatabank.be](http://search-test.uitdatabank.be)
+The API is available in a production and testing environment (See [environments](../../getting-started/environments)), so keys can be obtainde for both environments. 
 
 Make sure to use the correct API key with the correct environment.
 

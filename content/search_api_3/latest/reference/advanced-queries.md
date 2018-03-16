@@ -48,7 +48,7 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 
 | Field | Type | Comments |
 | :--- | :--- | :--- |
-| id | String | Looks for complete matches |
+| id | String | Looks for complete matches. See [Id](../../searching/id) |
 | address.{[lang](../../searching/languages)}.addressCountry | Enum | See [Address](../../searching/address) |
 | address.{[lang](../../searching/languages)}.addressLocality | String | See [Address](../../searching/address) |
 | address.{[lang](../../searching/languages)}.postalCode | String | See [Address](../../searching/address) |
@@ -62,7 +62,7 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 | description.{[lang](../../searching/languages)} | String |  |
 | labels | String | See [Labels](../../searching/labels). Looks for complete matches |
 | languages | String | See [Languages](../../searching/languages) |
-| location.id | String | Looks for complete matches |
+| location.id | String | Looks for complete matches. See [Id](../../searching/id) |
 | location.name.{[lang](../../searching/languages)} | String |  |
 | location.labels | String | Looks for complete matches |
 | location.terms.id | String | Looks for complete matches |
@@ -70,7 +70,7 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 | mediaObjectsCount | Integer | See [Media objects](../../searching/media-objects) |
 | modifiedRange | DateRange | See [Created and Modified](../../searching/created-and-modified) |
 | name.{[lang](../../searching/languages)} | String |  |
-| organizer.id | String | Looks for complete matches |
+| organizer.id | String | Looks for complete matches. See [Id](../../searching/id) |
 | organizer.name.{[lang](../../searching/languages)} | String |  |
 | organizer.labels | String | Looks for complete matches |
 | price | Integer | See [Price](../../searching/price) |

@@ -5,8 +5,8 @@
 
 Voor het stijlen van je widget maak je gebruik van CSS. Een CSS-regel bestaat steeds uit twee onderdelen:
 * **Een selector:** het element dat je wil stijlen (vb. ```h2```). 
-Elementen die bij elkaar horen bevatten dezelfde class (vb. ```.cnw_card_title```)
-* **Een of meerdere declaraties** bestaande uit een property name (vb. ```font-size```) en een waarde (vb. ```2em```). Elke declaratie sluit je af met een puntkomma.
+Elementen die bij elkaar horen bevatten dezelfde klassenaam (vb. ```.cnw_card_title```)
+* **Een of meerdere stijldefinities** bestaande uit een eigenschap (vb. ```font-size```) en een waarde (vb. ```2em```). Elke definitie sluit je af met een puntkomma.
 
 Voorbeeld:
 ```
@@ -17,15 +17,19 @@ color: red;
 }
 ```
 
+Alle <h2>-elementen op de pagina worden groter, vet en in het rood gestijld.
+
 ## Selectors
 
-Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een overzicht van de meest voorkomende selectors (en hun bijhorende class).
+Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een overzicht van de meest voorkomende selectors (en hun bijhorende klasse).
 
 ### Zoekbox
 
-| Onderdeel | Selector | Class |
+| Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
 | Zoekbox (geheel) | div | .cnw_search_form |
+| UiT-logo | img | .logo-uiv |
+| Tekst bij UiT-logo | h2 | nvt |
 | Label van een tekstbox of uitschuiflijst | label | nvt |
 | Label van extra groepfilters | span | .cnw_form-check--label |
 | Keuzemogelijkheden (checkbox) | label | .form-check-label |
@@ -34,7 +38,7 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 <a id="zoekresultaten"></a>
 <h3>Zoekresultaten</h3>
 
-| Onderdeel | Selector | Class |
+| Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
 | Zoekresultaten (geheel) | div | .cnw_searchresult__results |
 | Aantal gevonden resultaten | div | .cnw_searchresult__counter |
@@ -56,7 +60,7 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 
 ### Zoekverfijningen
 
-| Onderdeel | Selector | Class |
+| Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
 | Zoekverfijningen (geheel) | div | .cnw_facets |
 | Verberg verfijningen | a | .cnw_facets_toggle |
@@ -71,7 +75,7 @@ Het HTML-blok is standaard een paragraaf (selector = p), maar door zelf HTML in 
 
 ### Tips
 
-| Onderdeel | Selector | Class |
+| Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
 | Tipsblok (geheel) | div | .cnw_tips |
 
@@ -79,8 +83,9 @@ De overige selectors voor het tipsblok zijn identiek aan die van de [zoekresulta
 
 ### Detailpagina
 
-| Onderdeel | Selector | Class |
+| Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
+| Detailpagina (geheel) | div | .cnw_searchresult-detail | 
 | Eventitel | h1 | .cnw-page-title | 
 | Beschrijving (kort) | div | .cnw_detail-short-summary | 
 | Beschrijving (volledig) | div | .cnw_detail-full-description |
@@ -94,11 +99,11 @@ De overige selectors voor het tipsblok zijn identiek aan die van de [zoekresulta
 
 ### Overige
 
-| Onderdeel | Selector | Class |
+| Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
 | Laadelement (geheel) | div | .widget-loader--block | 
 | Laadelement (tekst) | div | .widget-loader--text | 
 
-## Declaraties
+## Definities
 
-Voor een overzicht van de verschillende properties en hun waarden verwijzen we naar [W3Schools](https://www.w3schools.com/css/default.asp).
+Voor een overzicht van de verschillende eigenschappen en hun waarden verwijzen we naar [W3Schools](https://www.w3schools.com/css/default.asp).
