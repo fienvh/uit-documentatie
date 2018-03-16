@@ -579,7 +579,7 @@
   path: "content/uitpas_api-mijn-uitpas/"
   category: "Technisch"
   weight: 120
-  hidden: true
+  hidden: false
   versions:
       - name: "latest"
         path: "content/uitpas_api-mijn-uitpas/latest/"
@@ -625,7 +625,7 @@
   path: "content/uitpas_api/"
   category: "Technisch"
   weight: 130
-  hidden: true
+  hidden: false
   versions:
       - name: "latest"
         path: "content/uitpas_api/latest/"
