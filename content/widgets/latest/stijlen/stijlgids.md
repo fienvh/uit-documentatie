@@ -83,6 +83,7 @@ De overige selectors voor het tipsblok zijn identiek aan die van de [zoekresulta
 
 | Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
+| Detailpagina (geheel) | div | .cnw_searchresult-detail | 
 | Eventitel | h1 | .cnw-page-title | 
 | Beschrijving (kort) | div | .cnw_detail-short-summary | 
 | Beschrijving (volledig) | div | .cnw_detail-full-description |
