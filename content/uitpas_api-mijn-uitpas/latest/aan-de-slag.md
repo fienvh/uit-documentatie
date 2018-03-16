@@ -9,8 +9,8 @@ De API geeft default XML terug. Indien je dat wil kan de API ook JSON teruggeven
 
 De API maakt gebruik van de open standaard OAuth (1.0) voor authenticatie:
 
-* [Authenticeren met OAuth 1.0](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_authenticatie)
-* [Authenticeren via Postman](http://documentatie.uitdatabank.be/content/authenticatie-autorisatie/latest/postman/ )
+* [Authenticatie en autorisatie](http://documentatie.uitdatabank.be/content/authenticatie-autorisatie/latest/index.html)
+* [Gebruik van via Postman](http://documentatie.uitdatabank.be/content/authenticatie-autorisatie/latest/postman/ )
 
 ## Overzicht omgevingen
 

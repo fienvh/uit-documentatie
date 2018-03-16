@@ -41,7 +41,7 @@ Voorbeeld
 </ticketSaleCoupon>
 ~~~
 
-[Voorbeeld response in XML (volledig)](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_opzoeken_van_coupons_van_een_pashouder)
+[Voorbeeld response in XML (volledig)](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/opzoeken-van-coupons-van-een-pashouder/)
 
 Volgende velden heb je nodig:
 
@@ -54,7 +54,7 @@ Volgende velden heb je nodig:
 
 **Referentie UiTPAS API v3.0**
 
-[Opzoeken coupons van een pashouder](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_opzoeken_van_coupons_van_een_pashouder)
+[Opzoeken coupons van een pashouder](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/opzoeken-van-coupons-van-een-pashouder/)
 
 ## Detail informatie voor een specifieke coupon weergeven**
 
@@ -68,4 +68,4 @@ GET {prefix}/uitpas/passholder/{uitpasNumber}/coupons/{couponId}
 
 **Referentie UiTPAS API v3.0**
 
-[Individuele coupon van een pashouder ophalen](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_opzoeken_van_een_coupon_van_een_pashouder)
+[Individuele coupon van een pashouder ophalen](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/opzoeken-van-een-coupon-van-een-pashouder/)

@@ -47,7 +47,7 @@ Voorbeeld
 </promotion>
 ~~~
 
-[Voorbeeld response in XML (volledig)](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_welkomstvoordelen_voor_pashouder) 
+[Voorbeeld response in XML (volledig)](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-welkomstvoordelen-voor-pashouder/) 
 
 Volgende velden heb je nodig:
 
@@ -58,8 +58,8 @@ Volgende velden heb je nodig:
 | Kaartsyste(e)m(en) | promotion > applicableCardSystems | Lijst van de kaartsystemen waar het voordeel toepasbaar is. |
 | Status omruil | promotion > cashedIn | Geeft aan op het voordeel werd opgenomen of niet. true of false. |
 
-[Overzicht van alle velden van de entiteit ‘welcomeadvantages’](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_welcomeadvantage_entiteit) 
+[Overzicht van alle velden van de entiteit ‘welcomeadvantages’](http://documentatie.uitdatabank.be/content/uitpas_api/latest/entiteiten/welcomeadvantage-entiteit/) 
 
 **Referentie UiTPAS API v3.0**
 
-[Ophalen welkomstvoordelen van een pashouder](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_welkomstvoordelen_voor_pashouder)
+[Ophalen welkomstvoordelen van een pashouder](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-welkomstvoordelen-voor-pashouder/)
