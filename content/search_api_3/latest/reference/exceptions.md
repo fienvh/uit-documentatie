@@ -51,26 +51,30 @@ It is possible that some events and places do not have an `availableTo` property
   "en"
 ],
 ```
-When an offer contains all the translatable fields in one specific language, this language is added to the `completeLanguages` property. These translatable fields are different for every entity:
+When an offer contains all the translatable fields in one specific language, this language is added to the `completeLanguages` property.
+
+The translatable fields are different for every entity:
 
 **Event**
 * name
 * description
-* bookingInfo/urlLabel
-* priceInfo/name
+* bookingInfo/urlLabel*
+* priceInfo/name*
 * mediaObject/inLanguage
 
 **Place**
 * name
 * description
 * address
-* bookingInfo/urlLabel
-* priceInfo/name
+* bookingInfo/urlLabel*
+* priceInfo/name*
 * mediaObject/inLanguage
 
 **Organizer**
 * name
-* address
+* address*
+
+Fields marked with an `*` are not yet indexed under the `completeLanguages` property and are not taken into account when calculating for completed languages.
 
 ## bookingInfo
 
@@ -94,11 +98,7 @@ When an offer contains all the translatable fields in one specific language, thi
 
 * [UNDER DEVELOPMENT] urlLabel should be a translatable field.
 
-* bookingInfo may contain deprecated properties, these will be deleted from existing offers and should **NOT** be used in future development:
--- name
--- description
--- price
--- currency
+* bookingInfo may contain deprecated properties, these will be deleted from existing offers and should **NOT** be used in future development: `name`, `description`, `price`, `currency`
 
 ## contactPoint
 
@@ -115,7 +115,7 @@ When an offer contains all the translatable fields in one specific language, thi
 }
 ```
 
-The three properties `email`, `url`, `phone` are not validated by the API and can all contain any string.
+The three properties `email`, `url`, `phone` are not validated by the API and can all contain any string. So it is possible to find an emailaddress under `phone` and vice versa.
 
 ## creator
 
@@ -137,12 +137,10 @@ The creator should contain the nickname for the UiTiD user that created the offe
 
 ```
 "address": {
-  "en": {
-    "addressCountry": "BE",
-    "addressLocality": "Holsbeek",
-    "postalCode": "3220",
-    "streetAddress": "Horststraat 28"
-  }
+  "addressCountry": "BE",
+  "addressLocality": "Holsbeek",
+  "postalCode": "3220",
+  "streetAddress": "Horststraat 28"
 }
   ```
 
