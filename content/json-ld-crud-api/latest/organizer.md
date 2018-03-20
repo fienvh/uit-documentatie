@@ -13,6 +13,13 @@ POST /imports/organizers/
 
 If successful, this returns a 200 response code with a new unique id in response body
 
+**Example response**
+
+```
+{
+    "id": "54646d8f-994e-4509-8a8c-01fed8f9a241"
+}
+```
 
 ## Create or update an organizer with existing id
 
@@ -24,6 +31,20 @@ PUT /imports/organizers/{cdbid}
 
 If successful, this returns a 200 response code with the used id in response body
 
+**Example response**
+
+```
+{
+    "id": "54646d8f-994e-4509-8a8c-01fed8f9a241"
+}
+```
+
+## Properties
+
+Mandatory properties:
+1. mainLanguage: must be `nl`
+2. name
+3. url: must be unique
 
 ### mainLanguage
 

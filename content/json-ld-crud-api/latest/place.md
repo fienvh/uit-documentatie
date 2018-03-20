@@ -13,6 +13,13 @@ POST /imports/places/
 
 If successful, this returns a 200 response code with a new unique id in response body
 
+**Example response**
+
+```
+{
+    "id": "54646d8f-994e-4509-8a8c-01fed8f9a241"
+}
+```
 
 ## Create or update a place with existing id
 
@@ -23,6 +30,25 @@ PUT /imports/places/{cdbid}
 ```
 
 If successful, this returns a 200 response code with the used id in response body
+
+**Example response**
+
+```
+{
+    "id": "54646d8f-994e-4509-8a8c-01fed8f9a241"
+}
+```
+
+## Properties
+
+Mandatory properties:
+1. mainLanguage
+2. name
+3. calendarType
+  * startDate: in combination with `periodic`
+  * endDate: in combination with `periodic`
+4. terms
+5. address
 
 ### mainLanguage
 
