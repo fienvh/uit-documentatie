@@ -14,7 +14,7 @@ Onder ‘Je selecteerde’ kan je je zoekbox een naam geven. Dit is enkel releva
 
 * **URL resultatenpagina** bepaalt op welke pagina de zoekresultaten moeten openen
 * **Label zoekknop** bepaalt de tekst die op de “Zoeken”-knop verschijnt.
-* **Zoekparameters** bepaalt of er een extra query moet gebruikt worden voor deze zoekbox die het aantal resultaten voor een surfer beperkt. Hiervoor maak je gebruik van de (SAPI3-syntax)[link naar documentatie].
+* **Zoekparameters** bepaalt of er een extra query moet gebruikt worden voor deze zoekbox die het aantal resultaten voor een surfer beperkt. Hiervoor maak je gebruik van de [SAPI3-syntax](http://documentatie.uitdatabank.be/content/json-ld/latest/index.html).
 
 ## Header
 Bepaal welke tekst en/of afbeelding er in de header verschijnt.
