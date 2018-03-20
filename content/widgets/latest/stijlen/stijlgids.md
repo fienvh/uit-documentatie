@@ -53,7 +53,7 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 | Vliegicoon | span | .cnw_sticker--vlieg |
 | Lijstelementen (label) | dt | .cnw_col-3 |
 | Lijstelementen (info) | dd | .cnw_col-9 |
-| Tags | div | .cnw_card-labels |
+| Labels | div | .cnw_card-labels |
 | Lees meer | a | .cnw_btn__card-readmore |
 | Pager | li | .cnw_page-item |
 | Pager (eerste, volgende, laatste) | li | .cnw_page-link |
