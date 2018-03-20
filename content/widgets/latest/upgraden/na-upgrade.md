@@ -25,7 +25,7 @@ Locatie    Handelsbeurs Concertzaal, 9000 Gent
 
 ### Facetfilters
 In de vorige versie van de widgets waren de facetfilters een onderdeel van het zoekresultaten-blok. 
-In de nieuwe versie bevinden de facetfilters in een apart blok. De facetfilters die je in de vorige versie instelde zijn dus niet verloren gegaan, maar bevinden zich in een nieuw, op zichzelf staand blok dat je apart kan configureren. 
+In de nieuwe versie bevinden de facetfilters zich in een apart blok. De facetfilters die je in de vorige versie instelde zijn dus niet verloren gegaan, maar bevinden zich in een nieuw, op zichzelf staand blok dat je apart kan configureren. 
 
 De volgorde van de facetfilters verschilt (van links naar rechts, boven naar onder):
 
@@ -56,7 +56,7 @@ Een deel van de oorspronkelijk geschreven CSS zal geen invloed meer hebben op ge
 De caroussel-widget wordt niet meer aangeboden in de nieuwe versie van widgets. Caroussel-widgets worden geüpgrade naar een tipswidget in lijstview. Uitgebreide gebruikersonderzoeken bewezen dat een lijstweergave zorgt voor betere doorklikresultaten.
 
 ## Zoekbox
-Een zoekbox die na upgrade in een blok over de volledige breedte staat wordt nu automatisch horizontaal getoond. Indien je de zoekbox toch verticaal wilt tonen, dien je die te verplaatsen naar een blok de niet de volledige paginabreedte inneemt.
+Een zoekbox die na upgrade in een blok over de volledige breedte staat wordt nu automatisch horizontaal getoond. Indien je de zoekbox toch verticaal wilt tonen, dien je die te verplaatsen naar een blok dat niet de volledige paginabreedte inneemt.
 
 ## Default settings nakijken (optioneel)
 Je geüpgrade widget bevat een aantal standaardinstellingen die niet aanwezig waren in de vorige versie. Deze nieuwe instellingen zijn gebaseerd op best practices. 
