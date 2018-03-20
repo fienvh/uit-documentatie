@@ -56,4 +56,4 @@ Je kan één of meerdere groepen toevoegen, bvb. een groep ‘vakantieperiodes�
 
 #### Filters
 - **Label** bepaalt het label van je filter(s)
-- **Query:** elke filter heeft een query nodig. Deze query kan je bouwen obv. SAPI 3 syntax.
+- **Query:** elke filter heeft een query nodig. Deze query kan je bouwen obv. [SAPI 3 syntax](http://documentatie.uitdatabank.be/content/json-ld/latest/index.html).
