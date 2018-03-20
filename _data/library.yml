@@ -584,6 +584,17 @@
     - name: "latest"
       path: "content/json-ld-crud-api/latest/"
       summary:
+        - title: "Authentication"
+          href: "authentication"
+          summary:
+            - title: "Base URL"
+              href: "authentication/authentication-baseUrl"
+            - title: "Get a valid API Key"
+              href: "authentication/authentication-apiKey"
+            - title: "Generate JSON Web Token"
+              href: "authentication/authentication-jwt"
+            - title: "Postman setup"
+              href: "authentication/authentication-postman"
         - title: "Event"
           href: "event"
         - title: "Place"
