@@ -10,7 +10,7 @@ Een groepfilter is een verzameling van één of meerdere SAPI3-queries die je ee
 De groepfilters stellen je in staat filters te maken op maat je doelgroep. 
 
 ## Voorbeeld: kampzoeker
-Op [Kampzoeker.be](https://www.kampzoeker.be) bevat de zoekbox bovenaan bevat een uitschuiflijst met daarin keuzemogelijkheden tussen de verschillende vakantieperiodes.
+Op [Kampzoeker.be](https://www.kampzoeker.be) bevat de zoekbox bovenaan een uitschuiflijst met daarin keuzemogelijkheden tussen de verschillende vakantieperiodes.
 Deze periodes zijn samengesteld op basis van groepfilters.
 
 ## Zelf aan de slag gaan
