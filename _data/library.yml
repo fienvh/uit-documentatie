@@ -574,6 +574,22 @@
           href: "translations"
         - title: "JSON-LD Definitions"
           href: "json-ld-definitions"
+- title: "JSON-LD CRUD API"
+  description: "This document describes the UiTdatabank v3 native JSON-LD format"
+  path: "content/json-ld-crud-api/"
+  category: "Technisch"
+  weight: 120
+  hidden: true
+  versions:
+    - name: "latest"
+      path: "content/json-ld-crud-api/latest/"
+      summary:
+        - title: "Event"
+          href: "event"
+        - title: "Place"
+          href: "place"
+        - title: "Organizer"
+          href: "organizer"
 - title: "UiTPAS API 3.0 : how-to 'Mijn UiTPAS' omgeving"
   description: "Handleiding voor de ontwikkeling van een 'Mijn UiTPAS' omgeving."
   path: "content/uitpas_api-mijn-uitpas/"
