@@ -39,6 +39,53 @@ If successful, this returns a 200 response code with the used id in response bod
 }
 ```
 
+### Example request - complete event
+
+```
+curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
+     -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jdWx1ZGItand0LXByb3ZpZGVyLmRldiIsInVpZCI6Ijk2ZmQ2YzEzLWVhYWItNGRkMS1iYjZhLTFjNDgzZDVlNDBjYyIsIm5pY2siOiJiZXJ0MmRvdHN0d2ljZSIsImVtYWlsIjoiYmVydEAyZG90c3R3aWNlLmJlIiwiaWF0IjoxNTIxMjE1NTM0LCJleHAiOjE1MjEyMTkxMzQsIm5iZiI6MTUyMTIxNTUzNH0.pQzQw1Qr1JB4KYo_rxHJ3ZBH_L0JdabvuG1Lkwcwp0Vjh8B6FYR4GzWe34gykH8rZBtUyVRbupPSmCQMxuUJvzcOdpfFYkdGGBov1Nb1jJ-tmRFvKkFJOeDpylMhadckUF1qGNIZ0zR2jZS2fKSd5ZhNUUta-zknyo5gGCjbT7DiZy1Psn4HBqLKGSB9mOE9CmRxytQqUq5VKHhCjtlXMz-Iw93aT3v7yHELHbrpFdkQYahUY1PoEr3d06Ze8tAB2Rn4pAPlZ27TOLKxlVZMYq8ZjkD_tg0y7Iy6rXjyWJ8dGJ2Y8hOKbx9u-L0iEHj8gAcBom8vQbCTy8mtULAuDw' \
+     -H 'x-api-key: deb306a6-6f46-4c98-89ce-b03ec4f121e' \
+     -H 'Content-Type: application/json; charset=utf-8' \
+     -d $'{
+  "mainLanguage": "nl",
+  "name": {
+    "nl": "event name in NL",
+    "en": "event name in EN"
+  },
+  "calendarType": "multiple",
+  "startDate": "2018-04-01T14:45:00+01:00",
+  "endDate": "2018-06-01T18:45:00+01:00",
+  "subEvent": [
+        {
+            "@type": "Event",
+            "startDate": "2018-04-01T14:45:00+01:00",
+            "endDate": "2018-04-01T18:45:00+01:00"
+        },
+        {
+            "@type": "Event",
+            "startDate": "2018-05-01T14:45:00+01:00",
+            "endDate": "2018-05-01T18:45:00+01:00"
+        },
+        {
+            "@type": "Event",
+            "startDate": "2018-06-01T14:45:00+01:00",
+            "endDate": "2018-06-01T18:45:00+01:00"
+        }
+    ],
+  "terms": [
+    {
+      "id": "0.50.4.0.0"
+    },
+    {
+      "id": "0.3.2.0.0"
+    }
+  ],
+  "location": {
+    "@id": "https://io-test.uitdatabank.be/places/63e1ada9-bd77-42ad-89f4-3f99c46eeb12"
+  }
+}'
+```
+
 ## Properties
 
 Mandatory properties:
@@ -159,7 +206,6 @@ only to be used in combination with calendarType `periodic` of `permanent`
       "id": "0.3.2.0.0"
     }
   ]
-}
 ```
 Must contain 1 id for eventtype, can be combined with a theme id.
 

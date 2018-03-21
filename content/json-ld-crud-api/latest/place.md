@@ -39,6 +39,60 @@ If successful, this returns a 200 response code with the used id in response bod
 }
 ```
 
+### Example request - full place
+
+```
+curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
+     -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jdWx1ZGItand0LXByb3ZpZGVyLmRldiIsInVpZCI6Ijk2ZmQ2YzEzLWVhYWItNGRkMS1iYjZhLTFjNDgzZDVlNDBjYyIsIm5pY2siOiJiZXJ0MmRvdHN0d2ljZSIsImVtYWlsIjoiYmVydEAyZG90c3R3aWNlLmJlIiwiaWF0IjoxNTIxMjExNzE2LCJleHAiOjE1MjEyMTUzMTYsIm5iZiI6MTUyMTIxMTcxNn0.Ng2RLO-n-4cmvvbOPPNiHxT3vGlHAPgUlARpVnaeyuJ2pyH45sOVmrtxRivbDPpgIWhozulwmcjvNeZ-fH1VKGGUJsnNmre2fxlinj2AmCgOZ_P83xCWSN-Lcl_7AzMxzminRFOGG7PE7ilAZ3wWlbFUFRkAhDs83BeTOHuHyM9bLVuXmxVZgtPEmapMTEdogxQ5PiR8FPLpOVYCbmQkSddfqs0KA1pVuGYFHm6tRiNd5WRd962_Hg2caw6vxccNyMQ17zYiI7lJDZpoQfp6v-yGjFBNOIroWSA8wOG12h62OyDp3YnRb9v40m35FERzqs70uBc3DMk1q80cG2VnEA' \
+     -H 'x-api-key: deb306a6-6f46-4c98-89ce-b03ec4f121e' \
+     -H 'Content-Type: text/plain; charset=utf-8' \
+     -d $'{
+	"mainLanguage": "nl",
+	"name": {
+		"nl": "Publiq",
+		"fr": "Publiq",
+		"en": "Publiq"
+	},
+	"calendarType": "periodic",
+  "openingHours": [
+        {
+            "opens": "10:00",
+            "closes": "16:30",
+            "dayOfWeek": [
+                "monday",
+                "saturday",
+                "sunday"
+            ]
+        }
+    ],
+	"address": {
+		"nl": {
+			"streetAddress": "Henegouwenkaai 41-43",
+			"postalCode": "1080",
+			"addressLocality": "Brussel",
+			"addressCountry": "BE"
+		},
+		"fr": {
+			"streetAddress": "Quai du Hainaut 41-43",
+			"postalCode": "1080",
+			"addressLocality": "Bruxelles",
+			"addressCountry": "BE"
+		},
+		"en": {
+			"streetAddress": "Henegouwenkaai 41-43",
+			"postalCode": "1080",
+			"addressLocality": "Brussels",
+			"addressCountry": "BE"
+		}
+	},
+	"terms": [
+		{
+			"id": "Yf4aZBfsUEu2NsQqsprngw"
+		}
+	]
+}'
+```
+
 ## Properties
 
 Mandatory properties:
@@ -76,7 +130,7 @@ mainLanguage must have a corresponding translation in `name` property
 **Example**
 
 ```
- "calendarType": "multiple"
+ "calendarType": "periodic"
 ```
 possible values: `periodic`, `permanent`
 
@@ -129,7 +183,6 @@ only to be used in combination with calendarType `periodic` of `permanent`
       "id": "OyaPaf64AEmEAYXHeLMAtA"
     }
   ]
-}
 ```
 Must contain 1 id for placeType, can NOT be combined with a theme id.
 
