@@ -47,12 +47,12 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/organizers/" \
      -H 'x-api-key: deb306a6-6f46-4c98-89ce-b03ec4f121e' \
      -H 'Content-Type: text/plain; charset=utf-8' \
      -d $'{
-	"mainLanguage":"nl",
-	"name": {
-		"nl": "publiq vzw",
-		"fr": "publiq vzw"
-	},
-	"url": "https://www.publiq.be"
+  "mainLanguage":"nl",
+  "name": {
+    "nl": "publiq vzw",
+    "fr": "publiq vzw"
+  },
+  "url": "https://www.publiq.be"
 }
 ```
 

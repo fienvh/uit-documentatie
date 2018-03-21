@@ -17,7 +17,7 @@ If successful, this returns a 200 response code with a new unique id in response
 
 ```
 {
-    "id": "54646d8f-994e-4509-8a8c-01fed8f9a241"
+  "id": "54646d8f-994e-4509-8a8c-01fed8f9a241"
 }
 ```
 
@@ -35,7 +35,7 @@ If successful, this returns a 200 response code with the used id in response bod
 
 ```
 {
-    "id": "54646d8f-994e-4509-8a8c-01fed8f9a241"
+  "id": "54646d8f-994e-4509-8a8c-01fed8f9a241"
 }
 ```
 
@@ -47,13 +47,13 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
      -H 'x-api-key: deb306a6-6f46-4c98-89ce-b03ec4f121e' \
      -H 'Content-Type: text/plain; charset=utf-8' \
      -d $'{
-	"mainLanguage": "nl",
-	"name": {
-		"nl": "Publiq",
-		"fr": "Publiq",
-		"en": "Publiq"
-	},
-	"calendarType": "periodic",
+  "mainLanguage": "nl",
+  "name": {
+    "nl": "Publiq",
+    "fr": "Publiq",
+    "en": "Publiq"
+  },
+  "calendarType": "periodic",
   "openingHours": [
         {
             "opens": "10:00",
@@ -65,31 +65,31 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
             ]
         }
     ],
-	"address": {
-		"nl": {
-			"streetAddress": "Henegouwenkaai 41-43",
-			"postalCode": "1080",
-			"addressLocality": "Brussel",
-			"addressCountry": "BE"
-		},
-		"fr": {
-			"streetAddress": "Quai du Hainaut 41-43",
-			"postalCode": "1080",
-			"addressLocality": "Bruxelles",
-			"addressCountry": "BE"
-		},
-		"en": {
-			"streetAddress": "Henegouwenkaai 41-43",
-			"postalCode": "1080",
-			"addressLocality": "Brussels",
-			"addressCountry": "BE"
-		}
-	},
-	"terms": [
-		{
-			"id": "Yf4aZBfsUEu2NsQqsprngw"
-		}
-	]
+  "address": {
+    "nl": {
+      "streetAddress": "Henegouwenkaai 41-43",
+      "postalCode": "1080",
+      "addressLocality": "Brussel",
+      "addressCountry": "BE"
+    },
+    "fr": {
+      "streetAddress": "Quai du Hainaut 41-43",
+      "postalCode": "1080",
+      "addressLocality": "Bruxelles",
+      "addressCountry": "BE"
+    },
+    "en": {
+      "streetAddress": "Henegouwenkaai 41-43",
+      "postalCode": "1080",
+      "addressLocality": "Brussels",
+      "addressCountry": "BE"
+    }
+  },
+  "terms": [
+    {
+      "id": "Yf4aZBfsUEu2NsQqsprngw"
+    }
+  ]
 }'
 ```
 
