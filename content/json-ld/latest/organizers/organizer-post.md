@@ -20,6 +20,7 @@ POST /organizers/
 ## Request body
 
 To create a new organizer the object-body can contain the following properties:
+- mainLanguage (mandatory)
 - website (mandatory)
 - name (mandatory)
 - address
@@ -46,6 +47,7 @@ Authorization: Bearer {token}
 X-Api-Key: {apiKey}
 
 {
+  "mainLanguage": "nl",
   "website": "http://www.stuk.be/",
   "name": "STUK",
   "address": {
