@@ -53,7 +53,7 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
     "fr": "Publiq",
     "en": "Publiq"
   },
-  "calendarType": "periodic",
+  "calendarType": "permanent",
   "openingHours": [
         {
             "opens": "10:00",
