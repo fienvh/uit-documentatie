@@ -47,43 +47,97 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
      -H 'x-api-key: deb306a6-6f46-4c98-89ce-b03ec4f121e' \
      -H 'Content-Type: application/json; charset=utf-8' \
      -d $'{
+  "availableFrom": "2018-03-30T18:45:00+01:00",
+  "bookingInfo": {
+    "availabilityEnds": "2019-12-30T01:02:03+01:00",
+    "availabilityStarts": "2018-12-30T01:02:03+01:00",
+    "email": "test@test.com",
+    "phone": "123",
+    "url": "https://www.test.com",
+    "urlLabel": {
+      "nl": "Test"
+    }
+  },
+  "contactPoint": {
+    "email": [
+      "info@test.be",
+      "contact@test.be"
+    ],
+    "phone": [
+      "002345678900",
+      "003188987689"
+    ],
+    "url": [
+      "https://www.t3.com"
+    ]
+  },
+  "description": {
+    "en": "this is a description",
+    "nl": "dit is de beschrijving"
+  },
+  "location": {
+    "@id": "https://io-test.uitdatabank.be/place/b2064ffa-f2d6-4fda-9573-2d3abfa069d6"
+  },
   "mainLanguage": "nl",
   "name": {
-    "nl": "event name in NL",
-    "en": "event name in EN"
+    "en": "event name in EN",
+    "nl": "event name in NL"
   },
+  "organizer": {
+    "@id": "https://io-test.uitdatabank.be/organizers/02bdbd1b-672e-461e-85b2-9ce3746fb1a6"
+  },
+  "priceInfo": [
+    {
+      "category": "base",
+      "name": {
+        "nl": "Basistarief"
+      },
+      "price": 11,
+      "priceCurrency": "EUR"
+    },
+    {
+      "category": "tariff",
+      "name": {
+        "nl": "Senioren"
+      },
+      "price": 6,
+      "priceCurrency": "EUR"
+    }
+  ],
   "calendarType": "multiple",
   "startDate": "2018-04-01T14:45:00+01:00",
   "endDate": "2018-06-01T18:45:00+01:00",
   "subEvent": [
-        {
-            "@type": "Event",
-            "startDate": "2018-04-01T14:45:00+01:00",
-            "endDate": "2018-04-01T18:45:00+01:00"
-        },
-        {
-            "@type": "Event",
-            "startDate": "2018-05-01T14:45:00+01:00",
-            "endDate": "2018-05-01T18:45:00+01:00"
-        },
-        {
-            "@type": "Event",
-            "startDate": "2018-06-01T14:45:00+01:00",
-            "endDate": "2018-06-01T18:45:00+01:00"
-        }
-    ],
+    {
+      "@type": "Event",
+      "endDate": "2018-04-01T18:45:00+01:00",
+      "startDate": "2018-04-01T14:45:00+01:00"
+    },
+    {
+      "@type": "Event",
+      "endDate": "2018-05-01T18:45:00+01:00",
+      "startDate": "2018-05-01T14:45:00+01:00"
+    },
+    {
+      "@type": "Event",
+      "endDate": "2018-06-01T18:45:00+01:00",
+      "startDate": "2018-06-01T14:45:00+01:00"
+    }
+  ],
   "terms": [
     {
       "id": "0.50.4.0.0"
     },
     {
-      "id": "0.3.2.0.0"
+      "id": "1.8.2.0.0"
     }
   ],
-  "location": {
-    "@id": "https://io-test.uitdatabank.be/places/63e1ada9-bd77-42ad-89f4-3f99c46eeb12"
-  }
-}'
+  "typicalAgeRange": "3-15",
+  "audience": {
+    "audienceType": "members"
+    }
+}
+'
 ```
 
 ## Properties
@@ -203,7 +257,7 @@ only to be used in combination with calendarType `periodic` of `permanent`
       "id": "0.50.4.0.0"
     },
     {
-      "id": "0.3.2.0.0"
+      "id": "1.8.2.0.0"
     }
   ]
 ```
@@ -223,19 +277,64 @@ See documentation for [eventTypes](http://documentatie.uitdatabank.be/content/ui
 This must be a existing placeId
 
 ### audience
-[TO DO]
+
+**Example**
+
+```
+"audience": {
+ "audienceType": "members"
+}
+```
+
+Can contain one of the following: `everyone`, `members`, `education`. When not specified, this will default to `everyone`
 
 ### bookingInfo
-[TO DO]
+
+**Example**
+
+```
+"bookingInfo": {
+  "availabilityEnds": "2019-12-30T01:02:03+01:00",
+  "availabilityStarts": "2018-12-30T01:02:03+01:00",
+  "email": "test@test.com",
+  "phone": "123",
+  "url": "https://www.test.com",
+  "urlLabel": {
+    "nl": "Test"
+  }
+```
 
 ### contactPoint
-[TO DO]
+
+**Example**
+
+```
+"contactPoint": {
+  "email": [
+    "info@test.be",
+    "contact@test.be"
+  ],
+  "phone": [
+    "002345678900",
+    "003188987689"
+  ],
+  "url": [
+    "https://www.t3.com"
+  ]
+}
+```
 
 ### description
-[TO DO]
 
-### facility
-[TO DO]
+**Example**
+
+```
+"description": {
+  "en": "this is a description",
+  "nl": "dit is de beschrijving"
+}
+```
+
 
 ### labels
 [TO DO]
@@ -244,16 +343,52 @@ This must be a existing placeId
 [TO DO]
 
 ### organizer
-[TO DO]
+
+**Example**
+
+```
+"organizer": {
+  "@id": "https://io-test.uitdatabank.be/organizers/02bdbd1b-672e-461e-85b2-9ce3746fb1a6"
+}
+```
 
 ### price
-[TO DO]
+
+**Example**
+
+```
+"priceInfo": [
+  {
+  "category": "base",
+    "name": {
+      "nl": "Basistarief"
+    },
+    "price": 11,
+    "priceCurrency": "EUR"
+  },
+  {
+    "category": "tariff",
+    "name": {
+      "nl": "Senioren"
+    },
+    "price": 6,
+    "priceCurrency": "EUR"
+  }
+]
+```
 
 ### typicalAgeRange
-[TO DO]
 
-### sameAs
-[TO DO]
+**Example**
+
+```
+"typicalAgeRange": "3-15"
+```
 
 ### availableFrom
-[TO DO]
+
+**Example**
+
+```
+"availableFrom": "2018-03-30T18:45:00+01:00"
+```
