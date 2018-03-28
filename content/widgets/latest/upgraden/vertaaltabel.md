@@ -58,6 +58,46 @@ Om de taxonomy in detail te bekijken voeg je het ```/{ID}/classification``` toe,
 
 In SAPI 1 bestonden rubrieken (zoals ‘muziek’). De rubrieken worden niet meer als vaste elementen aangeboden, maar kunnen wel zelf nagebouwd worden door verschillende types en thema’s binnen een query te combineren. 
 
+Hieronder vind je een overzicht van de rubrieken uit SAPI 1 en hun overeenkomstige vertaling in SAPI 3 syntax
+
+| Rubriek | SAPI 1 | SAPI 3 | 
+| -- | -- | -- | 
+| Evenementen | heading=1 | terms.id:(0.5.0.0.0 OR 0.6.0.0.0 OR 0.12.0.0.0 OR 0.28.0.0.0 OR 0.37.0.0.0 OR 0.52.0.0.0 OR 0.56.0.0.0 OR 0.19.0.0.0) | 
+| Feesten | heading=2 | -- | 
+| Festivals | heading=3 | -- | 
+| Markten & kermissen | heading=4 | -- | 
+| Film | heading=5 | -- | 
+| Andere (evenementen) | heading=6 | -- | 
+| Expo & bezienswaardigheden | heading=7 | -- | 
+| Beeldende kunsten | heading=8 | -- | 
+| Fotografie | heading=9 | -- | 
+| Mode & design | heading=10 | -- | 
+| Erfgoed & volkscultuur | heading=11 | -- | 
+| Architectuur & monumenten | heading=12 | -- | 
+| Tuinen & parken | heading=13 | -- | 
+| Muziek | heading=14 | -- | 
+| Pop & rock | heading=15 | -- | 
+| Dance & techno | heading=16 | -- | 
+| Jazz & blues | heading=17 | -- | 
+| Wereldmuziek | heading=18 | -- | 
+| Amusement & kleinkunst | heading=19 | -- | 
+| Klassiek | heading=20 | -- | 
+| Andere (muziek) | heading=21 | -- | 
+| Podium & literatuur | heading=22 | -- | 
+| Theater & dans | heading=23 | -- | 
+| Literatuur & humor | heading=24 | -- | 
+| Cursussen en lezingen | heading=25 | -- | 
+| Van creatief tot kunst | heading=26 | -- | 
+| Van talen tot koken | heading=27 | -- | 
+| Van computer tot techniek | heading=28 | -- | 
+| Van mens tot maatschappij | heading=29 | -- | 
+| Van natuur tot gezondheid | heading=30 | -- | 
+| Sport | heading=31 | -- | 
+| Uitstappen en wandelingen | heading=32 | -- | 
+| Uitgaan en feesten | heading=33 | -- | 
+
+Staat je rubriek of heading er niet tussen? Dan neem je best contact op met [vragen@uitdatabank.be](mailto:vragen@uitdatabank.be).
+
 <a id="nis_codes"></a>
 <h2>NIS-codes</h2>
 
