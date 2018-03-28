@@ -3,7 +3,7 @@
 
 # Hoe upgraden?
 
-## Mijn widgets zijn ingesteld door een IT-leverancier
+## Mijn widgets zijn ingesteld door publiq of een IT-leverancier
 Zijn de widgets aangemaakt door je IT-leverancier, dan kan je voor de upgrade beroep doen op je IT-leverancier of publiq. Een upgrade door publiq is kosteloos en kan je aanvragen door een mailtje te sturen naar [vragen@uitdatabank.be](mailto:vragen@uitdatabank.be). Vergeet daarbij zeker niet te vermelden over welke widgets het gaat.
 
 ## Ik ben IT-leverancier of beheer mijn widgets zelf 
