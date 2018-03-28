@@ -13,7 +13,7 @@ We sommen hieronder op op welke punten je geüpgrade versie kan verschillen.
 De weergave van locatie-info verschilt tussen widgets versie 2 en versie 3.
 
 **Versie 2:**
-In versie 2 was de locatie-info opgedeeld in 3 afzonderlijke componenten:
+De locatie-info was opgedeeld in 3 afzonderlijke componenten:
 <pre>
 Locatie     Handelsbeurs Concertzaal
 Adres       Kouter 29
@@ -21,7 +21,7 @@ Gemeente    Gent
 </pre>
 
 **Versie 3:** 
-In de nieuwe versie wordt de locatieinfo op één lijn geprint:
+De locatieinfo wordt op één lijn geprint:
 <pre>
 Locatie    Handelsbeurs Concertzaal, 9000 Gent
 </pre>
