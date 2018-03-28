@@ -26,7 +26,7 @@ Hieronder vind je een overzicht van veel gebruikte attributen binnen de widgets,
 | Eventtype (id) | type=0.50.4.0.0 | terms.id:0.50.4.0.0 | [Info](#identifiers) |
 | Thema (naam) | thema="Pop en Rock" |terms.label:"Pop en Rock" |  |
 | Thema (id) | thema=1.8.3.1.0 | terms.id:1.8.3.1.0 | [Info](#identifiers) |
-| Rubrieken | heading="muziek" | nvt | [Info](#rubrieken) |
+| Rubrieken | heading="muziek" | Zie info | [Info](#rubrieken) |
 | Provincie (naam) | regio=Gent | regions:reg-Gent |  |
 | Stad of gemeente (naam) | city=Gent | regions:gem-Gent |  |
 | Stad of gemeente (nis) | nvt | regions:nis-44021-Z  | [Info](#nis_codes) |
@@ -42,6 +42,8 @@ Hieronder vind je een overzicht van veel gebruikte attributen binnen de widgets,
 | locatie (naam)| location="Botanique" | location.name:"Botanique" |  |
 | locatie (id)| location=2bb557aa-3d82-4494-8496-fc7c8f4a2828 | locationId:2bb557aa-3d82-4494-8496-fc7c8f4a2828|  |
 | vrije zoek| q="Radiohead" | text:"Radiohead" |  |
+| tijdelijke evenementen | temporary=true | calendarType:single OR calendarType:multiple |  |
+| permanente evenementen | temporary=fale | calenderType:permanent |  |
 
 Volstaat bovenstaande vertaaltabel niet om je (complexe) SAPI 1-query te vertalen? 
 * Neem dan een kijkje op de [documentatiepagina van SAPI 3](http://documentatie.uitdatabank.be/content/search_api_3/latest/getting-started/). Voor widgets dien je steeds gebruik te maken van de syntax onder ‘Advanced queries’.
