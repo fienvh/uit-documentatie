@@ -40,6 +40,15 @@ De volgorde van de facetfilters verschilt (van links naar rechts, boven naar ond
 * Wat
 * Extra opties
 
+### Afbeeldingen
+Afbeeldingen worden in de nieuwe bouwer groter weergegeven. Omdat dit afbeeldingen in de vorige versie standaard kleiner (100px op 80px) getoond werden, is het mogelijk dat je afbeeldingen er onscherp uitzien. 
+Om je afbeeldingen scherp te maken klik je, afhankelijk van het blok dat je selecteert op lijstelementen of tipselementen. Onder 'Afbeelding' kan je de hoogte en breedte aanpassen. We raden volgende instellingen aan:
+- Breedte: 480px
+- Hoogte: 360px
+
+Dit is ook de standaardinstelling binnen de nieuwe versie van de widgets.
+Vergeet deze aanpassing ook niet te herhalen voor je detailpagina.
+
 ## Query ‘extra zoekparameters’
 In de vorige versie van de widgets kon je een query instellen onder ‘extra zoekparameters’. Deze query werd bij de upgrade gekopieerd en vind je nu terug onder ‘extra parameters’. Let wel: deze query is geschreven in de syntax van Search API 1 en zal niet de gewenste resultaten geven in de nieuwe versie van de widgets, die gebruik maakt van Search API 3.
 Een vertaaltabel om je query van API 1-syntax te vertalen naar API 3-syntax vind je [hier](http://documentatie.uitdatabank.be/content/widgets/latest/upgraden/vertaaltabel/).
