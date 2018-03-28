@@ -13,15 +13,20 @@ We sommen hieronder op op welke punten je geüpgrade versie kan verschillen.
 De weergave van locatie-info verschilt tussen widgets versie 2 en versie 3.
 
 **Versie 2:**
+In versie 2 was de locatie-info opgedeeld in 3 afzonderlijke componenten:
 <pre>
 Locatie     Handelsbeurs Concertzaal
+Adres       Kouter 29
 Gemeente    Gent
 </pre>
 
 **Versie 3:** 
+In de nieuwe versie wordt de locatieinfo op één lijn geprint:
 <pre>
 Locatie    Handelsbeurs Concertzaal, 9000 Gent
 </pre>
+
+Dit heeft als locatie-informatie enkel is overgenomen in de geüpgrade versie als het veld _locatie_ opgenomen was in de widget. Wanneer enkel _Adres_ en/of _Gemeente_ getoond werd in versie 2, zal de locatieinfo niet getoond worden in de geüpgrade versie. Je kan gemakkelijk afwijken van deze standaardinstellingen door onder de lijstelementen instelling 'waar' aan te vinken.
 
 ### Facetfilters
 In de vorige versie van de widgets waren de facetfilters een onderdeel van het zoekresultaten-blok. 
