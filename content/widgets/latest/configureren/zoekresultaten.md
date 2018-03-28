@@ -28,7 +28,7 @@ Bepaal welke elementen (informatie) zichtbaar zijn in de lijstweergave van je ev
 * Taaliconen
 * Afbeelding en de breedte / hoogte van de afbeelding
 * Positie van de afbeelding
-* Weergeven van (specifieke) labels
+* Weergeven van (specifieke) labels. **Tip**: als je meerdere labels wil toevoegen, dien je die te scheiden door middel van een komma.
 * Leeslink
 
 ## Detailpagina
