@@ -53,7 +53,9 @@ Vergeet deze aanpassing ook niet te herhalen voor je detailpagina.
 In de vorige versie van de widgets kon je een query instellen onder ‘extra zoekparameters’. Deze query werd bij de upgrade gekopieerd en vind je nu terug onder ‘extra parameters’. Let wel: deze query is geschreven in de syntax van Search API 1 en zal niet de gewenste resultaten geven in de nieuwe versie van de widgets, die gebruik maakt van Search API 3.
 Een vertaaltabel om je query van API 1-syntax te vertalen naar API 3-syntax vind je [hier](http://documentatie.uitdatabank.be/content/widgets/latest/upgraden/vertaaltabel/).
 
-Voor de tipswidgets is de query van de extra zoekparameters niet mee gekopieerd, omdat dit deze in de meeste gevallen overbodig en zelfs belemmerend werkte. Wil je toch extra zoekparameters definiëren, dan kan je dat onder _extra parameters_.
+**Opgelet**: 
+- het kan zijn dat **spaties** uit je SAPI 1-query geëncodeerd zijn met een *+* of *_*. Het queryveld in de nieuwe widgetbouwer kan deze tekens niet zelf decoderen naar een spatie. Vind je deze tekens (*+* / *_*) in je query, vervang deze dan door een spatie.
+- voor de **tipswidgets** is de query van de extra zoekparameters niet mee gekopieerd, omdat dit deze in de meeste gevallen overbodig en zelfs belemmerend werkte. Wil je toch extra zoekparameters definiëren, dan kan je dat onder _extra parameters_.
 
 ## CSS
 In de vorige versie van de widget voegde je CSS-regels toe per blok. Dit maakte het beheer onoverzichtelijk en ongebruiksvriendelijk. 
