@@ -302,6 +302,7 @@ Can contain one of the following: `everyone`, `members`, `education`. When not s
   "urlLabel": {
     "nl": "Test"
   }
+}
 ```
 
 ### contactPoint
@@ -335,7 +336,6 @@ Can contain one of the following: `everyone`, `members`, `education`. When not s
 }
 ```
 
-
 ### labels
 [TO DO]
 
@@ -352,7 +352,7 @@ Can contain one of the following: `everyone`, `members`, `education`. When not s
 }
 ```
 
-### price
+### priceInfo
 
 **Example**
 
