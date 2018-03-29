@@ -136,33 +136,41 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
   "audience": {
     "audienceType": "members"
     }
-}
-'
+}'
 ```
 
 ## Properties
 
-Mandatory properties:
-1. mainLanguage
-2. name
-3. calendarType
-  * startDate: in combination with `single`, `multiple`, `periodic`
-  * endDate: in combination with `single`, `multiple`, `periodic`
-  * subEvents: in combination with `multiple`
-4. terms
-5. location
+**Mandatory properties**
+
+1. `mainLanguage`
+2. `name`
+3. `calendarType`
+  * `startDate`: in combination with `single`, `multiple`, `periodic`
+  * `endDate`: in combination with `single`, `multiple`, `periodic`
+  * `subEvents`: in combination with `multiple`
+4. `terms`
+5. `location`
 
 
 ### mainLanguage
 
+1. must have a corresponding translation in all translatable properties:
+  * `name`
+  * `description`
+  * `bookingInfo/url/urlLabel`
+  * `priceInfo/name`
+
+
 **Example**
 
 ```
-"mainLanguage": "en"
+"mainLanguage": "nl"
 ```
-mainLanguage must have a corresponding translation in `name` property
 
 ### name
+
+* Must contain at least the mainLanguage translation, can contain multiple translations.
 
 **Example**
 
@@ -175,34 +183,44 @@ mainLanguage must have a corresponding translation in `name` property
 
 ### calendarType
 
+1. Possible values: `single`, `multiple`, `periodic`, `permanent`.
+* `single`: must be combined with `startDate` and `endDate`, can contain 1 `subEvents`
+* `multiple`: must be combined with `startDate`, `endDate` and at least 2 `subEvents`
+* `periodic`: must be combined with `startDate`, `endDate` and `subEvents`, can contain `openingHours`
+* `permanent`: can contain `openingHours` (this calendarType is not preferred for events, use offertype `place` instead)
+
 **Example**
 
 ```
  "calendarType": "multiple"
 ```
-possible values: `single`, `multiple`, `periodic`, `permanent`
 
 ### startDate
+
+* Must be a valid ISO-8601 datetime formed as `YYYY-MM-DDThh:mm:ss+00:00`
+* Only to be used in combination with calendarType `single`, `multiple`, `periodic`
 
 **Example**
 
 ```
 "startDate": "2018-04-01T14:45:00+01:00"
 ```
-should be a valid dateTime
-Only to be used in combination with calendarType `single`, `multiple`, `periodic`
 
 ### endDate
+
+* Must be a valid ISO-8601 datetime formed as `YYYY-MM-DDThh:mm:ss+00:00`
+* Only to be used in combination with calendarType `single`, `multiple`, `periodic`
 
 **Example**
 
 ```
 "endDate": "2018-06-30T18:45:00+01:00"
 ```
-should be a valid dateTime
-Only to be used in combination with calendarType `single`, `multiple`, `periodic`
 
 ### subEvents
+
+* Only used in combination with calendarType `single` and `multiple`.
+* Mandatory when calendarType `multiple` is chosen.
 
 **Example**
 
@@ -226,9 +244,9 @@ Only to be used in combination with calendarType `single`, `multiple`, `periodic
     ]
 ```
 
-Only in combination with calendarType `single` and `multiple`. Mandatory when calendarType `multiple` is chosen.
-
 ### openingHours
+
+* only to be used in combination with calendarType `periodic` or `permanent`
 
 **Example**
 
@@ -245,9 +263,12 @@ Only in combination with calendarType `single` and `multiple`. Mandatory when ca
         }
     ]
 ```
-only to be used in combination with calendarType `periodic` of `permanent`
 
 ### terms
+
+* Must contain only 1 id for eventtype, can be combined with a theme id.
+
+* See documentation for [eventTypes](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_aanbod/) and [event themes](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/combinatie_type_thema/)
 
 **Example**
 
@@ -261,22 +282,23 @@ only to be used in combination with calendarType `periodic` of `permanent`
     }
   ]
 ```
-Must contain 1 id for eventtype, can be combined with a theme id.
-
-See documentation for [eventTypes](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_aanbod/) and [event themes](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/combinatie_type_thema/)
 
 ### location
+
+* This must be a existing and valid placeId
 
 **Example**
 
 ```
  "location": {
-    "@id": "https://io.uitdatabank.be/place/efaa2c11-bd42-4828-8579-4ee50e811f01"
+    "@id": "https://io-test.uitdatabank.be/place/efaa2c11-bd42-4828-8579-4ee50e811f01"
   }
 ```
-This must be a existing placeId
 
 ### audience
+
+* Can contain one of the following: `everyone`, `members`, `education`.
+* When not specified, this will default to `everyone`. The search api excludes by default all offers with audienceType `members` and `education`.
 
 **Example**
 
@@ -286,9 +308,21 @@ This must be a existing placeId
 }
 ```
 
-Can contain one of the following: `everyone`, `members`, `education`. When not specified, this will default to `everyone`
-
 ### bookingInfo
+
+Can contain the following properties:
+
+1. `phone`: can contain any string, only 1 entry allowed
+2. `email`: must be formed valid, only 1 entry allowed
+3. `url`: must be formed valid, only 1 entry allowed
+4. `urlLabel`:
+  * must contain at least the mainLanguage translation
+  * only to be used in combination with `url`
+5. `availabilityStarts` and `availabilityEnds`
+  * Must be a valid ISO-8601 datetime formed as `YYYY-MM-DDThh:mm:ss+00:00`
+  * only in combination with one of the available bookingInfo properties `url`, `email`, `phone`
+
+To delete one bookingInfo property from an offer, remove it from the bookingInfo object and update the offer.
 
 **Example**
 
@@ -306,6 +340,14 @@ Can contain one of the following: `everyone`, `members`, `education`. When not s
 ```
 
 ### contactPoint
+
+Can contain the following properties:
+
+* `phone`: can contain any string, multiple entries allowed
+* `email`: must be formed valid, multiple entries allowed
+* `url`: must be formed valid, multiple entries allowed
+
+To delete one contactPoint property from an offer, remove it from the contactPoint object and update the offer.
 
 **Example**
 
@@ -327,6 +369,8 @@ Can contain one of the following: `everyone`, `members`, `education`. When not s
 
 ### description
 
+* Must contain at least the `mainLanguage` translation, can contain multiple translations.
+
 **Example**
 
 ```
@@ -336,13 +380,9 @@ Can contain one of the following: `everyone`, `members`, `education`. When not s
 }
 ```
 
-### labels
-[TO DO]
-
-### mediaObject & image
-[TO DO]
-
 ### organizer
+
+* must be a existing and valid organizerId
 
 **Example**
 
@@ -354,12 +394,16 @@ Can contain one of the following: `everyone`, `members`, `education`. When not s
 
 ### priceInfo
 
+* Must contain category `base`
+* can contain multiple additional `tariff`s
+* `name` must contain at least the mainLanguage translation
+
 **Example**
 
 ```
 "priceInfo": [
   {
-  "category": "base",
+    "category": "base",
     "name": {
       "nl": "Basistarief"
     },
@@ -387,8 +431,16 @@ Can contain one of the following: `everyone`, `members`, `education`. When not s
 
 ### availableFrom
 
+* Must be a valid ISO-8601 datetime formed as `YYYY-MM-DDThh:mm:ss+00:00`
+
 **Example**
 
 ```
 "availableFrom": "2018-03-30T18:45:00+01:00"
 ```
+
+### labels
+[TO DO]
+
+### mediaObject & image
+[TO DO]

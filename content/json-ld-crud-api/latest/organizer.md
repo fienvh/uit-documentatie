@@ -54,18 +54,6 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/organizers/" \
   },
   "url": "https://www.publiq.be/2",
   "address": {
-    "en": {
-      "addressCountry": "BE",
-      "addressLocality": "Brussels",
-      "postalCode": "1000",
-      "streetAddress": "Boulevard Anspach 107"
-    },
-    "fr": {
-      "addressCountry": "BE",
-      "addressLocality": "Bruxelles",
-      "postalCode": "1000",
-      "streetAddress": "Boulevard Anspach 107"
-    },
     "nl": {
       "addressCountry": "BE",
       "addressLocality": "Brussel",
@@ -91,12 +79,17 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/organizers/" \
 
 ## Properties
 
-Mandatory properties:
-1. mainLanguage: must be `nl`
-2. name
-3. url: must be unique
+**Mandatory properties**
+
+1. `mainLanguage`
+2. `name`
+3. `url`
 
 ### mainLanguage
+
+1. must have a corresponding translation in all translatable properties:
+  * `name`
+  * `address`
 
 **Example**
 
@@ -105,6 +98,8 @@ Mandatory properties:
 ```
 
 ### name
+
+* Must contain at least the mainLanguage translation, can contain multiple translations.
 
 **Example**
 
@@ -117,15 +112,17 @@ Mandatory properties:
 
 ### Url
 
+* Every organizer must have a unique URL
+
 **Example**
 
 ```
 "url": "https://www.organizertest.be"
 ```
 
-Must be a unique url
-
 ### address
+
+* Must contain the `mainLanguage` translation
 
 **Example**
 
@@ -142,6 +139,14 @@ Must be a unique url
 
 
 ### contactPoint
+
+Can contain the following properties:
+
+* `phone`: can contain any string, multiple entries allowed
+* `email`: must be formed valid, multiple entries allowed
+* `url`: must be formed valid, multiple entries allowed
+
+To delete one contactPoint property from an offer, remove it from the contactPoint object and update the offer.
 
 **Example**
 

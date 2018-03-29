@@ -113,7 +113,7 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
     }
   ],
   "organizer": {
-    "@id": "https://io-acc.uitdatabank.be/organizers/02bdbd1b-672e-461e-85b2-9ce3746fb1a6"
+    "@id": "https://io-test.uitdatabank.be/organizers/02bdbd1b-672e-461e-85b2-9ce3746fb1a6"
   },
   "priceInfo": [
     {
@@ -145,26 +145,34 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
 
 ## Properties
 
-Mandatory properties:
-1. mainLanguage
-2. name
-3. calendarType
-  * startDate: in combination with `periodic`
-  * endDate: in combination with `periodic`
-4. terms
-5. address
+**Mandatory properties**
+
+1. `mainLanguage`
+2. `name`
+3. `calendarType`
+  * `startDate`: in combination with calendarType `periodic`
+  * `endDate`: in combination with calendarType `periodic`
+4. `terms`
+5. `address`
 
 ### mainLanguage
+
+1. must have a corresponding translation in all translatable properties:
+  * `name`
+  * `description`
+  * `address`
+  * `bookingInfo/url/urlLabel`
+  * `priceInfo/name`
 
 **Example**
 
 ```
-"mainLanguage": "en"
+"mainLanguage": "nl"
 ```
-mainLanguage must have a corresponding translation in `name` property
-
 
 ### name
+
+* Must contain at least the mainLanguage translation, can contain multiple translations.
 
 **Example**
 
@@ -177,34 +185,39 @@ mainLanguage must have a corresponding translation in `name` property
 
 ### calendarType
 
+* possible values: `periodic`, `permanent`
+
 **Example**
 
 ```
  "calendarType": "periodic"
 ```
-possible values: `periodic`, `permanent`
 
 ### startDate
+
+* Must be a valid ISO-8601 datetime formed as `YYYY-MM-DDThh:mm:ss+00:00`
+* Only to be used in combination with calendarType `periodic`
 
 **Example**
 
 ```
 "startDate": "2018-04-01T14:45:00+01:00"
 ```
-should be a valid dateTime
-Only to be used in combination with calendarType `periodic`
 
 ### endDate
+
+* Must be a valid ISO-8601 datetime formed as `YYYY-MM-DDThh:mm:ss+00:00`
+* Only to be used in combination with calendarType `periodic`
 
 **Example**
 
 ```
 "endDate": "2018-06-30T18:45:00+01:00"
 ```
-should be a valid dateTime
-Only to be used in combination with calendarType `periodic`
 
 ### openingHours
+
+* Can be used in combination with calendarType `periodic` or `permanent`
 
 **Example**
 
@@ -221,9 +234,11 @@ Only to be used in combination with calendarType `periodic`
         }
     ]
 ```
-only to be used in combination with calendarType `periodic` of `permanent`
-
 ### terms
+
+* Must contain 1 id for placeType, can NOT be combined with a theme id.
+
+* See documentation for [placeTypes](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_locatie/).
 
 **Example**
 
@@ -234,12 +249,10 @@ only to be used in combination with calendarType `periodic` of `permanent`
     }
   ]
 ```
-Must contain 1 id for placeType, can NOT be combined with a theme id.
-
-See documentation for [placeTypes](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_locatie/).
-
 
 ### address
+
+* Must contain at least the `mainLanguage` translation, can contain multiple translations.
 
 **Example**
 
@@ -268,6 +281,20 @@ See documentation for [placeTypes](http://documentatie.uitdatabank.be/content/ui
 
 ### bookingInfo
 
+Can contain the following properties:
+
+1. `phone`: can contain any string, only 1 entry allowed
+2. `email`: must be formed valid, only 1 entry allowed
+3. `url`: must be formed valid, only 1 entry allowed
+4. `urlLabel`:
+  * must contain at least the mainLanguage translation
+  * only to be used in combination with `url`
+5. `availabilityStarts` and `availabilityEnds`
+  * Must be a valid ISO-8601 datetime formed as `YYYY-MM-DDThh:mm:ss+00:00`
+  * only in combination with one of the available bookingInfo properties `url`, `email`, `phone`
+
+To delete one bookingInfo property from an offer, remove it from the bookingInfo object and update the offer.
+
 **Example**
 
 ```
@@ -284,6 +311,14 @@ See documentation for [placeTypes](http://documentatie.uitdatabank.be/content/ui
 ```
 
 ### contactPoint
+
+Can contain the following properties:
+
+* `phone`: can contain any string, multiple entries allowed
+* `email`: must be formed valid, multiple entries allowed
+* `url`: must be formed valid, multiple entries allowed
+
+To delete one contactPoint property from an offer, remove it from the contactPoint object and update the offer.
 
 **Example**
 
@@ -303,8 +338,9 @@ See documentation for [placeTypes](http://documentatie.uitdatabank.be/content/ui
 }
 ```
 
-
 ### description
+
+* Must contain at least the `mainLanguage` translation, can contain multiple translations.
 
 **Example**
 
@@ -315,13 +351,9 @@ See documentation for [placeTypes](http://documentatie.uitdatabank.be/content/ui
 }
 ```
 
-### mediaObject & image
-[TO DO]
-
-### labels
-[TO DO]
-
 ### organizer
+
+* must be a existing and valid organizerId
 
 **Example**
 
@@ -332,6 +364,10 @@ See documentation for [placeTypes](http://documentatie.uitdatabank.be/content/ui
 ```
 
 ### priceInfo
+
+* Must contain category `base`
+* can contain multiple additional `tariff`s
+* `name` must contain at least the mainLanguage translation
 
 **Example**
 
@@ -366,8 +402,16 @@ See documentation for [placeTypes](http://documentatie.uitdatabank.be/content/ui
 
 ### availableFrom
 
+* Must be a valid ISO-8601 datetime formed as `YYYY-MM-DDThh:mm:ss+00:00`
+
 **Example**
 
 ```
 "availableFrom": "2018-03-30T18:45:00+01:00"
 ```
+
+### mediaObject & image
+[TO DO]
+
+### labels
+[TO DO]
