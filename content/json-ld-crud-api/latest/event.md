@@ -184,8 +184,8 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
 ### calendarType
 
 1. Possible values: `single`, `multiple`, `periodic`, `permanent`.
-* `single`: must be combined with `startDate` and `endDate`, can contain 1 `subEvents`
-* `multiple`: must be combined with `startDate`, `endDate` and at least 2 `subEvents`
+* `single`: must be combined with `startDate` and `endDate`, can contain 1 `subEvent`
+* `multiple`: must be combined with `startDate`, `endDate` and at least 2 `subEvent`s
 * `periodic`: must be combined with `startDate`, `endDate` and `subEvents`, can contain `openingHours`
 * `permanent`: can contain `openingHours` (this calendarType is not preferred for events, use offertype `place` instead)
 
@@ -217,7 +217,7 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
 "endDate": "2018-06-30T18:45:00+01:00"
 ```
 
-### subEvents
+### subEvent
 
 * Only used in combination with calendarType `single` and `multiple`.
 * Mandatory when calendarType `multiple` is chosen.
@@ -266,11 +266,11 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
 
 ### terms
 
-* Must contain only 1 id for eventtype, can be combined with a theme id.
-
+* Must contain only 1 `id` for eventtype, can be combined with a theme id.
+* Can contain `domain` and `label`, but only `id` will be validated
 * See documentation for [eventTypes](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_aanbod/) and [event themes](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/combinatie_type_thema/)
 
-**Example**
+**Example 1**
 
 ```
 "terms": [
@@ -281,6 +281,23 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
       "id": "1.8.2.0.0"
     }
   ]
+```
+
+**Example 2**
+
+```
+"terms": [
+  {
+    "domain": "eventtype",
+    "id": "0.50.4.0.0",
+    "label": "Concert"
+  },
+  {
+    "domain": "theme",
+    "id": "1.8.2.0.0",
+    "label": "Jazz en blues"
+  }
+]
 ```
 
 ### location
