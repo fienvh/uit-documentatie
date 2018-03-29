@@ -1033,3 +1033,5 @@
               href: "upgraden/browsercompatibiliteit"
             - title: "Vertaaltabel SAPI-syntax"
               href: "upgraden/vertaaltabel"
+            - title: "Vertaaltabel regio's"
+              href: "upgraden/regiolijst"
