@@ -98,6 +98,7 @@ Hieronder vind je een overzicht van de rubrieken uit SAPI 1 en hun overeenkomsti
 | Sport | heading=31 | terms.id:(0.0.0.0.0 OR 0.3.1.0.0 OR 0.3.3.0.0 OR 0.6.0.0.0 OR 0.12.0.0.0 OR 0.19.0.0.0 OR 0.50.21.0.0 OR 0.57.0.0.0 OR 0.59.0.0.0) AND terms.id:(1.51.3.0.0 OR 1.51.6.0.0 OR 1.51.10.0.0 OR 1.51.11.0.0 OR 1.51.12.0.0 OR 1.51.13.0.0 OR 1.51.14.0.0 OR 1.58.8.0.0) | 
 | Uitstappen en wandelingen | heading=32 | terms.id:(0.7.0.0.0 OR 0.17.0.0.0 OR 0.41.0.0.0 OR 0.53.0.0.0) | 
 | Uitgaan en feesten | heading=33 | terms.id:(0.28.0.0.0 OR 0.49.0.0.0 OR 0.50.4.0.0 OR 1.50.0.0.0) | 
+| En-operator | & | AND |
 
 Staat je rubriek of heading er niet tussen? Dan neem je best contact op met [vragen@uitdatabank.be](mailto:vragen@uitdatabank.be).
 
