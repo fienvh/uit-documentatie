@@ -104,10 +104,10 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/organizers/" \
 **Example**
 
 ```
- "name": {
-    "nl": "organizer name in NL",
-    "en": "organizer name in EN"
-  }
+"name": {
+  "nl": "organizer name in NL",
+  "en": "organizer name in EN"
+}
 ```
 
 ### Url
@@ -127,14 +127,14 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/organizers/" \
 **Example**
 
 ```
-  "address": {
-    "nl": {
-      "addressCountry": "BE",
-      "addressLocality": "Brussel",
-      "postalCode": "1000",
-      "streetAddress": "Anspachlaan 107"
-    }
+"address": {
+  "nl": {
+    "addressCountry": "BE",
+    "addressLocality": "Brussel",
+    "postalCode": "1000",
+    "streetAddress": "Anspachlaan 107"
   }
+}
 ```
 
 

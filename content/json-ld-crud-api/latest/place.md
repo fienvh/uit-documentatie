@@ -177,10 +177,10 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
 **Example**
 
 ```
- "name": {
-    "nl": "place name in NL",
-    "en": "place name in EN"
-  }
+"name": {
+  "nl": "place name in NL",
+  "en": "place name in EN"
+}
 ```
 
 ### calendarType
@@ -190,7 +190,7 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
 **Example**
 
 ```
- "calendarType": "periodic"
+"calendarType": "periodic"
 ```
 
 ### startDate
@@ -223,16 +223,16 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
 
 ```
 "openingHours": [
-        {
-            "opens": "10:00",
-            "closes": "16:30",
-            "dayOfWeek": [
-                "monday",
-                "saturday",
-                "sunday"
-            ]
-        }
+  {
+    "opens": "10:00",
+    "closes": "16:30",
+    "dayOfWeek": [
+      "monday",
+      "saturday",
+      "sunday"
     ]
+  }
+]
 ```
 ### terms
 
@@ -244,10 +244,10 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
 
 ```
 "terms": [
-    {
-      "id": "OyaPaf64AEmEAYXHeLMAtA"
-    }
-  ]
+  {
+    "id": "OyaPaf64AEmEAYXHeLMAtA"
+  }
+]
 ```
 
 ### address
@@ -257,26 +257,26 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
 **Example**
 
 ```
-  "address": {
-    "en": {
-      "addressCountry": "BE",
-      "addressLocality": "Brussels",
-      "postalCode": "1000",
-      "streetAddress": "Boulevard Anspach 107"
-    },
-    "fr": {
-      "addressCountry": "BE",
-      "addressLocality": "Bruxelles",
-      "postalCode": "1000",
-      "streetAddress": "Boulevard Anspach 107"
-    },
-    "nl": {
-      "addressCountry": "BE",
-      "addressLocality": "Brussel",
-      "postalCode": "1000",
-      "streetAddress": "Anspachlaan 107"
-    }
+"address": {
+  "en": {
+    "addressCountry": "BE",
+    "addressLocality": "Brussels",
+    "postalCode": "1000",
+    "streetAddress": "Boulevard Anspach 107"
+  },
+  "fr": {
+    "addressCountry": "BE",
+    "addressLocality": "Bruxelles",
+    "postalCode": "1000",
+    "streetAddress": "Boulevard Anspach 107"
+  },
+  "nl": {
+    "addressCountry": "BE",
+    "addressLocality": "Brussel",
+    "postalCode": "1000",
+    "streetAddress": "Anspachlaan 107"
   }
+}
 ```
 
 ### bookingInfo

@@ -175,10 +175,10 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
 **Example**
 
 ```
- "name": {
-    "nl": "event name in NL",
-    "en": "event name in EN"
-  }
+"name": {
+  "nl": "event name in NL",
+  "en": "event name in EN"
+}
 ```
 
 ### calendarType
@@ -192,7 +192,7 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
 **Example**
 
 ```
- "calendarType": "multiple"
+"calendarType": "multiple"
 ```
 
 ### startDate
@@ -225,23 +225,23 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
 **Example**
 
 ```
- "subEvent": [
-        {
-            "@type": "Event",
-            "startDate": "2018-04-01T14:45:00+01:00",
-            "endDate": "2018-04-01T18:45:00+01:00"
-        },
-        {
-            "@type": "Event",
-            "startDate": "2018-05-01T14:45:00+01:00",
-            "endDate": "2018-05-01T18:45:00+01:00"
-        },
-        {
-            "@type": "Event",
-            "startDate": "2018-06-01T14:45:00+01:00",
-            "endDate": "2018-06-01T18:45:00+01:00"
-        }
-    ]
+"subEvent": [
+  {
+    "@type": "Event",
+    "startDate": "2018-04-01T14:45:00+01:00",
+    "endDate": "2018-04-01T18:45:00+01:00"
+  },
+  {
+    "@type": "Event",
+    "startDate": "2018-05-01T14:45:00+01:00",
+    "endDate": "2018-05-01T18:45:00+01:00"
+  },
+  {
+    "@type": "Event",
+    "startDate": "2018-06-01T14:45:00+01:00",
+    "endDate": "2018-06-01T18:45:00+01:00"
+  }
+]
 ```
 
 ### openingHours
@@ -252,16 +252,16 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
 
 ```
 "openingHours": [
-        {
-            "opens": "10:00",
-            "closes": "16:30",
-            "dayOfWeek": [
-                "monday",
-                "saturday",
-                "sunday"
-            ]
-        }
-    ]
+  {
+    "opens": "10:00",
+    "closes": "16:30",
+    "dayOfWeek": [
+      "monday",
+      "saturday",
+      "sunday"
+      ]
+  }
+]
 ```
 
 ### terms
@@ -274,13 +274,13 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
 
 ```
 "terms": [
-    {
-      "id": "0.50.4.0.0"
-    },
-    {
-      "id": "1.8.2.0.0"
-    }
-  ]
+  {
+    "id": "0.50.4.0.0"
+  },
+  {
+    "id": "1.8.2.0.0"
+  }
+]
 ```
 
 **Example 2**
@@ -307,9 +307,9 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
 **Example**
 
 ```
- "location": {
-    "@id": "https://io-test.uitdatabank.be/place/efaa2c11-bd42-4828-8579-4ee50e811f01"
-  }
+"location": {
+  "@id": "https://io-test.uitdatabank.be/place/efaa2c11-bd42-4828-8579-4ee50e811f01"
+}
 ```
 
 ### audience
@@ -321,7 +321,7 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
 
 ```
 "audience": {
- "audienceType": "members"
+  "audienceType": "members"
 }
 ```
 
