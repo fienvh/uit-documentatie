@@ -196,6 +196,7 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
 ### startDate
 
 * Must be a valid ISO-8601 datetime formed as `YYYY-MM-DDThh:mm:ss+00:00`
+* must be smaller than or equal to `endDate`
 * Only to be used in combination with calendarType `periodic`
 
 **Example**
@@ -207,6 +208,7 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
 ### endDate
 
 * Must be a valid ISO-8601 datetime formed as `YYYY-MM-DDThh:mm:ss+00:00`
+* must be greater than or equal to `startDate`
 * Only to be used in combination with calendarType `periodic`
 
 **Example**
@@ -410,7 +412,7 @@ To delete one contactPoint property from an offer, remove it from the contactPoi
 "availableFrom": "2018-03-30T18:45:00+01:00"
 ```
 
-### mediaObject & image
+### mediaObject & main Image
 [TO DO]
 
 ### labels
