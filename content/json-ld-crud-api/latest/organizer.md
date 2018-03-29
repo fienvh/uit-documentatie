@@ -47,13 +47,46 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/organizers/" \
      -H 'x-api-key: deb306a6-6f46-4c98-89ce-b03ec4f121e' \
      -H 'Content-Type: text/plain; charset=utf-8' \
      -d $'{
-  "mainLanguage":"nl",
+  "mainLanguage": "nl",
   "name": {
-    "nl": "publiq vzw",
-    "fr": "publiq vzw"
+    "fr": "publiq vzw",
+    "nl": "publiq vzw"
   },
-  "url": "https://www.publiq.be"
-}
+  "url": "https://www.publiq.be/2",
+  "address": {
+    "en": {
+      "addressCountry": "BE",
+      "addressLocality": "Brussels",
+      "postalCode": "1000",
+      "streetAddress": "Boulevard Anspach 107"
+    },
+    "fr": {
+      "addressCountry": "BE",
+      "addressLocality": "Bruxelles",
+      "postalCode": "1000",
+      "streetAddress": "Boulevard Anspach 107"
+    },
+    "nl": {
+      "addressCountry": "BE",
+      "addressLocality": "Brussel",
+      "postalCode": "1000",
+      "streetAddress": "Anspachlaan 107"
+    }
+  },
+  "contactPoint": {
+    "email": [
+      "info@test.be",
+      "contact@test.be"
+    ],
+    "phone": [
+      "002345678900",
+      "003188987689"
+    ],
+    "url": [
+      "https://www.t3.com"
+    ]
+  }
+}'
 ```
 
 ## Properties
@@ -93,10 +126,40 @@ Mandatory properties:
 Must be a unique url
 
 ### address
-[TO DO]
+
+**Example**
+
+```
+  "address": {
+    "nl": {
+      "addressCountry": "BE",
+      "addressLocality": "Brussel",
+      "postalCode": "1000",
+      "streetAddress": "Anspachlaan 107"
+    }
+  }
+```
+
 
 ### contactPoint
-[TO DO]
+
+**Example**
+
+```
+"contactPoint": {
+  "email": [
+    "info@test.be",
+    "contact@test.be"
+  ],
+  "phone": [
+    "002345678900",
+    "003188987689"
+  ],
+  "url": [
+    "https://www.t3.com"
+  ]
+}
+```
 
 ### label
 [TO DO]
