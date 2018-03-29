@@ -30,7 +30,7 @@ Onderstaande lijst van toegankelijkheidsvoorzieningen werd samengesteld in overl
 | Tolken Vlaamse Gebarentaal || 3.33.0.0.0 |
 | Vereenvoudigde informatie || 3.34.0.0.0 |
 | 1 begeleider gratis || 3.35.0.0.0 |
-| Verzorginsruimte || 3.36.0.0.0 |
+| Verzorgingsruimte || 3.36.0.0.0 |
 | Oplaadzone rolstoelen || 3.37.0.0.0 |
 | Inter-assistentie | Er is assistentie vanuit INTER voorzien | 3.38.0.0.0 |
 | Begeleiderspas || 3.39.0.0.0 |
