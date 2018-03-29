@@ -17,7 +17,7 @@ If successful, this returns a 200 response code with a new unique id in response
 
 ```
 {
-  "id": "54646d8f-994e-4509-8a8c-01fed8f9a241"
+"id": "54646d8f-994e-4509-8a8c-01fed8f9a241"
 }
 ```
 
@@ -35,7 +35,7 @@ If successful, this returns a 200 response code with the used id in response bod
 
 ```
 {
-  "id": "54646d8f-994e-4509-8a8c-01fed8f9a241"
+"id": "54646d8f-994e-4509-8a8c-01fed8f9a241"
 }
 ```
 
@@ -198,6 +198,7 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
 ### startDate
 
 * Must be a valid ISO-8601 datetime formed as `YYYY-MM-DDThh:mm:ss+00:00`
+* must be smaller than or equal to `endDate`
 * Only to be used in combination with calendarType `single`, `multiple`, `periodic`
 
 **Example**
