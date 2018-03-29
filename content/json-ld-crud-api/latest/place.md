@@ -217,16 +217,53 @@ See documentation for [placeTypes](http://documentatie.uitdatabank.be/content/ui
 ```
 
 ### bookingInfo
-[TO DO]
+
+**Example**
+
+```
+"bookingInfo": {
+  "availabilityEnds": "2019-12-30T01:02:03+01:00",
+  "availabilityStarts": "2018-12-30T01:02:03+01:00",
+  "email": "test@test.com",
+  "phone": "123",
+  "url": "https://www.test.com",
+  "urlLabel": {
+    "nl": "Test"
+  }
+}
+```
 
 ### contactPoint
-[TO DO]
+
+**Example**
+
+```
+"contactPoint": {
+  "email": [
+    "info@test.be",
+    "contact@test.be"
+  ],
+  "phone": [
+    "002345678900",
+    "003188987689"
+  ],
+  "url": [
+    "https://www.t3.com"
+  ]
+}
+```
+
 
 ### description
-[TO DO]
 
-### facility
-[TO DO]
+**Example**
+
+```
+"description": {
+  "en": "this is a description",
+  "nl": "dit is de beschrijving"
+}
+```
 
 ### mediaObject & image
 [TO DO]
@@ -235,13 +272,52 @@ See documentation for [placeTypes](http://documentatie.uitdatabank.be/content/ui
 [TO DO]
 
 ### organizer
-[TO DO]
 
-### price
-[TO DO]
+**Example**
+
+```
+"organizer": {
+  "@id": "https://io-test.uitdatabank.be/organizers/02bdbd1b-672e-461e-85b2-9ce3746fb1a6"
+}
+```
+
+### priceInfo
+
+**Example**
+
+```
+"priceInfo": [
+  {
+  "category": "base",
+    "name": {
+      "nl": "Basistarief"
+    },
+    "price": 11,
+    "priceCurrency": "EUR"
+  },
+  {
+    "category": "tariff",
+    "name": {
+      "nl": "Senioren"
+    },
+    "price": 6,
+    "priceCurrency": "EUR"
+  }
+]
+```
 
 ### typicalAgeRange
-[TO DO]
+
+**Example**
+
+```
+"typicalAgeRange": "3-15"
+```
 
 ### availableFrom
-[TO DO]
+
+**Example**
+
+```
+"availableFrom": "2018-03-30T18:45:00+01:00"
+```
