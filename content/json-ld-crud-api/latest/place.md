@@ -49,47 +49,97 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
      -d $'{
   "mainLanguage": "nl",
   "name": {
-    "nl": "Publiq",
+    "en": "Publiq",
     "fr": "Publiq",
-    "en": "Publiq"
+    "nl": "Publiq"
+  },
+  "address": {
+    "en": {
+      "addressCountry": "BE",
+      "addressLocality": "Brussels",
+      "postalCode": "1080",
+      "streetAddress": "Henegouwenkaai 41-43"
+    },
+    "fr": {
+      "addressCountry": "BE",
+      "addressLocality": "Bruxelles",
+      "postalCode": "1080",
+      "streetAddress": "Quai du Hainaut 41-43"
+    },
+    "nl": {
+      "addressCountry": "BE",
+      "addressLocality": "Brussel",
+      "postalCode": "1080",
+      "streetAddress": "Henegouwenkaai 41-43"
+    }
+  },
+  "bookingInfo": {
+    "availabilityEnds": "2019-12-30T01:02:03+01:00",
+    "availabilityStarts": "2018-12-30T01:02:03+01:00",
+    "email": "test@test.com",
+    "phone": "123",
+    "url": "https://www.test.com",
+    "urlLabel": {
+      "nl": "Test"
+    }
+  },
+  "contactPoint": {
+    "email": [
+      "info@test.be",
+      "contact@test.be"
+    ],
+    "phone": [
+      "002345678900",
+      "003188987689"
+    ],
+    "url": [
+      "https://www.t3.com"
+    ]
+  },
+  "description": {
+    "en": "this is a description",
+    "nl": "dit is de beschrijving"
   },
   "calendarType": "permanent",
   "openingHours": [
-        {
-            "opens": "10:00",
-            "closes": "16:30",
-            "dayOfWeek": [
-                "monday",
-                "saturday",
-                "sunday"
-            ]
-        }
-    ],
-  "address": {
-    "nl": {
-      "streetAddress": "Henegouwenkaai 41-43",
-      "postalCode": "1080",
-      "addressLocality": "Brussel",
-      "addressCountry": "BE"
-    },
-    "fr": {
-      "streetAddress": "Quai du Hainaut 41-43",
-      "postalCode": "1080",
-      "addressLocality": "Bruxelles",
-      "addressCountry": "BE"
-    },
-    "en": {
-      "streetAddress": "Henegouwenkaai 41-43",
-      "postalCode": "1080",
-      "addressLocality": "Brussels",
-      "addressCountry": "BE"
+    {
+      "closes": "16:30",
+      "dayOfWeek": [
+        "monday",
+        "saturday",
+        "sunday"
+      ],
+      "opens": "10:00"
     }
+  ],
+  "organizer": {
+    "@id": "https://io-acc.uitdatabank.be/organizers/02bdbd1b-672e-461e-85b2-9ce3746fb1a6"
   },
+  "priceInfo": [
+    {
+      "category": "base",
+      "name": {
+        "nl": "Basistarief"
+      },
+      "price": 11,
+      "priceCurrency": "EUR"
+    },
+    {
+      "category": "tariff",
+      "name": {
+        "nl": "Senioren"
+      },
+      "price": 6,
+      "priceCurrency": "EUR"
+    }
+  ],
   "terms": [
     {
       "id": "Yf4aZBfsUEu2NsQqsprngw"
     }
-  ]
+  ],
+  "typicalAgeRange": "3-15",
+  "availableFrom": "2018-12-30T18:45:00+01:00"
 }'
 ```
 
