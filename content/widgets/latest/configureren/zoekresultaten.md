@@ -20,7 +20,7 @@ Bepaal welke elementen (informatie) zichtbaar zijn in de lijstweergave van je ev
 * Type van je activiteit
 * Vlieg-logo
 * UiTPAS-logo
-* Beschrijving en aantal karakters van de beschrijving
+* Beschrijving en aantal karakters van de beschrijving. Als je het aantal karakters invult dient de waarde minstens 1 te zijn.
 * Waar 
 * Organisatie 
 * Wanneer
