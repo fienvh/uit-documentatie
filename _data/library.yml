@@ -877,13 +877,14 @@
               - title: "Welcomeadvantage entiteit"
                 href: "entiteiten/welcomeadvantage-entiteit"
 - title: "SAPI 3"
-  description: "..."
+  description: "Leer de nieuwste querysyntax van de UiTdatabank."
   path: "content/search_api_3/"
   category: "Technisch"
   weight: 130
   hidden: true
   versions:
     - name: "latest"
+      status: "pilot"
       path: "content/search_api_3/latest/"
       summary:
         - title: "Getting started"
