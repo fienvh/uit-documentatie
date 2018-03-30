@@ -68,8 +68,15 @@ In het upgradeproces werd de CSS van je widget verzameld en in één centraal bl
 
 Een deel van de oorspronkelijk geschreven CSS zal geen invloed meer hebben op geüpgrade versie, omdat de nieuwe versie widgets gebruik maakt van andere HTML-tags en klasses. De CSS kan je manueel aanpassen waar nodig. Hulp daarbij vind je in volgende [gids](http://documentatie.uitdatabank.be/content/widgets/latest/stijlen/stijlgids/).
 
-## Caroussel-widget
+## Tipsbox
+
+**Caroussel**
+
 De caroussel-widget wordt niet meer aangeboden in de nieuwe versie van widgets. Caroussel-widgets worden geüpgrade naar een tipswidget in lijstview. Uitgebreide gebruikersonderzoeken bewezen dat een lijstweergave zorgt voor betere doorklikresultaten.
+
+**Header/footer**
+
+Bij de vorige versie van de widgets, kon je aan een tipswidget een header en footer toevoegen. Dit kan je nog steeds door een html-blok boven en/of onder toe te voegen. De eerder aangemaakte inhoud van deze velden ben je kwijt bij een upgrade.
 
 ## Zoekbox
 Een zoekbox die na upgrade in een blok over de volledige breedte staat wordt nu automatisch horizontaal getoond. Indien je de zoekbox toch verticaal wilt tonen, dien je die te verplaatsen naar een blok dat niet de volledige paginabreedte inneemt.
