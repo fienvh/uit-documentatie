@@ -6,7 +6,7 @@
 Met een tips-blok zet je een aantal activiteiten in de kijker.
 
 ## Algemeen
-* **Aantal elementen** stelt je in staat het aantal activiteiten die in het blok opneemt te bepalen. We raden aan dit aantal beperkt te houden. 
+* **Aantal elementen** stelt je in staat het aantal activiteiten die in het blok opneemt te bepalen. We raden aan dit aantal beperkt te houden. Het aantal elementen dient minstens 1 te zijn.
 * **Link naar detailpagina** laat je toe de detailpagina op een andere URL weer te geven. Doorgaans is dit de pagina waarop de agendawidget staat, maar dit kan ook een URL op een andere website zijn (bv. UiTinVlaanderen). Wanneer je geen URL ingeeft, zal de detailpagina op eenzelfde pagina geopend worden (target_self).
 
 ## Tipselementen
