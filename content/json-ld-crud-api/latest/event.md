@@ -164,6 +164,14 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
       "copyrightHolder": "Test copyright",
       "inLanguage": "nl"
     }
+  ],
+  "labels": [
+    "label1",
+    "label2"
+  ],
+  "hiddenLabels": [
+    "hiddenLabel1",
+    "hiddenLabel2"
   ]
 }'
 ```
@@ -487,9 +495,6 @@ To delete one contactPoint property from an offer, remove it from the contactPoi
 "availableFrom": "2018-03-30T18:45:00+01:00"
 ```
 
-### labels
-[TO DO]
-
 ### mediaObject & main image
 
 * Can contain one or more mediaObjects
@@ -529,5 +534,36 @@ See JSON-LD api documentation to [create a mediaObject](http://documentatie.uitd
     "copyrightHolder": "Test copyright",
     "inLanguage": "nl"
   }
+]
+```
+
+### labels
+
+* Can contain one or more labels
+* When a private label is used without permission, a validation message will be shown
+* When an unknown label is used, a new label will be created in UiTdatabank
+
+**Example**
+
+```
+"labels": [
+  "label1",
+  "label2"
+]
+```
+
+### hiddenLabels
+
+* A hiddenLabel is not shown on public agenda's
+* Can contain one or more labels
+* When a private label is used without permission, a validation message will be shown
+* When an unknown label is used, a new label will be created in UiTdatabank with property `visible:false`
+
+**Example**
+
+```
+"hiddenLabels": [
+  "hiddenLabel1",
+  "hiddenLabel2"
 ]
 ```
