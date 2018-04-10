@@ -553,8 +553,8 @@
           summary:
             - title: "List organizers"
               href: "organizers/organizer-list"
-            - title: "Add organizer"
-              href: "organizers/organizer-post"
+            - title: "Create organizer"
+              href: "organizers/organizer-create"
             - title: "Update unique URL"
               href: "organizers/organizer-url"
             - title: "Update name"
@@ -595,11 +595,9 @@
               href: "authentication/authentication-jwt"
             - title: "Postman setup"
               href: "authentication/authentication-postman"
-        - title: "Event"
+        - title: "Add and update events"
           href: "events"
           summary:
-            - title: "Add and update events"
-              href: "events/event-add"
             - title: "audience"
               href: "events/event-audience"
             - title: "availableFrom"

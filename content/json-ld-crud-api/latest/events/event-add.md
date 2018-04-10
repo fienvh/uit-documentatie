@@ -39,6 +39,33 @@ If successful, this returns a 200 response code with the used id in response bod
 }
 ```
 
+## Properties
+
+**Mandatory properties**
+
+1. `mainLanguage`
+2. `name`
+3. `calendarType`
+  * `startDate`: in combination with `single`, `multiple`, `periodic`
+  * `endDate`: in combination with `single`, `multiple`, `periodic`
+  * `subEvents`: in combination with `multiple`
+4. `terms`
+5. `location`
+
+
+**Optional properties**
+
+1. `audience`
+2. `availableFrom`
+3. `bookingInfo`
+4. `contactPoint`
+5. `description`
+6. `labels`
+7. `mediaObjects`
+8. `organizer`
+9. `priceInfo`
+10. `typicalAgeRange`
+
 ### Example request - complete event
 
 ```
@@ -175,30 +202,3 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
   ]
 }'
 ```
-
-## Properties
-
-**Mandatory properties**
-
-1. `mainLanguage`
-2. `name`
-3. `calendarType`
-  * `startDate`: in combination with `single`, `multiple`, `periodic`
-  * `endDate`: in combination with `single`, `multiple`, `periodic`
-  * `subEvents`: in combination with `multiple`
-4. `terms`
-5. `location`
-
-
-**Optional properties**
-
-1. `audience`
-2. `availableFrom`
-3. `bookingInfo`
-4. `contactPoint`
-5. `description`
-6. `labels`
-7. `mediaObjects`
-8. `organizer`
-9. `priceInfo`
-10. `typicalAgeRange`
