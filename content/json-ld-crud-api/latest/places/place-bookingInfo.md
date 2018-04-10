@@ -1,7 +1,7 @@
 ---
 ---
 
-# bookingInfo
+# Place - bookingInfo
 
 Can contain the following properties:
 

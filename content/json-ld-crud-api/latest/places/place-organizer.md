@@ -1,7 +1,7 @@
 ---
 ---
 
-# organizer
+# Place - organizer
 
 * must be a existing and valid organizerId
 

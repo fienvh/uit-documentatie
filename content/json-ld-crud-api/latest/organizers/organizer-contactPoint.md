@@ -1,7 +1,7 @@
 ---
 ---
 
-# contactPoint
+# Organizer - contactPoint
 
 Can contain the following properties:
 

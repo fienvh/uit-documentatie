@@ -1,7 +1,7 @@
 ---
 ---
 
-# mediaObject & main Image
+# Place - mediaObject & main Image
 
 * Can contain one or more mediaObjects
 * `@type` is optional: defaults to `schema:ImageObject` (it is not possible to add videos)

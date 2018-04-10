@@ -1,7 +1,7 @@
 ---
 ---
 
-# priceInfo
+# Place - priceInfo
 
 * Must contain category `base`
 * can contain multiple additional `tariff`s

@@ -1,7 +1,7 @@
 ---
 ---
 
-# name
+# Place - name
 
 * Must contain at least the mainLanguage translation, can contain multiple translations.
 

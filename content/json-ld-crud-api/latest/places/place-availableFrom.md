@@ -1,7 +1,7 @@
 ---
 ---
 
-# availableFrom
+# Place - availableFrom
 
 * Must be a valid ISO-8601 datetime formed as `YYYY-MM-DDThh:mm:ss+00:00`
 

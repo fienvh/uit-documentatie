@@ -1,7 +1,7 @@
 ---
 ---
 
-# terms
+# Place - terms
 
 * Must contain 1 id for placeType, can NOT be combined with a theme id.
 

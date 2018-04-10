@@ -1,7 +1,7 @@
 ---
 ---
 
-# address
+# Organizer - address
 
 * Must contain the mainLanguage translation
 

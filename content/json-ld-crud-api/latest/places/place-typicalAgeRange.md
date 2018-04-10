@@ -1,7 +1,7 @@
 ---
 ---
 
-# typicalAgeRange
+# Place - typicalAgeRange
 
 **Example**
 

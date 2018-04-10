@@ -1,7 +1,7 @@
 ---
 ---
 
-# contactPoint
+# Place - contactPoint
 
 Can contain the following properties:
 

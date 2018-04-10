@@ -1,7 +1,7 @@
 ---
 ---
 
-# Url
+# Organizer - url
 
 * Every organizer must have a unique URL
 
