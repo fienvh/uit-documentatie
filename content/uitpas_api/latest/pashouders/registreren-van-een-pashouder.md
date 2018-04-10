@@ -36,8 +36,16 @@ Parameters:
 | verified | boolean | true indien de gegevens van de pashouder werden ingelezen via belgium eid, false otherwise |  |
 | moreInfo | String | een vrij tekstveld met informatie over deze pashouder |  |
 | schoolConsumerKey | String | consumerKey van de school van deze pashouder |  |
-| emailPreference | String | ‘ALL_MAILS’, ‘NOTIFICATION_MAILS’ or ‘NO_MAILS’ |  |
-| smsPreference | String | ‘ALL_SMS’, ‘NOTIFICATION_SMS’ or ‘NO_SMS’ |  |
+| ~~emailPreference~~ (REMOVED) | String | Dit veld mag niet meer gebruikt worden. Zie Opt-In Voorkeuren aanpassen |  |
+| ~~smsPreference~~ (REMOVED)| String | Dit veld mag niet meer gebruikt worden. Zie Opt-In Voorkeuren aanpassen |  |
+| optInServiceMails | boolean | true indien de pashouder service mails wil ontvangen, anders false. Let op: deze parameter mag NIET true zijn indien pashouder jongen dan 16 |  |
+| optInMilestoneMails | boolean | true indien de pashouder milestone mails wil ontvangen, anders false. Let op: deze parameter mag NIET true zijn indien pashouder jongen dan 16 |  |
+| optInInfoMails | boolean | true indien de pashouder info mails wil ontvangen, anders false. Let op: deze parameter mag NIET true zijn indien pashouder jongen dan 16 |  |
+| optInSms | boolean | true indien de pashouder sms wil ontvangen, anders false. Let op: deze parameter mag NIET true zijn indien pashouder jongen dan 16 |  |
+| optInPost | boolean | true indien de pashouder post wil ontvangen, anders false. Let op: deze parameter mag NIET true zijn indien pashouder jongen dan 16 |  |
+| legalTermsPaper | boolean | true indien de pashouder de gebruikersvoorwaarden op papier heeft ontvangen |  |
+| legalTermsDigital | boolean | true indien de pashouder de gebruikersvoorwaarden via e-mail heeft ontvangen |  |
+| parentalConsent | boolean | true indien de er toestemming is van een ouder of voogd bij registratie van een minderjarige pashouder |  |
 | balieConsumerKey | String | ConsumerKey van de balie waarop deze pashouder wordt geregistreerd. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
 
 _Authenticatie_
