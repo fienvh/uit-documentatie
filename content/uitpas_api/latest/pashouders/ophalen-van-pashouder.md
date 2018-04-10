@@ -57,11 +57,11 @@ _Voorbeeld response_
                 <uitpasNumber>0930061965313</uitpasNumber>
             </uitpasNumber>
         </currentCard>
-        <emailPreference>ALL_MAILS</emailPreference>
+        <emailPreference>ALL_MAILS</emailPreference> <!-- DEPRECATED FIELD: Zie Opt-In Voorkeuren aanpassen -->
         <kansenStatuutEndDate>2013-12-31T23:59:59+01:00</kansenStatuutEndDate>
         <kansenStatuutExpired>false</kansenStatuutExpired>
         <kansenStatuutInGracePeriod>false</kansenStatuutInGracePeriod>
-        <smsPreference>NO_SMS</smsPreference>
+        <smsPreference>NO_SMS</smsPreference> <!-- DEPRECATED FIELD: Zie Opt-In Voorkeuren aanpassen -->
     </cardSystemSpecific>
     <city>AALST</city>
     <dateOfBirth>1980-04-15T00:00:00+02:00</dateOfBirth>
@@ -105,6 +105,13 @@ _Voorbeeld response_
     <uitIdUser>
         <ns2:id>bd056f6f-7ff6-4781-baeb-a0ff77626e03</ns2:id>
         <ns3:nick>nele</ns3:nick>
+        <optInPreferences>
+            <optInServiceMails>false</optInServiceMails>
+            <optInMilestoneMails>true</optInMilestoneMails>
+            <optInInfoMails>false</optInInfoMails>
+            <optInSms>false</optInSms>
+            <optInPost>true</optInPost>
+        </optInPreferences>    
     </uitIdUser>
     <verified>false</verified>
 </passHolder>
