@@ -1709,7 +1709,7 @@ Hiermee worden events getoond waarbij NU recenter is dan de info in de kalender.
 
 ``` enum ```
 
-Hiermee worden events getoond waarbij NU niet ligt tussen availableFrom en availableTo. De UiTdatabank zet per default de availableToop de laatste datum van de calendar info.
+Hiermee worden events getoond waarbij NU niet ligt tussen availableFrom en availableTo. De UiTdatabank zet per default de availableTo op de laatste datum van de calendar info.
 
 ~~~
 {BaseUrl}search?q=cdbid:{cdbid}&past=true&unavailable=true&group=event
