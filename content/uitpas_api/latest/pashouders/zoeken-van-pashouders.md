@@ -31,7 +31,14 @@ Parameters:
 | numberOfCheckinsMax | Integer | zoek pashouders met maximum dit aantal checkins |
 | numberOfPointsMin | Integer | zoek pashouders met minimum dit aantal punten |
 | numberOfPointsMax | Integer | zoek pashouders met maximum dit aantal punten |
-| emailPreference | String | Mogelijke waarden: ALL_MAILS, NOTIFICATION_MAILS. ALL_MAILS: zoek pashouders met email preference ALL_MAILS, NOTIFICATION_MAILS: zoek passhouders met email preference ALL_MAILS en NOTIFICATION_MAILS |
+| ~~emailPreference~~ | String | Mogelijke waarden: Dit zoekveld werd verwijderd en vervangen door het veld optInPreference |
+| optInPreference | String | Mogelijke waarden:
+SERVICE_MAILS: Als de gebruiker heeft aangegeven service emails te willen ontvangen
+MILESTONE_MAILS: Als de gebruiker heeft aangegeven milestone emails te willen ontvangen
+INFO_MAILS: Als de gebruiker heeft aangegeven informatieve emails te willen ontvangen
+SMS: Als de gebruiker heeft aangegeven sms te willen ontvangen
+POST: Als de gebruiker heeft aangegeven post te willen ontvangen
+Deze parameter kan herhaald worden. Het resultaat wordt gefilterd op alle pashouders die aan minstens 1 van de optInPreferences voldoet. |
 | balieConsumerKey | String | ConsumerKey van de balie waarop de gezochte pashouders werden geregistreerd |
 | schoolConsumerKey | String | consumerKey van de school van de gezochte pashouders |
 | includeBlocked | boolean (true/false) | inclusief geblokkeerde pashouders indien true. default = false. |
@@ -115,10 +122,10 @@ _Voorbeeld response_
                         <uitpasNumber>0930012345607</uitpasNumber>
                     </uitpasNumber>
                 </currentCard>
-                <emailPreference>ALL_MAILS</emailPreference>
+                <emailPreference>ALL_MAILS</emailPreference> <!-- DEPRECATED FIELD: Zie Opt-In voorkeuren aanpassen -->
                 <kansenStatuutExpired>false</kansenStatuutExpired>
                 <kansenStatuutInGracePeriod>false</kansenStatuutInGracePeriod>
-                <smsPreference>NO_SMS</smsPreference>
+                <smsPreference>NO_SMS</smsPreference> <!-- DEPRECATED FIELD: Zie Opt-In voorkeuren aanpassen -->
             </cardSystemSpecific>
             <city>AALST</city>
             <dateOfBirth>1980-12-16T00:00:00+01:00</dateOfBirth>
