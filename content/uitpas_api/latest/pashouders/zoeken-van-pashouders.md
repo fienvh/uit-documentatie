@@ -168,6 +168,13 @@ _Voorbeeld response_
             <uitIdUser>
                 <rdf:id>d943b39c-5ab9-4fc2-a8e0-6245a0bc24ab</rdf:id>
                 <foaf:nick>anwouters</foaf:nick>
+                <optInPreferences>
+                    <optInServiceMails>false</optInServiceMails>
+                    <optInMilestoneMails>true</optInMilestoneMails>
+                    <optInInfoMails>false</optInInfoMails>
+                    <optInSms>false</optInSms>
+                    <optInPost>true</optInPost>
+                </optInPreferences>
             </uitIdUser>
             <verified>false</verified>
         </passholder>
