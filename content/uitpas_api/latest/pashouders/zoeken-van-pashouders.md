@@ -58,17 +58,20 @@ In geval van uitpas eigenaar: er zal enkel een resultaat terug gegeven worden in
 <u>Bij succes</u>
 HTTP 200 OK met een response body in XML formaat:
 
-| passholders | Lijst van PassHolder objecten |
-| total | Totaal aantal gevonden pashouders door deze zoekopdracht |
-| invalidUitpasNumbers | Lijst van ongeldige uitpasNumbers |
+| parameters           | verklaring                                               |
+|----------------------|----------------------------------------------------------|
+| passholders          | Lijst van PassHolder objecten                            |
+| total                | Totaal aantal gevonden pashouders door deze zoekopdracht |
+| invalidUitpasNumbers | Lijst van ongeldige uitpasNumbers                        |
 
 <u>Bij fouten</u>
 HTTP 400 met een response body in XML formaat:
 
-| code | ErrorCode van de fout:<br>PARSE_INVALID_DATE<br>PARSE_INVALID_UITPASNUMBER (indien alle uitpasnummer ongeldig)<br>PARSE_INVALID_INSZ<br>PARSE_INVALID_BOOLEAN<br>UNKNOWN_ASSOCIATION_ID<br>UNKNOWN_BALIE_NAME |
-| message | Beschrijving van de fout |
-| requiredPermission | Indien code = ACCESS_DENIED, dan bevat dit veld de vereiste permissie. |
-
+| parameters          | verklaring                                                                                                                                                                            |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| code               | ErrorCode van de fout:PARSE_INVALID_DATE<br>PARSE_INVALID_UITPASNUMBER (indien alle uitpasnummer ongeldig)PARSE_INVALID_INSZ <br> PARSE_INVALID_BOOLEAN <br> UNKNOWN_ASSOCIATION_ID <br> UNKNOWN_BALIE_NAME |
+| message            | Beschrijving van de fout                                                                                                                                                              |
+| requiredPermission | Indien code = ACCESS_DENIED, dan bevat dit veld de vereiste permissie.                                                                                                                |
 _Voorbeeld request_
 
 GET {prefix}/uitpas/passholder/search?firstName=An
