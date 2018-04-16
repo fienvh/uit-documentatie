@@ -68,6 +68,13 @@ _Voorbeeld response_
             <rdf:id>22b69dc0-abf7-40f2-8ae7-c1e69811ed7c</rdf:id>
             <foaf:nick>EllenVan</foaf:nick>
             <foaf:depiction>//media.uitid.be/fis/rest/download/ce126667652776f0e9e55160f12f5478/uiv/picture-15835.jpg</foaf:depiction>
+            <optInPreferences>
+                <optInServiceMails>false</optInServiceMails>
+                <optInMilestoneMails>true</optInMilestoneMails>
+                <optInInfoMails>false</optInInfoMails>
+                <optInSms>false</optInSms>
+                <optInPost>true</optInPost>
+            </optInPreferences>
         </uitIdUser>
         <registrationBalieConsumerKey>47B6FA21-ACB1-EA8F-2C231182C7DD0A19</registrationBalieConsumerKey>
         <numberOfCheckins>93</numberOfCheckins>
@@ -88,12 +95,12 @@ _Voorbeeld response_
                     <uitpasNumber>0930000000107</uitpasNumber>
                 </uitpasNumber>
             </currentCard>
-            <emailPreference>NOTIFICATION_MAILS</emailPreference>
+            <emailPreference>NOTIFICATION_MAILS</emailPreference> <!-- DEPRECATED FIELD: Zie Opt-In voorkeuren aanpassen -->
             <kansenStatuut>false</kansenStatuut>
             <kansenStatuutExpired>false</kansenStatuutExpired>
             <kansenStatuutInGracePeriod>false</kansenStatuutInGracePeriod>
             <lastActivationMailNumber>1</lastActivationMailNumber>
-            <smsPreference>NOTIFICATION_SMS</smsPreference>
+            <smsPreference>NOTIFICATION_SMS</smsPreference> <!-- DEPRECATED FIELD: Zie Opt-In voorkeuren aanpassen -->
             <status>ACTIVE</status>
         </cardSystemSpecific>
         <memberships>
