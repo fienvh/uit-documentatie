@@ -11,11 +11,12 @@ _URL_
 
 Parameters:
 
-| **Naam** | **Type** | **Omschrijving** | **Verplicht** |
-| emailPreference | String | ‘ALL_MAILS’, ‘NOTIFICATION_MAILS’ or ‘NO_MAILS’ |  |
-| smsPreference | String | ‘ALL_SMS’, ‘NOTIFICATION_SMS’ or ‘NO_SMS’ |  |
-| kansenStatuutEndDate | String | Datum in W3C formaat, mag enkel meegegeven worden in de context van een baliemedewerker. Mag niet na het einde (31/12) van het volgende jaar. |  |
-| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
+| Naam                      | Type   | Omschrijving                                                                                                                                                                                                           | Verplicht |
+|---------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| emailPreference (Removed) | String | Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen.                                                                                                                                         |           |
+| smsPreference (Removed)   | String | Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen.                                                                                                                                         |           |
+| kansenStatuutEndDate      | String | Datum in W3C formaat, mag enkel meegegeven worden in de context van een baliemedewerker. Mag niet na het einde (31/12) van het volgende jaar.                                                                          |           |
+| balieConsumerKey          | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |           |
 
 _Authenticatie_
 UserAccessToken van een balie medewerker
@@ -36,8 +37,6 @@ _Voorbeeld request_
 
 POST /uitpas/passholder/0b58caf7-5663-4058-99b3-d1a982d260c9/3
 
-emailPreference=NO_MAILS
-smsPreference=NO_SMS
 balieConsumerKey=5c9c73d3-e82f-e7b3-44161e6e3802e64f
 
 _Voorbeeld response_
