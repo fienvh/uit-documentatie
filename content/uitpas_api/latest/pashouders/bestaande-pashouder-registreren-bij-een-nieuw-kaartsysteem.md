@@ -11,15 +11,18 @@ _URL_
 
 Parameters:
 
-| **Naam** | **Type** | **Omschrijving** | **Verplicht** |
-| cardSystemId | Long | Id van het nieuwe kaartsysteem, waarvan de pashouder lid van wilt worden (er moet OFWEL een chipnummer OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide) | x |
-| uitpasNumber | String | uitpasNumber van de nieuwe kaart van het nieuwe kaartsysteem waarvan de pashouder lid van wilt worden (er moet OFWEL een uitpasNumber OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide) | x |
-| kansenStatuutEndDate | W3C Date | einddatum van het kansenstatuut indien het een pashouder met kansenstatuut betreft. Mag niet na het einde (31/12) van het volgende jaar. | Verplicht indien kansenStatuut=true |
-| voucherNumber | String | Eventuele voucher number die korting geeft. |  |
-| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
-| emailPreference | String | ‘ALL_MAILS’, ‘NOTIFICATION_MAILS’ or ‘NO_MAILS’ |  |
-|  | smsPreference | String | ‘ALL_SMS’, ‘NOTIFICATION_SMS’ or ‘NO_SMS’ |
-
+| Naam                      | Type     | Omschrijving                                                                                                                                                                                                           | Verplicht                           |
+|---------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| cardSystemId              | Long     | Id van het nieuwe kaartsysteem, waarvan de pashouder lid van wilt worden (er moet OFWEL een chipnummer OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide)                                  | x                                   |
+| uitpasNumber              | String   | uitpasNumber van de nieuwe kaart van het nieuwe kaartsysteem waarvan de pashouder lid van wilt worden (er moet OFWEL een uitpasNumber OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide)   | x                                   |
+| kansenStatuutEndDate      | W3C Date | einddatum van het kansenstatuut indien het een pashouder met kansenstatuut betreft. Mag niet na het einde (31/12) van het volgende jaar.                                                                               | Verplicht indien kansenStatuut=true |
+| voucherNumber             | String   | Eventuele voucher number die korting geeft.                                                                                                                                                                            |                                     |
+| balieConsumerKey          | String   | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |                                     |
+| legalTermsPaper           | boolean  | true indien de pashouder de gebruikersvoorwaarden op papier heeft ontvangen                                                                                                                                            |                                     |
+| legalTermsDigital         | boolean  | true indien de pashouder de gebruikersvoorwaarden via e-mail heeft ontvangen                                                                                                                                           |                                     |
+| parentalConsent           | boolean  | true indien de er toestemming is van een ouder of voogd bij registratie van een minderjarige pashouder                                                                                                                 |                                     |
+| emailPreference (Removed) | String   | Opgelet: Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen                                                                                                                                 |                                     |
+| smsPreference (Removed)   | String   | Opgelet: Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen                                                                                                                                 |                                     |
 _Authenticatie_
 UserAccessToken van een balie medewerker
 
@@ -60,12 +63,12 @@ _Voorbeeld response_
                 <uitpasNumber>0930061965313</uitpasNumber>
             </uitpasNumber>
         </currentCard>
-        <emailPreference>ALL_MAILS</emailPreference>
+        <emailPreference>ALL_MAILS</emailPreference> <!-- DEPRECATED FIELD: Zie Opt-In voorkeuren aanpassen -->
 	  <kansenStatuut>true</kansenStatuut>
         <kansenStatuutEndDate>2013-12-31T23:59:59+01:00</kansenStatuutEndDate>
         <kansenStatuutExpired>false</kansenStatuutExpired>
         <kansenStatuutInGracePeriod>false</kansenStatuutInGracePeriod>
-        <smsPreference>NO_SMS</smsPreference>
+        <smsPreference>NO_SMS</smsPreference> <!-- DEPRECATED FIELD: Zie Opt-In voorkeuren aanpassen -->
     </cardSystemSpecific>
     <city>AALST</city>
     <dateOfBirth>1980-04-15T00:00:00+02:00</dateOfBirth>
@@ -90,6 +93,13 @@ _Voorbeeld response_
     <uitIdUser>
         <ns2:id>bd056f6f-7ff6-4781-baeb-a0ff77626e03</ns2:id>
         <ns3:nick>nele</ns3:nick>
+	<optInPreferences>
+            <optInServiceMails>false</optInServiceMails>
+            <optInMilestoneMails>true</optInMilestoneMails>
+            <optInInfoMails>false</optInInfoMails>
+            <optInSms>false</optInSms>
+            <optInPost>true</optInPost>
+        </optInPreferences>
     </uitIdUser>
     <verified>false</verified>
 </passHolder>
