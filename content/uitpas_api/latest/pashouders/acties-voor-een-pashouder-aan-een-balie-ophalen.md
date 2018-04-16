@@ -11,14 +11,15 @@ _URL_
 
 Parameters:
 
-| **Naam** | **Type** | **Omschrijving** | **Verplicht** |
-| identification | String | identificatie van een pashouder | x (zie opmerking) |
-| chipNumber | String | NFC card chip number | x (zie opmerking) |
-| uitpasNumber | String | uitpas nummer 13 cijfers | x (zie opmerking) |
-| cdbid | String | id van een event |  |
-| autocheckin | boolean | default waarde: false |  |
-| includeProfilePicture | boolean | default waarde: false, indien true wordt de base64 encoded profile picture ook teruggegeven als deze gezet is. |  |
-| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
+| Naam                  | Type    | Omschrijving                                                                                                                                                                                                           | Verplicht         |
+|-----------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| identification        | String  | identificatie van een pashouder                                                                                                                                                                                        | x (zie opmerking) |
+| chipNumber            | String  | NFC card chip number                                                                                                                                                                                                   | x (zie opmerking) |
+| uitpasNumber          | String  | uitpas nummer 13 cijfers                                                                                                                                                                                               | x (zie opmerking) |
+| cdbid                 | String  | id van een event                                                                                                                                                                                                       |                   |
+| autocheckin           | boolean | default waarde: false                                                                                                                                                                                                  |                   |
+| includeProfilePicture | boolean | default waarde: false, indien true wordt de base64 encoded profile picture ook teruggegeven als deze gezet is.                                                                                                         |                   |
+| balieConsumerKey      | String  | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |                   |
 
 _Opmerking_
 Het is verplicht om ofwel uitpasNumber of chipNumber of identification mee te geven. Het is niet toegelaten beide mee te geven.
@@ -34,9 +35,11 @@ HTTP 200 OK met een response body in XML formaat. Deze request geeft een gepaste
 <u>Bij fouten</u>
 HTTP 400 met een response body in XML formaat:
 
-| code | ErrorCode van de fout:<br>UNKNOWN_BALIE_CONSUMERKEY<br>PARSE_INVALID_UITPASNUMBER<br>INVALID_PARAMETERS (indien zowel chipnummer als uitpasnummer worden gegeven)<br>MISSING_REQUIRED_FIELDS<br>UNKNOWN_UITPASNUMBER<br>UNKNOWN_CHIPNUMBER<br>INVALID_CARD_STATUS_BLOCKED<br>INVALID_CARD_STATUS_LOCAL_STOCK<br>INVALID_CARD_STATUS_DELETED<br>INVALID_CARD_STATUS_STOCK<br>INVALID_CARD_STATUS_PROVISIONED<br>INVALID_CARD_STATUS_SENT_TO_BALIE |
-| message | Beschrijving van de fout |
-| requiredPermission | Indien code = ACCESS_DENIED, dan bevat dit veld de vereiste permissie. |
+| parameters         | verklaring                                                                                                                                                                                                                                                                                                                                                                                       |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| code               | ErrorCode van de fout:UNKNOWN_BALIE_CONSUMERKEY <br> PARSE_INVALID_UITPASNUMBER <br> INVALID_PARAMETERS (indien zowel chipnummer als uitpasnummer worden gegeven) <br> MISSING_REQUIRED_FIELDS <br> UNKNOWN_UITPASNUMBER <br> UNKNOWN_CHIPNUMBER <br> INVALID_CARD_STATUS_BLOCKED <br> INVALID_CARD_STATUS_LOCAL_STOCK <br> INVALID_CARD_STATUS_DELETED <br> INVALID_CARD_STATUS_STOCK <br> INVALID_CARD_STATUS_PROVISIONED <br> INVALID_CARD_STATUS_SENT_TO_BALIE |
+| message            | Beschrijving van de fout                                                                                                                                                                                                                                                                                                                                                                         |
+| requiredPermission | Indien code = ACCESS_DENIED, dan bevat dit veld de vereiste permissie.                                                                                                                                                                                                                                                                                                                           |
 
 _Voorbeeld request_
 
