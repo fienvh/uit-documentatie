@@ -798,8 +798,6 @@
                 href: "pashouders/opzoeken-van-coupons-van-een-pashouder"
               - title: "Opzoeken van een coupon van een pashouder"
                 href: "pashouders/opzoeken-van-een-coupon-van-een-pashouder"
-              - title: "Opt-In voorkeuren aanpassen"
-                href: "pashouders/opt-in-voorkeuren-aanpassen.md"
           - title: "Balies"
             href: "balies"
             summary:
@@ -967,7 +965,7 @@
           summary:
             - title: "Environments"
               href: "getting-started/environments"
-            - title: "Authenticatie"
+            - title: "Authentication"
               href: "getting-started/authentication"
             - title: "Pagination"
               href: "getting-started/pagination"
