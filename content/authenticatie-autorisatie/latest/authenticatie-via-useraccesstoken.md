@@ -72,12 +72,12 @@ Het {server} gedeelte van de URL is afhankelijk van de omgeving. De beschikbare 
 
 *Parameters*
 
-| oauth_token	| (Verplicht) De request token uit de vorige stap |
-| --- | --- |
+| oauth_token	| *(Verplicht)* De request token uit de vorige stap |
 | type	| Het type van het UiTiD scherm. Mogelijkheden: regular = toont het login scherm indien de gebruiker niet ingelogd is (default), register = toont altijd het registreer scherm, forcelogin = toont altijd het login scherm, ook al was de gebruiker nog ingelogd |
 | via	|  Stuurt authenticatie automatisch door naar extern sociaal netwerk indien de gebruiker nog niet ingelogd is. Mogelijke waarden: Facebook, Twitter, Google.  Indien de gebruiker al ingelogd is op UiTiD, dan verandert er niets en krijgt de gebruiker dus onmiddellijk ‘Bent u dit?’ te zien. |
 |  skipAuthorization	|  Bepaalt of de autorisatie stap overgeslaan mag worden en de gebruiker ‘automatisch’ toegang verleent tot zijn profiel data aan de Service Consumer dmv in te loggen. Mogelijke waarden: true, false. NOTA: de Service Consumer in kwestie moet beschikken over de permissie ‘autorisatie overslaan’ om gebruik te kunnen maken van deze parameter. Indien de permissie niet toegekend werd, wordt de parameter genegeerd. |
 | lang | Taal waarin de aanmeld/registreer schermen worden weergegeven. mogelijk waarden: nl (standaard), en, fr, de.  De gebruiker zal vervolgens gevraagd worden om in te loggen bij UiTiD (indien nog niet ingelogd) en om toegang te verschaffen tot zijn UiTiDprofiel aan de Service Consumer in kwestie (indien nog niet gebeurd). |
+| email | Optionele suggestie van het e-mailadres van de gebruiker. Dit e-mailadres zal vooraf ingevuld zijn op het login formulier. |
 
 Daarna wordt de callback URL opgeroepen die ingesteld staat voor deze Service Consumer.
 
