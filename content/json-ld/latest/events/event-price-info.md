@@ -36,7 +36,7 @@ Not supported: once priceInfo is added it can only be updated.
 | Property	| Type | Description | Example |
 |--|--|--|--|
 | category | string | The first price info object has category 'base', all the following objects have category 'tariff' (differentiated price for specific segments) | base |
-| name | string | category 'base' should always have 'Basistarief' for name, discounts for specific segments can be named with category 'tariff' | Senioren |
+| name | array | category 'base' should always have 'Basistarief' for name, discounts for specific segments can be named with category 'tariff' | "nl": "Senioren" |
 | price | number | Pricevalue is a floating-point number, use 0.0 for free events | 10.0 |
 | priceCurrency | string | 3-characters currency indicator | EUR |
 
@@ -59,19 +59,30 @@ X-Api-Key: {apiKey}
 [
   {
     "category": "base",
-    "name": "Basistarief",
+    "name": {
+      "nl": "Basistarief",
+      "fr": "Tarif de base",
+      "en": "Base tariff",
+      "de": "Basisrate"
+    },
     "price": 10,
     "priceCurrency": "EUR"
   },
   {
     "category": "tariff",
-    "name": "Tot 2 jaar",
+    "name": {
+      "nl": "Jongeren",
+      "en": "Youth",
+    },
     "price": 0,
     "priceCurrency": "EUR"
   },
   {
     "category": "tariff",
-    "name": "Van 2 tot 12",
+    "name": {
+      "nl": "Senioren",
+      "en": "Elderly",
+    },
     "price": 6,
     "priceCurrency": "EUR"
   }
