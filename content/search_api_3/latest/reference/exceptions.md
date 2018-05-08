@@ -163,7 +163,7 @@ Fields marked with an `*` are not yet indexed under the `completeLanguages` prop
   ```
 
 
-## Missing g-coördinates
+## Missing geo-coordinates
 
 * It is possible that not every place address has geo-coordinates.
 
