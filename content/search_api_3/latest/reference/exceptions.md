@@ -5,7 +5,7 @@
 
 ## @id
 
-* it is possible an event has an organizer without `@id`
+* it is possible an event has **an organizer without `@id`**
 ```
 "organizer": {
 "name": "CodeFever VZW",
@@ -14,7 +14,7 @@
 ```
 We call this a dummy organizer; legacy data from the previous version of UiTdatabank. These organizers can be ignored or just used to print the name.
 
-* it is possible an event has a place without `@id`
+* it is possible an event has **a place without `@id`**
 
 ```
 "location": {
@@ -41,7 +41,9 @@ We call this a dummy location; legacy data from the previous version of UiTdatab
 ```
 "availableTo": "2018-11-28T23:59:59+01:00",
 ```
-It is possible that some events and places do not have an `availableTo` property. In that case it can be considered an event with `"availableTo": "2100-01-01T00:00:00+00:00"`
+It is possible that some events and places do not have an `availableTo` property. In that case it can be considered an event with `"availableTo": "2100-01-01T00:00:00+00:00"`.
+
+**Important** Be mindful of the [Year 2038 problem](https://en.wikipedia.org/wiki/Year_2038_problem) when converting our dateTime to a signed 32-bit integer. The value `"2100-01-01T00:00:00+00:00"` can not be encoded to a signed 32-bit integer, please refer to one of the [possible solutions](https://en.wikipedia.org/wiki/Year_2038_problem#Possible_solutions) provided in online documentation.
 
 ## completedLanguages
 
