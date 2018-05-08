@@ -3,16 +3,7 @@
 
 # Possible exceptions and deprecated data
 
-## @id
-
-* it is possible an event has **an organizer without `@id`**
-```
-"organizer": {
-"name": "CodeFever VZW",
-"@type": "Organizer"
-},
-```
-We call this a dummy organizer; legacy data from the previous version of UiTdatabank. These organizers can be ignored or just used to print the name.
+## Missing `@id` for location
 
 * it is possible an event has **a place without `@id`**
 
@@ -35,6 +26,17 @@ We call this a dummy organizer; legacy data from the previous version of UiTdata
 
 We call this a dummy location; legacy data from the previous version of UiTdatabank. These places can't be ignored because they contain the address and geocoordinates needed to locate the event.
 
+
+## Missing `@id` for organizer
+
+* it is possible an event has **an organizer without `@id`**
+```
+"organizer": {
+"name": "CodeFever VZW",
+"@type": "Organizer"
+},
+```
+We call this a dummy organizer; legacy data from the previous version of UiTdatabank. These organizers can be ignored or just used to print the name.
 
 ## availableTo
 
@@ -62,7 +64,7 @@ The translatable fields are different for every entity:
 * description
 * bookingInfo/urlLabel*
 * priceInfo/name*
-* mediaObject/inLanguage
+
 
 **Place**
 * name
@@ -70,7 +72,7 @@ The translatable fields are different for every entity:
 * address
 * bookingInfo/urlLabel*
 * priceInfo/name*
-* mediaObject/inLanguage
+
 
 **Organizer**
 * name
@@ -104,6 +106,9 @@ Fields marked with an `*` are not yet indexed under the `completeLanguages` prop
 
 ## contactPoint
 
+* The three properties `email`, `url`, `phone` are not validated by the API and can all contain any string.
+* It is possible to find an emailaddress under `phone` and vice versa.
+
 ```
 "contactPoint": {
   "email": [],
@@ -117,25 +122,36 @@ Fields marked with an `*` are not yet indexed under the `completeLanguages` prop
 }
 ```
 
-The three properties `email`, `url`, `phone` are not validated by the API and can all contain any string. So it is possible to find an emailaddress under `phone` and vice versa.
 
 ## creator
+
+* The creator should contain the nickname for the UiTiD user that created the offer.
 
 ```
 "creator": "Stiksels"
 ```
 
-The creator should contain the nickname for the UiTiD user that created the offer. It is possible that this field contains an emailaddress (for events and places) or a `UUID (nick)` for organizers
+* It is possible that this field contains an emailaddress (for events and places) or a `UUID (nick)` for organizers
+
+```
+"creator": "user@info.org"
+```
+
+```
+"creator": "86a02c65-696d-5b12-a9b1-9e3bc8e6303c (Stiksels)"
+```
 
 ## creatorId
+
+* [UNDER DEVELOPMENT] This field will contain the UUID for the UiTiD user that created the offer.
 
 ```
 "creatorId": "86a02c65-696d-5b12-a9b1-9e3bc8e6303c"
 ```
 
-[UNDER DEVELOPMENT] This field will contain the UUID for the UiTiD user that created the offer.
+## address without language property
 
-## address
+* It is possible that an address does not have a language property yet.
 
 ```
 "address": {
@@ -146,9 +162,12 @@ The creator should contain the nickname for the UiTiD user that created the offe
 }
   ```
 
-It is possible that an address does not have a language property yet.
 
-## geo
+## Missing g-coördinates
+
+* It is possible that not every place address has geo-coordinates.
+
+* Geocoordinates are not calculated for an organizer.
 
 ```
 "geo": {
@@ -157,24 +176,47 @@ It is possible that an address does not have a language property yet.
 },
 ```
 
-* It is possible that not every place address has geo-coordinates.
 
-* Geocoordinates are not calculated for an organizer.
+## priceInfo - translate name
 
-
-## priceInfo
+* the name for a price should be a translatable field.
 
 ```
 "priceInfo": [
   {
     "category": "base",
     "name": {
+      "nl": "Basistarief",
+      "fr": "Tarif de base",
       "en": "Base tariff",
-      "nl": "Basistarief"
+      "de": "Basisrate"
       },
     "price": 6,
     "priceCurrency": "EUR"
   }
+]
 ```
+* It is possible that some older offers don't have translated names
 
-* [UNDER DEVELOPMENT] the name for a price should be a translatable field.
+```
+"priceInfo": [
+  {
+    "category": "base",
+    "name": "Basistarief",
+    "price": 10.65,
+    "priceCurrency": "EUR"
+  },
+  {
+    "category": "tariff",
+    "name": "Kortingstarief",
+    "price": 9.65,
+    "priceCurrency": "EUR"
+  },
+  {
+    "category": "tariff",
+    "name": "Kinepolis Student Card",
+    "price": 7.95,
+    "priceCurrency": "EUR"
+  }
+]
+```
