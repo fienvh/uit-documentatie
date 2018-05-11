@@ -13,6 +13,7 @@ Parameters:
 
 | **Naam** | **Type** | **Omschrijving** | **Verplicht** |
 | pointOfSale | Boolean | Zoekt enkel PointOfSale Balies (die kaarten kunnen verkopen) indien deze parameter “true” is |  |
+| pointOfSaleKansenStatuut | Boolean | Zoekt enkel geauthorizeerde PointOfSale Balies (die kaarten kunnen verkopen met kansenstatuut) indien deze parameter “true” is |  |
 | school | Boolean | Zoekt enkel ‘School’ balies indien deze parameter “true” is |  |
 | cardSystemId | List<Long> | Zoekt balies binnen deze kaartsystemen. Deze parameter is verplicht wanneer 'pointOfSale' of 'school' true is. |  |
 | groupName | List<String> | Zoekt balies die tot de groep met gegeven naam behoren. Deze parameter kan niet gebruikt worden wanneer 'pointOfSale' of 'school' true is. |  |
