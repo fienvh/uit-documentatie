@@ -11,3 +11,4 @@
 - [Balies voor een medewerker opzoeken](balies-voor-een-medewerker-opzoeken)
 - [Alle medewerkers van een balie opzoeken](alle-medewerkers-van-een-balie-opzoeken)
 - [Opvragen voorraadtellers uitpassen](opvragen-voorraadtellers-uitpassen)
+- [Opvragen en aanpassen status gebruiksvoorwaarden baliemedewerker](medewerker-gebruiksvoorwaarden)
