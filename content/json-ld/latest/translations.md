@@ -16,6 +16,15 @@ It is possible to add a translation for specific fields. The API supports transl
 * [**Event description**](../events/event-description)
 * [**Place description**](../places/place-description)
 
+## priceInfo
+
+* [**Event price**](../events/event-price-info)
+* [**Place price**](../places/place-price-info)
+
 ## Address
 
 * [**Place address**](../places/place-address)
+
+## Images
+
+* [**Image**](../images/image-post)
