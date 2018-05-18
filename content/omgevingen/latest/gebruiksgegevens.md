@@ -38,3 +38,19 @@
 * URL: ```https://www.uitid.be/uitid/rest/entry/rest.uitdatabank.be```
 * Key: op aanvraag
 * Secret: op aanvraag
+
+### UiTdatabank Test
+
+* URL: ```https://test.uitdatabank.be```
+
+### UiTdatabank Productie
+
+* URL: ```https://www.uitdatabank.be```
+
+### UiTinVlaanderen Test
+
+* URL: ```https://test.uitinvlaanderen.be```
+
+### UiTinVlaanderen Productie
+
+* URL: ```https://www.uitinvlaanderen.be```
