@@ -98,16 +98,6 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
       "streetAddress": "Henegouwenkaai 41-43"
     }
   },
-  "bookingInfo": {
-    "availabilityEnds": "2019-12-30T01:02:03+01:00",
-    "availabilityStarts": "2018-12-30T01:02:03+01:00",
-    "email": "test@test.com",
-    "phone": "123",
-    "url": "https://www.test.com",
-    "urlLabel": {
-      "nl": "Test"
-    }
-  },
   "contactPoint": {
     "email": [
       "info@test.be",
@@ -122,8 +112,9 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
     ]
   },
   "description": {
-    "en": "this is a description",
-    "nl": "dit is de beschrijving"
+    "nl": "Dit is de beschrijving",
+    "fr": "C'est la description",
+    "en": "This is a description"
   },
   "calendarType": "permanent",
   "openingHours": [
@@ -137,14 +128,13 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
       "opens": "10:00"
     }
   ],
-  "organizer": {
-    "@id": "https://io-test.uitdatabank.be/organizers/02bdbd1b-672e-461e-85b2-9ce3746fb1a6"
-  },
   "priceInfo": [
     {
       "category": "base",
       "name": {
-        "nl": "Basistarief"
+        "nl": "Basistarief",
+        "fr": "Tarif de base",
+        "en": "Base tariff"
       },
       "price": 11,
       "priceCurrency": "EUR"
@@ -152,7 +142,9 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
     {
       "category": "tariff",
       "name": {
-        "nl": "Senioren"
+        "nl": "Senioren",
+        "fr": "Aînés",
+        "en": "Elderly"
       },
       "price": 6,
       "priceCurrency": "EUR"
@@ -163,34 +155,15 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
       "id": "Yf4aZBfsUEu2NsQqsprngw"
     }
   ],
-  "typicalAgeRange": "3-15",
-  "availableFrom": "2018-12-30T18:45:00+01:00",
+  "typicalAgeRange": "3-73",
   "mediaObject": [
     {
-      "@id": "https://udb-silex-test.uitdatabank.be/images/5132489d-762f-4549-9eb4-3374ea1a77f3",
+      "@id": "https://io-test.uitdatabank.be/images/e48191eb-dd23-4338-a546-4893dac37096",
       "@type": "schema:ImageObject",
-      "contentUrl": "https://udb-silex-test.uitdatabank.be/images/5132489d-762f-4549-9eb4-3374ea1a77f3.png",
-      "thumbnailUrl": "https://udb-silex-test.uitdatabank.be/images/5132489d-762f-4549-9eb4-3374ea1a77f3.png",
-      "description": "Test image 2",
-      "copyrightHolder": "Test copyright",
-      "inLanguage": "nl"
-    },
-    {
-      "@id": "https://udb-silex-test.uitdatabank.be/images/6186b6c7-f059-44db-8859-f51fc3092b07",
-      "@type": "schema:ImageObject",
-      "contentUrl": "https://udb-silex-test.uitdatabank.be/images/6186b6c7-f059-44db-8859-f51fc3092b07.png",
-      "thumbnailUrl": "https://udb-silex-test.uitdatabank.be/images/6186b6c7-f059-44db-8859-f51fc3092b07.png",
-      "description": "Test image 3",
-      "copyrightHolder": "Test copyright",
-      "inLanguage": "nl"
-    },
-    {
-      "@id": "https://udb-silex-test.uitdatabank.be/images/922954a3-80d7-408e-a8b2-88b803ec0c25",
-      "@type": "schema:ImageObject",
-      "contentUrl": "https://udb-silex-test.uitdatabank.be/images/922954a3-80d7-408e-a8b2-88b803ec0c25.png",
-      "thumbnailUrl": "https://udb-silex-test.uitdatabank.be/images/922954a3-80d7-408e-a8b2-88b803ec0c25.png",
-      "description": "Test image",
-      "copyrightHolder": "Test copyright",
+      "contentUrl": "https://io-test.uitdatabank.be/images/e48191eb-dd23-4338-a546-4893dac37096.png",
+      "thumbnailUrl": "https://io-test.uitdatabank.be/images/e48191eb-dd23-4338-a546-4893dac37096.png",
+      "description": "publiq kanaal Molenbeek",
+      "copyrightHolder": "publiq vzw",
       "inLanguage": "nl"
     }
   ],

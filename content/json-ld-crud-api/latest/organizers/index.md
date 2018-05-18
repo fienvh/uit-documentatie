@@ -65,15 +65,16 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/organizers/" \
   "mainLanguage": "nl",
   "name": {
     "fr": "publiq vzw",
-    "nl": "publiq vzw"
+    "nl": "publiq vzw",
+    "en": "publiq vzw"
   },
   "url": "https://www.publiq.be/2",
   "address": {
     "nl": {
       "addressCountry": "BE",
       "addressLocality": "Brussel",
-      "postalCode": "1000",
-      "streetAddress": "Anspachlaan 107"
+      "postalCode": "1080",
+      "streetAddress": "Henegouwenkaai 41-43"
     }
   },
   "contactPoint": {

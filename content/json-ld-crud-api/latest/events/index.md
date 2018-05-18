@@ -74,15 +74,16 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
      -H 'x-api-key: deb306a6-6f46-4c98-89ce-b03ec4f121e' \
      -H 'Content-Type: application/json; charset=utf-8' \
      -d $'{
-  "availableFrom": "2018-03-30T18:45:00+01:00",
-  "bookingInfo": {
+    "bookingInfo": {
     "availabilityEnds": "2019-12-30T01:02:03+01:00",
     "availabilityStarts": "2018-12-30T01:02:03+01:00",
     "email": "test@test.com",
     "phone": "123",
     "url": "https://www.test.com",
     "urlLabel": {
-      "nl": "Test"
+      "nl": "Boek tickets",
+      "en": "Book tickets",
+      "fr": "Réserver des billets"
     }
   },
   "contactPoint": {
@@ -99,25 +100,29 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
     ]
   },
   "description": {
-    "en": "this is a description",
-    "nl": "dit is de beschrijving"
+    "nl": "Dit is de beschrijving",
+    "fr": "C'est la description",
+    "en": "This is a description"
   },
   "location": {
-    "@id": "https://io-test.uitdatabank.be/place/b2064ffa-f2d6-4fda-9573-2d3abfa069d6"
+    "@id": "https://io-test.uitdatabank.be/place/aa757579-66fb-47f8-ae2c-99a9d88976af"
   },
   "mainLanguage": "nl",
   "name": {
     "en": "event name in EN",
-    "nl": "event name in NL"
+    "nl": "event name in NL",
+    "fr": "event name in FR"
   },
   "organizer": {
-    "@id": "https://io-test.uitdatabank.be/organizers/02bdbd1b-672e-461e-85b2-9ce3746fb1a6"
+    "@id": "https://io-test.uitdatabank.be/organizers/10cfb8c6-8e2e-4fdb-8119-5b9057cf33d7"
   },
   "priceInfo": [
     {
       "category": "base",
       "name": {
-        "nl": "Basistarief"
+        "nl": "Basistarief",
+        "fr": "Tarif de base",
+        "en": "Base tariff"
       },
       "price": 11,
       "priceCurrency": "EUR"
@@ -125,30 +130,32 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
     {
       "category": "tariff",
       "name": {
-        "nl": "Senioren"
+        "nl": "Senioren",
+        "fr": "Aînés",
+        "en": "Elderly"
       },
       "price": 6,
       "priceCurrency": "EUR"
     }
   ],
   "calendarType": "multiple",
-  "startDate": "2018-04-01T14:45:00+01:00",
-  "endDate": "2018-06-01T18:45:00+01:00",
+  "startDate": "2019-04-01T14:45:00+01:00",
+  "endDate": "2019-06-01T18:45:00+01:00",
   "subEvent": [
     {
       "@type": "Event",
-      "endDate": "2018-04-01T18:45:00+01:00",
-      "startDate": "2018-04-01T14:45:00+01:00"
+      "endDate": "2019-04-01T18:45:00+01:00",
+      "startDate": "2019-04-01T14:45:00+01:00"
     },
     {
       "@type": "Event",
-      "endDate": "2018-05-01T18:45:00+01:00",
-      "startDate": "2018-05-01T14:45:00+01:00"
+      "endDate": "2019-05-01T18:45:00+01:00",
+      "startDate": "2019-05-01T14:45:00+01:00"
     },
     {
       "@type": "Event",
-      "endDate": "2018-06-01T18:45:00+01:00",
-      "startDate": "2018-06-01T14:45:00+01:00"
+      "endDate": "2019-06-01T18:45:00+01:00",
+      "startDate": "2019-06-01T14:45:00+01:00"
     }
   ],
   "terms": [
@@ -161,34 +168,16 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
   ],
   "typicalAgeRange": "3-15",
   "audience": {
-    "audienceType": "members"
+    "audienceType": "everyone"
     },
   "mediaObject": [
     {
-      "@id": "https://udb-silex-test.uitdatabank.be/images/5132489d-762f-4549-9eb4-3374ea1a77f3",
+      "@id": "https://io-test.uitdatabank.be/images/58eb2257-6dee-45c8-b189-3ba942d5331b",
       "@type": "schema:ImageObject",
-      "contentUrl": "https://udb-silex-test.uitdatabank.be/images/5132489d-762f-4549-9eb4-3374ea1a77f3.png",
-      "thumbnailUrl": "https://udb-silex-test.uitdatabank.be/images/5132489d-762f-4549-9eb4-3374ea1a77f3.png",
-      "description": "Test image 2",
-      "copyrightHolder": "Test copyright",
-      "inLanguage": "nl"
-    },
-    {
-      "@id": "https://udb-silex-test.uitdatabank.be/images/6186b6c7-f059-44db-8859-f51fc3092b07",
-      "@type": "schema:ImageObject",
-      "contentUrl": "https://udb-silex-test.uitdatabank.be/images/6186b6c7-f059-44db-8859-f51fc3092b07.png",
-      "thumbnailUrl": "https://udb-silex-test.uitdatabank.be/images/6186b6c7-f059-44db-8859-f51fc3092b07.png",
-      "description": "Test image 3",
-      "copyrightHolder": "Test copyright",
-      "inLanguage": "nl"
-    },
-    {
-      "@id": "https://udb-silex-test.uitdatabank.be/images/922954a3-80d7-408e-a8b2-88b803ec0c25",
-      "@type": "schema:ImageObject",
-      "contentUrl": "https://udb-silex-test.uitdatabank.be/images/922954a3-80d7-408e-a8b2-88b803ec0c25.png",
-      "thumbnailUrl": "https://udb-silex-test.uitdatabank.be/images/922954a3-80d7-408e-a8b2-88b803ec0c25.png",
-      "description": "Test image",
-      "copyrightHolder": "Test copyright",
+      "contentUrl": "https://io-test.uitdatabank.be/images/58eb2257-6dee-45c8-b189-3ba942d5331b.png",
+      "thumbnailUrl": "https://io-test.uitdatabank.be/images/58eb2257-6dee-45c8-b189-3ba942d5331b.png",
+      "description": "publiq - maak het mee",
+      "copyrightHolder": "publiq vzw",
       "inLanguage": "nl"
     }
   ],
