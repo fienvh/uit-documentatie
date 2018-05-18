@@ -3,8 +3,12 @@
 
 # Omgevingen
 
-![omgevingen](/img/omgevingen.png "omgevingen")
+publiq vzw voorziet voor zijn projecten en producten verschillende omgevingen.
+Deze benaderen qua ondersteunende componenten zoveel mogelijk de productieomgevingen.
+Dit om zonder risico nieuwe functionaliteiten te kunnen ontwikkelen en doortesten,
+en zo de betrouwbaarheid van de code en applicaties te kunnen garanderen alvorens deze beschikbaar worden voor eindgebruikers.
 
-Een overzicht van de verschillende omgevingen die worden gebruikt
-bij het ontwikkelen van of integreren met de software platformen die publiq
-aanbiedt.
+Voor developers die diensten voor derden ontwikkelen met betrekking tot het UiT-gamma, worden testomgevingen ter beschikking gesteld
+met een representatieve set aan testdata. Zo kunnen nieuwe integraties / implementaties end-to-end doorgetest worden.
+
+![omgevingen](/img/omgevingen.png "omgevingen")

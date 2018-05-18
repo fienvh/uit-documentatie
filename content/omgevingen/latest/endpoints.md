@@ -1,7 +1,7 @@
 ---
 ---
 
-## Gebruiksgegevens
+## Endpoints
 
 ### UiTiD Test
 
