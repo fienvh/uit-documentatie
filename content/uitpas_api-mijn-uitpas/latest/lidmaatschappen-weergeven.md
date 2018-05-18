@@ -42,7 +42,7 @@ Voorbeeld
 </memberships>
 ~~~ 
 
-[Voorbeeld response in XML (volledig)](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_van_pashouder) 
+[Voorbeeld response in XML (volledig)](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-van-pashouder/) 
 
 Volgende velden heb je nodig:
 
@@ -54,6 +54,6 @@ Volgende velden heb je nodig:
 
 **Referentie UiTPAS API v3.0**
 
-[Ophalen van een pashouder](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_van_pashouder)
+[Ophalen van een pashouder](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-van-pashouder/)
 
 

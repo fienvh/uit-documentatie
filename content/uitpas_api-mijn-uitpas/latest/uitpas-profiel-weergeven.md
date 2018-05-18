@@ -27,10 +27,10 @@ Voorbeeld
 
 **Response** 
 
-[Voorbeel response in XML](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_van_pashouder) 
+[Voorbeel response in XML](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-van-pashouder/) 
 
-[Overzicht beschikbare velden entiteit 'pashouder'](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_pashouder_entiteit) 
+[Overzicht beschikbare velden entiteit 'pashouder'](http://documentatie.uitdatabank.be/content/uitpas_api/latest/entiteiten/pashouder-entiteit/) 
 
 **Referentie UiTPAS API v3.0**
 
-[Ophalen van een pashouder](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_van_pashouder) 
+[Ophalen van een pashouder](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-van-pashouder/) 

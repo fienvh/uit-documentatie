@@ -63,7 +63,7 @@ Voorbeeld
 
 **Referentie UiTPAS API v3.0**
 
-[Activatielink opvragen op basis van geboortedatum](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_activatie_link_opvragen_op_basis_van_geboortedatum)
+[Activatielink opvragen op basis van geboortedatum](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/activatie-link-opvragen-op-basis-van-geboortedatum/)
 
 ### De user redirecten na de koppeling
 

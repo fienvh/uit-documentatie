@@ -65,7 +65,8 @@ Voorbeeld
 </checkinActivity>
 ~~~
 
-[Voorbeeld response in XML (volledig)](https://test.uitid.be/uitid/apidoc/uitpas-api.html#_checkins_doorzoeken)
+[Voorbeeld response in XML (volledig)](http://documentatie.uitdatabank.be/content/uitpas_api/latest/events/checkins-doorzoeken/)
+
 
 Volgende velden heb je nodig:
 
@@ -86,7 +87,7 @@ https://www.uitid.be/uitid/rest/searchv2/search?q=cdbid:{nodeId}
 
 **Referentie UiTPAS API v3.0**
 
-[Checkins doorzoeken](https://test.uitid.be/uitid/apidoc/uitpas-api.html#_checkins_doorzoeken)
+[Checkins doorzoeken](http://documentatie.uitdatabank.be/content/uitpas_api/latest/events/checkins-doorzoeken/)
 
 ## Historiek omgeruilde voordelen weergeven
 
@@ -125,7 +126,7 @@ Voorbeeld
 </cashedPromotion>
 ~~~
 
-[Voorbeeld reponse in XML (volledig)](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_verzilverde_omruilvoordelen)
+[Voorbeeld reponse in XML (volledig)](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-verzilverde-omruilvoordelen/)
 
 Volgende velden heb je nodig:
 
@@ -138,7 +139,7 @@ Volgende velden heb je nodig:
 
 **Referentie UiTPAS v3.0**
 
-[Ophalen van verzilverder omruilvoordelen](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ophalen_verzilverde_omruilvoordelen)
+[Ophalen van verzilverder omruilvoordelen](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-verzilverde-omruilvoordelen/)
 
 ## Historiek gekochte kansentarieven weergeven
 
@@ -195,7 +196,7 @@ Voorbeeld
 </ticketSale>
 ~~~
 
-[Voorbeeld response in XML (volledig)](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_verkoop_tickets_doorzoeken)
+[Voorbeeld response in XML (volledig)](http://documentatie.uitdatabank.be/content/uitpas_api/latest/events/verkoop-tickets-doorzoeken/)
 
 Volgende velden heb je nodig:
 
@@ -205,10 +206,10 @@ Volgende velden heb je nodig:
 | Event titel | ticketSale > nodeTitle | Naam van het event waarvoor een ticket werd gekocht. |
 | Event organiser | ticketSale > organiser | Organisator van het event. |
 
-[Overzicht beschikbare velden entiteit 'ticketsale'](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_ticketsale_entiteit_bij_zoekopdracht)
+[Overzicht beschikbare velden entiteit 'ticketsale'](http://documentatie.uitdatabank.be/content/uitpas_api/latest/entiteiten/ticketsale-entiteit-bij-zoekopdracht/) 
 
 **Referentie UiTPAS API v3.0**
 
-[Verkoop tickets doorzoeken](http://www.uitid.be/uitid/apidoc/uitpas-api.html#_verkoop_tickets_doorzoeken)
+[Verkoop tickets doorzoeken](http://documentatie.uitdatabank.be/content/uitpas_api/latest/events/verkoop-tickets-doorzoeken/)
 
 

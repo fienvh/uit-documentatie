@@ -78,20 +78,30 @@ This will return all events and places that were, at some point, available befor
 
 ## Advanced queries
 
-You can also search by availability using [advanced queries](../../reference/advanced-queries). **However! You should always reset the default **`availableFrom`** and **`availableTo`** if you want to search by availability in your advanced queries (as explained in [default filters](../../getting-started/default-filters)).**
+You can also search by availability using [advanced queries](../../reference/advanced-queries). **However! You should always reset the default **`availableFrom`** and **`availableTo`** if you want to search by availability in your advanced queries (as explained in [default filters](../../getting-started/default-filters)).
 
 To search by availability in advanced queries, you can use the `availableRange` field and either look for a specific date, or a range.
+
+**Note that the ":" sign should be escaped using a "\\" (backslash) for a date time in advanced queries** Otherwise ElasticSearch will consider it as a key-value separator and the given date time will return the following error:
+
+```
+{
+"title": "failed to parse date field [2017-01-01T00] with format [yyyy-MM-dd'T'HH:mm:ssZZ]",
+"type": "about:blank",
+"status": 400
+}
+```
 
 For example, the following request will return all events and places that were available on January 1st 2017 at midnight, using an advanced query:
 
 ```
-GET https://search.uitdatabank.be/offers/?q=availableRange:2017-01-01T00:00:00%2B01:00&availableFrom=*&availableTo=*
+GET https://search.uitdatabank.be/offers/?q=availableRange:2017-01-01T00\:00\:00%2B01\:00&availableFrom=*&availableTo=*
 ```
 
 The following example returns all events and places that were available at some point between January 1st 2017, and March 31st 2017, using an advanced query:
 
 ```
-GET https://search.uitdatabank.be/offers/?q=availableRange:[2017-01-01T00:00:00%2B01:00 TO 2017-03-31T23:59:59%2B01:00]&availableFrom=*&availableTo=*
+GET https://search.uitdatabank.be/offers/?q=availableRange:[2017-01-01T00\:00\:00%2B01\:00 TO 2017-03-31T23\:59\:59%2B01\:00]&availableFrom=*&availableTo=*
 ```
 
 For more info, see the documentation for [advanced queries](../../reference/advanced-queries).

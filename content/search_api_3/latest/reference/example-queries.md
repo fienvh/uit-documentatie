@@ -23,7 +23,7 @@
 
 
 ```
-GET https://search.uitdatabank.be/events/?q=terms.label:%22Kamp%20of%20vakantie%22%20AND%20typicalAgeRange:[*%20TO%2014]%20AND%20dateRange:[2017-07-01T00:00:00%2B01:00%20TO%202017-08-31T23:59:59%2B01:00]%20AND%20mediaObjectsCount:%3E=1&sort[availableTo]=asc&limit=5&disableDefaultFilters=true&embed=true
+GET https://search.uitdatabank.be/events/?q=(terms.label:"Kamp of vakantie" AND typicalAgeRange:[* TO 14] AND dateRange:[2017-07-01T00\:00\:00%2B01\:00 TO 2017-08-31T23\:59\:59%2B01\:00] AND mediaObjectsCount:>=1)&sort[availableTo]=asc&limit=5&disableDefaultFilters=true&embed=true
 ```
 
 
@@ -53,7 +53,7 @@ GET https://search.uitdatabank.be/events/?q=terms.label:%22Kamp%20of%20vakantie%
 
 
 ```
-GET https://search.uitdatabank.be/events/?q=(((terms.label:Tentoonstelling%20OR%20terms.label:Theatervoorstelling%20OR%20terms.label:Dansvoorstelling%20OR%20terms.label:%22Jazz%20en%20blues%22%20OR%20terms.label:%22Klassieke%20muziek%22)%20NOT%20(terms.label:%22Cursus%20of%20workshop%22%20OR%20terms.label:%22Lezing%20of%20congres%22))%20AND%20(calendarType:single%20OR%20calendarType:multiple))
+GET https://search.uitdatabank.be/events/?q=(((terms.label:Tentoonstelling OR terms.label:Theatervoorstelling OR terms.label:Dansvoorstelling OR terms.label:"Jazz en blues" OR terms.label:"Klassieke muziek") NOT (terms.label:"Cursus of workshop" OR terms.label:"Lezing of congres")) AND (calendarType:single OR calendarType:multiple))
 ```
 
 ## Free events in Ghent
@@ -64,7 +64,7 @@ GET https://search.uitdatabank.be/events/?q=(((terms.label:Tentoonstelling%20OR%
 `q=regions:gem-gent`
 
 ```
-GET https://search.uitdatabank.be/events/?q=price:0%20AND%20regions:gem-gent
+GET https://search.uitdatabank.be/events/?q=price:0 AND regions:gem-gent
 ```
 
 
@@ -72,11 +72,11 @@ GET https://search.uitdatabank.be/events/?q=price:0%20AND%20regions:gem-gent
 > show all events that take place in Oostende and have an UiTPAS organizer
 
 - [UiTPAS](../../searching/uitpas) Oostende
-`q=regions:gem-oostende AND organizer.labels:"UiTPAS Oostende"`
+`q=regions:nis-35013 AND organizer.labels:"UiTPAS Oostende"`
 OR
-`uitpas=true&q=regions:gem-oostende`
+`uitpas=true&q=regions:nis-35013`
 
 
 ```
-GET https://search.uitdatabank.be/events/?q=regions:gem-oostende%20AND%20organizer.labels:"UiTPAS%20Oostende"
+GET https://search.uitdatabank.be/events/?q=regions:nis-35013 AND organizer.labels:"UiTPAS Oostende"
 ```

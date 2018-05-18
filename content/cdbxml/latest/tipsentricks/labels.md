@@ -6,7 +6,7 @@
 Je kan evenementen verrijken met een of meerdere door jouw gekozen label(s). 
 Deze labels kunnen vervolgens als basis dienen om queries te bouwen op de [UiTdatabank Search API](http://documentatie.uitdatabank.be/content/search_api/latest/index.html) en zo je eigen agenda of app te vullen met evenementen uit UiTdatabank. 
 
-Labels ('keywords') kan je sturen onder ```//event/keywords/keyword```.
+Labels (keywords) kan je sturen onder ```//event/keywords/keyword```.
 
 ```
 <keywords>
@@ -43,14 +43,14 @@ Activiteiten die toegankelijk zijn voor kinderen, maar niet gericht zijn naar ee
 ### Doelgroep-labels
 
 Wanneer je activiteit gericht is aan mensen met een beperking, kan je de specifieke doelgroep aanduiden door die doelgroep mee te sturen als label. Volgende doelgroepen worden onderscheiden:
-- 'Autisme'
-- 'Blinden of slechtzienden'
-- 'Doven of slechthorenden'
-- 'Fysieke beperking'
-- 'Psychische beperking'
-- 'Verstandelijke beperking'
+- Autisme
+- Blinden of slechtzienden
+- Doven of slechthorenden
+- Fysieke beperking
+- Psychische beperking
+- Verstandelijke beperking
 
-Wanneer je deze labels wilt gebruiken, neem je best vooraf contact op met [CultuurNet](mailto:vragen@uitdatabank.be).
+Wanneer je deze labels wilt gebruiken, neem je best vooraf contact op met [publiq](mailto:vragen@uitdatabank.be).
 
 ### Taaliconen
 

@@ -1,68 +1,102 @@
 ---
 ---
 
-# Price info
+# Update price info
 
-Add an array of price info objects for the offer. 
+Add an array of price info objects for the offer.
 
-Price is not required, although once added it can not be removed from an offer.
+Price is not required, although once added it is not possible to remove the price with category `base` from an offer.
 
-## Resource URI
+## HTTP request
 
 ```
-/places/{placeId}/priceInfo
+PUT /places/{placeId}/priceInfo
 ```
+
+**HTTP DELETE**
+
+Not supported: once priceInfo is added it can only be updated.
+
+## Request headers
+
+| Header        | Value            | Required? |
+| ------------- | ---------------- | --------- |
+| Authorization | Bearer {token}   | true      |
+| X-Api-Key     | {apiKey}         | true      |
+| Content-Type  | application/json | false     |
 
 ## Resource properties
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
-| placeId	| uuid | unique identifier for an event | d595414a-13e0-4dd2-b4bd-706598427351 |
+| placeId	| uuid | unique identifier for a place | d595414a-13e0-4dd2-b4bd-706598427351 |
 
-
-## HTTP PUT
+## Request body
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
 | category | string | The first price info object has category 'base', all the following objects have category 'tariff' (differentiated price for specific segments) | base |
-| name | string | category 'base' should always have 'Basistarief' for name, discounts for specific segments can be named with category 'tariff' | Senioren |
+| name | string | category 'base' should always have 'Basistarief' for name, discounts for specific segments can be named with category 'tariff' | "nl": "Senioren" |
 | price | number | Pricevalue is a floating-point number, use 0.0 for free events | 10.0 |
 | priceCurrency | string | 3-characters currency indicator | EUR |
 
+## Response
 
-**Example body**
+If successful, this method returns a `200` response code and a commandId in the response body.
+
+## Example
+
+**request**
+
+The following is an example of the request
 
 ```
+PUT https://io-test.uitdatabank.be/places/03116768-1abc-405a-93d7-ba6ede52fe09/priceInfo
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
 [
   {
-    "category": "base", 
-    "name": "Basistarief", 
-    "price": 10, 
+    "category": "base",
+    "name": {
+      "nl": "Basistarief",
+      "fr": "Tarif de base",
+      "en": "Base tariff",
+      "de": "Basisrate"
+    },
+    "price": 10,
     "priceCurrency": "EUR"
-  }, 
+  },
   {
-    "category": "tariff", 
-    "name": "Tot 2 jaar", 
-    "price": 0, 
+    "category": "tariff",
+    "name": {
+      "nl": "Jongeren",
+      "en": "Youth",
+    },
+    "price": 0,
     "priceCurrency": "EUR"
-  }, 
+  },
   {
-    "category": "tariff", 
-    "name": "Van 2 tot 12", 
-    "price": 6, 
+    "category": "tariff",
+    "name": {
+      "nl": "Senioren",
+      "en": "Elderly",
+    },
+    "price": 6,
     "priceCurrency": "EUR"
   }
 ]
 ```
 
-## HTTP POST
+**Response**
 
-Not supported
+The following is an example of the response.
 
-## HTTP GET
+```
+200 OK
 
-Not supported
-
-## HTTP DELETE
-
-Not supported
+{
+  "commandId": "a55486283a53a1e45041002c4887580f"
+}
+```

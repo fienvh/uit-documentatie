@@ -51,7 +51,8 @@ Het aantal tijdstippen (timestamps) dat aangemaakt kan worden, is onbeperkt.
 
 ## Het event vindt permanent plaats
 
-Wanneer een event permanent plaatsvindt geef je aan dat het een permanent aanbod is, eventueel aangevuld met een weekschema.
+Een *permanent event* duid je aan door middel van een periode, eventueel aangevuld met een weekschema.
+Ook voor *kampen (met overnachting)* dien je voor de tijdsinfo een period element aan te maken.
 
 Let wel: er kan maar één period element aangemaakt worden.
 
@@ -63,9 +64,9 @@ Let wel: er kan maar één period element aangemaakt worden.
     <period>
       <datefrom>2014-01-01</datefrom>
       <dateto>2018-12-31</dateto>
-    <period>
-  <periods>
-<calendar>
+    </period>
+  </periods>
+</calendar>
 ~~~
 
 ### Met weekschema
@@ -88,9 +89,10 @@ Let wel: er kan maar één period element aangemaakt worden.
           <friday opentype="closed"/>
           <saturday opentype="closed"/>
           <sunday opentype="closed"/>
-    <period>
-  <periods>
-<calendar>
+        </weekscheme>
+    </period>
+  </periods>
+</calendar>
 ~~~
 
 ## Automatisch aanvullen van begin- en einduur

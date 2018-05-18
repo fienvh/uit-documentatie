@@ -1,7 +1,9 @@
 ---
 ---
 
-Dit document behandelt het datamodel van de UiTdatabank.
+Dit document behandelt de werking en het datamodel van de UiTdatabank.
+
+Welke soorten gebruikers werken er in UiTdatabank en welke acties kunnen zij uitvoeren?
 
 Welke informatie wordt er in de UiTdatabank opgeslagen? Voornamelijk evenementen en activiteiten. Wat verstaan we daaronder? Welke “ondersteunende” informatie is daarbij nodig om relevante informatie te ontsluiten? Welke informatie wordt daartegenover expliciet uit de UiTdatabank geweerd?
 

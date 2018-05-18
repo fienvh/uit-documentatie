@@ -1,18 +1,30 @@
 ---
 ---
 
-# Address
+# Update address
 
 Update the address information of a place.
 
 Address is not required, an organizer can only have one address.
 
 
-## Resource URI
+## HTTP request
 
 ```
-/organizers/{organizerId}/address
+PUT /organizers/{organizerId}/address
 ```
+
+**HTTP DELETE**
+
+Not supported: once an address is added, it is only possible to update the address.
+
+## Request headers
+
+| Header        | Value            | Required? |
+| ------------- | ---------------- | --------- |
+| Authorization | Bearer {token}   | true      |
+| X-Api-Key     | {apiKey}         | true      |
+| Content-Type  | application/json | false     |
 
 ## Resource properties
 
@@ -21,7 +33,7 @@ Address is not required, an organizer can only have one address.
 | organizerId	| uuid | unique identifier for an organizer | d595414a-13e0-4dd2-b4bd-706599427351 |
 
 
-## HTTP PUT
+## Request body
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
@@ -30,10 +42,22 @@ Address is not required, an organizer can only have one address.
 | postalCode | string | postalcode of the location | 3000 |
 | streetAddress | string | The street name and house number information of the location | Bondgenotenlaan 101 |
 
+## Response
 
-**Example body**
+If successful, this method returns a `200` response code and a commandId in the response body.
+
+## Example
+
+**request**
+
+The following is an example of the request
 
 ```
+PUT  https://io-test.uitdatabank.be/organizers/{organizerId}/address
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
 {
   "addressCountry": "BE",
   "addressLocality": "Leuven",
@@ -42,14 +66,14 @@ Address is not required, an organizer can only have one address.
 }
 ```
 
-## HTTP POST
+**Response**
 
-Not supported
+The following is an example of the response.
 
-## HTTP GET
+```
+200 OK
 
-Not supported
-
-## HTTP DELETE
-
-Not supported
+{
+  "commandId": "a55486283a53a1e45041002c4887580f"
+}
+```

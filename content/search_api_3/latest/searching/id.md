@@ -12,6 +12,26 @@ This search is always done with an exact match.
 
 It is possible to search by an offer id (event or place), and/or a related location id, and/or a related organizer id.
 
+A specific Id can be found by extracting the UUID from the `@id` property in the JSON-LD projection:
+
+**id**
+```
+"@id": "https://io.uitdatabank.be/event/75573a64-ddc8-4fd0-8b07-d258939dd74f"
+"id": "75573a64-ddc8-4fd0-8b07-d258939dd74f"
+```
+
+**locationId**
+```
+"@id": "https://io.uitdatabank.be/place/a0368d10-ded0-4925-b94a-2835f73e255e"
+"locationId": "a0368d10-ded0-4925-b94a-2835f73e255e"
+```
+
+**organizerId**
+```
+"@id": "https://io.uitdatabank.be/organizers/4fa5dddf-73d5-47f8-b54f-45d88cc1661a"
+"organizerId": "4fa5dddf-73d5-47f8-b54f-45d88cc1661a"
+```
+
 ## URL parameter
 
 You can filter by an exact match using the `id`, `locationId` or `organizerId` URL parameter:

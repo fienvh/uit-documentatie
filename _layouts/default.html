@@ -13,6 +13,7 @@
 					{% assign selected_book = book %}
 					{% assign selected_version = version %}
           {% assign selected_status = version.status %}
+          {% break %}
 				{% endif %}
 			{% endfor %}
 		{% endfor %}
@@ -67,6 +68,12 @@
           {% if page.status=="experimental" %}
             <div class="feedback">
               <strong>Let op bij het gebruiken van deze pagina. Deze informatie kan nog veranderen.</strong>
+            </div>
+          {% endif %}
+
+          {% if selected_status=="pilot" %}
+            <div class="feedback">
+              <strong>Vind je fouten of onvolledigheden in deze documentatie, geef ze dan zeker door aan <a href="mailto:vragen@uitdatabank.be">vragen@uitdatabank.be</a>. We verwerken je feedback zo snel mogelijk.</strong>
             </div>
           {% endif %}
 

@@ -5,13 +5,13 @@
 
 The oAuth request cycle is as follows:
 
-1. Get a request token from UiTiD
-2. Ask the user for authorization by sending it to UiTiD
-3. Redeem the request token for an access token at UiTiD
+1. Get a request token from UiTiD.
+2. Ask the user for authorization by sending it to UiTiD.
+3. Redeem the request token for an access token at UiTiD.
 
 Then, the access token + secret is used to sign requests.
 
-![3-legged oauth](/img/3leggednieuw.png "3-legged oauth")
+![3-legged oauth](/img/3leggednew.png "3-legged oauth")
 
 ## 1. Retrieve Request Token
 

@@ -54,7 +54,7 @@ For example: `PUT /events/{eventId}/title`, ...
 When linking two resources to each other, use a `PUT` request to a resource in a collection OR a singleton (many vs single), on the parent resource.
 For example: `PUT /events/{eventId}/labels/{labelName}` for one-to-many relations, `PUT /events/{eventId}/organizer` for one-to-one relations.
 
-Never use `PATCH`.
+Only use `PATCH` for publish commands.
 
 ## DELETE
 
