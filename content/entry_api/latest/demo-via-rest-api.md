@@ -5,7 +5,7 @@
 
 Content beheer via jouw applicatie met de UiTdatabank als backend is eenvoudig. Doorloop volgende stappen en het wordt duidelijk:
 
-1. **Demo app:** Op ```http://acc.uitid.be/testconsumer/show.jsp``` vind je een demo app.
+1. **Demo app:** Op ```https://test.uitid.be/testconsumer/show.jsp``` vind je een demo app.
 2. **Authenticatie:** Via de demo app kan je authenticeren met de user ```tools@cultuurnet.be``` met paswoord devel0per. Dat doe je door te klikken op "connect to culturefeed"
 3. **Event toevoegen:** Na authenticatie kies je als token "User Access Token", als method "POST", als path ```/entry/test.rest.uitdatabank.be/api/v3/event```, als post type "post body" en als post body het onderstaande XML fragment
 
