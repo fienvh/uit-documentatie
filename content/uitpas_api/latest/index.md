@@ -10,7 +10,7 @@ Alle URLs hebben de volgende opbouw:
 {server}/uitid/rest/{endpoint}
 ```
 
-Voorbeeld: ```https://acc.uitid.be/uitid/rest/uitpas/distributionkey/organiser/{id}```
+Voorbeeld: ```https://test.uitid.be/uitid/rest/uitpas/distributionkey/organiser/{id}```
 
 De URL ```{server}/uitid/rest``` noemen we verder ```{prefix}```.
 
