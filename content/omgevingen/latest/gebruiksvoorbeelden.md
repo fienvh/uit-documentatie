@@ -4,7 +4,7 @@
 ## Gebruiksvoorbeelden
 
 Ontwikkelaars die integraties opzetten met de services die publiq
-aanbiedt voor alle niet-productieomgevingen van hun integratie connecteren
+aanbiedt connecteren voor alle niet-productieomgevingen van hun integratie
 naar de testomgeving van de service (bv. Search API). Deze bevat een relevante
 dataset en kan gezien worden als een "veilige" versie van productie om wijzigingen aan de data aan
 te brengen.
