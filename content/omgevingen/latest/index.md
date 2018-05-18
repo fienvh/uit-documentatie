@@ -13,4 +13,4 @@ met een representatieve set aan testdata. Zo kunnen nieuwe integraties end-to-en
 
 ![omgevingen](/img/omgevingen.png "omgevingen")
 
-Een uitgebreide definitie van de verschillende omgevingen vind je <a href="http://documentatie.uitdatabank.be/content/omgevingen/latest/definitie/">hier</a>hier.
+Een uitgebreide definitie van de verschillende omgevingen vind je <a href="http://documentatie.uitdatabank.be/content/omgevingen/latest/definitie/">hier</a>.
