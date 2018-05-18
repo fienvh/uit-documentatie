@@ -36,7 +36,7 @@ Bovendien kan er zonder negatieve gevolgen data worden aangemaakt en gewijzigd.
 
 ### Toevoegen van functionaliteit aan de UiTdatabank
 
-Een nieuwe feature voor de UiTdatabank wordt eerst door de ontwikkelaar in zijn
+Een nieuwe feature voor de UiTdatabank wordt op vraag van publiq eerst door de ontwikkelaar in zijn
 lokale omgeving geschreven (in een feature branch). Na unit testen, een lokale
 functionele test en review wordt de feature branch gemerged in master en op de
 acceptatieomgeving gedeployed.
