@@ -12,3 +12,5 @@ Voor developers die diensten voor derden ontwikkelen met betrekking tot het UiT-
 met een representatieve set aan testdata. Zo kunnen nieuwe integraties end-to-end doorgetest worden.
 
 ![omgevingen](/img/omgevingen.png "omgevingen")
+
+Een uitgebreide definitie van de verschillende omgevingen vind je <a href="http://documentatie.uitdatabank.be/content/omgevingen/latest/definitie/">hier</a>hier.
