@@ -9,6 +9,6 @@ Dit om zonder risico nieuwe functionaliteiten te kunnen ontwikkelen en doorteste
 en zo de betrouwbaarheid van de code en applicaties te kunnen garanderen alvorens deze beschikbaar worden voor eindgebruikers.
 
 Voor developers die diensten voor derden ontwikkelen met betrekking tot het UiT-gamma, worden testomgevingen ter beschikking gesteld
-met een representatieve set aan testdata. Zo kunnen nieuwe integraties / implementaties end-to-end doorgetest worden.
+met een representatieve set aan testdata. Zo kunnen nieuwe integraties end-to-end doorgetest worden.
 
 ![omgevingen](/img/omgevingen.png "omgevingen")
