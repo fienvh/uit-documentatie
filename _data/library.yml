@@ -406,6 +406,15 @@
   versions:
       - name: "latest"
         path: "content/omgevingen/latest/"
+        summary:
+          - title: "Definitie van de omgevingen"
+            href: "definitie"
+          - title: "Gebruiksvoorbeelden"
+            href: "gebruiksvoorbeelden"
+          - title: "Endpoints"
+            href: "endpoints"
+          - title: "Testconsumer"
+            href: "testconsumer"
 - title: "UiT integreren op je eigen website"
   description: "Er zijn 3 mogelijkheden om agenda-informatie te integreren."
   path: "content/integratie-op-je-eigen-website/"
