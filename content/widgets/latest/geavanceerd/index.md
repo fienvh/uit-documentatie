@@ -5,6 +5,8 @@
 
 De widgetbouwer laat toe om een aantal geavanceerde instellingent te definiëren op widgetniveau. We raden aan deze instellingen te gebruiken wanneer het inladen of weergeven van je widgetpagina niet goed verloopt.
 
+![Voorbeeld-geavanceerd](/img/Voorbeeld-geavanceerd.png "Voorbeeld geavanceerd")
+
 ## 1. Forceer smalle weergave
 
 Plak je je widget in in een smalle container (< 576px), dan is mobiele weergave in de meeste gevallen wenselijk. Je kan de smalle weergeva forceren via geavanceerde instellingen.
