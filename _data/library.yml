@@ -1080,6 +1080,8 @@
               href: "na_publicatie/een_widget_inplakken_op_je_website"
             - title: "Aanpassen & dupliceren"
               href: "na_publicatie/je_widget_aanpassen_dupliceren_of_verwijderen"
+        - title: "Geavanceerd"
+          href: "geavanceerd"              
         - title: "Upgraden (v2 -> v3)"
           href: "upgraden"
           summary:
