@@ -13,4 +13,4 @@ Plak je je widget in in een smalle container (< 570px), dan is mobiele weergave 
 
 ## 2. jQuery niet inladen
 
-Wanneer de website waarop je de widget inplakt een afwijkende jQuery-versie gebruikt, kan het zijn dat sommige elementen op je website zich anders gedragen dan voorheen. De reden hiervoor kan liggen bij het inladen van jQuery-versie door de widget. Je kan binnen geavanceerde instelling ervoor kiezen om jQuery niet mee in te laden.
+Wanneer de website waarop je de widget inplakt een afwijkende jQuery-versie gebruikt, kan het zijn dat sommige elementen op je website zich anders gedragen dan voorheen. De reden hiervoor kan liggen bij het inladen van een andere jQuery-versie door de widget. Je kan binnen geavanceerde instelling ervoor kiezen om jQuery niet mee in te laden.
