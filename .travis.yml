@@ -19,6 +19,7 @@ deploy:
   region: eu-west-1
   skip_cleanup: true
   local_dir: _site
+  cache_control: "max-age=1800"
   on:
     branch: master
     repo: cultuurnet/uit-documentatie
