@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 
+	{% assign filename = page.path | split: '/' | last %}
+	{% assign folder = page.path | remove: filename %}
+	{% for book in site.data.library %}
+		{% for version in book.versions %}
+			{% if folder contains version.path %}
+				{% assign selected_book = book %}
+				{% assign selected_version = version %}
+        {% assign selected_status = version.status %}
+        {% break %}
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+
 	{% include head.html %}
 
 	<body>
-
-		{% assign filename = page.path | split: '/' | last %}
-		{% assign folder = page.path | remove: filename %}
-		{% for book in site.data.library %}
-			{% for version in book.versions %}
-				{% if folder contains version.path %}
-					{% assign selected_book = book %}
-					{% assign selected_version = version %}
-          {% assign selected_status = version.status %}
-          {% break %}
-				{% endif %}
-			{% endfor %}
-		{% endfor %}
 
 		{% include header.html %}
 
