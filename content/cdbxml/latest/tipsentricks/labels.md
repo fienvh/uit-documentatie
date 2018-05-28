@@ -6,6 +6,12 @@
 Je kan evenementen verrijken met een of meerdere door jouw gekozen label(s). 
 Deze labels kunnen vervolgens als basis dienen om queries te bouwen op de [UiTdatabank Search API](http://documentatie.uitdatabank.be/content/search_api/latest/index.html) en zo je eigen agenda of app te vullen met evenementen uit UiTdatabank. 
 
+Labels dienen aan volgende voorwaarden te voldoen:
+* Beginnen alleen met letter of cijfer, dus niet met een ander karakter
+* Minimum aantal karakters: 2
+* Maximum aantal karakters: 50
+* Alleen letters, cijfers, koppelteken  en underscore worden toegelaten
+
 Labels (keywords) kan je sturen onder ```//event/keywords/keyword```.
 
 ```
