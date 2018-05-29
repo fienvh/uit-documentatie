@@ -10,7 +10,7 @@ We sommen hieronder op op welke punten je geüpgrade versie kan verschillen.
 
 ## Weergave
 ### Smalle weergave
-Plak je je widget in in een smalle container (< 570px), dan is mobiele weergave in de meeste gevallen wenselijk. Je kan de smalle weergave forceren via (geavanceerde instellingen)[http://documentatie.uitdatabank.be/content/widgets/latest/geavanceerd/].
+Plak je je widget in in een smalle container (< 570px), dan is mobiele weergave in de meeste gevallen wenselijk. Je kan de smalle weergave forceren via [geavanceerde instellingen](http://documentatie.uitdatabank.be/content/widgets/latest/geavanceerd/).
 
 ### Locatie
 De weergave van locatie-info verschilt tussen widgets versie 2 en versie 3.
