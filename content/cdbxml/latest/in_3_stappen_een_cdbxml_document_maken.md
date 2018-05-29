@@ -160,6 +160,7 @@ Geef bij voorkeur ook een straat en een huisnummer zodat de UiTdatabank de corre
               <filename>x.jpg</filename>
               <filetype>jpeg</filetype>
               <hlink>http://www.flickr.com/images/x.jpg</hlink>
+              <mediatype>photo</mediatype>
             </file>
           </media>
           <shortdescription>Een beschrijving van maximaal 400 karakters.</shortdescription>
@@ -215,7 +216,7 @@ Tal van kanalen gebruiken het agefrom veld om zich specifiek tot een leeftijdsgr
 
 Verhoog de zichtbaarheid van het event door een thumbnail toe te voegen, zoals in het voorbeeld.
 
-Om aan te geven dat het media object dat je verzendt kan dienen als thumbnail voorzie je het attribuut main - //media/file/@main="true". Voeg de verplichte elementen filename en filetype toe. Het element filename moet uniek zijn. Vergeet ook niet het copyright te vermelden. Dit is weliswaar niet verplicht voor een valid XML, maar het is ten zeerste aangeraden mee te geven wie de rechten op de afbeelding bezit.
+Om aan te geven dat het media object dat je verzendt kan dienen als thumbnail voorzie je het attribuut main - //media/file/@main="true". Voeg de verplichte elementen filename, filetype en mediatype toe. Het element filename moet uniek zijn. Vergeet ook niet het copyright te vermelden. Dit is weliswaar niet verplicht voor een valid XML, maar het is ten zeerste aangeraden mee te geven wie de rechten op de afbeelding bezit.
 
 Voeg in de node ```<mediatype>reservations</mediatype>``` toe, om een rechtstreekse ticketinglink toe te voegen aan het aanbod.
 
