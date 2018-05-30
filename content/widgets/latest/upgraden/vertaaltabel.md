@@ -52,8 +52,10 @@ Volstaat bovenstaande vertaaltabel niet om je (complexe) SAPI 1-query te vertale
 <a id="identifiers"></a>
 <h2>Identifiers</h2>
 
-Een overzicht van alle identifiers vind je op ```http://taxonomy.uitdatabank.be/api/domain```
-Om de taxonomy in detail te bekijken voeg je het ```/{ID}/classification``` toe, bijvoorbeeld: ```http://taxonomy.uitdatabank.be/api/domain/eventtype/classification```
+Een overzicht van alle identifiers vind je hier: 
+
+* [http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_aanbod/](types)
+* [http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/themas/](thema's)
 
 <a id="rubrieken"></a>
 <h2>Rubrieken</h2>
