@@ -54,8 +54,8 @@ Volstaat bovenstaande vertaaltabel niet om je (complexe) SAPI 1-query te vertale
 
 Een overzicht van alle identifiers vind je hier: 
 
-* [http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_aanbod/](types)
-* [http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/themas/](thema's)
+* [type aanbod](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_aanbod/)
+* [thema's](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/themas/)
 
 <a id="rubrieken"></a>
 <h2>Rubrieken</h2>
