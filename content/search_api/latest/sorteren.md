@@ -7,7 +7,7 @@ Solr maakt bij een query een ranking aan van documenten. Ieder document / result
 
 Voor deze ranking maakt Lucene gebruik van het [tf.idf model](http://en.wikipedia.org/wiki/Tf–idf).
 
-Je kan sorteren op ieder niet-multivalued veld dat geïndexeerd is (zie [Geïndexeerde velden](../referentiegids)). Bovendien kan je ook sorteren door middel van een functie (zie [Geografisch zoeken](../geografisch_zoeken)).
+Je kan sorteren op ieder niet-multivalued veld dat geïndexeerd is (zie [Geïndexeerde velden]({% link content/search_api/latest/referentiegids.md %})). Bovendien kan je ook sorteren door middel van een functie (zie [Geografisch zoeken]({% link content/search_api/latest/geografisch_zoeken.md %})).
 
 ## Sorteren op titel
 

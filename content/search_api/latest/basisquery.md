@@ -11,11 +11,11 @@ Voeg het vrij tekstveld toe aan de q parameter.
 
 ```
 {{site.search_api_server}}/searchv2/search?q=concert
-```  
+```
 
 ## Search op specifiek veld
 
-Voorzie de naam van het veld en de zoekwaarde, gescheiden met een dubbelpunt. Hier vind je een overzicht van alle [geïndexeerde velden](../referentiegids).
+Voorzie de naam van het veld en de zoekwaarde, gescheiden met een dubbelpunt. Hier vind je een overzicht van alle [geïndexeerde velden]({% link content/search_api/latest/referentiegids.md %}).
 
 ```
 {{site.search_api_server}}/searchv2/search?q=city:Gent
@@ -52,7 +52,7 @@ Om het event met ID 85bf1975-ec66-4c8f-87f5-4f73774d80d5 te zoeken, zijn dus vol
 
 ```
 q=cdbid:*bf1975-ec66-4c8f-87f5-4f73774d80d5
-```  
+```
 
 ```
 q=cdbid:?5bf1975-ec66-4c8f-87f5-4f73774d80d5
@@ -60,7 +60,7 @@ q=cdbid:?5bf1975-ec66-4c8f-87f5-4f73774d80d5
 
 ```
 q=cdbid:85bf1975-ec*7f5-4f73774d80d5
-```  
+```
 
 ```
 q=cdbid:85bf1975-ec66-4c8f-87f5-*

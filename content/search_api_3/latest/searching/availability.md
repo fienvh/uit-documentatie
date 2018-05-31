@@ -28,7 +28,7 @@ GET https://search.uitdatabank.be/offers/?availableFrom=*&availableTo=*
 
 By disabling these filters, you will get all events and places that are currently available, as well as events and places that were available in the past or will be available in the future.
 
-Alternatively you can disable all default filters at once, as described in [Default filters](../../getting_started/default-filters):
+Alternatively you can disable all default filters at once, as described in [Default filters]({% link content/search_api_3/latest/getting-started/default-filters.md %}):
 
 ```
 GET https://search.uitdatabank.be/offers/?disableDefaultFilters=true
@@ -78,7 +78,7 @@ This will return all events and places that were, at some point, available befor
 
 ## Advanced queries
 
-You can also search by availability using [advanced queries](../../reference/advanced-queries). **However! You should always reset the default **`availableFrom`** and **`availableTo`** if you want to search by availability in your advanced queries (as explained in [default filters](../../getting-started/default-filters)).
+You can also search by availability using [advanced queries]({% link content/search_api_3/latest/reference/advanced-queries.md %}). **However! You should always reset the default **`availableFrom`** and **`availableTo`** if you want to search by availability in your advanced queries (as explained in [default filters]({% link content/search_api_3/latest/getting-started/default-filters.md %})).
 
 To search by availability in advanced queries, you can use the `availableRange` field and either look for a specific date, or a range.
 
@@ -104,4 +104,4 @@ The following example returns all events and places that were available at some 
 GET https://search.uitdatabank.be/offers/?q=availableRange:[2017-01-01T00\:00\:00%2B01\:00 TO 2017-03-31T23\:59\:59%2B01\:00]&availableFrom=*&availableTo=*
 ```
 
-For more info, see the documentation for [advanced queries](../../reference/advanced-queries).
+For more info, see the documentation for [advanced queries]({% link content/search_api_3/latest/reference/advanced-queries.md %}).

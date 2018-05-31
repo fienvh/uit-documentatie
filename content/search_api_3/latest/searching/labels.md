@@ -22,7 +22,7 @@ Note that this method always uses the `AND` operator.
 
 ## Advanced queries
 
-Using the `q` parameter, you can execute more [advanced queries](../../reference/advanced-queries) than by using the `labels` URL parameter.
+Using the `q` parameter, you can execute more [advanced queries]({% link content/search_api_3/latest/reference/advanced-queries.md %}) than by using the `labels` URL parameter.
 
 For example:
 
@@ -38,4 +38,4 @@ When searching for labels with spaces, be sure to encapsulate the label in quota
 GET https://search.uitdatabank.be/offers/?q=labels:"uitpas leuven" OR labels:paspartoe
 ```
 
-For more info, see the [advanced queries documentation](../../reference/advanced-queries).
+For more info, see the [advanced queries documentation]({% link content/search_api_3/latest/reference/advanced-queries.md %}).
