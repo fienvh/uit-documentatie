@@ -10,12 +10,12 @@ Therefore, it is better to use this[repository](https://github.com/cultuurnet/ph
 To do a Consumer Request via Postman Chrome Rest Extension you will need:
 
 * POSTMAN: https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
-* Consumer Key & Secret, this can be obtained from CultuurNet or using the demo consumer in [authentication and authorisation](http://documentatie.uitdatabank.be/content/uitid/latest/index.html)
+* Consumer Key & Secret, this can be obtained from CultuurNet or using the demo consumer in [authentication and authorisation]({% link content/uitid/latest/index.md %})
 
 Then you also need an endpoint of the API you want to address:
 
-* [UiTiD documentation](http://tools.uitdatabank.be/docs/functionaliteiten)
-* [Search API-documentation](http://documentatie.uitdatabank.be/content/search_api/latest/index.html)
+* [UiTiD documentation]({% link content/uitid/latest/index.md %})
+* [Search API-documentation]({% link content/search_api/latest/index.md %})
 
 ## OAuth 1.0 Consumer Request
 

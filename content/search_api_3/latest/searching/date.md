@@ -15,7 +15,7 @@ When searching by date using the `dateFrom` and `dateTo` URL parameters, you wil
 * Events and places with `openingHours`, of which at least one of the `openingHours` intersects with the given `dateFrom` and `dateTo`. For example a place that is open on Mondays from 08:00 to 12:00 will be a match for a date query that includes a Monday and intersects with those hours.
 * Events and places that are `permanent` and have no opening hours are always considered to be matches when searching by date.
 
-Remember to reset the default availability filters when a datetime in the past or future is used: to get all events that occured on a given day in the past, or to get all events that will take place on a given day in the future (see [default filters](../../getting-started/default-filters)).
+Remember to reset the default availability filters when a datetime in the past or future is used: to get all events that occured on a given day in the past, or to get all events that will take place on a given day in the future (see [default filters]({% link content/search_api_3/latest/getting-started/default-filters.md %})).
 
 **Note that the "+" sign should be encoded for URLs \(as %2B\)** Otherwise it will be interpreted as whitespace and the given date time will be considered invalid.
 
@@ -54,11 +54,11 @@ GET https://search.uitdatabank.be/offers/?dateTo=2017-01-01T12:00:00%2B01:00
 
 ## Advanced queries
 
-You can also search by date using [advanced queries](../../reference/advanced-queries), which allows you to create more complex queries than by using the URL parameters, but with the downside that opening hours will not be taken into account. So you will only get events and places that have no opening hours.
+You can also search by date using [advanced queries]({% link content/search_api_3/latest/reference/advanced-queries.md %}), which allows you to create more complex queries than by using the URL parameters, but with the downside that opening hours will not be taken into account. So you will only get events and places that have no opening hours.
 
 To search by date using advanced queries, you can use the `dateRange` field that is indexed for each date range on an event or place. This field can be queried with either a single value or a range.
 
-Remember to reset the default availability filters when a datetime in the past or future is used: to get all events that occured on a given day in the past, or to get all events that will take place on a given day in the future (see [default filters](../../getting-started/default-filters)).
+Remember to reset the default availability filters when a datetime in the past or future is used: to get all events that occured on a given day in the past, or to get all events that will take place on a given day in the future (see [default filters]({% link content/search_api_3/latest/getting-started/default-filters.md %})).
 
 **Note that the ":" sign should be escaped using a "\\" (backslash) for a date time in advanced queries** Otherwise ElasticSearch will consider it as a key-value separator and the given date time will return the following error:
 

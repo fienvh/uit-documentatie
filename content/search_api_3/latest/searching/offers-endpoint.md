@@ -33,8 +33,8 @@ A typical response from this endpoint looks like this:
 
 This endpoint supports the following global features:
 
-* [Pagination](../../getting-started/pagination)
-* [Embedding result bodies](../../getting-started/embedding-full-result-bodies)
+* [Pagination]({% link content/search_api_3/latest/getting-started/pagination.md %})
+* [Embedding result bodies]({% link content/search_api_3/latest/getting-started/embedding-full-result-bodies.md %})
 
 If you want to limit your search to specifically events or places, you can use the `/events/` and `/places/` endpoints instead:
 

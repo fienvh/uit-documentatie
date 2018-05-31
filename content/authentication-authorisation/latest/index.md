@@ -1,7 +1,7 @@
 ---
 ---
 
-# Authentication and authorization 
+# Authentication and authorization
 
 UiTiD uses the open standard oAuth authentication.
 
@@ -15,7 +15,7 @@ Depending on the type of request, a UserAccessToken must be used. This is always
 
 For almost all programming languages [several libraries](http://oauth.net/code) are avaliable
 
-For authentication via php with Cultuurnet services can you can also view [this  example](authentication-via-consumerrequest) 
+For authentication via php with Cultuurnet services can you can also view [this example]({% link content/authentication-authorisation/latest/authentication-via-consumerrequest.md %})
 
 ## Glossary
 

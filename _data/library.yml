@@ -540,7 +540,7 @@
             - title: "Update description"
               href: "places/place-description"
             - title: "Update image"
-              href: "places/place-image"
+              href: "places/place-image_update"
             - title: "Update booking info"
               href: "places/place-booking-info"
             - title: "Update contact info"
@@ -1081,7 +1081,7 @@
             - title: "Aanpassen & dupliceren"
               href: "na_publicatie/je_widget_aanpassen_dupliceren_of_verwijderen"
         - title: "Geavanceerd"
-          href: "geavanceerd"              
+          href: "geavanceerd"
         - title: "Upgraden (v2 -> v3)"
           href: "upgraden"
           summary:

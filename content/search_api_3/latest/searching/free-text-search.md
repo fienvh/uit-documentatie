@@ -27,7 +27,7 @@ GET https://search.uitdatabank.be/offers/?q=labels:Paspartoe
 
 In this example, the `text` parameter will look for documents that have the string `labels:Paspartoe` in them, while the `q` parameter will look for documents that actually have the label `Paspartoe`.
 
-See [advanced queries](../../reference/advanced-queries) for more info on the `q` parameter.
+See [advanced queries]({% link content/search_api_3/latest/reference/advanced-queries.md %}) for more info on the `q` parameter.
 
 ## Fields
 
@@ -47,14 +47,14 @@ By default the `OR` operator is used in between multiple given words.
 
 So the query `wandelen fietsen dijle` actually becomes `wandelen OR fietsen OR dijle`.
 
-It is possible to define the operator you want to use in the query itself.  
+It is possible to define the operator you want to use in the query itself.
 You could, for example, search for:
 
 ```
 GET https://search.uitdatabank.be/offers/?text=(wandelen OR fietsen) AND dijle
 ```
 
-See the [Query String Query syntax for ElasticSearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax) for more info, or more documentation on [advanced queries](/reference/advanced-queries.md).
+See the [Query String Query syntax for ElasticSearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax) for more info, or more documentation on [advanced queries]({% link content/search_api_3/latest/reference/advanced-queries.md %}).
 
 Note: if you want to specify the fields you want to search on, or search through fields that are not included by default, you should use the `q` parameter.
 
@@ -96,4 +96,4 @@ GET https://search.uitdatabank.be/offers/?text="the editors"&textLanguages[]=nl&
 
 Note that the `textLanguages` parameter does not filter documents by their available languages. For example, when searching in both `nl` and `fr`, you can get results that only have either one language but still have a matching term in that specific language.
 
-To actually filter documents by their available languages, see [Languages](../../searching/languages).
+To actually filter documents by their available languages, see [Languages]({% link content/search_api_3/latest/searching/languages.md %}).

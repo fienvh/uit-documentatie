@@ -7,21 +7,21 @@ It is possible to add a translation for specific fields. The API supports transl
 
 ## Event
 
-* [**Event name**](../events/event-name)
-* [**Event description**](../events/event-description)
-* [**Event price**](../events/event-price-info)
+* [**Event name**]({% link content/json-ld/latest/events/event-name.md %})
+* [**Event description**]({% link content/json-ld/latest/events/event-description.md %})
+* [**Event price**]({% link content/json-ld/latest/events/event-price-info.md %})
 
 ## Place
 
-* [**Place name**](../places/place-name)
-* [**Place description**](../places/place-description)
-* [**Place price**](../places/place-price-info)
-* [**Place address**](../places/place-address)
+* [**Place name**]({% link content/json-ld/latest/places/place-name.md %})
+* [**Place description**]({% link content/json-ld/latest/places/place-description.md %})
+* [**Place price**]({% link content/json-ld/latest/places/place-price-info.md %})
+* [**Place address**]({% link content/json-ld/latest/places/place-address.md %})
 
 ## Organizer
 
-* [**Organizer name**](../organizers/organizer-name)
+* [**Organizer name**]({% link content/json-ld/latest/organizers/organizer-name.md %})
 
 ## Images
 
-* [**Image**](../images/image-post)
+* [**Image**]({% link content/json-ld/latest/images/image-post.md %})

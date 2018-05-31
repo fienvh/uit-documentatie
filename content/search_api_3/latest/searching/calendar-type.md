@@ -10,7 +10,7 @@ All events and places in UiTdatabank v3 have one of four calendar types:
 * **Periodic**: The event or place runs for a specific period as indicated by its `startDate` and `endDate`, and can optionally have `openingHours`.
 * **Permanent**: The event or place is permanent and has **no** `startDate` or `endDate`, but it can optionally have `openingHours`.
 
-You can search through all of these types [by searching by date and time](../../searching/date), but you can also limit your results by their `calendarType`.
+You can search through all of these types [by searching by date and time]({% link content/search_api_3/latest/searching/date.md %}), but you can also limit your results by their `calendarType`.
 
 ## URL parameter
 
@@ -30,7 +30,7 @@ Delimiting the `calendarType` parameter using a comma works as if using an `OR` 
 
 ## Advanced queries
 
-Using [advanced queries](../../reference/advanced-queries), you can make more complex combinations than using the calendarType URL parameter.
+Using [advanced queries]({% link content/search_api_3/latest/reference/advanced-queries.md %}), you can make more complex combinations than using the calendarType URL parameter.
 
 For example:
 
@@ -42,4 +42,4 @@ GET https://search.uitdatabank.be/offers/?q=calendarType:single OR calendarType:
 GET https://search.uitdatabank.be/offers/?q=!(calendarType:permanent)
 ```
 
-For more info, see [advanced queries](../../reference/advanced-queries).
+For more info, see [advanced queries]({% link content/search_api_3/latest/reference/advanced-queries.md %}).

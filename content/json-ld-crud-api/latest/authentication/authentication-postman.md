@@ -18,7 +18,7 @@ API Key:
 
 ## Define host
 
-see [UiTdatabank host](../../authentication/authentication-baseUrl) documentation
+see [UiTdatabank host]({% link content/json-ld-crud-api/latest/authentication/authentication-baseUrl.md %}) documentation
 
 ## Define path
 Path:
