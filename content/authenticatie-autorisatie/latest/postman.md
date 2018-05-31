@@ -14,8 +14,8 @@ Om een Consumer Request via Postman Chrome Rest Extension te doen heb je nodig:
 
 Vervolgens heb je ook een endpoint nodig van de API die je wil aanspreken:
 
-* [UiTiD documentatie]({% link content/uitid/latest/index.md %})
-* [Search API-documentatie]({% link content/search_api/latest/index.md %})
+* [UiTiD documentatie]({% link content/uitid/latest/start.md %})
+* [Search API-documentatie]({% link content/search_api/latest/start.md %})
 
 ## OAuth 1.0 Consumer Request
 

@@ -21,8 +21,8 @@ Bepaal welke elementen (informatie) zichtbaar zijn in de lijstweergave van je ev
 * Vlieg-logo
 * UiTPAS-logo
 * Beschrijving en aantal karakters van de beschrijving. Als je het aantal karakters invult dient de waarde minstens 1 te zijn.
-* Waar 
-* Organisatie 
+* Waar
+* Organisatie
 * Wanneer
 * Leeftijd
 * Taaliconen
@@ -45,4 +45,4 @@ Bepaal welke elementen (informatie) zichtbaar zijn op de detailpagina van je eve
 De overige elementen zijn identiek aan de lijstelementen.
 
 ## Extra parameters
-Bepaal de query voor de zoekresultaten. Hiervoor maak je gebruik van de [SAPI3-syntax](http://documentatie.uitdatabank.be/content/search_api_3/latest/index.html).
+Bepaal de query voor de zoekresultaten. Hiervoor maak je gebruik van de [SAPI3-syntax]({% link content/search_api_3/latest/start.md %}).

@@ -46,7 +46,7 @@ Een CID kan ook andere functies vervullen:
 
 De publieke website kan de site van de stad of gemeente zijn of kan een aan het UiTPAS systeem toegwijde website zijn.
 
-* Integratie met de UiTPAS backend kan via de [UiTPAS API]({% link content/uitpas_api/latest/index.md %}).
+* Integratie met de UiTPAS backend kan via de [UiTPAS API]({% link content/uitpas_api/latest/start.md %}).
 
 * publiq stelt daarnaast Drupal 7 modules ter beschikking voor integratie met UiTPAS. Meer technische informatie hierover, zie [https://github.com/cultuurnet/culturefeed/wiki/Culturefeed-UiTPAS](https://github.com/cultuurnet/culturefeed/wiki/Culturefeed-UiTPAS). Voorbeelden van dergelijke sites zijn [https://www.uitinmechelen.be](https://www.uitinmechelen.be) en [http://www.uitpaskempen.be](http://www.uitpaskempen.be).
 

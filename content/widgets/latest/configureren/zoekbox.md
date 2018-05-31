@@ -14,38 +14,38 @@ Onder ‘Je selecteerde’ kan je je zoekbox een naam geven. Dit is enkel releva
 
 * **URL resultatenpagina** bepaalt op welke pagina de zoekresultaten moeten openen
 * **Label zoekknop** bepaalt de tekst die op de “Zoeken”-knop verschijnt.
-* **Zoekparameters** bepaalt of er een extra query moet gebruikt worden voor deze zoekbox die het aantal resultaten voor een surfer beperkt. Hiervoor maak je gebruik van de [SAPI3-syntax](http://documentatie.uitdatabank.be/content/json-ld/latest/index.html).
+* **Zoekparameters** bepaalt of er een extra query moet gebruikt worden voor deze zoekbox die het aantal resultaten voor een surfer beperkt. Hiervoor maak je gebruik van de [SAPI3-syntax]({% link content/json-ld/latest/start.md %}).
 
 ## Header
 Bepaal welke tekst en/of afbeelding er in de header verschijnt.
 
 ## Elementen
-### 1. Soort 
+### 1. Soort
 Dit is de eerste kolom van je zoekbox en laat toe een surfer toe te zoeken op een trefwoord. Deze functionaliteit staat standaard aangevinkt. Als je dit niet wilt, kan je checkbox ‘Zoeken op soort’ afvinken.
 
 * **Label** bepaalt het label dat boven de zoekbox verschijnt
 * **Suggestie** bepaalt de voorbeeldtekst die binnen de zoekbox verschijnt
-* **Extra groepfilters** laten je toe [eigen filters](http://documentatie.uitdatabank.be/content/widgets/latest/configureren/groepfilters/) te maken op maat van je doelgroep.
+* **Extra groepfilters** laten je toe [eigen filters]({% link content/widgets/latest/configureren/groepfilters.md %}) te maken op maat van je doelgroep.
 
-### 2. Plaats 
+### 2. Plaats
 Dit is de tweede kolom van je zoekbox en laat een surfer toe te zoeken op een gemeente of locatienaam. Deze functionaliteit staat standaard aangevinkt. Als je dit niet wilt, kan je checkbox ‘Zoeken op plaats’ afvinken.
 
 
 * **Label** bepaalt het label dat boven de zoekbox verschijnt
 * **Suggestie** bepaalt de tekst die binnen de zoekbox verschijnt
-* **Extra groepfilters** laten je toe [eigen filters](http://documentatie.uitdatabank.be/content/widgets/latest/configureren/groepfilters/) te maken op maat van je doelgroep.
+* **Extra groepfilters** laten je toe [eigen filters]({% link content/widgets/latest/configureren/groepfilters.md %}) te maken op maat van je doelgroep.
 
-### 3. Tijd 
+### 3. Tijd
 Dit is de derde kolom van je zoekbox en laat een surfer toe zijn zoekopdracht te beperken tot een periode. Deze functionaliteit staat standaard aangevinkt. Als je dit niet wilt, kan je checkbox ‘Zoeken op datum’ afvinken.
 
 * **Label** bepaalt het label dat boven de zoekbox verschijnt
 * **Suggestie** bepaalt de tekst die binnen de zoekbox verschijnt
 * **Opties** bepaalt welke keuzeopties er getoond mogen worden
 * **Standaardkeuze** bepaalt welke van de gekozen opties de standaardkeuze is
-* **Extra groepfilters** laten je toe [eigen filters](http://documentatie.uitdatabank.be/content/widgets/latest/configureren/groepfilters/) te maken op maat van je doelgroep.
+* **Extra groepfilters** laten je toe [eigen filters]({% link content/widgets/latest/configureren/groepfilters.md %}) te maken op maat van je doelgroep.
 
-### 4. Extra opties 
-Dit is de meest rechtse of onderste kolom van je zoekbox en stelt je in staat om [eigen filters](http://documentatie.uitdatabank.be/content/widgets/latest/configureren/groepfilters/) te definiëren, op maat van jouw doelpubliek (bv. een filter op vakantieperiodes voor een kampensite, een filter op concertzalen voor een muziekblog, etc.). Deze functionaliteit staat standaard aangevinkt. Als je dit niet wilt, kan je checkbox ‘Extra groepfilters’ afvinken.
+### 4. Extra opties
+Dit is de meest rechtse of onderste kolom van je zoekbox en stelt je in staat om [eigen filters]({% link content/widgets/latest/configureren/groepfilters.md %}) te definiëren, op maat van jouw doelpubliek (bv. een filter op vakantieperiodes voor een kampensite, een filter op concertzalen voor een muziekblog, etc.). Deze functionaliteit staat standaard aangevinkt. Als je dit niet wilt, kan je checkbox ‘Extra groepfilters’ afvinken.
 
 Je kan één of meerdere groepen toevoegen, bvb. een groep ‘vakantieperiodes’. Elke groep kan één of meerdere filters bevatten (bv. ‘paasvakantie 2018’, ‘zomervakantie 2018’)
 
@@ -56,4 +56,4 @@ Je kan één of meerdere groepen toevoegen, bvb. een groep ‘vakantieperiodes�
 
 #### Filters
 - **Label** bepaalt het label van je filter(s)
-- **Query:** elke filter heeft een query nodig. Deze query kan je bouwen obv. [SAPI 3 syntax](http://documentatie.uitdatabank.be/content/json-ld/latest/index.html).
+- **Query:** elke filter heeft een query nodig. Deze query kan je bouwen obv. [SAPI 3 syntax]({% link content/json-ld/latest/start.md %}).

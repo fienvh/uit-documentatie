@@ -13,7 +13,7 @@ A workflow status can be any of the following values \(case-insensitive\):
 * `REJECTED`
 * `DELETED`
 
-For more information about workflow status and UiTdatabank, see [Aanbod modereren](http://documentatie.uitdatabank.be/content/uitdatabank/latest/werking-uitdatabank/) **(in Dutch)**
+For more information about workflow status and UiTdatabank, see [Aanbod modereren]({% link content/uitdatabank/latest/werking-uitdatabank.md %}) **(in Dutch)**
 
 **Important!** Documents with a `DRAFT` status are not considered to be "available" by default, because they have not been published yet. Therefore, to include `DRAFT` documents in your search results, you need to disable the default `availableFrom` and `availableTo` parameters like this:
 
