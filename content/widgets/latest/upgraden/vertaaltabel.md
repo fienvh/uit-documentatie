@@ -37,7 +37,7 @@ Hieronder vind je een overzicht van veel gebruikte attributen binnen de widgets,
 | leeftijd (range) | agefrom=6&ageto=10| typicalAgeRange:[6 TO 10] |  |
 | prijs (exact) | pricevalue=10 | price:10 |  |
 | prijs (range) | privevalue=10 | price:[* TO *]|  |
-| organisatie (naam)| organiser="Democrazy" | organizer.name:"Democrazy" |  |
+| organisatie (naam)| organiser="Democrazy" | organizer.name.nl:"Democrazy" |  |
 | organisatie (id) | organiser=D04BE067-FBE7-6633-2351893716796CB5 | organizerId:D04BE067-FBE7-6633-2351893716796CB5|  |
 | locatie (naam)| location="Botanique" | location.name:"Botanique" |  |
 | locatie (id)| location=2bb557aa-3d82-4494-8496-fc7c8f4a2828 | locationId:2bb557aa-3d82-4494-8496-fc7c8f4a2828|  |
