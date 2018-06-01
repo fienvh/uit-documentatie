@@ -87,13 +87,13 @@ Tijdsinformatie. Het is verplicht aan te geven wanneer het event plaatsvindt. In
 </calendar>
 ~~~
 
-Let op, als een event op meer dan één tijdstip plaatsvindt, stuur je geen event object door per tijdstip maar voeg je binnen het betreffende event meerdere tijdstippen toe, of een periode, of geef je aan dat het een permanent aanbod is. Zie hiervoor in de sectie [Uitwisselingsformaat in XML]({% link content/cdbxml/latest/index.md %}).
+Let op, als een event op meer dan één tijdstip plaatsvindt, stuur je geen event object door per tijdstip maar voeg je binnen het betreffende event meerdere tijdstippen toe, of een periode, of geef je aan dat het een permanent aanbod is. Zie hiervoor in de sectie [Uitwisselingsformaat in XML]({% link content/cdbxml/latest/start.md %}).
 
 ### //event/categories/category/@catid="eventtype"
 
 Informatie in de UiTdatabank wordt op de output kanalen verspreid via navigatierubrieken. Om opgenomen te worden in die rubrieken is het verplicht het type van het aanbod door te geven (vb. concert, film, theatervoorstelling, ...).
 
-De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie [hier]({% link content/categorisatie/latest/index.md %})
+De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie [hier]({% link content/categorisatie/latest/start.md %})
 
 Het type van het aanbod is terug te vinden in het facet "eventtype" categorisation/item/@catid=eventtype.
 
@@ -199,7 +199,7 @@ Hierboven bij de verplichte velden stond beschreven dat het verplicht is het typ
 </categories>
 ~~~
 
-De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie: [http://documentatie.uitdatabank.be/content/categorisatie/latest/index.html](http://documentatie.uitdatabank.be/content/categorisatie/latest/index.html)
+De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie [hier]({% link content/categorisatie/latest/start.md %})
 
 Het thema is wenselijk bij volgende types: "concert", "film", "theatervoorstelling", "dansvoorstelling" en "cursus of workshop".
 

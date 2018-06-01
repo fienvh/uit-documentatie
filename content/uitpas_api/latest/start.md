@@ -15,4 +15,4 @@ Voorbeeld: ```https://test.uitid.be/uitid/rest/uitpas/distributionkey/organiser/
 De URL ```{server}/uitid/rest``` noemen we verder ```{prefix}```.
 
 ## Authenticatie
-De mogelijkheden om te authenticeren op de API worden beschreven in het onderdeel [Authenticatie en autorisatie](http://documentatie.uitdatabank.be/content/authenticatie-autorisatie/latest/index.html)
+De mogelijkheden om te authenticeren op de API worden beschreven in het onderdeel [Authenticatie en autorisatie]({% link content/authenticatie-autorisatie/latest/start.md %})

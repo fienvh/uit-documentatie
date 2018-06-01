@@ -1,5 +1,5 @@
 #
-# SYTEEM
+# SYSTEEM
 #
 - title: "Authenticatie en autorisatie"
   description: "Hoe kan je verbinden met onze omgevingen?"
@@ -702,6 +702,10 @@
             href: "baliemedewerker-ziet-beperkte-pashouderinfo"
           - title: "Doorvoeren acties aan een balie"
             href: "doorvoeren-acties-aan-een-balie"
+          - title: "Baliemedewerker gebruikt ticketing applicatie"
+            href: "baliemedewerker-gebruikt-ticketing-applicatie"
+          - title: "Baliemedewerker scant UiTPAS"
+            href: "baliemedewerker-scant-UiTPAS"
 - title: "UiTPAS API 3.0 : referentie"
   description: "Overzicht van de beschikbare UiTPAS API-endpoints en entiteiten."
   path: "content/uitpas_api/"
@@ -1119,3 +1123,76 @@
               href: "upgraden/regiolijst"
         - title: "Browsercompatibiliteit"
           href: "browsercompatibiliteit"
+#
+# AUTHENTICATION
+#
+- title: "Authentication and authorisation"
+  description: "How to connect to our applications?"
+  path: "content/authentication-authorisation/"
+  category: "Systeem"
+  weight: 20
+  hidden: true
+  icon: "authenticatie"
+  versions:
+      - name: "latest"
+        path: "content/authentication-authorisation/latest/"
+        summary:
+          - title: "Authentication via User Access Token"
+            href: "authentication-via-useraccesstoken"
+          - title: "Authentication via Consumer Request"
+            href: "authentication-via-consumerrequest"
+          - title: "Postman"
+            href: "postman"
+#
+# INTEGRATION
+#
+- title: "Integration of UiT data"
+  description: "Three methods with which you can integrate agenda information on your website."
+  path: "content/integration-on-your-own-website/"
+  category: "Integreren"
+  icon: "integratie"
+  weight: 10
+  hidden: true
+  versions:
+      - name: "latest"
+        path: "content/integration-on-your-own-website/latest/"
+        summary:
+          - title: "Possibilities"
+            href: "possibilities"
+          - title: "Terms of use"
+            href: "terms_of_use"
+          - title: "HTTPS"
+            href: "https"
+#
+# UITID
+#
+- title: "Getting started with UiTiD"
+  category: "UiTid"
+  description: "This manual explains how the UiTiD API can be used."
+  path: "content/uitid_en/"
+  weight: 40
+  hidden: true
+  icon: "uitid"
+  versions:
+    - name: "latest"
+      path: "content/uitid_en/latest/"
+      summary:
+        - title: "What is UiTiD?"
+          href: "uitid"
+        - title: "Actions"
+          href: "activities/activities"
+          summary:
+          - title: "Create an activity"
+            href: "activities/create_activity"
+          - title: "Search an activity"
+            href: "activities/search_activities"
+          - title: "Customise activity privacy"
+            href: "activities/customise_activity_privacy"
+          - title: "Search for users who performed a particular activity"
+            href: "activities/user_activities"
+          - title: "List of top shared events"
+            href: "activities/topactivities"
+          - title: "Delete Activity"
+            href: "activities/delete_activity"
+          - title: "Total Activities"
+            href: "activities/total_activities"
