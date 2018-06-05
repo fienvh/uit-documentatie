@@ -6,12 +6,12 @@
 
 | URL | POST | PUT | GET | DELETE |
 | -- | -- | -- | -- | -- |
-| ```{server}/api/v2/{event}{production}{actor}``` | X (item aanmaken) | -- | X (item opzoeken) | -- |
-| ```{server}/api/v2/{event}{production}{actor}``` | -- | X (item aanmaken) | X (item detail) | X (item verwijderen) |
+| ```{server}/api/v3/{event}{production}{actor}``` | X (item aanmaken) | -- | X (item opzoeken) | -- |
+| ```{server}/api/v3/{event}{production}{actor}``` | -- | X (item aanmaken) | X (item detail) | X (item verwijderen) |
 
 Waarbij server =
 
-- testomgeving: ```https://acc.uitid.be/uitid/rest/entry/test.rest.uitdatabank.be```
+- testomgeving: ```https://test.uitid.be/uitid/rest/entry/test.rest.uitdatabank.be```
 - live omgeving: ```https://www.uitid.be/uitid/rest/entry/rest.uitdatabank.be```
 
 
@@ -20,58 +20,56 @@ Waarbij server =
 ### Request eigenschappen
 
 Method: POST
-URL: ```{server}/api/v2/{event|production|actor}```
+URL: ```{server}/api/v3/{event|production|actor}```
 
 Argumenten:
 
 | Deel | Beschrijving | Verplicht |
 | -- | -- | -- |
 | Authenticatie | oAuth informatie, zie authenticatie via UiTID | X |
-| Item | CdbXML 3.2 representatie van het item. Zie in drie stappen een CdbXML document maken | X |
+| Item | CdbXML 3.3 representatie van het item. Zie in drie stappen een CdbXML document maken | X |
 
 ### Voorbeeld
 
 #### Request URL
 
 ```
-{server}/api/v2/event
+{server}/api/v3/event
 ```
 
 #### POST data
 
 ~~~ xml
-<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.2/FINAL">
+<?xml version="1.0" encoding="UTF-8"?>
+<cdbxml xmlns="http://www.cultuurdatabank.com/XMLSchema/CdbXSD/3.3/FINAL">
     <event>
       <calendar>
         <timestamps>
           <timestamp>
-            <date>2015-03-21</date>
+            <date>2010-12-12</date>
           </timestamp>
         </timestamps>
       </calendar>
       <categories>
-        <category type="eventtype" catid="0.50.4.0.0">Concert</category>
+        <category type="eventtype" catid="0.50.4.0.0"/>
       </categories>
       <contactinfo>
-        <url main="true">hyperlink</url>
+        <mail>info@info.be</mail>
       </contactinfo>
       <eventdetails>
         <eventdetail lang="nl">
-          <shortdescription>We houden rekening met de beperkingen</shortdescription>
-          <title>Watertorenfestival The Cluricauns</title>
+          <title>Event titel</title>
         </eventdetail>
       </eventdetails>
       <location>
         <address>
           <physical>
-            <city>Turnhout</city>
+            <city>Brussel</city>
             <country>BE</country>
-            <housenr>101</housenr>
-            <street>Warandestraat</street>
-            <zipcode>2300</zipcode>
+            <zipcode>1000</zipcode>
           </physical>
         </address>
-        <label>watertoren</label>
+        <label>Naam locatie</label>
       </location>
     </event>
 </cdbxml>
@@ -91,7 +89,7 @@ Content-Length: 2142
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
 <code>ItemCreated</code>
-<link>uitdatabank.be/api/v2/event/{id}</link>
+<link>uitdatabank.be/api/v3/event/{id}</link>
 </rsp>
 ~~~
 
@@ -100,21 +98,21 @@ Content-Length: 2142
 ### Request eigenschappen
 
 Method: PUT
-URL: ```{server}/api/v2/{event|production|actor}/{id}```
+URL: ```{server}/api/v3/{event|production|actor}/{id}```
 
 Argumenten:
 
 | Deel | Beschrijving | Verplicht |
 | -- | -- | -- |
 | Authenticatie | oAuth informatie, zie authenticatie via UiTID | X |
-| Item | CdbXML 3.2 representatie van het item. Zie in drie stappen een CdbXML document maken | X |
+| Item | CdbXML 3.3 representatie van het item. Zie in drie stappen een CdbXML document maken | X |
 
 ### Voorbeeld
 
 #### Request URL
 
 ```
-{server}/api/v2/event/93b34aaf-3f94-4f6e-b514-98a92ca75502
+{server}/api/v3/event/93b34aaf-3f94-4f6e-b514-98a92ca75502
 ```
 
 #### Post data (Zie voorbeeld bij 'item aanmaken')
@@ -138,7 +136,7 @@ Content-Length: 2142
 <?xml version="1.0" encoding="UTF-8"?>
 <rsp level=”INFO” version=”0.1”>
 <code>ItemModified</code>
-<link>http://www.uitdatabank.be/api/v2/event/{id}</link>
+<link>http://www.uitdatabank.be/api/v3/event/{id}</link>
 </rsp>
 ```
 
@@ -147,7 +145,7 @@ Content-Length: 2142
 ### Request eigenschappen
 
 Method: DELETE
-URL: ```{server}/api/v2/{event|production|actor}/{id}```
+URL: ```{server}/api/v3/{event|production|actor}/{id}```
 
 Argumenten:
 
@@ -162,7 +160,7 @@ Een DELETE request om een actor te verwijderen waaraan events gekoppeld zijn is 
 #### Request URL
 
 ```
-{server}/api/v2/event/93b34aaf-3f94-4f6e-b514-98a92ca75502
+{server}/api/v3/event/93b34aaf-3f94-4f6e-b514-98a92ca75502
 ```
 
 #### Response

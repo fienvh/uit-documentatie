@@ -1,7 +1,7 @@
 ---
 ---
 
-## Software architectuur van het Check-in device
+# Software architectuur van de UiTPAS-zuil
 
 De CID heeft als OS een Linux systeem (Raspbian, een versie van Debian) waar een Java FX applicatie op draait.
 
@@ -28,4 +28,4 @@ tail -f /tmp/cid.log
 
 Deze logs staan opgeslagen in een tijdelijk filesystem. Herstarten van de zuil wist dus de logs.
 
-De logs worden ook naar een monitoring server geschreven. Je kan deze bekijken met de monitoring app die je kan downloaden op http://files.uitpas.be/CID_monitor/
+De logs worden ook naar een monitoring server geschreven. Je kan deze bekijken met de monitoring app die je kan downloaden op [http://files.uitpas.be/CID_monitor/](http://files.uitpas.be/CID_monitor/)

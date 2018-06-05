@@ -1,7 +1,7 @@
 ---
 ---
 
-## Hardware architectuur van het Check-in Device
+# Hardware architectuur van de UiTPAS-zuil
 
 De CID bestaat uit volgende hardware:
 

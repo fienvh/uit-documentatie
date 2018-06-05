@@ -19,6 +19,13 @@ deploy:
   region: eu-west-1
   skip_cleanup: true
   local_dir: _site
+  cache_control: "max-age=1800"
   on:
     branch: master
     repo: cultuurnet/uit-documentatie
+notifications:
+  slack:
+   rooms:
+      - secure: YPwomFiL78BN1JjgYe2lGsM7sf2PDeZcB5YzEtW6QaICsbqDMFQv5IH1BVDdRyq2szJAvZO3MTC29H9e7ecZ3maqdblAWCvtlo7NLTOPM3V80mYvP9u6F6Ov19tieJE0bvMYoayI3V8nSZDLRMsIPfi5n8I6efakybgd45r+muhPzxYjSF75XpT390E4S/f/ayALMB5N7OpDr1Ni8ZfaG6D/wZc1qEcZpnpoiN2MazMG3WSvSPvVR3+pc+niC4IzhqN/YnjPG7B09ewg/fG4TeFUnPRDB7KXdVK7nAP9RIZQe7cgDTb2HF7knzZmSaV04Rhohi9EQnlvx6VaHGDvMOrTcx2Nhp7lnFwFWWJ4t2aHwF6FgKfi+4qqRX1Vk0loYkvO0kkrhml29Hh87Xzwq86F6q2eWY7vzFJdvxHJE4iOolTQv1+zkMWksJypfFexoRu4pERWY3LvJI5kk6pLUHsAPnk+3Gv9ioc2UJBpd3PPHIY5DXiBWb2fGmYIAnfmgInweK/nnsExwpomvmV0pgAqOpqMw0fCfEm5w2Xskgl10JluMO48OpSXYlQRLCamCRT8hnZ/nt23b7W34Ez42S14JMFPhOsAMz7mWPaxJhGfOEQa11pNkOnHCrdm7x2GKLry/Dts0uOiU9/ElMFlekb2eKXzRp05R/dXWA9MQR4=
+   on_failure: always
+   on_success: never

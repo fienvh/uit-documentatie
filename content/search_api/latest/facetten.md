@@ -29,7 +29,7 @@ Zoek volgens facet “stad”
 {{site.search_api_server}}/searchv2/search?q=Speelgoed&rows=10&facetField=city
 ```
 
-Bekijk de volledige [lijst van geïndexeerde velden](../referentiegids).
+Bekijk de volledige [lijst van geïndexeerde velden]({% link content/search_api/latest/referentiegids.md %}).
 
 ## Facet “datetype”
 
@@ -79,7 +79,7 @@ Deze query toont wel alle events die in een subcategorie van “Doen” zitten t
 {{site.search_api_server}}/searchv2/search?q=category_name:Doen
 ```
 
-Een overzicht van alle categorieën en een uitleg over hoe de UiTdatabank categorisatieservice te consulteren vind je [hier](http://tools.uitdatabank.be/docs/uitdatabank-categorisatie-service).
+Een overzicht van alle categorieën en een uitleg over hoe de UiTdatabank categorisatieservice te consulteren vind je [hier]({% link content/categorisatie/latest/start.md %}).
 
 ## Facet “categorie dimensie”
 

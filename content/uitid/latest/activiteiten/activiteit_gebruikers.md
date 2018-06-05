@@ -8,6 +8,10 @@ Deze call wordt typisch gebruikt om lijsten te bouwen als “gebruikers die dit 
 * Methode: GET
 * Authenticatie: ConsumerRequest van de Service Consumer die de zoekopdracht uitvoert
 
+```
+{server}/activity/
+```
+
 ## Parameters
 
 nodeId |	`String` |	nodeId van de activiteit waarvoor Users gezocht worden |	Verplicht

@@ -6,7 +6,7 @@
 Registratie van een pashouder is het proces waarbij een pashouder voor het eerst in het UiTPAS ecosysteem bekend wordt gemaakt en hij/zij voor het eerst een lidmaatschap met één van de UiTPAS systemen krijgt.
 
 
-fig. pashouder registreren
+![hh-pashouder-registreren](/img/hh-pashouder-registreren.png "hh-pashouder-registreren")
 
 
 ## Registratie pashouder zonder kansenstatuut
@@ -29,7 +29,7 @@ Een pashouder krijgt bij registratie eventueel meteen een aantal punten, zoals i
 
 
 
-fig. pashouder registreren
+![hh-pashouder-registreren-2](/img/hh-pashouder-registerern-2.png "hh-pashouder-registreren-2")
 
 ## Registratie pashouder met kansenstatuut
 Een kansenstatuut geeft recht op korting op ticket sales. Het toewijzen van kansenstatuut gebeurt op moment van registratie of aanpassing van pashoudergegevens, door een baliemedewerker van een balie die hiertoe gemachtigd is. Een kansenstatuut heeft volgende eigenschappen:
@@ -48,7 +48,7 @@ Het upgraden van een pashouder is het proces waarbij een bestaande pashouder een
 
 
 
-fig. pashouder upgraden
+![hh-pashouder-upgraden](/img/hh-pashouder-upgraden.png "hh-pashouder-upgraden")
 
 ## Vouchers
 

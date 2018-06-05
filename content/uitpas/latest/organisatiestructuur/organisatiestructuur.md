@@ -5,6 +5,6 @@
 
 De UiTPAS organisatie architectuur bestaat uit:
 
-* [rollen & taken](../rollen): "wie doet wat"
-* [applicatiecomponenten](../applicatiecomponenten): "via welke applicatie" 
-* [informatiesystemen](../informatiesystemen): "welke informatie"
+* [Rollen & taken]({% link content/uitpas/latest/organisatiestructuur/rollen.md %}): "wie doet wat"
+* [Applicatiecomponenten]({% link content/uitpas/latest/organisatiestructuur/applicatiecomponenten.md %}): "via welke applicatie"
+* [Informatiesystemen]({% link content/uitpas/latest/organisatiestructuur/informatiesystemen.md %}): "welke informatie"

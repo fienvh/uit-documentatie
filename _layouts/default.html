@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 
+	{% assign filename = page.path | split: '/' | last %}
+	{% assign folder = page.path | remove: filename %}
+	{% for book in site.data.library %}
+		{% for version in book.versions %}
+			{% if folder contains version.path %}
+				{% assign selected_book = book %}
+				{% assign selected_version = version %}
+        {% assign selected_status = version.status %}
+        {% break %}
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+
 	{% include head.html %}
 
 	<body>
-
-		{% assign filename = page.path | split: '/' | last %}
-		{% assign folder = page.path | remove: filename %}
-		{% for book in site.data.library %}
-			{% for version in book.versions %}
-				{% if folder contains version.path %}
-					{% assign selected_book = book %}
-					{% assign selected_version = version %}
-          {% assign selected_status = version.status %}
-				{% endif %}
-			{% endfor %}
-		{% endfor %}
 
 		{% include header.html %}
 
@@ -48,7 +49,7 @@
 
           {% if selected_status=="deprecated" %}
             <div class="feedback">
-              <strong>Deze versie is verouderd en enkel bedoeld als archief. <a href="/{{ selected_book.path }}index.html">Bekijk alle versies.</a></strong>
+              <strong>Deze versie is verouderd en enkel bedoeld als archief. <a href="/{{ selected_book.path }}start.html">Bekijk alle versies.</a></strong>
             </div>
           {% endif %}
 
@@ -67,6 +68,12 @@
           {% if page.status=="experimental" %}
             <div class="feedback">
               <strong>Let op bij het gebruiken van deze pagina. Deze informatie kan nog veranderen.</strong>
+            </div>
+          {% endif %}
+
+          {% if selected_status=="pilot" %}
+            <div class="feedback">
+              <strong>Vind je fouten of onvolledigheden in deze documentatie, geef ze dan zeker door aan <a href="mailto:vragen@uitdatabank.be">vragen@uitdatabank.be</a>. We verwerken je feedback zo snel mogelijk.</strong>
             </div>
           {% endif %}
 
