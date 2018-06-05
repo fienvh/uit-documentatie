@@ -19,6 +19,7 @@ Een overzicht van geïndexeerde velden & parameters, gefilterd op relevantie, me
 * [datetype](#datetype)
 * [detail_lang](#detail_lang)
 * [enddate](#enddate)
+* [hasimage](#hasimage)
 * [keywords](#keywords)
 * [longdescription](#longdescription)
 * [mail](#mail)
@@ -723,6 +724,20 @@ ID van het object in de brondatabank. Hoofdlettergevoelig.
 
 ~~~
 {BaseUrl}search?q=externalid:*ccbrugge*&fq=type:event&group=true
+~~~
+
+[Terug naar index](#index)
+
+
+<a id="hasimage"></a>
+<h2>hasimage</h2>
+
+``` boolean ```
+
+Gebruik dit veld indien je enkel resultaten wil krijgen van objecten met één of meerdere afbeeldingen (met mediatype=photo). Geldig voor: events, productions.
+
+~~~
+{BaseUrl}search?q=hasimage:true&fq=type:event&group=true
 ~~~
 
 [Terug naar index](#index)
