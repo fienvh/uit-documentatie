@@ -53,6 +53,7 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 | address.{[lang]({% link content/search_api_3/latest/searching/languages.md %})}.addressLocality | String | See [Address]({% link content/search_api_3/latest/searching/address.md %}) |
 | address.{[lang]({% link content/search_api_3/latest/searching/languages.md %})}.postalCode | String | See [Address]({% link content/search_api_3/latest/searching/address.md %}) |
 | address.{[lang]({% link content/search_api_3/latest/searching/languages.md %})}.streetAddress | String | See [Address]({% link content/search_api_3/latest/searching/address.md %}) |
+| allAges | Boolean | See [Age]({% link content/search_api_3/latest/searching/age.md %}) |
 | audienceType | String | See [Audience type]({% link content/search_api_3/latest/searching/audience-type.md %}) |
 | availableRange | Date range | See [Availability]({% link content/search_api_3/latest/searching/availability.md %}) |
 | calendarType | String | Looks for complete matches |
