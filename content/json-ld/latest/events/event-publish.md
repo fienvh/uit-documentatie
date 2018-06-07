@@ -12,7 +12,7 @@ A Publish command is an authenticated request that requires specific permission:
 ## HTTP request
 
 ```
-PATCH /events/{eventId}
+PATCH /event/{eventId}
 ```
 
 ## Request headers
