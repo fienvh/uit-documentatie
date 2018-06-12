@@ -10,7 +10,10 @@ Via zoekresultaten bouw je een lijst van (gevonden) activiteiten. Dit blok bevat
 
 ## Algemeen
 * **Huidige zoekopdracht tonen** bepaalt of de zoekopdracht uit de zoekbox getoond moet worden of niet
-* **Verbergfilters** laten je toe een surfer eenvoudig langlopend aanbod en permanente activiteiten te laten verbergen. Je kan deze filters aan -of afvinken.
+* **Verbergfilters** laten je toe een surfer eenvoudig bepaald aanbod te verbergen:
+  -   langlopend aanbod: alle evenementen die voor een bepaalde periode lopen, al dan niet met openingsuren (bv. een tijdelijke tentoonstelling)
+  -   permanente activiteiten: alle evenementen zonder start of eindddatum, al dan niet met openingsuren (bv. een momument)
+Je kan deze filters aan- of uitvinken.
 
 ## Header
 Bepaal welke tekst en/of afbeelding er in de header verschijnt.
