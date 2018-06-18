@@ -23,6 +23,7 @@ Parameters:
 | parentalConsent           | boolean  | true indien de er toestemming is van een ouder of voogd bij registratie van een minderjarige pashouder                                                                                                                 |                                     |
 | emailPreference (Removed) | String   | Opgelet: Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen                                                                                                                                 |                                     |
 | smsPreference (Removed)   | String   | Opgelet: Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen                                                                                                                                 |                                     |
+
 _Authenticatie_
 UserAccessToken van een balie medewerker
 
