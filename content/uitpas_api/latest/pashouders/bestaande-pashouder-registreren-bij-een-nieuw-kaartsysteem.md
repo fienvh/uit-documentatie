@@ -11,8 +11,8 @@ _URL_
 
 Parameters:
 
-| Naam                      | Type     | Omschrijving                                                                                                                                                                                                           | Verplicht                           |
-|---------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| **Naam** | **Type** | **Omschrijving** | **Verplicht** |
+| --- | --- | --- | --- |
 | cardSystemId              | Long     | Id van het nieuwe kaartsysteem, waarvan de pashouder lid van wilt worden (er moet OFWEL een chipnummer OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide)                                  | x                                   |
 | uitpasNumber              | String   | uitpasNumber van de nieuwe kaart van het nieuwe kaartsysteem waarvan de pashouder lid van wilt worden (er moet OFWEL een uitpasNumber OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide)   | x                                   |
 | kansenStatuutEndDate      | W3C Date | einddatum van het kansenstatuut indien het een pashouder met kansenstatuut betreft. Mag niet na het einde (31/12) van het volgende jaar.                                                                               | Verplicht indien kansenStatuut=true |
