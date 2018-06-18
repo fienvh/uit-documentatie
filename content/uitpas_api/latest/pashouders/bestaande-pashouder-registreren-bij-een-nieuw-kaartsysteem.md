@@ -36,9 +36,17 @@ HTTP 200 OK met een response body in XML formaat
 <u>Bij fouten</u>
 HTTP 400 met een response body in XML formaat:
 
-| code | ErrorCode van de fout:<br>MISSING_REQUIRED_FIELDS<br>INVALID_PARAMETERS<br>UNKNOWN_PASSHOLDER_ID<br>UNKNOWN_VOUCHER<br>UNKNOWN_CARD<br>INVALID_DATE_CONSTRAINTS (bijv. indien ongeldige kansenStatuutEndDate)<br>UNKNOWN_CARD_SYSTEM |
+| code | ErrorCode van de fout:
+MISSING_REQUIRED_FIELDS
+INVALID_PARAMETERS
+UNKNOWN_PASSHOLDER_ID
+UNKNOWN_VOUCHER
+UNKNOWN_CARD
+INVALID_DATE_CONSTRAINTS (bijv. indien ongeldige kansenStatuutEndDate)
+UNKNOWN_CARD_SYSTEM |
 | message | Beschrijving van de fout |
 | requiredPermission | Indien code = ACCESS_DENIED, dan bevat dit veld de vereiste permissie. |
+
 
 _Voorbeeld request_
 
