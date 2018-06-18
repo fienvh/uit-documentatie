@@ -13,7 +13,7 @@ Parameters:
 
 | **Naam** | **Type** | **Omschrijving** | **Verplicht** |
 | --- | --- | --- | --- |
-| cardSystemId              | Long     | Id van het nieuwe kaartsysteem, waarvan de pashouder lid van wilt worden (er moet OFWEL een chipnummer OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide)                                  | x                                   |
+| cardSystemId | Long | Id van het nieuwe kaartsysteem, waarvan de pashouder lid van wilt worden (er moet OFWEL een chipnummer OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide) | x |
 | uitpasNumber              | String   | uitpasNumber van de nieuwe kaart van het nieuwe kaartsysteem waarvan de pashouder lid van wilt worden (er moet OFWEL een uitpasNumber OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide)   | x                                   |
 | kansenStatuutEndDate      | W3C Date | einddatum van het kansenstatuut indien het een pashouder met kansenstatuut betreft. Mag niet na het einde (31/12) van het volgende jaar.                                                                               | Verplicht indien kansenStatuut=true |
 | voucherNumber             | String   | Eventuele voucher number die korting geeft.                                                                                                                                                                            |                                     |
@@ -22,9 +22,10 @@ Parameters:
 | legalTermsDigital         | boolean  | true indien de pashouder de gebruikersvoorwaarden via e-mail heeft ontvangen                                                                                                                                           |                                     |
 | parentalConsent           | boolean  | true indien de er toestemming is van een ouder of voogd bij registratie van een minderjarige pashouder                                                                                                                 |                                     |
 | emailPreference (Removed) | String   | Opgelet: Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen                                                                                                                                 |                                     |
-| smsPreference (Removed)   | String   | Opgelet: Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen                                                                                                                                 |                                     |
+| smsPreference (Removed)   | String   | Opgelet: Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen                                                                                                                   |                                     |
 
 _Authenticatie_
+
 UserAccessToken van een balie medewerker
 
 **Response**
