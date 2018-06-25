@@ -50,3 +50,4 @@ De overige elementen zijn identiek aan de lijstelementen.
 
 ## Extra parameters
 Bepaal de query voor de zoekresultaten. Hiervoor maak je gebruik van de [SAPI3-syntax]({% link content/search_api_3/latest/start.md %}).
+Je kan hier ook aanduiden of de widget ook ledenaanbod moet doorzoeken. 
