@@ -49,8 +49,11 @@ Bepaal welke elementen (informatie) zichtbaar zijn op de detailpagina van je eve
 De overige elementen zijn identiek aan de lijstelementen.
 
 ## Extra parameters
+### Query
 Bepaal de query voor de zoekresultaten. Hiervoor maak je gebruik van de [SAPI3-syntax]({% link content/search_api_3/latest/start.md %}).
-Hier kan je ook aanduiden of de widget publieksaanbod en/of ledenaanbod wilt tonen:
+
+### Ledenaanbod
+Bepaal welk soort aanbod (publieksaanbod / ledenaanbod) de widget mag tonen: 
 * Tonen van publieksaanbod: laat de checkbox _doorzoek ook ledenaanbod_ onaangevinkt
 * Tonen van publieksaanbod én ledenaanbod: duid het de checkbox _doorzoek ook ledenaanbod_ aan.
 * Tonen van ledenaanbod: duid de checkbox _doorzoek ook ledenaanbod_ aan en vul in het queryveld de query 
