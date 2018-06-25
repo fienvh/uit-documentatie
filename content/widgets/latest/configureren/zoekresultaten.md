@@ -28,6 +28,7 @@ Bepaal welke elementen (informatie) zichtbaar zijn in de lijstweergave van je ev
 * Organisatie
 * Wanneer
 * Leeftijd
+* Toegang: toon of een evenement enkel voor leden is
 * Taaliconen
 * Afbeelding en de breedte / hoogte van de afbeelding
 * Positie van de afbeelding
