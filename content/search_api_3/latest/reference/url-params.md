@@ -7,6 +7,7 @@
 | :----- | :----- | :----- |
 | addressCountry | ISO 3166-1 alpha-2 country code (Default = BE) | addressCountry=NL<br/> See [Address]({% link content/search_api_3/latest/searching/address.md %}) |
 | audienceType | Supported values: everyone (default), members, education | audienceType=members <br/> See [Audience type]({% link content/search_api_3/latest/searching/audience-type.md %}) |
+| allAges | Boolean (true/false/*) | allAges=false <br/> See [Age]({% link content/search_api_3/latest/searching/age.md %}) |
 | availableFrom | ISO-8601 datetime (default = current date)| availableFrom=2017-04-01T00:00:00+01:00 <br/> See [Availability]({% link content/search_api_3/latest/searching/availability.md %}) |
 | availableTo | ISO-8601 datetime (default = current date) | availableTo=2017-04-30T23:59:59+01:00 <br/> See [Availability]({% link content/search_api_3/latest/searching/availability.md %}) |
 | calendarType | permanent, periodic, multiple, single | calendarType=single,multiple <br/> See [Calendar type]({% link content/search_api_3/latest/searching/calendar-type.md %}) |
