@@ -21,7 +21,7 @@
 | disableDefaultFilters | Boolean | disableDefaultFilters=true <br/> See [Default filters]({% link content/search_api_3/latest/getting-started/default-filters.md %}) |
 | distance | ElasticSearch distance units| coordinates=50.8511740,4.3386740&distance=10km <br/> See [Geo distance]({% link content/search_api_3/latest/searching/geosearch/distance.md %}) |
 | embed | Boolean (default=false) | embed=true <br/> See [Embedding result bodies]({% link content/search_api_3/latest/getting-started/embedding-full-result-bodies.md %}) |
-| facets | Supported values: regions, types, themes, facilities | facets[]=regions <br/> See [Facet counts]({% link content/search_api_3/latest/searching/facet-counts.md %}) |
+| facets | Supported values: regions, types, themes, facilities, labels | facets[]=regions <br/> See [Facet counts]({% link content/search_api_3/latest/searching/facet-counts.md %}) |
 | hasMediaObjects| boolean | hasMediaObjects=true <br/> See [Media objects]({% link content/search_api_3/latest/searching/media-objects.md %}) |
 | id | uuid | id=f29d2182-2db0-4f99-831a-8e6a64c1c9c1 <br/> See [Id]({% link content/search_api_3/latest/searching/id.md %}) |
 | labels | string | labels[]=paspartoe <br/> See [Labels]({% link content/search_api_3/latest/searching/labels.md %}) |

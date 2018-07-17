@@ -11,6 +11,7 @@ Supported values are:
 * `types`
 * `themes`
 * `facilities`
+* `labels`
 
 Example request:
 
