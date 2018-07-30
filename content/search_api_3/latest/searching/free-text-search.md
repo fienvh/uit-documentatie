@@ -43,9 +43,9 @@ The following fields will be searched when using either the `text` parameter, or
 
 ## Operators
 
-By default the `OR` operator is used in between multiple given words.
+By default the `AND` operator is used in between multiple given words.
 
-So the query `wandelen fietsen dijle` actually becomes `wandelen OR fietsen OR dijle`.
+So the query `wandelen fietsen dijle` actually becomes `wandelen AND fietsen AND dijle`.
 
 It is possible to define the operator you want to use in the query itself.
 You could, for example, search for:
