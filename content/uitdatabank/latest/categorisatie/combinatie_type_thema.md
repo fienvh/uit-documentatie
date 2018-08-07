@@ -193,7 +193,7 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Samenleving |	1.37.2.0.0 |
 |  |  | Schilderkunst |	1.3.1.0.0 |
 |  |  | Wetenschap |	1.25.0.0.0 |
-| Theatervoorstelling | 1.3.5.0.0 |  |  |
+| Theatervoorstelling | 0.55.0.0.0 |  |  |
 |  |  | Circus | 0.52.0.0.0 |
 |  |  | Figuren- en poppentheater | 1.3.4.0.0 |
 |  |  | Humor en comedy | 1.3.10.0.0 |
