@@ -11,11 +11,17 @@ Via de HTML-editor kan je één of meerdere afbeeldingen toevoegen aan je widget
 
 Je gaat als volgt te werk:
 1. Klik binnen de HTML-editor op het icoon met de afbeelding
+
+![widgets-imageupload1](/img/widgets-imageupload1.png "widgets-imageupload1")
+
 2. Ga naar het tabblad *upload*.
-3. Via *Choose File* kan je een bestand selecteren van je eigen computer.
+3. Via *Bestand kiezen* kan je een bestand selecteren van je eigen computer.
 4. Klik vervolgens op *Send it to the server*
 Na het opladen verspring je automatisch naar het tabblad Image Info waar de URL is ingevuld
 5. Klik op *OK*
+
+![widgets-imageupload2](/img/widgets-imageupload2.png "widgets-imageupload2")
+
 
 ## Extra's
 
