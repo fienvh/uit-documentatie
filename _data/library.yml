@@ -1086,6 +1086,8 @@
               href: "configureren/html"
             - title: "Tips"
               href: "configureren/tips"
+            - title: "Afbeeldingen opladen"
+              href: "configureren/afbeeldingen"
             - title: "Groepfilters"
               href: "configureren/groepfilters"
             - title: "Een UiTPAS-regio maken"
