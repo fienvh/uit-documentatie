@@ -12,7 +12,7 @@ Met de JSON-API krijg je toegang tot de zoekengine van de UiTdatabank.
 
 Voorbeeld: de agenda van [Open Monumenten](https://www.openmonumenten.be/monumenten-en-evenementen)
 
-> Lees meer over [Search API]({% link content/search_api_3/latest/start.html %})
+> Lees meer over [Search API]({% link content/search_api_3/latest/start.md %})
 
 ## Widgets
 
