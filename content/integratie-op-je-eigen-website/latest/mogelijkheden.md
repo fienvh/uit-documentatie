@@ -5,14 +5,14 @@
 
 ## API
 
-Met deze API krijg je toegang tot de zoekengine van de UiTdatabank.
+Met de JSON-API krijg je toegang tot de zoekengine van de UiTdatabank.
 
 - Platformonafhankelijk
-- Individuele oplossingen op maat mogelijk
+- Robuuste performantie
 
-Voorbeeld: de agenda van [Sport Vlaanderen](https://www.sport.vlaanderen/sportactiviteiten/vind-een-activiteit-die-bij-je-past/)
+Voorbeeld: de agenda van [Open Monumenten](https://www.openmonumenten.be/monumenten-en-evenementen)
 
-> Lees meer over [Search API]({% link content/search_api/latest/start.md %})
+> Lees meer over [Search API]({% link content/search_api_3/latest/start.html %})
 
 ## Widgets
 
