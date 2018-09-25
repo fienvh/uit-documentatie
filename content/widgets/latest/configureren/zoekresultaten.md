@@ -39,7 +39,7 @@ Bepaal welke elementen (informatie) zichtbaar zijn in de lijstweergave van je ev
 Bepaal welke elementen (informatie) zichtbaar zijn op de detailpagina van je evenementen. Je kan deze elementen aan -of afvinken:
 * Google Maps kaart
 * Prijsinformatie
-* Reservatie
+* Reserveringen
 * Contact
 * UiTPAS-voordelen
 * Taalwisselaar
