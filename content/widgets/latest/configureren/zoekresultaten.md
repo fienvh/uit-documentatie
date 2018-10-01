@@ -58,3 +58,9 @@ Bepaal welk soort aanbod (publieksaanbod / ledenaanbod) de widget mag tonen:
 * Tonen van publieksaanbod én ledenaanbod: duid het de checkbox _doorzoek ook ledenaanbod_ aan.
 * Tonen van ledenaanbod: duid de checkbox _doorzoek ook ledenaanbod_ aan en vul in het queryveld de query 
 `audienceType:members` in. 
+
+### Buitenlands aanbod
+Binnen de extra parameters kan je ervoor kiezen om
+* Enkel Belgisch aanbod te doorzoeken
+* Enkel Nederland aanbod te doorzoeken
+* Aanbod van beide landen te doorzoeken
