@@ -1112,17 +1112,6 @@
               href: "na_publicatie/je_widget_aanpassen_dupliceren_of_verwijderen"
         - title: "Geavanceerd"
           href: "geavanceerd"
-        - title: "Upgraden (v2 -> v3)"
-          href: "upgraden"
-          summary:
-            - title: "Hoe upgraden?"
-              href: "upgraden/upgraden"
-            - title: "Na upgrade"
-              href: "upgraden/na-upgrade"
-            - title: "Vertaaltabel SAPI-syntax"
-              href: "upgraden/vertaaltabel"
-            - title: "Vertaaltabel regio's"
-              href: "upgraden/regiolijst"
         - title: "Browsercompatibiliteit"
           href: "browsercompatibiliteit"
 #
