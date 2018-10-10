@@ -49,11 +49,14 @@ Dit is de meest rechtse of onderste kolom van je zoekbox en stelt je in staat om
 
 Je kan één of meerdere groepen toevoegen, bvb. een groep ‘vakantieperiodes’. Elke groep kan één of meerdere filters bevatten (bv. ‘paasvakantie 2018’, ‘zomervakantie 2018’)
 
-#### Groepen
+#### Extra groepfilters
+##### Groepen
 * **Label** bepaalt het label dat boven de dropdown (lijst met één keuze) of checkboxlijst (meerdere keuzes) verschijnt
 * **Suggestie** bepaalt de tekst die binnen de selectielijst verschijnt. De suggestie is niet van toepassing wanneer je bij ‘weergave’ voor ‘selectie (meerdere keuzes)’ kiest.
 * **Weergave** bepaalt of de filteropties verschijnen in een dropdown (lijst met één keuze) of een checkboxlijst (meerdere keuzes).
 
-#### Filters
+##### Filters
 - **Label** bepaalt het label van je filter(s)
 - **Query:** elke filter heeft een query nodig. Deze query kan je bouwen obv. [SAPI 3 syntax]({% link content/json-ld/latest/start.md %}).
+
+
