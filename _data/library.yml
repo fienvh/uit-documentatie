@@ -1090,8 +1090,6 @@
               href: "configureren/afbeeldingen"
             - title: "Groepfilters"
               href: "configureren/groepfilters"
-            - title: "Een UiTPAS-regio maken"
-              href: "configureren/uitpasregio"
         - title: "Stijlen"
           href: "stijlen"
           summary:
