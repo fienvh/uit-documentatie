@@ -9,8 +9,6 @@ Je kan verschillende types verfijningen definiëren:
 * Wanneer
 * Waar
 * Wat
-* Extra opties
+* Extra groepfilters
 
-De extra opties laten je toe extra [groepfilters]({% link content/widgets/latest/configureren/groepfilters.md %}) te definiëren. Het is mogelijk dat het aantal resultaten in de preview van de box afwijkt van het effectieve aantal zoekresultaten.
-
-Ook aan een zoekverfijningenblok kan je extra groepfilters toevoegen.
+De extra groepfilters laten je toe eigen [groepfilters]({% link content/widgets/latest/configureren/groepfilters.md %}) te definiëren. Het is mogelijk dat het aantal resultaten in de preview van de box afwijkt van het effectieve aantal zoekresultaten.
