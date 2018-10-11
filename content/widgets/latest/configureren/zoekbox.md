@@ -59,4 +59,6 @@ Je kan één of meerdere groepen toevoegen, bvb. een groep ‘vakantieperiodes�
 - **Label** bepaalt het label van je filter(s)
 - **Query:** elke filter heeft een query nodig. Deze query kan je bouwen obv. [SAPI 3 syntax]({% link content/json-ld/latest/start.md %}).
 
+#### Toegankelijkheid
 
+Het is mogelijk om je zoekbox uit te breiden met een zoek op toegankelijkheidsvoorzieningen. De groep bestaat uit 23 voorzieningen die opgedeeld zijn per doelgroep (bv. verstandelijke beperking). De groepfilters worden weergegeven in een lijst met meerdere keuzes (checkbox-groep) en laten de bezoeker van je agenda toe om de zoeken op toegankelijke evenementen.
