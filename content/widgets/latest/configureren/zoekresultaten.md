@@ -33,6 +33,7 @@ Bepaal welke elementen (informatie) zichtbaar zijn in de lijstweergave van je ev
 * Afbeelding en de breedte / hoogte van de afbeelding
 * Positie van de afbeelding
 * Weergeven van (specifieke) labels. **Tip**: als je meerdere labels wil toevoegen, dien je die te scheiden door middel van een komma.
+* Toegankelijkheid: Toon welke [toegankelijkheidsvoorzieningen](https://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/voorzieningen.html) wel en niet aanwezig zijn op een evenement. 
 * Leeslink
 
 ## Detailpagina
