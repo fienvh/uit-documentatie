@@ -14,11 +14,11 @@ Je kan sorteren op ieder niet-multivalued veld dat geïndexeerd is (zie [Geïnde
 Er is een extra veld ```title_sort``` voorzien waarmee je op titel sorteert.
 
 ```
-{{site.search_api_server}}/searchv2/search?q=*.*&sort=title_sort+asc
+{{site.search_api_server}}/search?q=*.*&sort=title_sort+asc
 ```
 
 Als men binnen de sortering gebruik wil maken van de standaard-ranking van de documenten, dan geef je ```score desc``` mee aan de sort parameter.
 
 ```
-{{site.search_api_server}}/searchv2/search?q=*.*&sort=title_sort+asc,score+desc
+{{site.search_api_server}}/search?q=*.*&sort=title_sort+asc,score+desc
 ```

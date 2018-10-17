@@ -22,7 +22,7 @@ Vervolgens heb je ook een endpoint nodig van de API die je wil aanspreken:
 Je kan een request (op events bv.) makkelijk simuleren door de volgende in te vullen in de Postman Request Builder:
 
 1. GET method aanduiden
-2. Endpoint invullen (beschikbare endpoints vind je [hier]({% link content/omgevingen/latest/endpoints.md %})), bv. https://test.uitid.be/uitid/rest/searchv2/search
+2. Endpoint invullen (beschikbare endpoints vind je [hier]({% link content/omgevingen/latest/endpoints.md %})), bv. https://test.uitid.be/search/rest/search
 3. URL parameters toevoegen, bv. q=*:*
 4. OAuth 1.0 selecteren in de Authorization tab
 5. Consumer Key & secret invullen (test consumer key & secret vind je hier)

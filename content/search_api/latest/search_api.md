@@ -10,7 +10,7 @@ Om de Search API aan te spreken, moet je gebruik maken van OAuth via een **consu
 ## Basis syntax
 
 ```
-{{site.search_api_server}}/searchv2/search
+{{site.search_api_server}}/search
 ```
 
 | Parameter	| Beschrijving| Voorbeeld|

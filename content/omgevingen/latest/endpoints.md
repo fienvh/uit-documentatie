@@ -17,13 +17,13 @@
 
 ### Search API Test
 
-* URL: ```https://test.uitid.be/uitid/rest/searchv2/search```
+* URL: ```https://test.uitid.be/search/rest/search```
 * Key: ```BAAC107B-632C-46C6-A254-13BC2CE19C6C```
 * Secret: ```ec9a0e8c2cdc52886bc545e14f888612```
 
 ### Search API Productie
 
-* URL: ```https://www.uitid.be/uitid/rest/searchv2/search```
+* URL: ```https://www.uitid.be/search/rest/search```
 * Key: op aanvraag
 * Secret: op aanvraag
 

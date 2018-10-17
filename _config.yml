@@ -19,4 +19,4 @@ exclude: [README.md, Gemfile, Gemfile.lock, Rakefile, tasks, vendor ]
 markdown: kramdown
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
-search_api_server: "https://www.uitid.be/uitid/rest"
+search_api_server: "https://www.uitid.be/search/rest"

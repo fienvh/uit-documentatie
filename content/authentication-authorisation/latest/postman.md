@@ -22,7 +22,7 @@ Then you also need an endpoint of the API you want to address:
 You can easily simulate a request (on events for example) By completing the following in the Postman Request Builder:
 
 1. Indentify GET method
-2. Complete endpoint (available endpoints can be found here), eg https://test.uitid.be/uitid/rest/searchv2/search
+2. Complete endpoint (available endpoints can be found here), eg https://test.uitid.be/search/rest/search
 3. Add URL parameters, eg q = :
 4. Select OAuth 1.0 in the Authorization tab
 5. Enter Consumer Key & Secret (Test Consumer Key & Secret)
