@@ -11,15 +11,6 @@ Voorbeeld standaard weergave:
 {{site.search_api_server}}/search?q=*:*
  ```
 
-## Lijst formaat
-
-Om de zoekresultaten in een formaat terug te krijgen dat gemakkelijker te hanteren is voor output in lijsten, kan de parameter “transform” met waarde “list” gebruikt worden.
-
-Voorbeeld lijstweergave:
-
- ```
-{{site.search_api_server}}/search?q=*:*&transform=list
- ```
 
 ## Output als json
 
