@@ -38,7 +38,7 @@ For example:
 GET https://search.uitdatabank.be/offers/?q=languages:fr OR languages:de
 ```
 
-Note that while you can combine this with [free text search]({% link content/search_api_3/latest/searching/free-text-search.md %}), you will probably not get the intended results:
+Note that while you can combine this with [free text search]({% link content/search_api_3/latest/searching/offers/free-text-search.md %}), you will probably not get the intended results:
 
 ```
 GET https://search.uitdatabank.be/offers/?q=languages:en the worst band ever
@@ -46,7 +46,7 @@ GET https://search.uitdatabank.be/offers/?q=languages:en the worst band ever
 
 In the example above we're filtering documents to only search through those that have an EN translation and one or more matches with the words "the worst band ever". However, the word "worst" is also a Dutch word, and while we filtered the documents to only return results that have an English translation, the free text search will still look for text matches in all available languages on those \(filtered\) documents. So we might have an event that includes the word "worst" in Dutch and that also has an English translation, and it would be a valid result.
 
-To fix this, you should use the `textLanguage` parameter as described in the [free text search]({% link content/search_api_3/latest/searching/free-text-search.md %}) documentation.
+To fix this, you should use the `textLanguage` parameter as described in the [free text search]({% link content/search_api_3/latest/searching/offers/free-text-search.md %}) documentation.
 
 ## Incomplete translations
 
@@ -103,4 +103,4 @@ It is possible to translate the `name` of an organizer. See [advanced queries]({
 
 ## Address
 
-It is possible to translate the different address fields of a place. See advanced query documentation in [address]({% link content/search_api_3/latest/searching/address.md %}) for the exact search parameters.
+It is possible to translate the different address fields of a place. See advanced query documentation in [address]({% link content/search_api_3/latest/searching/offers/address.md %}) for the exact search parameters.

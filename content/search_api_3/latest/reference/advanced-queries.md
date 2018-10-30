@@ -3,7 +3,7 @@
 
 # Advanced queries
 
-The `q` parameter used for [free text search]({% link content/search_api_3/latest/searching/free-text-search.md %}) can also be used to execute more complex queries.
+The `q` parameter used for [free text search]({% link content/search_api_3/latest/searching/offers/free-text-search.md %}) can also be used to execute more complex queries.
 
 For example:
 
@@ -48,38 +48,38 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 
 | Field | Type | Comments |
 | :--- | :--- | :--- |
-| id | String | Looks for complete matches. See [Id]({% link content/search_api_3/latest/searching/id.md %}) |
-| address.{[lang]({% link content/search_api_3/latest/searching/languages.md %})}.addressCountry | Enum | See [Address]({% link content/search_api_3/latest/searching/address.md %}) |
-| address.{[lang]({% link content/search_api_3/latest/searching/languages.md %})}.addressLocality | String | See [Address]({% link content/search_api_3/latest/searching/address.md %}) |
-| address.{[lang]({% link content/search_api_3/latest/searching/languages.md %})}.postalCode | String | See [Address]({% link content/search_api_3/latest/searching/address.md %}) |
-| address.{[lang]({% link content/search_api_3/latest/searching/languages.md %})}.streetAddress | String | See [Address]({% link content/search_api_3/latest/searching/address.md %}) |
-| allAges | Boolean | See [Age]({% link content/search_api_3/latest/searching/age.md %}) |
-| audienceType | String | See [Audience type]({% link content/search_api_3/latest/searching/audience-type.md %}) |
-| availableRange | Date range | See [Availability]({% link content/search_api_3/latest/searching/availability.md %}) |
+| id | String | Looks for complete matches. See [Id]({% link content/search_api_3/latest/searching/offers/id.md %}) |
+| address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.addressCountry | Enum | See [offers/address]({% link content/search_api_3/latest/searching/offers/address.md %}) and [organizers/address]({% link content/search_api_3/latest/searching/organizers/address.md %}) |
+| address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.addressLocality | String | See [offers/address]({% link content/search_api_3/latest/searching/offers/address.md %}) and [organizers/address]({% link content/search_api_3/latest/searching/organizers/address.md %}) |
+| address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.postalCode | String |  See [offers/address]({% link content/search_api_3/latest/searching/offers/address.md %}) and [organizers/address]({% link content/search_api_3/latest/searching/organizers/address.md %}) |
+| address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.streetAddress | String | See [offers/address]({% link content/search_api_3/latest/searching/offers/address.md %}) and [organizers/address]({% link content/search_api_3/latest/searching/organizers/address.md %}) |
+| allAges | Boolean | See [Age]({% link content/search_api_3/latest/searching/offers/age.md %}) |
+| audienceType | String | See [Audience type]({% link content/search_api_3/latest/searching/offers/audience-type.md %}) |
+| availableRange | Date range | See [Availability]({% link content/search_api_3/latest/searching/offers/availability.md %}) |
 | calendarType | String | Looks for complete matches |
-| createdRange | DateRange | See [Created and Modified]({% link content/search_api_3/latest/searching/created-and-modified.md %}) |
-| creator | String | See [Creator]({% link content/search_api_3/latest/searching/creator.md %}) |
-| dateRange | Date range | See [Date & time]({% link content/search_api_3/latest/searching/date.md %}) |
-| description.{[lang]({% link content/search_api_3/latest/searching/languages.md %})} | String |  |
-| labels | String | See [Labels]({% link content/search_api_3/latest/searching/labels.md %}). Looks for complete matches |
-| languages | String | See [Languages]({% link content/search_api_3/latest/searching/languages.md %}) |
-| location.id | String | Looks for complete matches. See [Id]({% link content/search_api_3/latest/searching/id.md %}) |
-| location.name.{[lang]({% link content/search_api_3/latest/searching/languages.md %})} | String |  |
+| createdRange | DateRange | See [Created and Modified]({% link content/search_api_3/latest/searching/offers/created-and-modified.md %}) |
+| creator | String | See [offers/creator]({% link content/search_api_3/latest/searching/offers/creator.md %}) and [organizers/creator]({% link content/search_api_3/latest/searching/organizers/creator.md %})|
+| dateRange | Date range | See [Date & time]({% link content/search_api_3/latest/searching/offers/date.md %}) |
+| description.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| labels | String | See [offers/labels]({% link content/search_api_3/latest/searching/offers/labels.md %}) and [organizers/labels]({% link content/search_api_3/latest/searching/organizers/labels.md %}). Looks for complete matches |
+| languages | String | See [Languages]({% link content/search_api_3/latest/searching/offers/languages.md %}) |
+| location.id | String | Looks for complete matches. See [Id]({% link content/search_api_3/latest/searching/offers/id.md %}) |
+| location.name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
 | location.labels | String | Looks for complete matches |
 | location.terms.id | String | Looks for complete matches |
 | location.terms.label | String | Looks for complete matches |
-| mediaObjectsCount | Integer | See [Media objects]({% link content/search_api_3/latest/searching/media-objects.md %}) |
-| modifiedRange | DateRange | See [Created and Modified]({% link content/search_api_3/latest/searching/created-and-modified.md %}) |
-| name.{[lang]({% link content/search_api_3/latest/searching/languages.md %})} | String |  |
-| organizer.id | String | Looks for complete matches. See [Id]({% link content/search_api_3/latest/searching/id.md %}) |
-| organizer.name.{[lang]({% link content/search_api_3/latest/searching/languages.md %})} | String |  |
+| mediaObjectsCount | Integer | See [Media objects]({% link content/search_api_3/latest/searching/offers/media-objects.md %}) |
+| modifiedRange | DateRange | See [Created and Modified]({% link content/search_api_3/latest/searching/offers/created-and-modified.md %}) |
+| name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| organizer.id | String | Looks for complete matches. See [Id]({% link content/search_api_3/latest/searching/offers/id.md %}) |
+| organizer.name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
 | organizer.labels | String | Looks for complete matches |
-| price | Integer | See [Price]({% link content/search_api_3/latest/searching/price.md %}) |
-| regions | Enum | See [Geosearch]({% link content/search_api_3/latest/searching/geosearch.md %}) |
+| price | Integer | See [Price]({% link content/search_api_3/latest/searching/offers/price.md %}) |
+| regions | Enum | See [Geosearch]({% link content/search_api_3/latest/searching/offers/geosearch.md %}) |
 | terms.id | String | Looks for complete matches |
 | terms.label | String | Looks for complete matches |
-| typicalAgeRange | Integer range | See [Age]({% link content/search_api_3/latest/searching/age.md %}) |
-| workflowStatus | Enum \(String\) | See [Workflow status]({% link content/search_api_3/latest/searching/workflow-status.md %}) |
+| typicalAgeRange | Integer range | See [Age]({% link content/search_api_3/latest/searching/offers/age.md %}) |
+| workflowStatus | Enum \(String\) | See [Workflow status]({% link content/search_api_3/latest/searching/offers/workflow-status.md %}) |
 
 ### Notes
 * Wildcards (`*` or `?`) allowed to search for partial matches. (See [ElasticSearch documentation on syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax))

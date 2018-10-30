@@ -10,7 +10,7 @@ All events and places in UiTdatabank v3 have one of four calendar types:
 * **Periodic**: The event or place runs for a specific period as indicated by its `startDate` and `endDate`, and can optionally have `openingHours`.
 * **Permanent**: The event or place is permanent and has **no** `startDate` or `endDate`, but it can optionally have `openingHours`.
 
-You can search through all of these types [by searching by date and time]({% link content/search_api_3/latest/searching/date.md %}), but you can also limit your results by their `calendarType`.
+You can search through all of these types [by searching by date and time]({% link content/search_api_3/latest/searching/offers/date.md %}), but you can also limit your results by their `calendarType`.
 
 ## URL parameter
 

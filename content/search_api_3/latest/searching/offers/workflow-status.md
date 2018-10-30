@@ -27,7 +27,7 @@ Or when using advanced queries:
 GET https://search.uitdatabank.be/offers/?availableFrom=*&availableTo=*&q=workflowStatus:DRAFT
 ```
 
-See [Availability]({% link content/search_api_3/latest/searching/availability.md %}) for more info.
+See [Availability]({% link content/search_api_3/latest/searching/offers/availability.md %}) for more info.
 
 ## URL parameter
 

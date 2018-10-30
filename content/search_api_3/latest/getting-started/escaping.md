@@ -19,14 +19,14 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 
 | Field | Type | Comments |
 | :--- | :--- | :--- |
-| organizer.name.{[lang]({% link content/search_api_3/latest/searching/languages.md %})} | String |  |
-| name.{[lang]({% link content/search_api_3/latest/searching/languages.md %})} | String |  |
-| description.{[lang]({% link content/search_api_3/latest/searching/languages.md %})} | String |  |
-| location.name.{[lang]({% link content/search_api_3/latest/searching/languages.md %})} | String |  |
-| address.{[lang]({% link content/search_api_3/latest/searching/languages.md %})}.addressCountry | Enum | See [Address]({% link content/search_api_3/latest/searching/address.md %}) |
-| address.{[lang]({% link content/search_api_3/latest/searching/languages.md %})}.addressLocality | String | See [Address]({% link content/search_api_3/latest/searching/address.md %}) |
-| address.{[lang]({% link content/search_api_3/latest/searching/languages.md %})}.postalCode | String | See [Address]({% link content/search_api_3/latest/searching/address.md %}) |
-| address.{[lang]({% link content/search_api_3/latest/searching/languages.md %})}.streetAddress | String | See [Address]({% link content/search_api_3/latest/searching/address.md %}) |
+| organizer.name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| description.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| location.name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.addressCountry | Enum | See [Address]({% link content/search_api_3/latest/searching/offers/address.md %}) |
+| address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.addressLocality | String | See [Address]({% link content/search_api_3/latest/searching/offers/address.md %}) |
+| address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.postalCode | String | See [Address]({% link content/search_api_3/latest/searching/offers/address.md %}) |
+| address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.streetAddress | String | See [Address]({% link content/search_api_3/latest/searching/offers/address.md %}) |
 
 When you use wildcards in field names to search across multiple translated versions, the wildcard should be escaped using a backslash. \(`\`\). For example:
 
