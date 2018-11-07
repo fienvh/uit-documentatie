@@ -3,11 +3,11 @@
 
 # API documentation
 
-UiTdatabank provides 2 APIs that can be used for specific cases and are interchangeable. Meaning you can create an offer with the JSON-LD CRUD API and update a specific property of this offer with the JSON-LD API.
+UiTdatabank provides 2 Entry API's that can be used for specific cases and are interchangeable: you can create an offer with the JSON-LD CRUD API and update a specific property of this offer with the JSON-LD API.
 
 ## JSON-LD API
 
-With the JSON-LD API you can mimick the entry form on uitdatabank.be to create and update an offer. With this api it is also possible to update specific properties from existing offers, like adding a french translation for the `description` of an event or adding a label to a place.
+With the JSON-LD API you can mimick the entry form on uitdatabank.be to create and update an offer. With this API it is  possible to update specific properties from existing offers, like adding a French translation for the `description` of an event or adding a label to a place.
 
 **Specifics**
 * Create an offer with only the mandatory properties (what, where, when...)
@@ -21,12 +21,12 @@ With the JSON-LD API you can mimick the entry form on uitdatabank.be to create a
 
 **Documentation**
 
-[You can find the latest version of the JSON-LD API documentation here]({% link content/json-ld/latest/start.md %})!
+> [Find the latest version of the JSON-LD API documentation here]({% link content/json-ld/latest/start.md %})!
 
 
 ## JSON-LD CRUD API
 
-With the JSON-LD CRUD API you can create a JSON-LD document for an entire offer and send it as a whole to UiTdatabank, instead of sending updates for every property.
+With the JSON-LD CRUD API you create a JSON-LD document for an entire offer and send it as a whole to UiTdatabank, instead of sending updates for every property.
 
 Offers created via the JSON-LD CRUD API are instantly published with workflowstatus "Ready for validation", so you don't have to manually publish each event like with the JSON-LD API. Specific trusted partners can get the permission to import events with workflowstatus "Approved", thus bypassing the validation by UiTdatabank admins.
 
@@ -35,4 +35,4 @@ Offers created via the JSON-LD CRUD API are instantly published with workflowsta
 
 **Documentation**
 
-[You can find the latest version of the JSON-LD CRUD API documentation here]({% link content/json-ld-crud-api/latest/start.md %})!
+> [Read the latest version of the JSON-LD CRUD API documentation here]({% link content/json-ld-crud-api/latest/start.md %})!

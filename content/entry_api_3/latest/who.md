@@ -1,11 +1,11 @@
 ---
 ---
 
-# Who can import data in UiTdatabank
+# Who can import data in UiTdatabank?
 
-Everyone can add their cultural and leisure activities in UiTdatabank free of charge and these events are automatically published on our publication channels (such as uitinvlaanderen.be).
+Everyone can add their cultural and leisure activities in UiTdatabank free of charge. These events are automatically published on our publication channels (such as uitinvlaanderen.be).
 
-Anyone can use the entry form on uitdatabank. be to manually enter their events.
+Anyone can use the entry form on uitdatabank.be to manually enter their events.
 
 To setup an automatic import of your data, however, a few checks should be made:
 * Ownership: YOU have to be the one who organizes the events you import in UiTdatabank

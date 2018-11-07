@@ -5,10 +5,10 @@
 
 **Step 1: start on TEST environment**
 
-Every entry api project starts developing on the TEST environment.
+Every Entry API project starts developing on the TEST environment.
 
-* You can apply for a free apiKey at https://projectaanvraag.uitdatabank.be.
-* Every request to the UiTdatabank API must be signed with a valid JSON Webtoken (JWT). A webtoken is provided by authenticating with UiTiD credentials at the JSON Webtoken provider service
+* You can apply for a free API-key at https://projectaanvraag.uitdatabank.be.
+* Every request to the UiTdatabank API must be signed with a valid JSON Webtoken (JWT). A webtoken is provided by authenticating with UiTiD credentials at the JSON Webtoken provider service.
 
 With these credentials you can authenticate on these services:
 
@@ -19,11 +19,11 @@ With these credentials you can authenticate on these services:
 
 **Step 2: validation by publiq vzw**
 
-You must create a representative set of events on the TEST environment and a contact at publiq vzw will approve this set of events. He or she will validate if the events are appropriate for publication, if specific details are missing...
+Create a representative set of events on the TEST environment. A contact at publiq vzw will approve this set: he or she will validate if the events are appropriate for publication, if specific details are missing...
 
 **Step 3: switch to PRODUCTION**
 
-After validation, you will receive the credentials to authenticate against the PRODUCTION environment.
+After validation, you will receive the credentials to authenticate with the PRODUCTION environment.
 
 With these credentials you can authenticate on these services:
 

@@ -406,7 +406,7 @@
             href: "zuil/monitoring"
           - title: "Problemen"
             href: "zuil/foutmeldingen"
-- title: "Entry API"
+- title: "Entry API via XML"
   description: "Via Entry API kan je items in UiTdatabank aanmaken, aanpassen en verwijderen."
   path: "content/entry_api/"
   category: "UiTdatabank"
@@ -455,20 +455,20 @@
           href: "wijzigingen-optimalisaties/tijdsinformatie"
         - title: "Verkeerde prijsinformatie"
           href: "wijzigingen-optimalisaties/prijsinformatie"
-- title: "Entry API 3"
-  description: "This document gives an introduction to the UiTdatabank JSON-LD APIs to create, update and delete content"
+- title: "Entry API via JSON"
+  description: "This document gives an introduction to the UiTdatabank JSON-LD APIs to create, update and delete content."
   path: "content/entry_api_3/"
   category: "UiTdatabank"
-  weight: 105
-  icon: "json"
-  hidden: true
+  weight: 31
+  icon: "entry3"
+  hidden: false
   versions:
     - name: "latest"
       path: "content/entry_api_3/latest/"
       summary:
         - title: "Getting started"
           href: "start"
-        - title: "Who can import data in UiTdatabank"
+        - title: "Who can import data in UiTdatabank?"
           href: "who"
         - title: "UiTdatabank Basics"
           href: "basics"
