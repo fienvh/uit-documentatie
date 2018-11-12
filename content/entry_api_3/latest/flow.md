@@ -27,7 +27,7 @@ After validation, you will receive the credentials to authenticate with the PROD
 
 With these credentials you can authenticate on these services:
 
-| Service | Testing |
+| Service | Production |
 | ----------- | ------- |
 | UiTdatabank host | `https://io.uitdatabank.be` |
 | JSON Web Token provider | `https://jwtprovider.uitdatabank.be` |

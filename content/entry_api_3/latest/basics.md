@@ -5,11 +5,11 @@
 
 ## Content (resources) in UiTdatabank
 * **event**: a cultural or leisure activity with a specific timestamp and location
-* **place**: an unique location or point of interest (POI) where an event can take place
+* **place**: a unique location or point of interest (POI) where an event can take place
 * **offer**: can be an event or a place, these resources share certain properties
 * **organizer**: a unique organizer. Organizers are specifically used for the UiTPAS project
 * **label**: a unique keyword used to combine specific resources with similar traits. A label can be public or private, visible or hidden.
-* **mediaObject**: to add an image to an offer, you create first a mediaObject
+* **mediaObject**: to add an image to an offer, you first create a unique mediaObject for the image and then add this mediaObject to the offer.
 * **user**: all requests on the UiTdatabank APIs need a valid JWT from an authenticated user. UiTdatabank uses a specific permission model to see which user can update which content.
 
 ## UiTdatabank permission model
