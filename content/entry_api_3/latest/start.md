@@ -15,4 +15,4 @@ When you start a new project, you will have to follow the predefined [flow from 
 
 You can also skip the intro and go straight to the [API documentation books]({% link content/entry_api_3/latest/api-documentation.md %}).
 
-If you're stuck on anything, contact our [Helpdesk](vragen@uitdatabank.be). You can also ask the helpdesk to join the Slack developer channel #udb-json-api.
+If you're stuck on anything, contact our [Helpdesk](mailto:vragen@uitdatabank.be). You can also ask the helpdesk to join the Slack developer channel #udb-json-api.
