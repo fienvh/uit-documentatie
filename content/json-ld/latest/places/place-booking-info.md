@@ -49,12 +49,12 @@ Not supported: to remove (specific) bookingInfo perform a PUT request with empty
 ### urlLabel - suggested translations
 It is advised to use the following combo's for adding urlLabels to a bookingInfo url. These are the default translations used by UiTdatabank.
 
-| Language | Combo1 | Combo2 | Combo3 | Combo4 |
-| -- | -- | -- | -- | -- |
-| nl | Koop tickets | Reserveer plaatsen | Controleer beschikbaarheid | Schrijf je in |
-| fr | Achetez des tickets | Réservez des places | Controlez la disponibilité | Inscrivez-vous |
-| en | Buy tickets | Reserve places | Check availability | Subscribe |
-| de | Tickets kaufen | Platzieren Sie eine Reservierung | Verfügbarkeit prüfen | Melde dich an |
+| nl | fr | en | de |
+| -- | -- | -- | -- |
+| Koop tickets | Achetez des tickets| Buy tickets | Tickets kaufen |
+| Reserveer plaatsen | Réservez des places | Reserve places | Platzieren Sie eine Reservierung |
+| Controleer beschikbaarheid | Controlez la disponibilité | Check availability | Verfügbarkeit prüfen |
+| Schrijf je in | Inscrivez-vous | Subscribe | Melde dich an |
 
 ## Response
 
