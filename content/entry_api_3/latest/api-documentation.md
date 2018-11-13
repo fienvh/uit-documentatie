@@ -17,7 +17,7 @@ With the JSON-LD API you can mimick the entry form on uitdatabank.be to create a
 **Steps necessary to create and publish an offer via JSON-LD API**
 * Step 1: Create event (`POST /events/`)
 * Step 2: Update event (`PUT /events/{eventid}/contactPoint`, `PUT /events/{eventid}/description`...)
-* Step 3: Publish event (`PATCH /events/{eventid}`)
+* Step 3: Publish event (`PATCH /event/{eventid}`)
 
 **Documentation**
 
