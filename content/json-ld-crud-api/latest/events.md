@@ -81,9 +81,10 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
     "phone": "123",
     "url": "https://www.test.com",
     "urlLabel": {
-      "nl": "Boek tickets",
-      "en": "Book tickets",
-      "fr": "Réserver des billets"
+      "nl": "Reserveer plaatsen",
+      "fr": "Réservez des places",
+      "en": "Reserve places",
+      "de": "Platzieren Sie eine Reservierung"
     }
   },
   "contactPoint": {
