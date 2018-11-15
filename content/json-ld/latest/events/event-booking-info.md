@@ -12,7 +12,7 @@ Booking info can contain one or more of the following properties, limited to one
 ## HTTP request
 
 ```
-PUT /events/{cdbid}/bookingInfo
+PUT /events/{eventId}/bookingInfo
 ```
 
 Update the bookingInfo for an offer

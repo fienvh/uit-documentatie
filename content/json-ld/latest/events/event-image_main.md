@@ -8,7 +8,7 @@ The main image is the only image shown in search-result listviews and the image 
 ## HTTP request
 
 ```
-PUT /events/{cdbid}/images/main
+PUT /events/{eventId}/images/main
 ```
 
 ## Request headers
