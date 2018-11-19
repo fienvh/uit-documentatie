@@ -30,7 +30,7 @@ Pricedescription moet voldoen aan volgende voorwaarden, vooraleer deze te interp
 - Eerste key/value pair begint met "Basistarief" als key 
 - Een key bestaat enkel uit tekst (zonder gebruik van tekens als ```(``` of ``` >``` )
 - De value van key Basistarief komt exact overeen met pricevalue
-- Indien value een decimaal getal is, gebruik dan een komma en geen punt
+- Indien value een decimaal getal is, gebruik dan een punt en geen komma
 - De opmaak van pricedescription is als volgt (indien 3 tarieven naast het basistarief doorgestuurd worden):
 
 ~~~ xml 
@@ -42,6 +42,6 @@ In alle andere gevallen wordt priceDescription genegeerd en wordt pricevalue als
 ### Voorbeeld
 
 ~~~ xml
-<pricedescription>Basistarief: € 10; Leden: € 7,5; Studenten: € 5; Senioren: € 0</pricedescription>
+<pricedescription>Basistarief: € 10; Leden: € 7.5; Studenten: € 5; Senioren: € 0</pricedescription>
 ~~~
 
