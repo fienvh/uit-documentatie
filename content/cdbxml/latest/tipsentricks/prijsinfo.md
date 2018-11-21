@@ -21,9 +21,9 @@ Je kan meerdere prijzen importeren aan de hand van key-value pairs. Hierbij is h
 
 ~~~ xml
 <price> 
-<pricevalue>X</pricevalue> (prijs dient aangegeven met punt voor decimalen)
-<pricedescription>Basistarief: € X; key: € value; key: € value; key: € value</pricedescription>
-</price>
+<pricevalue>X.XX</pricevalue> (prijs dient aangegeven met punt voor decimalen)
+<pricedescription>Basistarief: € X,XX; key: € value; key: € value; key: € value</pricedescription>
+</price> (! prijs hier aangegeven met komma voor decimalen)
 ~~~
 
 Pricedescription moet voldoen aan volgende voorwaarden, vooraleer deze te interpreteren als basis om prijsinfo te importeren 
@@ -34,7 +34,7 @@ Pricedescription moet voldoen aan volgende voorwaarden, vooraleer deze te interp
 - De opmaak van pricedescription is als volgt (indien 3 tarieven naast het basistarief doorgestuurd worden):
 
 ~~~ xml 
-<pricedescription>Basistarief: € X; key: € value; key: € value; key: € value</pricedescription> 
+<pricedescription>Basistarief: € X,XX; key: € value; key: € value; key: € value</pricedescription> 
 ~~~
 
 In alle andere gevallen wordt priceDescription genegeerd en wordt pricevalue als basistarief geïmporteerd.
