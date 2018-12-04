@@ -14,7 +14,7 @@
 
 ## UiTdatabank permission model
 * Every authenticated user can create content in UiTdatabank
-* Every authenticated user can edit the content he/she created
+* Every authenticated user can edit the content they created
 * Any authenticated user can add or remove public labels to any content in UiTdatabank
 * Any authenticated user can add or remove translations to any content in UiTdatabank
 * Content created in UiTdatabank is validated by admins and can be approved or denied for online publication

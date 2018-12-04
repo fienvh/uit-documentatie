@@ -19,7 +19,7 @@ With these credentials you can authenticate on these services:
 
 **Step 2: validation by publiq vzw**
 
-Create a representative set of events on the TEST environment. A contact at publiq vzw will approve this set: he or she will validate if the events are appropriate for publication, if specific details are missing...
+Create a representative set of events on the TEST environment. A contact at publiq vzw will approve this set: they will validate if the events are appropriate for publication, if specific details are missing...
 
 **Step 3: switch to PRODUCTION**
 
