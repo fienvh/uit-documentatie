@@ -5,6 +5,9 @@
 
 The main image is the only image shown in search-result listviews and the image more prominently displayed on offer-details, when the offer has multiple mediaObjects
 
+**Note**
+Allow some time between adding an extra image to an offer and setting this image as main image. Requests to the JSON-LD api are handled asynchronously and this scenario may result in a race condition. 
+
 ## HTTP request
 
 ```
