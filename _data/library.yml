@@ -849,6 +849,8 @@
                 href: "events/online-annulatie-van-verkoop-van-ticket-adhv-id"
               - title: "Online registratie van verkoop van een ticket"
                 href: "events/online-registratie-van-verkoop-van-ticket"
+              - title: "Ophalen van kaartsystemen van een event"
+                href: "events/ophalen-kaartsystemen-van-event"
           - title: "Welkomstvoordelen en verzilveracties"
             href: "welkomstvoordelen-en-verzilveracties"
             summary:
