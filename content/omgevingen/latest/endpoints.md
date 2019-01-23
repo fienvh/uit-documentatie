@@ -15,29 +15,25 @@
 * Key: op aanvraag
 * Secret: op aanvraag
 
-### Search API Test
+### Search API 3 Test 
 
-* URL: ```https://test.uitid.be/search/rest/search```
-* Key: ```BAAC107B-632C-46C6-A254-13BC2CE19C6C```
-* Secret: ```ec9a0e8c2cdc52886bc545e14f888612```
+* URL: ```https://search-test.uitdatabank.be``` 
+* Key: ```ff6219e2-1557-4144-8177-2a893726cae2```
 
-### Search API Productie
+### Search API 3 Productie
 
-* URL: ```https://www.uitid.be/search/rest/search```
-* Key: op aanvraag
-* Secret: op aanvraag
+* URL: ```https://search.uitdatabank.be```
+* Key: [op aanvraag](https://projectaanvraag.uitdatabank.be)
 
-### Entry API Test
+### Entry API 3 Test
 
-* URL: ```https://test.uitid.be/uitid/rest/entry/test.rest.uitdatabank.be```
-* Key: op aanvraag
-* Secret: op aanvraag
+* URL: ```https://io-test.uitdatabank.be```
+* Key: [op aanvraag](https://projectaanvraag.uitdatabank.be)
 
-### Entry API Productie
+### Entry API 3 Productie
 
-* URL: ```https://www.uitid.be/uitid/rest/entry/rest.uitdatabank.be```
-* Key: op aanvraag
-* Secret: op aanvraag
+* URL: ```https://io.uitdatabank.be```
+* Key: [op aanvraag](https://projectaanvraag.uitdatabank.be)
 
 ### UiTdatabank Test
 
