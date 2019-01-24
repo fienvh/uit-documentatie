@@ -18,7 +18,7 @@
 ### Search API 3 Test 
 
 * URL: ```https://search-test.uitdatabank.be``` 
-* Key: ```ff6219e2-1557-4144-8177-2a893726cae2```
+* Key: [op aanvraag](https://projectaanvraag.uitdatabank.be)
 
 ### Search API 3 Productie
 
@@ -34,6 +34,24 @@
 
 * URL: ```https://io.uitdatabank.be```
 * Key: [op aanvraag](https://projectaanvraag.uitdatabank.be)
+
+### Search API 2 Test 
+
+* URL: ```https://www.test.uitid.be/search/rest/search``` 
+
+### Search API 2 Productie
+
+* URL: ```https://www.uitid.be/search/rest/search```
+
+### Entry API 2 Test
+
+* URL: ```https://test.uitid.be/uitid/rest/entry/test.rest.uitdatabank.be```
+* Deze versie is verouderd en enkel bedoeld als archief
+
+### Entry API 2 Productie
+
+* URL: ```https://www.uitid.be/uitid/rest/entry/rest.uitdatabank.be```
+* Deze versie is verouderd en enkel bedoeld als archief
 
 ### UiTdatabank Test
 
