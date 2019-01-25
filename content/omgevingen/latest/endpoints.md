@@ -15,9 +15,9 @@
 * Key: op aanvraag
 * Secret: op aanvraag
 
-### Search API 3 Test 
+### Search API 3 Test
 
-* URL: ```https://search-test.uitdatabank.be``` 
+* URL: ```https://search-test.uitdatabank.be```
 * Key: [op aanvraag](https://projectaanvraag.uitdatabank.be)
 
 ### Search API 3 Productie
@@ -35,9 +35,9 @@
 * URL: ```https://io.uitdatabank.be```
 * Key: [op aanvraag](https://projectaanvraag.uitdatabank.be)
 
-### Search API 2 Test 
+### Search API 2 Test
 
-* URL: ```https://www.test.uitid.be/search/rest/search``` 
+* URL: ```https://test.uitid.be/search/rest/search```
 
 ### Search API 2 Productie
 
