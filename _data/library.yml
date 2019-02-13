@@ -503,6 +503,8 @@
           summary:
             - title: "Create event"
               href: "events/event-create"
+            - title: "Get event details"
+              href: "events/event-detail"
             - title: "Update event type"
               href: "events/event-type"
             - title: "Update event theme"
@@ -548,6 +550,8 @@
               href: "places/place-list"
             - title: "Create place"
               href: "places/place-create"
+            - title: "Get place details"
+              href: "places/place-detail"
             - title: "Update place type"
               href: "places/place-type"
             - title: "Update calendar"
@@ -587,6 +591,8 @@
               href: "organizers/organizer-list"
             - title: "Create organizer"
               href: "organizers/organizer-create"
+            - title: "Get organizer details"
+              href: "organizers/organizer-detail"
         - title: "Manage images"
           href: "images"
           summary:
