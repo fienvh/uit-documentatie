@@ -186,7 +186,7 @@ Geef bij voorkeur ook een straat en een huisnummer zodat de UiTdatabank de corre
 
 ### externalid
 
-Zorg ervoor dat het externalid dat je meestuurt uniek is: begin het id met een unieke code die staat voor de aanleverende partner, genereer een random id,...
+Zorg ervoor dat het externalid dat je meestuurt uniek is: begin het id met een unieke prefix die staat voor de aanleverende partner (vb. CCTEST_). Een externalid kan niet enkel bestaan uit cijfers. 
 
 
 ### /event/categories/category/@catid="theme"
