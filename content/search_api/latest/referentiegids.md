@@ -49,8 +49,6 @@ Een overzicht van geïndexeerde velden & parameters, gefilterd op relevantie, me
 * [category_facility_name](#category_facility_name)
 * [category_misc_id](#category_misc_id)
 * [category_misc_name](#category_misc_name)
-* [category_municipal_id](#category_municipal_id)
-* [category_municipal_name](#category_municipal_name)
 * [category_publicscope_id](#category_publicscope_id)
 * [category_publicscope_name](#category_publicscope_name)
 * [category_targetaudience_id](#category_targetaudience_id)
@@ -351,35 +349,6 @@ Naam van de 'misc'-categorie.
 ~~~
 
 [Terug naar index](#index)
-
-
-<a id="category_municipal_id"></a>
-<h2>category_municipal_id</h2>
-
-``` string ```
-
-ID van de regio-categorie.
-
-~~~
-{BaseUrl}search?q=category_municipal_id:"reg.1195"
-~~~
-
-[Terug naar index](#index)
-
-
-<a id="category_municipal_name"></a>
-<h2>category_municipal_name</h2>
-
-``` string ```
-
-Naam van de regio-categorie.
-
-~~~
-{BaseUrl}search?q=category_municipal_name:"Roeselare"
-~~~
-
-[Terug naar index](#index)
-
 
 <a id="category_name"></a>
 <h2>category_name</h2>
