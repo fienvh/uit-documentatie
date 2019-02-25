@@ -60,3 +60,24 @@ Alle evenementen in en nabij Gent:
 ```
 {{site.search_api_server}}/search?q=*:*&zipcode:9000!5km
 ```
+
+## Zoeken op flandersregion
+
+Voor elke Vlaamse en Brusselse gemeente wordt binnen UiTdatabank meerdere flandersregions berekend:
+```http://taxonomy.uitdatabank.be/api/domain/flandersregion/classification```
+
+Dit laat je toe om op individuele gemeenten, (toeristische) regio's of provincies te zoeken:
+
+**Voorbeelden**
+
+Alle evenementen in Oostende stad:
+```{{site.search_api_server}}/search?q=category_flandersregion_id:reg.1034```
+
+Alle evenementen in groot Oostende 
+```{{site.search_api_server}}/search?q=category_flandersregion_id:reg.224```
+
+Alle evenementen binnen de regio 'De Kust':
+```{{site.search_api_server}}/search?q=category_flandersregion_id:reg.33```
+
+Alle evenementen binnen de provincie West-Vlaanderen: 
+```{{site.search_api_server}}/search?q=category_flandersregion_id:reg.32```
