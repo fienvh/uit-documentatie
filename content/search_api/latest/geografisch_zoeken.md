@@ -73,7 +73,7 @@ Dit laat je toe om op individuele gemeenten, (toeristische) regio's of provincie
 Alle evenementen in Oostende stad:
 ```{{site.search_api_server}}/search?q=category_flandersregion_id:reg.1034```
 
-Alle evenementen in groot Oostende 
+Alle evenementen in groot Oostende: 
 ```{{site.search_api_server}}/search?q=category_flandersregion_id:reg.224```
 
 Alle evenementen binnen de regio 'De Kust':
