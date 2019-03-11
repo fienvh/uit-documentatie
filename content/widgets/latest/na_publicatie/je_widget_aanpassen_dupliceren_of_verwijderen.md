@@ -3,6 +3,10 @@
 
 # Je widget aanpassen, dupliceren of verwijderen
 
+![Je widget aanpassen, dupliceren of verwijderen](
+https://github.com/cultuurnet/uit-documentatie/raw/master/img/widgets-overzicht.png)
+
+
 ## Je widget bewerken
 Je past je widget aan door in de overzichtspagina van je project (https://widgetbeheer.uitdatabank.be/project/xxx) te klikken op *Aanpassen*. 
 
